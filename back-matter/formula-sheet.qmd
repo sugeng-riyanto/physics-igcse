@@ -1,0 +1,108 @@
+---
+title: "Formula Sheet"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+  html:
+    toc: true
+---
+
+## Mechanics
+
+### Motion
+- Average speed: $v = \frac{s}{t}$
+- Acceleration: $a = \frac{\Delta v}{\Delta t}$
+- $v^2 = u^2 + 2as$
+- $s = ut + \frac{1}{2}at^2$
+
+### Forces
+- Weight: $W = mg$
+- Force: $F = ma$
+- Momentum: $p = mv$
+- Impulse: $F\Delta t = \Delta p$
+- Resultant force: $F = \frac{\Delta p}{\Delta t}$
+
+### Energy and Power
+- Kinetic energy: $E_k = \frac{1}{2}mv^2$
+- Gravitational potential energy: $\Delta E_p = mg\Delta h$
+- Work done: $W = Fd$
+- Power: $P = \frac{W}{t} = \frac{\Delta E}{t}$
+- Efficiency: $\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100\%$
+
+### Pressure
+- Pressure: $p = \frac{F}{A}$
+- Pressure in liquids: $\Delta p = \rho g \Delta h$
+
+### Circular Motion
+- Centripetal force: $F = \frac{mv^2}{r}$
+
+---
+
+## Thermal Physics
+
+### Temperature
+- $T(\text{K}) = \theta(°\text{C}) + 273$
+
+### Thermal Properties
+- Specific heat capacity: $c = \frac{\Delta E}{m\Delta\theta}$
+- Thermal energy: $\Delta E = mc\Delta\theta$
+
+### Gas Laws
+- $pV = \text{constant}$ (at constant temperature)
+
+---
+
+## Waves
+
+### Wave Properties
+- Wave speed: $v = f\lambda$
+- Frequency: $f = \frac{1}{T}$
+- Refractive index: $n = \frac{\sin i}{\sin r}$
+- Critical angle: $n = \frac{1}{\sin c}$
+
+---
+
+## Electricity and Magnetism
+
+### Electrical Quantities
+- Charge: $Q = It$
+- Potential difference: $V = \frac{W}{Q}$
+- E.m.f.: $E = \frac{W}{Q}$
+- Resistance: $R = \frac{V}{I}$
+- Electrical power: $P = IV = I^2R = \frac{V^2}{R}$
+- Electrical energy: $E = IVt$
+
+### Transformers
+- $\frac{V_p}{V_s} = \frac{N_p}{N_s}$
+- For 100% efficiency: $I_pV_p = I_sV_s$
+
+### Magnetic Effects
+- Force on current-carrying conductor: $F = BIl$ (Extended)
+
+---
+
+## Nuclear Physics
+
+### Radioactivity
+- Half-life calculations: $N = N_0 \left(\frac{1}{2}\right)^n$
+- where $n$ = number of half-lives
+
+---
+
+## Space Physics
+
+### Orbital Motion
+- Average orbital speed: $v = \frac{2\pi r}{T}$
+- Hubble's Law: $H_0 = \frac{v}{d}$
+- Age of Universe: $t \approx \frac{1}{H_0}$
+
+---
+
+## Constants
+
+- Speed of light in vacuum: $c = 3.0 \times 10^8 \text{ m/s}$
+- Acceleration of free fall: $g = 9.8 \text{ m/s}^2 \approx 10 \text{ m/s}^2$
+- Hubble constant: $H_0 = 2.2 \times 10^{-18} \text{ s}^{-1}$
+- 1 light-year: $1 \text{ ly} = 9.5 \times 10^{15} \text{ m}$

@@ -1,0 +1,100 @@
+---
+title: "Mathematical Data and Constants"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+  html:
+    toc: true
+---
+
+## Physical Constants
+
+| Constant | Symbol | Value |
+|:---------|:-------|:------|
+| Speed of light in vacuum | $c$ | $3.0 \times 10^8 \text{ m/s}$ |
+| Acceleration of free fall | $g$ | $9.8 \text{ m/s}^2$ (or $10 \text{ m/s}^2$) |
+| Hubble constant | $H_0$ | $2.2 \times 10^{-18} \text{ s}^{-1}$ |
+| 1 light-year | ly | $9.5 \times 10^{15} \text{ m}$ |
+| Absolute zero | | $-273°\text{C}$ or $0 \text{ K}$ |
+
+---
+
+## SI Unit Prefixes
+
+| Prefix | Symbol | Factor |
+|:-------|:-------|:-------|
+| giga- | G | $10^9$ |
+| mega- | M | $10^6$ |
+| kilo- | k | $10^3$ |
+| centi- | c | $10^{-2}$ |
+| milli- | m | $10^{-3}$ |
+| micro- | μ | $10^{-6}$ |
+| nano- | n | $10^{-9}$ |
+
+---
+
+## Densities of Common Materials
+
+| Material | Density (kg/m³) | Density (g/cm³) |
+|:---------|:----------------|:----------------|
+| Air | 1.2 | 0.0012 |
+| Water | 1000 | 1.0 |
+| Seawater | 1025 | 1.025 |
+| Ice | 917 | 0.917 |
+| Aluminium | 2700 | 2.7 |
+| Iron/Steel | 7800 | 7.8 |
+| Copper | 8900 | 8.9 |
+| Lead | 11300 | 11.3 |
+| Gold | 19300 | 19.3 |
+
+---
+
+## Specific Heat Capacities
+
+| Material | Specific Heat Capacity (J/kg·K) |
+|:---------|:-------------------------------|
+| Water | 4200 |
+| Seawater | 3900 |
+| Ice | 2100 |
+| Aluminium | 900 |
+| Iron | 460 |
+| Copper | 400 |
+| Lead | 130 |
+
+---
+
+## Electromagnetic Spectrum
+
+| Region | Wavelength Range | Frequency Range |
+|:-------|:-----------------|:----------------|
+| Radio waves | > 0.1 m | < 3 × 10⁹ Hz |
+| Microwaves | 10⁻³ – 0.1 m | 3 × 10⁹ – 3 × 10¹¹ Hz |
+| Infrared | 7 × 10⁻⁷ – 10⁻³ m | 3 × 10¹¹ – 4 × 10¹⁴ Hz |
+| Visible light | 4 × 10⁻⁷ – 7 × 10⁻⁷ m | 4 × 10¹⁴ – 7.5 × 10¹⁴ Hz |
+| Ultraviolet | 10⁻⁸ – 4 × 10⁻⁷ m | 7.5 × 10¹⁴ – 3 × 10¹⁶ Hz |
+| X-rays | 10⁻¹¹ – 10⁻⁸ m | 3 × 10¹⁶ – 3 × 10¹⁹ Hz |
+| Gamma rays | < 10⁻¹¹ m | > 3 × 10¹⁹ Hz |
+
+---
+
+## Mathematical Formulae
+
+### Geometry
+- Circumference of circle: $C = 2\pi r = \pi d$
+- Area of rectangle: $A = lw$
+- Area of triangle: $A = \frac{1}{2}bh$
+- Area of circle: $A = \pi r^2$
+- Volume of rectangular block: $V = lwh$
+- Volume of cylinder: $V = \pi r^2h$
+- Volume of sphere: $V = \frac{4}{3}\pi r^3$
+
+### Trigonometry
+- Pythagoras' theorem: $a^2 + b^2 = c^2$
+- $\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}$
+- $\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}$
+- $\tan \theta = \frac{\text{opposite}}{\text{adjacent}}$
+
+### Standard Form
+- Numbers written as $A \times 10^n$ where $1 \leq A < 10$

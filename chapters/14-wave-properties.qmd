@@ -1,0 +1,661 @@
+---
+title: "General Properties of Waves"
+chapter: 14
+syllabus-code: "3.1 General properties of waves"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Know that waves transfer energy without transferring matter
+
+- Describe what is meant by wave motion as illustrated by vibrations in ropes and springs, and by experiments using water waves
+
+- Describe the features of a wave in terms of wavefront, wavelength, frequency, crest (peak), trough, amplitude and wave speed
+
+- Recall and use the equation for wave speed: $v = f\lambda$
+
+- Know that for a transverse wave, the direction of vibration is at right angles to the direction of propagation and understand that electromagnetic radiation, water waves and seismic S-waves (secondary) can be modelled as transverse
+
+- Know that for a longitudinal wave, the direction of vibration is parallel to the direction of propagation and understand that sound waves and seismic P-waves (primary) can be modelled as longitudinal
+
+- Describe how waves can undergo: (a) reflection at a plane surface (b) refraction due to a change of speed (c) diffraction through a narrow gap
+
+- Describe the use of a ripple tank to show reflection, refraction and diffraction of waves
+
+**Supplement (Extended):**
+
+- Describe how wavelength and gap size affects diffraction through a gap
+
+- Describe how wavelength affects diffraction at an edge
+
+---
+
+## 14.1 What Is Wave Motion?
+
+### Energy Transfer Without Matter Transfer
+
+In physics, a **wave** is a disturbance that travels through a medium or space, transferring **energy** from one point to another **without transferring matter**.
+
+**Key Concept:** When a wave passes through a medium, the particles of the medium oscillate (vibrate) about fixed positions, but they do not travel with the wave. Only the energy and the waveform progress forward.
+
+### The Source of Waves
+
+All waves originate from an **oscillation** or **vibration**.
+
+- A vibrating guitar string produces sound waves
+
+- A vibrating dipper in water produces water waves
+
+- Oscillating electric and magnetic fields produce electromagnetic waves
+
+---
+
+## 14.2 Types of Waves
+
+Waves are classified into two main types based on the direction of particle vibration relative to the direction of wave propagation.
+
+### Transverse Waves
+
+In a **transverse wave**, the direction of vibration is **perpendicular (at right angles)** to the direction of wave propagation.
+
+**Examples:**
+
+- Water waves (surface ripples)
+
+- Electromagnetic waves (light, radio, X-rays)
+
+- Seismic S-waves (secondary waves)
+
+- Waves on a rope or string
+
+**Visual Representation:**
+- Particles move **up and down**
+- Wave moves **left to right**
+- Features include crests (highest points) and troughs (lowest points)
+
+### Longitudinal Waves
+
+In a **longitudinal wave**, the direction of vibration is **parallel** to the direction of wave propagation.
+
+**Examples:**
+
+- Sound waves in air
+
+- Seismic P-waves (primary waves)
+
+- Waves in a compressed spring (Slinky pushed and pulled)
+
+**Visual Representation:**
+- Particles move **back and forth** along the same line as the wave
+- Creates regions of **compression** (particles close together) and **rarefaction** (particles spread apart)
+
+::: {.callout-warning}
+**Important:** Do not confuse the motion of the medium with the motion of the wave. In longitudinal waves, particles oscillate parallel to energy transfer; in transverse waves, they oscillate perpendicular to it.
+:::
+
+---
+
+## 14.3 Properties of Waves
+
+To describe waves quantitatively, we use specific terminology and measurements.
+
+### Key Wave Features
+
+| Feature | Definition | SI Unit |
+|:--------|:-----------|:--------|
+| **Crest** | Highest point of a transverse wave | — |
+| **Trough** | Lowest point of a transverse wave | — |
+| **Wavelength ($\lambda$)** | Shortest distance between two consecutive points in phase (e.g., crest to crest, or trough to trough) | metre (m) |
+| **Amplitude ($A$)** | Maximum displacement of a particle from its rest position | metre (m) |
+| **Period ($T$)** | Time taken for one complete wave to pass a point | second (s) |
+| **Frequency ($f$)** | Number of complete waves produced per second | hertz (Hz) |
+| **Wave speed ($v$)** | Distance travelled by the wave per second | metre per second (m/s) |
+| **Wavefront** | Imaginary line joining adjacent points that are in phase | — |
+
+### Relationship Between Frequency and Period
+
+$$f = \frac{1}{T} \quad \text{and} \quad T = \frac{1}{f}$$
+
+**Example:** If a wave has a period of 0.02 s, its frequency is:
+$$f = \frac{1}{0.02} = 50 \text{ Hz}$$
+
+### Displacement–Distance vs Displacement–Time Graphs
+
+| Graph Type | What It Shows | What Can Be Read |
+|:-----------|:--------------|:-----------------|
+| **Displacement–distance** | Shape of the wave at one instant in time | Wavelength ($\lambda$), amplitude ($A$) |
+| **Displacement–time** | Motion of a single particle over time | Period ($T$), amplitude ($A$), frequency ($f$) |
+
+---
+
+## 14.4 The Wave Equation
+
+The speed of a wave is determined by how frequently waves are produced and how long each wave is.
+
+$$v = f\lambda$$
+
+Where:
+- $v$ = wave speed (m/s)
+- $f$ = frequency (Hz)
+- $\lambda$ = wavelength (m)
+
+**Derivation Insight:**
+- In one period ($T$), a wave travels one wavelength ($\lambda$)
+- Speed = distance/time = $\lambda / T$
+- Since $f = 1/T$, then $v = f\lambda$
+
+::: {.callout-note}
+**Key Concept:** For a wave travelling through a given medium, the speed is usually constant. If frequency increases, wavelength must decrease proportionally, and vice versa.
+:::
+
+---
+
+## 14.5 Wave Behaviour: Reflection, Refraction, Diffraction
+
+Waves exhibit three fundamental behaviours when they encounter boundaries, changes in medium, or obstacles.
+
+### 1. Reflection
+
+When waves strike a plane barrier, they **bounce back**.
+
+**Law of Reflection:**
+- Angle of incidence ($i$) = Angle of reflection ($r$)
+- Wavelength, frequency, and speed **remain unchanged**
+- Direction changes according to the surface geometry
+
+**Example:** Water waves reflecting off a straight barrier in a ripple tank.
+
+### 2. Refraction
+
+Refraction occurs when waves pass from one medium to another, causing a **change in speed** and often a **change in direction**.
+
+**For Water Waves:**
+- Deep water → faster speed, longer wavelength
+- Shallow water → slower speed, shorter wavelength
+- If waves enter at an angle, they **bend towards the normal** when slowing down (deep → shallow)
+- Frequency **remains constant** during refraction
+
+### 3. Diffraction
+
+Diffraction is the **spreading out** of waves when they pass through a gap or around an edge.
+
+**Key Observations:**
+- Diffraction is most noticeable when the **gap size is similar to the wavelength**
+- If gap size $\gg$ wavelength: waves pass through with minimal spreading
+- If gap size $\approx$ wavelength: waves spread out significantly in a semi-circular pattern
+- Wavelength and frequency **remain unchanged** after diffraction
+
+::: {.callout-warning}
+**Important:** Diffraction does not change the speed, frequency, or wavelength of the wave. It only changes the direction of propagation at the edges.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Waves transfer energy, not matter**; particles oscillate about fixed positions
+
+2. **Transverse waves**: vibration ⊥ propagation (e.g., light, water waves, S-waves)
+
+3. **Longitudinal waves**: vibration ∥ propagation (e.g., sound, P-waves)
+
+4. **Wave features**: wavelength ($\lambda$), frequency ($f$), period ($T$), amplitude ($A$), wavefront
+
+5. **Wave equation**: $v = f\lambda$
+
+6. **Reflection**: $i = r$; speed and wavelength unchanged
+
+7. **Refraction**: change in speed causes bending; frequency constant
+
+8. **Diffraction**: spreading through gaps/around edges; most pronounced when gap $\approx \lambda$
+
+### Extended Concepts
+
+9. **Gap size vs wavelength**: smaller gaps relative to $\lambda$ produce greater diffraction
+
+10. **Edge diffraction**: longer wavelengths diffract more around barriers than shorter wavelengths
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Waves carry matter along with them"
+
+**Incorrect**: "Water waves push water forward across the ocean"
+
+**Correct**:
+
+- Waves transfer **energy**, not matter
+
+- Water particles move in circular or elliptical orbits but return to their original positions
+
+- Only the wave pattern and energy progress forward
+
+---
+
+### ⚠️ Misconception 2: "Longitudinal waves have crests and troughs"
+
+**Incorrect**: "Sound waves have crests and troughs like water waves"
+
+**Correct**:
+
+- Longitudinal waves consist of **compressions** and **rarefactions**, not crests and troughs
+
+- Crests/troughs are exclusive to transverse waves
+
+- Both types still have wavelength, frequency, and amplitude
+
+---
+
+### ⚠️ Misconception 3: "Changing frequency changes wave speed"
+
+**Incorrect**: "If I increase the frequency of a wave, it travels faster"
+
+**Correct**:
+
+- Wave speed is determined by the **medium**, not the frequency
+
+- In a given medium, $v$ is constant
+
+- Increasing $f$ causes $\lambda$ to decrease proportionally ($v = f\lambda$)
+
+---
+
+### ⚠️ Misconception 4: "Refraction changes the frequency of a wave"
+
+**Incorrect**: "When light enters glass, its frequency decreases"
+
+**Correct**:
+
+- **Frequency remains constant** during refraction
+
+- Speed and wavelength change, but the source vibration rate ($f$) does not
+
+- Energy is conserved per photon/wave cycle
+
+---
+
+### ⚠️ Misconception 5: "Diffraction only happens with light"
+
+**Incorrect**: "Diffraction is exclusive to electromagnetic waves"
+
+**Correct**:
+
+- Diffraction occurs with **all types of waves** (water, sound, seismic, electromagnetic)
+
+- The degree of spreading depends on the ratio of wavelength to obstacle/gap size
+
+- Sound waves diffract around doorways because their wavelength is comparable to the door width
+
+---
+
+### ⚠️ Misconception 6: "A narrower gap always increases wave speed"
+
+**Incorrect**: "Waves speed up when squeezed through a small opening"
+
+**Correct**:
+
+- Gap size does **not** affect wave speed
+
+- Speed depends only on medium properties (depth, density, tension, etc.)
+
+- Narrower gaps increase **spreading (diffraction)**, not speed
+
+---
+
+## Worked Examples
+
+### Example 1: Wave Speed Calculation
+
+**Question:**
+A wave has a frequency of 12 Hz and a wavelength of 0.25 m. Calculate its speed.
+
+**Solution:**
+$$v = f\lambda = 12 \times 0.25 = \boxed{3.0 \text{ m/s}}$$
+
+---
+
+### Example 2: Frequency from Period
+
+**Question:**
+A floating buoy bobs up and down once every 2.5 seconds. Calculate the frequency of the water waves.
+
+**Solution:**
+$$f = \frac{1}{T} = \frac{1}{2.5} = \boxed{0.40 \text{ Hz}}$$
+
+---
+
+### Example 3: Wavelength in Different Depths
+
+**Question:**
+Water waves travel at 1.8 m/s in deep water with a frequency of 0.60 Hz. They enter shallow water where their speed reduces to 1.2 m/s. Calculate the wavelength in both regions.
+
+**Solution:**
+Frequency remains constant: $f = 0.60 \text{ Hz}$
+
+**Deep water:**
+$$\lambda_{\text{deep}} = \frac{v}{f} = \frac{1.8}{0.60} = \boxed{3.0 \text{ m}}$$
+
+**Shallow water:**
+$$\lambda_{\text{shallow}} = \frac{1.2}{0.60} = \boxed{2.0 \text{ m}}$$
+
+**Note:** Wavelength decreases in shallow water because speed decreases while frequency remains constant.
+
+---
+
+### Example 4: Diffraction Condition
+
+**Question:**
+Explain why radio waves can be received behind hills, but visible light cannot.
+
+**Solution:**
+- Radio waves have **long wavelengths** (metres to kilometres)
+- Visible light has **very short wavelengths** (400–700 nm)
+- Hills are comparable in size to radio wavelengths, causing significant **diffraction** around the obstacle
+- Hills are vastly larger than light wavelengths, so light travels in straight lines with negligible diffraction
+- Therefore, radio signals bend around hills, but light does not
+
+---
+
+## Practice Questions
+
+### Core Level
+
+1. State two differences between transverse and longitudinal waves. Give one example of each.
+
+2. Define wavelength, amplitude, frequency, and period. State their SI units.
+
+3. A wave has a period of 0.04 s. Calculate its frequency.
+
+4. Sound travels through air at 340 m/s. If the frequency of a musical note is 512 Hz, calculate its wavelength.
+
+5. Describe what happens to water waves when they pass from deep to shallow water at an angle. Include reference to speed, wavelength, frequency, and direction.
+
+6. Explain why a student speaking outside a classroom can be heard inside even if the door is only slightly open.
+
+7. A wave travels 12 m in 4.0 s. If its frequency is 2.0 Hz, calculate its wavelength.
+
+8. State the law of reflection for waves. What happens to the wavelength and speed of water waves when they reflect off a straight barrier?
+
+### Extended Level
+
+9. A dipper in a ripple tank vibrates at 5.0 Hz, producing waves with a wavelength of 3.0 cm. The waves enter a region of shallower water where their speed is 12 cm/s. Calculate:
+
+- (a) the frequency of the waves in the shallow region
+
+- (b) the wavelength in the shallow region
+
+- (c) the speed of the waves in the deep region
+
+10. Explain, using wave principles, why bass sounds from a music system can be heard through a doorway, but treble sounds are more directional.
+
+11. A transverse wave travels along a rope at 4.0 m/s. The distance between a crest and the adjacent trough is 0.50 m. Calculate the frequency of the wave.
+
+12. Describe how a ripple tank can be used to demonstrate refraction. Include a labelled diagram of the apparatus and expected wave pattern.
+
+13. A wave has an amplitude of 3.0 cm and a frequency of 10 Hz. Sketch a displacement–distance graph for two complete wavelengths. Label the amplitude and wavelength clearly.
+
+14. Explain why the frequency of a wave does not change when it undergoes refraction, but its speed and wavelength do.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 14.1: Investigating Diffraction in a Ripple Tank
+
+**Objective:**
+To investigate how gap size and wavelength affect the diffraction of water waves.
+
+**Apparatus:**
+- Ripple tank with transparent base
+- Light source and projection screen
+- Straight wave generator (dipper or motor-driven bar)
+- Adjustable barriers (two flat plates)
+- Ruler
+- Stroboscope or video camera (optional)
+- Power supply for wave generator
+
+**Variables:**
+- **Independent:** Gap width; wavelength (adjusted via frequency)
+- **Dependent:** Degree of wave spreading (qualitative observation and measurement of diffraction angle)
+- **Controlled:** Water depth, wave generator amplitude, projection distance
+
+**Procedure:**
+1. Set up the ripple tank with uniform water depth (~5 mm).
+
+2. Adjust the wave generator to produce plane waves at a low frequency (~5 Hz).
+
+3. Measure and record the wavelength $\lambda$ from the projected pattern.
+
+4. Place two barriers to form a gap. Set the gap width to approximately $2\lambda$.
+
+5. Observe and sketch the wave pattern after passing through the gap.
+
+6. Reduce the gap width to approximately $\lambda$, then to $0.5\lambda$. Observe and sketch changes.
+
+7. Increase the frequency to double the wavelength (keeping depth constant). Repeat steps 4–6.
+
+8. Compare the degree of spreading for different gap-to-wavelength ratios.
+
+**Data Table:**
+
+| Trial | Frequency (Hz) | Wavelength $\lambda$ (cm) | Gap Width $d$ (cm) | $d/\lambda$ Ratio | Degree of Diffraction (Low/Medium/High) |
+|:------|:---------------|:--------------------------|:-------------------|:------------------|:----------------------------------------|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+
+**Analysis:**
+1. Describe the relationship between $d/\lambda$ and diffraction.
+
+2. State the condition for maximum diffraction.
+
+3. Explain why wavelength and frequency remain unchanged after diffraction.
+
+**Precautions:**
+- ✓ Maintain constant water depth throughout the experiment
+
+- ✓ Ensure wave generator produces straight, parallel wavefronts
+
+- ✓ Avoid vibrations or air currents disturbing the tank
+
+- ✓ Allow water to settle between trials
+
+**Expected Results:**
+- Maximum spreading occurs when gap width $\approx$ wavelength
+
+- Narrower gaps relative to $\lambda$ produce semi-circular wavefronts
+
+- Wider gaps produce minimal edge spreading
+
+**Conclusion Template:**
+"The experiment demonstrated that diffraction is most pronounced when the gap size is comparable to the wavelength. When $d \gg \lambda$, waves pass through with minimal spreading. When $d \approx \lambda$, waves spread out in a circular pattern. This confirms that the extent of diffraction depends on the ratio of wavelength to obstacle/gap size."
+
+**Extension (Supplement):**
+- Investigate diffraction around a single edge using one barrier
+
+- Compare diffraction of longitudinal vs transverse wave simulations
+
+- Relate findings to real-world examples: radio reception, architectural acoustics, optical instruments
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+1. Which statement correctly describes wave motion?
+
+A. Waves transfer matter and energy  
+
+B. Waves transfer energy without transferring matter  
+
+C. Waves transfer matter without transferring energy  
+
+D. Waves require a medium to transfer energy  
+
+2. Which of the following is a longitudinal wave?
+
+A. Light wave  
+
+B. Water wave  
+
+C. Sound wave  
+
+D. Seismic S-wave  
+
+3. A wave has a frequency of 50 Hz and a wavelength of 0.40 m. What is its speed?
+
+A. 12.5 m/s  
+
+B. 20 m/s  
+
+C. 80 m/s  
+
+D. 125 m/s  
+
+4. When water waves pass from deep to shallow water, which quantity remains unchanged?
+
+A. Speed  
+
+B. Wavelength  
+
+C. Frequency  
+
+D. Direction  
+
+5. Maximum diffraction of waves occurs when:
+
+A. The gap is much larger than the wavelength  
+
+B. The gap is much smaller than the wavelength  
+
+C. The gap size is approximately equal to the wavelength  
+
+D. The frequency is very high  
+
+### Paper 3 Style (Structured)
+
+6. (a) Define the term *transverse wave*. [1]
+
+(b) Give two examples of transverse waves. [2]
+
+(c) A displacement–time graph of a wave shows a period of 0.02 s.
+
+   (i) Calculate the frequency of the wave. [2]
+
+   (ii) If the wave speed is 300 m/s, calculate the wavelength. [2]
+
+7. (a) State what is meant by *diffraction*. [1]
+
+(b) A student sets up a ripple tank with a gap of width 2.0 cm. The waves produced have a wavelength of 2.0 cm.
+
+   (i) Sketch the wave pattern after passing through the gap. [2]
+
+   (ii) Explain what happens to the wave pattern if the gap width is increased to 6.0 cm. [2]
+
+   (iii) State two wave properties that remain unchanged after diffraction. [2]
+
+8. (Extended) (a) Explain why sound waves can be heard around corners, but light waves cannot. [3]
+
+(b) A wave travels at 15 m/s in deep water and 10 m/s in shallow water. The frequency is 5.0 Hz.
+
+   (i) Calculate the wavelength in both regions. [2]
+
+   (ii) Explain why the frequency does not change when the wave enters shallow water. [2]
+
+9. (a) Describe an experiment using a ripple tank to demonstrate the reflection of water waves. Include a labelled diagram. [4]
+
+(b) State the relationship between the angle of incidence and angle of reflection. [1]
+
+(c) Explain why the wavelength of the reflected wave is the same as the incident wave. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Waves transfer energy, not matter**; particles oscillate about fixed positions  
+
+✓ **Transverse waves**: vibration ⊥ propagation (light, water, S-waves)  
+
+✓ **Longitudinal waves**: vibration ∥ propagation (sound, P-waves)  
+
+✓ **Wave features**: $\lambda$, $f$, $T$, $A$, wavefront; $f = 1/T$  
+
+✓ **Wave equation**: $v = f\lambda$  
+
+✓ **Reflection**: $i = r$; speed and $\lambda$ unchanged  
+
+✓ **Refraction**: change in speed → bending; $f$ constant  
+
+✓ **Diffraction**: spreading through gaps/around edges; max when gap $\approx \lambda$  
+
+✓ **Ripple tank**: essential tool for demonstrating all three wave behaviours  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Wave speed | $v = f\lambda$ | $v$=speed (m/s), $f$=frequency (Hz), $\lambda$=wavelength (m) |
+| Frequency–period | $f = \frac{1}{T}$ or $T = \frac{1}{f}$ | $T$=period (s), $f$=frequency (Hz) |
+| Law of reflection | $i = r$ | $i$=angle of incidence, $r$=angle of reflection |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+- Cambridge IGCSE Physics Coursebook, Chapter 11 (General Properties of Waves)
+- Practical Work in Physics: Ripple Tank Experiments and Wave Phenomena
+
+### Online Resources
+- PhET Interactive Simulations: Wave on a String, Sound, Wave Interference
+- BBC Bitesize: Transverse and Longitudinal Waves, Reflection, Refraction, Diffraction
+- University of Colorado: Ripple Tank Virtual Lab
+
+### Video Resources
+- Demonstration: Ripple tank setup and wave pattern projection
+- Animation: Transverse vs longitudinal particle motion comparison
+- Real-world application: Acoustic design in concert halls, radio wave propagation
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Amplitude ($A$)** | Maximum displacement of a particle from its rest position |
+| **Compression** | Region in a longitudinal wave where particles are close together |
+| **Diffraction** | Spreading out of waves when passing through a gap or around an edge |
+| **Frequency ($f$)** | Number of complete waves produced per second; unit: hertz (Hz) |
+| **Longitudinal wave** | Wave where particle vibration is parallel to wave propagation |
+| **Period ($T$)** | Time taken for one complete wave to pass a point |
+| **Rarefaction** | Region in a longitudinal wave where particles are spread apart |
+| **Refraction** | Change in direction and speed of a wave when entering a different medium |
+| **Reflection** | Bouncing back of waves when they strike a barrier |
+| **Transverse wave** | Wave where particle vibration is perpendicular to wave propagation |
+| **Wavefront** | Imaginary line joining adjacent points that are in phase |
+| **Wavelength ($\lambda$)** | Shortest distance between two consecutive points in phase |
+| **Wave speed ($v$)** | Distance travelled by a wave per second; $v = f\lambda$ |
+
+---
+
+*End of Chapter 14*

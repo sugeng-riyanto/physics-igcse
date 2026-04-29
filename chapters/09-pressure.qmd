@@ -1,0 +1,680 @@
+---
+title: "Pressure"
+chapter: 9
+syllabus-code: "1.8 Pressure"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Define pressure as force per unit area; recall and use the equation $p = \frac{F}{A}$
+
+- Describe how pressure varies with force and area in the context of everyday examples
+
+- Describe, qualitatively, how the pressure beneath the surface of a liquid changes with depth and density of the liquid
+
+**Supplement (Extended):**
+
+- Recall and use the equation for the change in pressure beneath the surface of a liquid: $\Delta p = \rho g \Delta h$
+
+---
+
+## What Is Pressure?
+
+### Definition of Pressure
+
+In physics:
+
+> **Pressure is defined as force per unit area.**
+
+$$p = \frac{F}{A}$$
+
+Where:
+
+- $p$ = pressure (Pa or N/m²)
+
+- $F$ = force acting perpendicular to the surface (N)
+
+- $A$ = area of contact (m²)
+
+::: {.callout-note}
+**Key Concept:** The SI unit of pressure is the **pascal (Pa)**, where $1 \text{ Pa} = 1 \text{ N/m}^2$. For larger pressures, kilopascals (kPa) or megapascals (MPa) are used.
+:::
+
+### Understanding Pressure Through Everyday Examples
+
+| Situation | Explanation |
+|:----------|:------------|
+| **Walking on eggs with sports shoes** | Wide soles distribute weight over large area → low pressure → eggs do not break |
+| **Walking on eggs with high heels** | Small heel area concentrates force → high pressure → eggs break easily |
+| **Tractor with wide tyres** | Large contact area reduces pressure on soft ground → prevents sinking |
+| **Sharp knife cutting** | Small edge area creates high pressure for same force → cuts easily |
+| **Nail with pointed tip** | Small tip area produces high pressure → penetrates wood with less force |
+
+::: {.callout-warning}
+**Important:** Pressure depends on **both** force **and** area. Increasing force increases pressure; increasing area decreases pressure (for constant force).
+:::
+
+---
+
+## Calculating Pressure: Worked Examples
+
+### Example 1: Basic Pressure Calculation
+
+**Question:**
+
+A woman weighing 600 N stands on the floor. The total area of her shoes in contact with the floor is 0.03 m².
+
+(a) Calculate the pressure she exerts on the floor.
+
+(b) If she balances on one heel with area 0.0003 m², calculate the new pressure.
+
+**Solution:**
+
+**(a) Pressure with both feet:**
+
+$$p = \frac{F}{A} = \frac{600}{0.03} = \boxed{20\,000 \text{ Pa} = 2.0 \times 10^4 \text{ Pa}}$$
+
+**(b) Pressure on one heel:**
+
+$$p = \frac{F}{A} = \frac{600}{0.0003} = \boxed{2\,000\,000 \text{ Pa} = 2.0 \times 10^6 \text{ Pa}}$$
+
+**Interpretation:** The pressure on one heel is **100 times greater** than with both feet, explaining why high heels can damage floors.
+
+---
+
+### Example 2: Finding Force or Area from Pressure
+
+**Question:**
+
+(a) A polystyrene cube exerts a pressure of 89 N/m² on a horizontal surface. If the cube has mass 5.0 kg, calculate the area of contact. (Take $g = 10 \text{ N/kg}$)
+
+(b) A force of 1200 N produces a pressure of 50 000 Pa. Calculate the area over which the force acts.
+
+**Solution:**
+
+**(a) Area of contact:**
+
+Weight $F = mg = 5.0 \times 10 = 50 \text{ N}$
+
+$$A = \frac{F}{p} = \frac{50}{89} = \boxed{0.56 \text{ m}^2}$$
+
+**(b) Area from pressure:**
+
+$$A = \frac{F}{p} = \frac{1200}{50\,000} = \boxed{0.024 \text{ m}^2}$$
+
+---
+
+### Example 3: Pressure from a Rectangular Block
+
+**Question:**
+
+A block of dimensions 20 cm × 10 cm × 5 cm has density 2.0 g/cm³.
+
+(a) Calculate the weight of the block. (Take $g = 10 \text{ N/kg}$)
+
+(b) On which face must the block rest to exert the greatest pressure? Calculate this pressure.
+
+(c) On which face must the block rest to exert the least pressure? Calculate this pressure.
+
+**Solution:**
+
+**(a) Weight of block:**
+
+Volume $V = 20 \times 10 \times 5 = 1000 \text{ cm}^3$
+
+Mass $m = \rho V = 2.0 \times 1000 = 2000 \text{ g} = 2.0 \text{ kg}$
+
+Weight $F = mg = 2.0 \times 10 = \boxed{20 \text{ N}}$
+
+**(b) Greatest pressure (smallest area):**
+
+Smallest face area: $5 \text{ cm} \times 10 \text{ cm} = 50 \text{ cm}^2 = 0.005 \text{ m}^2$
+
+$$p_{\text{max}} = \frac{F}{A} = \frac{20}{0.005} = \boxed{4000 \text{ Pa}}$$
+
+**(c) Least pressure (largest area):**
+
+Largest face area: $20 \text{ cm} \times 10 \text{ cm} = 200 \text{ cm}^2 = 0.02 \text{ m}^2$
+
+$$p_{\text{min}} = \frac{20}{0.02} = \boxed{1000 \text{ Pa}}$$
+
+---
+
+## Pressure in Liquids
+
+### How Depth Affects Liquid Pressure
+
+The pressure beneath the surface of a liquid **increases with depth** because:
+
+- There is more liquid above pushing down
+
+- The weight of the liquid column increases with depth
+
+**Demonstration:** A container with holes at different depths shows water spurting furthest from the bottom hole, indicating greatest pressure at greatest depth.
+
+### How Density Affects Liquid Pressure
+
+For the same depth:
+
+- A denser liquid exerts **greater pressure** because it has more mass per unit volume
+
+- Example: Seawater ($\rho \approx 1025 \text{ kg/m}^3$) exerts more pressure than freshwater ($\rho \approx 1000 \text{ kg/m}^3$) at the same depth
+
+### Calculating Change in Liquid Pressure (Extended)
+
+The change in pressure beneath the surface of a liquid is given by:
+
+$$\Delta p = \rho g \Delta h$$
+
+Where:
+
+- $\Delta p$ = change in pressure (Pa)
+
+- $\rho$ = density of liquid (kg/m³)
+
+- $g$ = gravitational field strength (N/kg); on Earth, $g \approx 10 \text{ N/kg}$
+
+- $\Delta h$ = change in depth (m)
+
+::: {.callout-note}
+**Key Insight:** This equation shows that liquid pressure depends **only** on density and depth, not on the shape or total volume of the container.
+:::
+
+---
+
+## 9.4 Worked Examples: Liquid Pressure
+
+### Example 4: Pressure Change with Depth
+
+**Question:**
+
+A submarine descends from the surface of the sea to a depth of 3000 m. The density of seawater is 1030 kg/m³ and $g = 10 \text{ N/kg}$.
+
+(a) Calculate the change in pressure experienced by the submarine.
+
+(b) If the pressure on the submarine changes by 0.10 MPa, calculate the change in depth.
+
+**Solution:**
+
+**(a) Change in pressure:**
+
+$$\Delta p = \rho g \Delta h = 1030 \times 10 \times 3000 = \boxed{3.09 \times 10^7 \text{ Pa} = 30.9 \text{ MPa}}$$
+
+**(b) Change in depth:**
+
+$$\Delta h = \frac{\Delta p}{\rho g} = \frac{0.10 \times 10^6}{1030 \times 10} = \boxed{9.7 \text{ m}}$$
+
+::: {.callout-warning}
+**Note:** The actual pressure on the submarine is the sum of liquid pressure **plus** atmospheric pressure at the surface (~101 kPa).
+:::
+
+---
+
+### Example 5: Comparing Pressures in Different Liquids
+
+**Question:**
+
+Two identical containers are filled with liquids X and Y to the same height. The pressure at the bottom of container Y is greater than at the bottom of container X. What can you conclude about the densities of the liquids?
+
+**Solution:**
+
+Since $\Delta p = \rho g \Delta h$ and $g$ and $\Delta h$ are the same for both containers:
+
+- Greater pressure at bottom of Y → greater density of Y
+
+$$\therefore \boxed{\rho_Y > \rho_X}$$
+
+---
+
+### Example 6: Pressure at Different Points in Same Liquid
+
+**Question:**
+
+Figure 9.1 shows a container of water with points A, B, and C at different depths. Point A is at the surface, B is at depth $h$, and C is at depth $2h$.
+
+(a) Compare the pressures at A, B, and C.
+
+(b) If the pressure at B is 5000 Pa, what is the pressure at C?
+
+**Solution:**
+
+**(a) Pressure comparison:**
+
+- Pressure increases with depth: $p_C > p_B > p_A$
+
+- Since $p \propto \Delta h$, and depth of C is twice depth of B: $p_C \approx 2p_B$ (ignoring atmospheric pressure)
+
+**(b) Pressure at C:**
+
+If $p_B = 5000 \text{ Pa}$ (gauge pressure), then:
+
+$$p_C = \rho g (2h) = 2(\rho g h) = 2 \times 5000 = \boxed{10\,000 \text{ Pa}}$$
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Pressure** = force per unit area: $p = \frac{F}{A}$; unit: pascal (Pa) = N/m²
+
+2. **Pressure varies inversely with area**: For constant force, smaller area → greater pressure
+
+3. **Pressure varies directly with force**: For constant area, greater force → greater pressure
+
+4. **Liquid pressure increases with depth**: More liquid above → greater weight → greater pressure
+
+5. **Liquid pressure increases with density**: Denser liquid → greater mass per volume → greater pressure at same depth
+
+### Extended Concepts
+
+6. **Change in liquid pressure**: $\Delta p = \rho g \Delta h$; depends only on density and depth change
+
+7. **Pressure is isotropic in liquids**: At a given depth, pressure acts equally in all directions
+
+8. **Total pressure** = atmospheric pressure + liquid pressure (for open containers)
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Pressure and force are the same thing"
+
+**Incorrect**: "A large force always means large pressure"
+
+**Correct**:
+
+- **Force** is a push or pull (unit: N)
+
+- **Pressure** is force **per unit area** (unit: Pa = N/m²)
+
+- A small force on a very small area can produce very high pressure (e.g., needle piercing skin)
+
+---
+
+### ⚠️ Misconception 2: "Liquid pressure depends on the total amount of liquid"
+
+**Incorrect**: "A wide tank has more pressure at the bottom than a narrow tube at the same depth"
+
+**Correct**:
+
+- Liquid pressure depends **only on depth and density**, not on container shape or total volume
+
+- This is why dams are thicker at the bottom (greater pressure) regardless of lake size
+
+---
+
+### ⚠️ Misconception 3: "Pressure acts only downwards in liquids"
+
+**Incorrect**: "Water pressure only pushes down on objects"
+
+**Correct**:
+
+- Pressure in a liquid acts **equally in all directions** at a given depth
+
+- This is why submarines experience pressure on all sides, not just the top
+
+---
+
+### ⚠️ Misconception 4: "Atmospheric pressure is negligible compared to liquid pressure"
+
+**Incorrect**: "We can ignore air pressure when calculating underwater pressure"
+
+**Correct**:
+
+- Atmospheric pressure (~101 kPa) is significant and **adds to** liquid pressure
+
+- Total pressure at depth = atmospheric pressure + $\rho g \Delta h$
+
+---
+
+### ⚠️ Misconception 5: "Denser objects always sink because they experience more pressure"
+
+**Incorrect**: "High pressure makes objects sink"
+
+**Correct**:
+
+- Whether an object floats or sinks depends on **density comparison**, not pressure magnitude
+
+- Pressure increases with depth for **all** objects, but buoyant force depends on displaced fluid weight
+
+---
+
+### ⚠️ Misconception 6: "Pressure in a liquid is the same at all depths"
+
+**Incorrect**: "Water pressure is constant throughout a swimming pool"
+
+**Correct**:
+
+- Pressure **increases linearly with depth**: $\Delta p = \rho g \Delta h$
+
+- Divers feel increasing pressure on their ears as they descend
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Define pressure. State its SI unit and express it in base units.
+
+**2.** A force of 250 N acts on an area of 0.5 m². Calculate the pressure.
+
+**3.** Explain why a sharp knife cuts more easily than a blunt one, using the concept of pressure.
+
+**4.** A rectangular block of mass 12 kg has dimensions 30 cm × 20 cm × 10 cm. Calculate:
+
+- (a) the weight of the block (take $g = 10 \text{ N/kg}$)
+
+- (b) the greatest pressure it can exert on a horizontal surface
+
+- (c) the least pressure it can exert on a horizontal surface
+
+**5.** Describe how the pressure beneath the surface of water changes with:
+
+- (a) increasing depth
+
+- (b) increasing density of the liquid
+
+**6.** A diver is at a depth of 5 m in seawater ($\rho = 1025 \text{ kg/m}^3$). Calculate the increase in pressure compared to the surface. (Take $g = 10 \text{ N/kg}$)
+
+**7.** Why do dams have thicker walls at the bottom than at the top?
+
+**8.** Two identical containers are filled to the same height, one with water and one with oil ($\rho_{\text{oil}} < \rho_{\text{water}}$). Compare the pressures at the bottom of each container.
+
+### Extended Level
+
+**9.** A submarine experiences a pressure increase of 2.05 × 10⁵ Pa. Calculate the change in depth. (Take $\rho_{\text{seawater}} = 1025 \text{ kg/m}^3$, $g = 10 \text{ N/kg}$)
+
+**10.** A rectangular tank 2 m long, 1 m wide, and 1.5 m deep is filled with water ($\rho = 1000 \text{ kg/m}^3$).
+
+- (a) Calculate the pressure at the bottom of the tank.
+
+- (b) Calculate the total force on the bottom of the tank.
+
+- (c) Explain why the force on the side walls is less than on the bottom.
+
+**11.** A hydraulic press has a small piston of area 0.01 m² and a large piston of area 0.5 m². If a force of 100 N is applied to the small piston:
+
+- (a) Calculate the pressure transmitted through the fluid.
+
+- (b) Calculate the force exerted by the large piston.
+
+- (c) State the principle that explains this operation.
+
+**12.** Explain, using the equation $\Delta p = \rho g \Delta h$, why:
+
+- (a) a barometer uses mercury instead of water
+
+- (b) atmospheric pressure decreases with altitude
+
+**13.** A U-tube contains two immiscible liquids: liquid A ($\rho = 800 \text{ kg/m}^3$) and liquid B ($\rho = 1200 \text{ kg/m}^3$). If the height of liquid A is 15 cm, calculate the height of liquid B when the system is in equilibrium.
+
+**14.** Describe an experiment to demonstrate that liquid pressure increases with depth. Include:
+
+- Apparatus required
+
+- Method
+
+- Expected observations
+
+- Conclusion
+
+---
+
+## Laboratory Investigation
+
+### Experiment 9.1: Investigating Pressure in Liquids
+
+**Objective:**
+
+To investigate how pressure in a liquid varies with depth.
+
+**Apparatus:**
+
+- Tall transparent container (e.g., measuring cylinder or plastic bottle)
+
+- Water
+
+- Three small holes drilled at different heights (e.g., 5 cm, 10 cm, 15 cm from bottom)
+
+- Ruler
+
+- Tray to catch water
+
+- Marker pen
+
+**Variables:**
+
+- **Independent:** Depth of hole below liquid surface ($\Delta h$)
+
+- **Dependent:** Horizontal distance water spurts ($d$) as indicator of pressure
+
+- **Controlled:** Liquid density, hole diameter, container shape, water level maintained
+
+**Procedure:**
+
+1. Drill three small holes of equal diameter at different heights on one side of the container.
+
+2. Place the container in a tray and fill with water to a fixed level above the highest hole.
+
+3. Quickly remove tape covering the holes and observe the water jets.
+
+4. Measure the horizontal distance each jet travels before hitting the tray.
+
+5. Repeat three times for reliability.
+
+6. Record depth of each hole below water surface and corresponding jet distance.
+
+**Data Table:**
+
+| Hole | Depth below surface $\Delta h$ (cm) | Jet distance $d_1$ (cm) | $d_2$ (cm) | $d_3$ (cm) | Average $d$ (cm) |
+|:-----|:-----------------------------------|:------------------------|:-----------|:-----------|:-----------------|
+| A | 5.0 | | | | |
+| B | 10.0 | | | | |
+| C | 15.0 | | | | |
+
+**Analysis:**
+
+1. Plot a graph of average jet distance $d$ (y-axis) against depth $\Delta h$ (x-axis).
+
+2. Describe the relationship observed.
+
+3. Explain how jet distance relates to pressure at each depth.
+
+**Precautions:**
+
+- ✓ Ensure holes are of equal diameter for fair comparison
+
+- ✓ Maintain constant water level during observations
+
+- ✓ Measure jet distance from hole exit point horizontally
+
+- ✓ Perform experiment quickly to minimise water level change
+
+**Expected Results:**
+
+- Jet from lowest hole (greatest depth) travels furthest horizontally
+
+- Jet distance increases with depth, indicating pressure increases with depth
+
+**Conclusion Template:**
+
+"The experiment demonstrated that pressure in a liquid increases with depth. The horizontal distance travelled by water jets increased as the depth of the hole below the surface increased, confirming that greater depth produces greater pressure."
+
+**Extension (Supplement):**
+
+- Repeat with salt water to investigate effect of density on pressure
+
+- Use a pressure sensor to obtain quantitative pressure readings at different depths
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly defines pressure?
+
+A. Pressure = force × area  
+
+B. Pressure = force ÷ area  
+
+C. Pressure = mass × acceleration  
+
+D. Pressure = weight ÷ volume  
+
+**2.** A force of 400 N acts on an area of 0.2 m². What is the pressure?
+
+A. 80 Pa  
+
+B. 200 Pa  
+
+C. 2000 Pa  
+
+D. 8000 Pa  
+
+**3.** Which factor does **not** affect the pressure at a point beneath the surface of a liquid?
+
+A. Depth of the point below the surface  
+
+B. Density of the liquid  
+
+C. Acceleration due to gravity  
+
+D. Shape of the container  
+
+**4.** A diver descends from 2 m to 12 m depth in seawater. What is the approximate increase in pressure? (Take $\rho = 1000 \text{ kg/m}^3$, $g = 10 \text{ N/kg}$)
+
+A. 10 kPa  
+
+B. 100 kPa  
+
+C. 1000 kPa  
+
+D. 10 000 kPa  
+
+**5.** Why does a sharp knife cut more easily than a blunt one?
+
+A. It has greater mass  
+
+B. It has smaller contact area, producing greater pressure  
+
+C. It has greater force applied  
+
+D. It has lower friction  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define pressure and state its SI unit. [1]
+
+(b) A brick of mass 2.5 kg has dimensions 20 cm × 10 cm × 5 cm.
+
+(i) Calculate the weight of the brick. (Take $g = 10 \text{ N/kg}$) [2]
+
+(ii) Calculate the greatest pressure the brick can exert on a horizontal surface. [3]
+
+(iii) Explain why the brick exerts different pressures when placed on different faces. [2]
+
+**7.** (a) Describe how pressure in a liquid varies with depth. [2]
+
+(b) A submarine is at a depth of 200 m in seawater of density 1025 kg/m³.
+
+(i) Calculate the increase in pressure on the submarine compared to the surface. (Take $g = 10 \text{ N/kg}$) [3]
+
+(ii) The submarine has a window of area 0.05 m². Calculate the force on the window due to this pressure increase. [2]
+
+(iii) Explain why submarine windows are made thick and strong. [2]
+
+**8.** (Extended) (a) State the equation for the change in pressure beneath the surface of a liquid. Define each symbol. [3]
+
+(b) A U-tube manometer contains mercury ($\rho = 13 600 \text{ kg/m}^3$). One side is open to the atmosphere, the other is connected to a gas supply. The difference in mercury levels is 12 cm.
+
+(i) Calculate the pressure difference between the gas supply and the atmosphere. (Take $g = 10 \text{ N/kg}$) [3]
+
+(ii) State whether the gas pressure is greater or less than atmospheric pressure. [1]
+
+(c) Explain why mercury is used in barometers instead of water. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Pressure** = force per unit area: $p = \frac{F}{A}$; unit: pascal (Pa) = N/m²  
+
+✓ **Pressure ∝ force**: For constant area, greater force → greater pressure  
+
+✓ **Pressure ∝ 1/area**: For constant force, smaller area → greater pressure  
+
+✓ **Liquid pressure increases with depth**: $\Delta p = \rho g \Delta h$  
+
+✓ **Liquid pressure increases with density**: At same depth, denser liquid → greater pressure  
+
+✓ **Pressure acts equally in all directions** at a given point in a liquid  
+
+✓ **Total pressure** = atmospheric pressure + liquid pressure (for open systems)  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Pressure | $p = \frac{F}{A}$ | $p$=pressure (Pa), $F$=force (N), $A$=area (m²) |
+| Change in liquid pressure | $\Delta p = \rho g \Delta h$ | $\rho$=density (kg/m³), $g$=field strength (N/kg), $\Delta h$=depth change (m) |
+| Weight | $W = mg$ | $W$=weight (N), $m$=mass (kg), $g$=field strength (N/kg) |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 7
+
+- Practical Work in Physics: Pressure and Fluids
+
+### Online Resources
+
+- PhET Interactive Simulations: Under Pressure, Fluid Pressure and Flow
+
+- BBC Bitesize: Pressure in Solids and Liquids
+
+### Video Resources
+
+- Demonstration: Pressure in liquids with multi-hole container
+
+- Animation: How hydraulic systems use pressure transmission
+
+- Real-world application: Engineering design of dams, submarines, and hydraulic machinery
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Atmospheric pressure** | Pressure exerted by the weight of air above a point; approximately 101 kPa at sea level |
+| **Density ($\rho$)** | Mass per unit volume; $\rho = m/V$; unit: kg/m³ |
+| **Hydraulic system** | Device that transmits pressure through a liquid to multiply force |
+| **Pascal (Pa)** | SI unit of pressure; 1 Pa = 1 N/m² |
+| **Pressure ($p$)** | Force per unit area acting perpendicular to a surface; $p = F/A$; unit: Pa |
+| **Pressure in liquids** | Increases with depth and density; given by $\Delta p = \rho g \Delta h$ |
+| **Total pressure** | Sum of atmospheric pressure and liquid pressure at a point in an open container |
+
+---
+
+*End of Chapter 9*

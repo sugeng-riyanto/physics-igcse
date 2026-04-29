@@ -1,0 +1,828 @@
+---
+title: "Space Physics"
+chapter: 23
+syllabus-code: "6.1 The Earth and the Solar System; 6.2 Stars and the Universe"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (6.1.1 The Earth):**
+
+- Know that the Earth is a planet that rotates on its tilted axis once in approximately 24 hours, and use this to explain observations of the apparent daily motion of the Sun and the periodic cycle of day and night
+
+- Know that the Earth orbits the Sun once in approximately 365 days, and use this to explain the periodic nature of the seasons
+
+- Know that it takes approximately one month for the Moon to orbit the Earth, and use this to explain the periodic nature of the Moon's cycle of phases
+
+**Core Content (6.1.2 The Solar System):**
+
+- Describe the Solar System as containing: one star (the Sun), the eight named planets and know their order from the Sun, minor planets (dwarf planets, asteroids), moons, and smaller bodies (comets)
+
+- Know that, in comparison to each other, the four planets nearest the Sun are rocky and small, and the four planets furthest from the Sun are gaseous and large, and explain this difference by referring to an accretion model
+
+- Know that the strength of the gravitational field at the surface of a planet depends on the mass of the planet, and around a planet decreases as the distance from the planet increases
+
+- Calculate the time it takes for light to travel a significant distance such as between objects in the Solar System
+
+- Know that the Sun contains most of the mass of the Solar System and this explains why the planets orbit the Sun
+
+- Know that the force that keeps an object in orbit around the Sun is the gravitational attraction of the Sun
+
+**Core Content (6.2.1 The Sun as a Star):**
+
+- Know that the Sun is a star of medium size, consisting mostly of hydrogen and helium, and that it radiates most of its energy in the infrared, visible light and ultraviolet regions
+
+**Core Content (6.2.2 Stars):**
+
+- State that galaxies are each made up of many billions of stars
+
+- State that the Sun is a star in the galaxy known as the Milky Way
+
+- State that other stars that make up the Milky Way are much further away from the Earth than the Sun is from the Earth
+
+- State that astronomical distances can be measured in light-years, where one light-year is the distance travelled in space by light in one year
+
+**Core Content (6.2.3 The Universe):**
+
+- Know that the Milky Way is one of many billions of galaxies making up the Universe, and that its diameter is approximately 100 000 light-years
+
+- Describe redshift as an increase in the observed wavelength of electromagnetic radiation emitted from receding stars and galaxies
+
+- Know that the light emitted from distant galaxies appears redshifted in comparison with light emitted on the Earth
+
+- Know that redshift in the light from distant galaxies is evidence that the Universe is expanding and supports the Big Bang Theory
+
+**Supplement (Extended):**
+
+- Define average orbital speed and use the equation $v = \frac{2\pi r}{T}$
+
+- Know that planets, minor planets and comets have elliptical orbits, and recall that the Sun is not at the centre of the elliptical orbit, except when the orbit is nearly circular
+
+- Know that an object in an elliptical orbit travels faster when closer to the Sun, and explain this using the conservation of energy
+
+- Analyse and interpret planetary data
+
+- Know that the Sun's gravitational field decreases with distance, and how this affects the orbital speed of the planets
+
+- Know that stars are powered by nuclear reactions that release energy, and that in stable stars the nuclear reactions involve the fusion of hydrogen into helium
+
+- Know that one light-year is equal to $9.5 \times 10^{15}$ m
+
+- Describe the life cycle of a star: nebula → protostar → stable star → red giant/supergiant → planetary nebula/white dwarf OR supernova → neutron star/black hole
+
+- Know what cosmic microwave background radiation (CMBR) is, and explain that it was produced shortly after the Universe was formed and has been expanded into the microwave region as the Universe expanded
+
+- Know that the speed $v$ at which a galaxy is moving away from the Earth can be found from redshift, and the distance $d$ of a far galaxy can be determined using supernovae brightness
+
+- Define the Hubble constant $H_0$ as the ratio of the speed at which a galaxy is moving away from the Earth to its distance from the Earth; recall and use $H_0 = \frac{v}{d}$
+
+- Know that the current estimate for $H_0$ is $2.2 \times 10^{-18}$ per second
+
+- Know that the equation $\frac{d}{v} = \frac{1}{H_0}$ represents an estimate for the age of the Universe, providing evidence that all matter was present at a single point
+
+---
+
+## 23.1 The Earth, Moon and Solar Motions
+
+### Earth's Rotation: Day and Night
+
+The Earth rotates on its axis once every **approximately 24 hours**.
+
+- The side facing the Sun experiences **daytime**.
+
+- The side facing away experiences **nighttime**.
+
+- Because the Earth rotates from **west to east**, the Sun appears to rise in the **east** and set in the **west**.
+
+::: {.callout-note}
+**Key Concept:** The apparent motion of the Sun across the sky is caused by the Earth's actual rotation. We do not feel this rotation because it is smooth, constant, and we move with the Earth.
+:::
+
+### Earth's Revolution and Tilt: The Seasons
+
+The Earth orbits the Sun once every **approximately 365.25 days** (one year).
+
+**Why do seasons occur?**
+
+- The Earth's axis is tilted at an angle of **approximately 23.5°** relative to its orbital plane.
+
+- As the Earth orbits, this tilt causes different hemispheres to receive **different amounts of direct sunlight** at different times of the year.
+
+- **Summer**: Hemisphere tilted **towards** the Sun → longer days, higher Sun angle, more concentrated solar energy.
+
+- **Winter**: Hemisphere tilted **away** from the Sun → shorter days, lower Sun angle, more spread out solar energy.
+
+- **Spring/Autumn**: Axis tilted neither towards nor away → roughly equal day and night lengths.
+
+::: {.callout-warning}
+**Important:** Seasons are **not** caused by the Earth's changing distance from the Sun. The Earth is actually closest to the Sun (perihelion) in early January (Northern Hemisphere winter).
+:::
+
+### The Moon: Phases and Orbit
+
+The Moon orbits the Earth once every **approximately 27.3 days** (roughly one month).
+
+- The Moon does **not** produce its own light. It reflects sunlight.
+
+- As the Moon orbits, the portion of its sunlit side visible from Earth changes, creating **phases**.
+
+- **New Moon**: Moon between Earth and Sun → dark side faces Earth.
+
+- **Full Moon**: Earth between Moon and Sun → fully lit side faces Earth.
+
+- **Waxing**: Illuminated portion increases.
+
+- **Waning**: Illuminated portion decreases.
+
+---
+
+## 23.2 The Solar System and Its Formation
+
+### Structure of the Solar System
+
+| Component | Description |
+|:----------|:------------|
+| **The Sun** | Central star, contains ~99% of Solar System's mass |
+| **Inner Planets** | Mercury, Venus, Earth, Mars (rocky, small, dense, few/no moons) |
+| **Outer Planets** | Jupiter, Saturn, Uranus, Neptune (gaseous/icy, large, low density, many moons, rings) |
+| **Asteroids** | Rocky remnants, mostly in the belt between Mars and Jupiter |
+| **Comets** | Icy/dusty bodies with highly elliptical orbits, develop tails near Sun |
+| **Dwarf Planets** | Spherical but not dominant in their orbit (e.g., Pluto in Kuiper Belt) |
+
+### Formation: The Nebular Hypothesis
+
+1. **Giant Molecular Cloud**: A vast cloud of gas (mostly hydrogen) and dust begins to collapse under its own **gravity**.
+
+2. **Protostar & Accretion Disc**: The cloud spins faster as it collapses. The centre heats up to form a **protostar**. Surrounding material flattens into a spinning **accretion disc**.
+
+3. **Nuclear Fusion Ignites**: The protostar becomes hot/dense enough for hydrogen fusion → becomes a **star (the Sun)**.
+
+4. **Planet Formation**:
+
+- **Inner Region**: Close to the hot Sun, only heavy elements (rock, metal) can condense → **rocky planets**.
+
+- **Outer Region**: Cooler temperatures allow lighter gases (hydrogen, helium) and ices to condense → **gas/ice giants**.
+
+::: {.callout-note}
+**Key Concept:** The accretion model explains the compositional difference between inner and outer planets. Gravity sorted materials by mass and boiling point during formation.
+:::
+
+---
+
+## 23.3 Orbital Mechanics and Gravitation
+
+### Average Orbital Speed
+
+For a roughly circular orbit, the average speed $v$ is given by:
+
+$$v = \frac{2\pi r}{T}$$
+
+Where:
+- $v$ = average orbital speed (m/s)
+
+- $r$ = average orbital radius (m)
+
+- $T$ = orbital period (s)
+
+### Gravitational Field and Orbits
+
+- The **gravitational field strength** $g$ at a planet's surface depends on its **mass** and **radius**.
+
+- $g$ **decreases** as distance from the planet increases ($g \propto \frac{1}{r^2}$).
+
+- The **Sun's gravity** provides the centripetal force that keeps planets in orbit.
+
+- Planets do not fly off into space because gravity constantly pulls them inward, changing their direction.
+
+### Elliptical Orbits and Conservation of Energy (Extended)
+
+- Planetary orbits are **elliptical**, with the Sun at **one focus** (not the centre).
+
+- **Perihelion**: Closest point to Sun → highest gravitational potential energy (GPE) converted to kinetic energy (KE) → **fastest speed**.
+
+- **Aphelion**: Furthest point from Sun → highest KE converted to GPE → **slowest speed**.
+
+- Total mechanical energy (KE + GPE) remains constant (conservation of energy).
+
+---
+
+## 23.4 Stars and Stellar Evolution
+
+### The Sun as a Star
+
+- Medium-sized, yellow star.
+
+- Composition: ~73% hydrogen, ~25% helium, ~2% heavier elements.
+
+- Radiates energy across the spectrum: mostly **infrared**, **visible light**, and **ultraviolet**.
+
+- **Power Source**: Nuclear fusion in the core. Hydrogen nuclei fuse into helium, releasing vast energy ($E=mc^2$).
+
+### Life Cycle of Stars
+
+The path a star takes depends on its **initial mass**.
+
+| Stage | Low/Medium Mass Star (like the Sun) | High Mass Star (>8 solar masses) |
+|:------|:-----------------------------------|:--------------------------------|
+| **1. Birth** | Nebula → Protostar | Nebula → Protostar |
+| **2. Stable Phase** | Main Sequence (H → He fusion). Outward radiation pressure balances inward gravity. | Main Sequence (H → He fusion). Burns hotter, faster, shorter life. |
+| **3. Fuel Depletion** | Hydrogen runs out → core contracts, outer layers expand → **Red Giant** | Hydrogen runs out → core contracts, outer layers expand → **Red Supergiant** |
+| **4. Late Stage** | Outer layers shed → **Planetary Nebula**. Core remains → **White Dwarf** (cools slowly) | Core collapses → violent explosion (**Supernova**). Creates elements heavier than iron. |
+| **5. Remnant** | White Dwarf cools to black dwarf (theoretical) | Core becomes **Neutron Star** or, if massive enough, a **Black Hole** |
+
+::: {.callout-warning}
+**Important:** A black hole's gravity is not "stronger" than the original star's at a distance. If the Sun became a black hole, Earth's orbit would remain unchanged. The extreme gravity only exists very close to the event horizon.
+:::
+
+### Astronomical Distances: The Light-Year
+
+Distances in space are too vast for metres or kilometres.
+
+- **Light-year (ly)**: The distance light travels in one year in a vacuum.
+
+- $c = 3.0 \times 10^8 \text{ m/s}$
+
+- $1 \text{ year} \approx 3.15 \times 10^7 \text{ s}$
+
+- $1 \text{ ly} = c \times t = (3.0 \times 10^8) \times (3.15 \times 10^7) \approx \boxed{9.5 \times 10^{15} \text{ m}}$
+
+---
+
+## 23.5 The Expanding Universe
+
+### Galaxies and the Milky Way
+
+- A **galaxy** is a massive system of billions of stars, gas, dust, and dark matter bound by gravity.
+
+- The **Milky Way** is our galaxy, ~100,000 light-years in diameter, containing 100–400 billion stars.
+
+- The Universe contains **billions of galaxies**.
+
+### Redshift and the Big Bang Theory
+
+**Redshift**: When a light source moves away from an observer, the observed wavelength **increases** (shifts towards the red end of the spectrum).
+
+- Distant galaxies show **redshifted** spectra.
+
+- The further away the galaxy, the **greater the redshift** → the faster it is moving away.
+
+- **Conclusion**: The Universe is **expanding**.
+
+- Rewinding time: All matter was concentrated at a single, extremely hot, dense point → **Big Bang**.
+
+### Cosmic Microwave Background Radiation (CMBR)
+
+- **Evidence 2 for Big Bang**: The early Universe was filled with high-energy gamma radiation.
+
+- As space expanded, the wavelength of this radiation **stretched** into the microwave region.
+
+- CMBR is uniform in all directions, confirming the Universe was once hot and dense everywhere.
+
+### Hubble's Law and the Age of the Universe
+
+Edwin Hubble discovered a linear relationship between galaxy distance and recessional velocity:
+
+$$v \propto d \quad \text{or} \quad H_0 = \frac{v}{d}$$
+
+Where:
+- $v$ = recessional velocity (m/s)
+
+- $d$ = distance from Earth (m)
+
+- $H_0$ = Hubble constant $\approx 2.2 \times 10^{-18} \text{ s}^{-1}$
+
+**Estimating the Age of the Universe:**
+
+If expansion has been roughly constant:
+$$\text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{d}{v} = \frac{1}{H_0}$$
+
+$$\text{Age} \approx \frac{1}{2.2 \times 10^{-18}} \approx 4.5 \times 10^{17} \text{ s} \approx \boxed{14 \text{ billion years}}$$
+
+::: {.callout-note}
+**Key Concept:** The Big Bang was not an explosion *in* space. It was the rapid expansion *of* space itself. Galaxies are not flying through space; the space between them is stretching.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Earth's motions**: Rotation (~24h) → day/night; Revolution (~365d) + 23.5° tilt → seasons
+
+2. **Moon phases**: Caused by changing viewing angle of sunlit side during ~28-day orbit
+
+3. **Solar System structure**: Sun (99% mass), 8 planets, dwarf planets, asteroids, comets, moons
+
+4. **Accretion model**: Gravity collapses nebula → disc forms → inner rocky, outer gaseous planets
+
+5. **Gravity & orbits**: Sun's gravity provides centripetal force; $g$ depends on mass, decreases with distance
+
+6. **Light travel time**: $t = \frac{d}{c}$; used to measure Solar System distances
+
+7. **Stars**: Powered by nuclear fusion (H → He); Sun radiates IR, visible, UV
+
+8. **Light-year**: Distance light travels in 1 year ($9.5 \times 10^{15}$ m)
+
+9. **Galaxies**: Billions of stars; Milky Way ~100,000 ly across
+
+10. **Redshift**: Wavelength increases as source recedes → evidence of expanding Universe → Big Bang
+
+### Extended Concepts
+
+11. **Orbital speed**: $v = \frac{2\pi r}{T}$; calculate using consistent SI units
+
+12. **Elliptical orbits**: Sun at focus; conservation of energy explains speed variation (faster at perihelion)
+
+13. **Stellar evolution**: Mass determines fate (White Dwarf vs Supernova/Black Hole)
+
+14. **CMBR**: Stretched relic radiation from early Universe; uniform microwave background
+
+15. **Hubble's Law**: $H_0 = v/d$; current estimate $2.2 \times 10^{-18} \text{ s}^{-1}$
+
+16. **Universe age**: $\approx \frac{1}{H_0} \approx 14$ billion years
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Seasons are caused by Earth's changing distance from the Sun"
+
+**Incorrect**: "Earth is closer to the Sun in summer"
+
+**Correct**:
+
+- Seasons are caused by the **tilt of Earth's axis**, not distance
+
+- Earth is actually **closest** to the Sun in January (Northern Hemisphere winter)
+
+- Tilt changes the **angle** and **duration** of sunlight, not proximity
+
+---
+
+### ⚠️ Misconception 2: "The Moon produces its own light"
+
+**Incorrect**: "The Moon glows like the Sun"
+
+**Correct**:
+
+- The Moon **reflects** sunlight
+
+- Phases occur because we see different portions of the **illuminated half** as it orbits
+
+- No light source of its own; only visible when reflecting sunlight
+
+---
+
+### ⚠️ Misconception 3: "The Solar System formed because the Sun exploded"
+
+**Incorrect**: "The Sun was first, then exploded to create planets"
+
+**Correct**:
+
+- Sun and planets formed **simultaneously** from the same collapsing nebula
+
+- Accretion disc spun around the protostar → planets condensed from disc material
+
+- No explosion involved in formation; gravity drove the process
+
+---
+
+### ⚠️ Misconception 4: "Orbits are perfect circles with the Sun at the exact centre"
+
+**Incorrect**: "Planets move in circular paths around the centre"
+
+**Correct**:
+
+- Orbits are **elliptical** (oval-shaped)
+
+- The Sun is at **one focus**, not the geometric centre
+
+- This causes varying distances (perihelion/aphelion) and varying orbital speeds
+
+---
+
+### ⚠️ Misconception 5: "Black holes suck everything in like cosmic vacuums"
+
+**Incorrect**: "Black holes pull matter from far away"
+
+**Correct**:
+
+- Black hole gravity behaves **normally** at a distance
+
+- Only extreme within the **event horizon**
+
+- If the Sun became a black hole, Earth's orbit would **not change** (same mass, same distance)
+
+---
+
+### ⚠️ Misconception 6: "Redshift means galaxies are moving away from Earth specifically"
+
+**Incorrect**: "Earth is the centre of the expansion"
+
+**Correct**:
+
+- Space itself is expanding uniformly
+
+- From **any** galaxy, all others appear to be receding
+
+- Redshift is observed from all directions → no centre to the Universe
+
+---
+
+### ⚠️ Misconception 7: "The Big Bang was an explosion in space"
+
+**Incorrect**: "A bomb went off and debris flew outwards"
+
+**Correct**:
+
+- The Big Bang was the **rapid expansion of space itself**
+
+- There was no pre-existing space or centre
+
+- Matter and energy expanded together as the Universe stretched
+
+---
+
+## Worked Examples
+
+### Example 1: Orbital Speed Calculation
+
+**Question:**
+A satellite orbits Earth at an average radius of $7.0 \times 10^6$ m. It completes one orbit in 5800 s. Calculate its average orbital speed.
+
+**Solution:**
+
+**Step 1:** Identify values
+
+- $r = 7.0 \times 10^6 \text{ m}$
+
+- $T = 5800 \text{ s}$
+
+**Step 2:** Apply formula
+$$v = \frac{2\pi r}{T} = \frac{2 \times \pi \times 7.0 \times 10^6}{5800}$$
+
+**Step 3:** Calculate
+$$v = \frac{4.398 \times 10^7}{5800} \approx \boxed{7580 \text{ m/s}}$$
+
+---
+
+### Example 2: Light Travel Time
+
+**Question:**
+Mars is approximately $2.25 \times 10^{11}$ m from Earth at closest approach. Calculate the time it takes for a radio signal (travelling at light speed) to reach Mars.
+
+**Solution:**
+
+**Step 1:** Identify values
+
+- $d = 2.25 \times 10^{11} \text{ m}$
+
+- $c = 3.0 \times 10^8 \text{ m/s}$
+
+**Step 2:** Apply formula
+$$t = \frac{d}{c} = \frac{2.25 \times 10^{11}}{3.0 \times 10^8}$$
+
+**Step 3:** Calculate
+$$t = \boxed{750 \text{ s}} \text{ or } \boxed{12.5 \text{ minutes}}$$
+
+---
+
+### Example 3: Conservation of Energy in Orbit (Extended)
+
+**Question:**
+Explain why a comet moves fastest when it is closest to the Sun, using the principle of conservation of energy.
+
+**Solution:**
+
+**Step 1:** Identify energy forms
+
+- Total mechanical energy = Kinetic Energy (KE) + Gravitational Potential Energy (GPE)
+
+- In space (neglecting drag), total energy is **conserved** (constant).
+
+**Step 2:** Analyse position change
+
+- At **closest approach** (perihelion), GPE is at its **minimum** (most negative).
+
+- To keep total energy constant, KE must be at its **maximum**.
+
+**Step 3:** Relate to speed
+
+- $KE = \frac{1}{2}mv^2$ → maximum KE means maximum speed.
+
+- Therefore, the comet moves **fastest** when closest to the Sun.
+
+---
+
+### Example 4: Hubble's Law and Universe Age (Extended)
+
+**Question:**
+A distant galaxy is observed to be receding at $4.4 \times 10^6$ m/s. Its distance is estimated at $2.0 \times 10^{23}$ m.
+
+(a) Calculate the Hubble constant $H_0$ from this data.
+
+(b) Estimate the age of the Universe using your answer.
+
+**Solution:**
+
+**(a) Hubble constant:**
+$$H_0 = \frac{v}{d} = \frac{4.4 \times 10^6}{2.0 \times 10^{23}} = \boxed{2.2 \times 10^{-18} \text{ s}^{-1}}$$
+
+**(b) Age of Universe:**
+$$\text{Age} \approx \frac{1}{H_0} = \frac{1}{2.2 \times 10^{-18}} = 4.545 \times 10^{17} \text{ s}$$
+Convert to years: $\frac{4.545 \times 10^{17}}{3.15 \times 10^7} \approx \boxed{14.4 \text{ billion years}}$
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Explain why the Sun appears to move across the sky from east to west each day.
+
+**2.** State two reasons why the Northern Hemisphere experiences summer in June.
+
+**3.** Describe the Moon phase that occurs when the Moon is directly between the Earth and the Sun.
+
+**4.** List the eight planets of the Solar System in order of increasing distance from the Sun.
+
+**5.** Explain why the inner planets are rocky and small, while the outer planets are gaseous and large.
+
+**6.** State what force keeps the planets in orbit around the Sun.
+
+**7.** Calculate the time it takes for light from the Sun to reach Earth, given the distance is $1.5 \times 10^{11}$ m.
+
+**8.** Define the term *light-year* and state its approximate value in metres.
+
+**9.** State what is meant by *redshift* in the light from distant galaxies.
+
+**10.** Explain how redshift provides evidence for the Big Bang Theory.
+
+### Extended Level
+
+**11.** A space probe orbits Jupiter at a radius of $4.22 \times 10^8$ m with a period of $1.53 \times 10^5$ s. Calculate its average orbital speed.
+
+**12.** Explain, using conservation of energy, why Pluto moves slowest in its orbit when it is furthest from the Sun.
+
+**13.** Compare the life cycles of a star with the mass of the Sun and a star with ten times the Sun's mass.
+
+**14.** Describe how the cosmic microwave background radiation (CMBR) supports the Big Bang Theory.
+
+**15.** A galaxy is observed to have a recessional velocity of $6.6 \times 10^6$ m/s. Using $H_0 = 2.2 \times 10^{-18} \text{ s}^{-1}$, calculate its distance from Earth.
+
+**16.** Explain why astronomers use supernovae to determine the distances of very distant galaxies.
+
+**17.** State why the gravitational field strength on Jupiter's surface is much stronger than on Earth's, despite Jupiter being mostly gas.
+
+**18.** Explain the difference between a nebula, a protostar, and a main sequence star.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 23.1: Modelling Orbital Mechanics and Redshift
+
+**Objective:**
+To qualitatively demonstrate the relationship between orbital radius, speed, and gravitational pull, and to model redshift using sound.
+
+**Apparatus:**
+
+- String (1 m)
+
+- Small rubber stopper or cork
+
+- Plastic tube (pen casing)
+
+- Masses (slotted weights)
+
+- Smartphone with sound generator app
+
+- Assistant or recording device
+
+**Part A: Orbital Speed vs Radius**
+
+1. Thread string through tube. Attach stopper to one end, masses to the other.
+
+2. Swing stopper in horizontal circle above head.
+
+3. Vary the orbital radius by pulling/lifting tube.
+
+4. Observe how speed must change to maintain circular motion as radius decreases.
+
+**Part B: Doppler Shift (Redshift) Modelling**
+
+1. Play a constant tone on smartphone speaker.
+
+2. Have assistant swing phone horizontally in a circle above head.
+
+3. Listen to pitch change as phone moves towards/away from you.
+
+**Observations:**
+
+- Smaller radius → faster rotation needed to maintain tension (simulating stronger gravity closer to Sun).
+
+- Pitch increases as source approaches (blueshift), decreases as it recedes (redshift).
+
+**Analysis:**
+
+1. Relate string tension to gravitational force.
+
+2. Explain why planets closer to Sun orbit faster.
+
+3. Connect pitch change to wavelength shift in light from receding galaxies.
+
+**Conclusion Template:**
+"The investigation demonstrated that objects in tighter orbits must move faster to maintain balance, mirroring planetary motion. The Doppler effect on sound models how receding galaxies stretch light wavelengths, providing observable evidence of cosmic expansion."
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly explains the cause of seasons on Earth?
+
+A. Earth's elliptical orbit brings it closer to the Sun in summer
+
+B. Earth's axis is tilted, changing the angle and duration of sunlight
+
+C. The Sun's output varies throughout the year
+
+D. Earth rotates faster in summer than in winter
+
+**2.** Which region of the Solar System contains mostly icy bodies and dwarf planets like Pluto?
+
+A. Asteroid belt
+
+B. Kuiper belt
+
+C. Oort cloud
+
+D. Inner Solar System
+
+**3.** A star collapses into a black hole. What happens to the gravitational force on a planet orbiting at the same distance as before?
+
+A. It increases dramatically
+
+B. It decreases to zero
+
+C. It remains the same
+
+D. It fluctuates randomly
+
+**4.** What does the observation of redshift in distant galaxies indicate?
+
+A. The galaxies are moving closer to Earth
+
+B. The Universe is contracting
+
+C. The Universe is expanding
+
+D. Light slows down over large distances
+
+**5.** Which equation is used to estimate the age of the Universe?
+
+A. $v = f\lambda$
+
+B. $v = \frac{2\pi r}{T}$
+
+C. $H_0 = \frac{v}{d}$
+
+D. $t = \frac{d}{v} = \frac{1}{H_0}$
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Describe how the tilt of the Earth's axis causes winter in the Northern Hemisphere. [3]
+
+(b) Explain why the Moon appears to change shape over a period of approximately one month. [2]
+
+(c) State one similarity and one difference between an asteroid and a comet. [2]
+
+**7.** (a) Describe the formation of the Solar System using the nebular hypothesis. Include reference to gravity and the accretion disc. [3]
+
+(b) Explain why the four inner planets are rocky and dense, while the four outer planets are gaseous and less dense. [2]
+
+(c) Calculate the time it takes for light to travel from Jupiter to Earth when they are $6.3 \times 10^{11}$ m apart. [2]
+
+**8.** (a) State the process that powers the Sun and explain how it releases energy. [2]
+
+(b) Describe the life cycle of a star much more massive than the Sun, from nebula to final remnant. [3]
+
+(c) Explain why a white dwarf is stable and does not collapse immediately. [2]
+
+**9.** (Extended) (a) Define redshift and explain how it is observed in the spectra of distant galaxies. [2]
+
+(b) State two pieces of evidence that support the Big Bang Theory. [2]
+
+(c) A galaxy is measured to be $1.5 \times 10^{23}$ m away and receding at $3.3 \times 10^6$ m/s. Calculate $H_0$ from this data. [2]
+
+(d) Using your answer, estimate the age of the Universe in seconds and years. [3]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Earth's rotation** (24h) → day/night; **tilt** (23.5°) + **revolution** (365d) → seasons
+
+✓ **Moon phases** → changing view of sunlit side during ~28-day orbit
+
+✓ **Solar System** → Sun (99% mass), 8 planets, asteroids, comets, moons, dwarf planets
+
+✓ **Accretion model** → gravity collapses nebula → disc forms → inner rocky, outer gaseous planets
+
+✓ **Gravity** provides centripetal force for orbits; $g$ depends on mass, decreases with distance
+
+✓ **Elliptical orbits** → Sun at focus; conservation of energy explains speed variation
+
+✓ **Orbital speed** → $v = \frac{2\pi r}{T}$
+
+✓ **Stars** → powered by nuclear fusion (H → He); Sun emits IR, visible, UV
+
+✓ **Light-year** → distance light travels in 1 year ≈ $9.5 \times 10^{15}$ m
+
+✓ **Stellar evolution** → mass determines path: low/medium → white dwarf; high → supernova → neutron star/black hole
+
+✓ **Redshift** → wavelength increases as source recedes → evidence of expanding Universe
+
+✓ **Big Bang** → Universe began hot, dense, and has been expanding since
+
+✓ **CMBR** → stretched relic radiation from early Universe
+
+✓ **Hubble's Law** → $H_0 = v/d \approx 2.2 \times 10^{-18} \text{ s}^{-1}$; age $\approx 1/H_0 \approx 14$ billion years
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Average orbital speed | $v = \frac{2\pi r}{T}$ | $v$=speed (m/s), $r$=radius (m), $T$=period (s) |
+| Light travel time | $t = \frac{d}{c}$ | $d$=distance (m), $c$=speed of light ($3.0 \times 10^8$ m/s) |
+| Hubble constant | $H_0 = \frac{v}{d}$ | $v$=recessional velocity (m/s), $d$=distance (m) |
+| Universe age estimate | $t \approx \frac{1}{H_0}$ | $H_0$=Hubble constant ($2.2 \times 10^{-18} \text{ s}^{-1}$) |
+| Light-year | $1 \text{ ly} = 9.5 \times 10^{15} \text{ m}$ | Distance light travels in 1 year |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 21 (Earth and the Solar System) and Chapter 22 (Stars and the Universe)
+
+- Practical Work in Physics: Astronomy and Cosmology Data Analysis
+
+### Online Resources
+
+- PhET Interactive Simulations: Gravity and Orbits, My Solar System
+
+- BBC Bitesize: Space Physics, The Expanding Universe, Life Cycle of Stars
+
+- NASA Educational Resources: Solar System exploration, Hubble Legacy Field images
+
+### Video Resources
+
+- Demonstration: Doppler effect modelling for redshift
+
+- Animation: Stellar evolution from nebula to remnant
+
+- Real-world application: How JWST observes early galaxies and redshift
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Accretion disc** | Rotating disc of gas and dust around a young star where planets form |
+| **Big Bang Theory** | Theory that the Universe began as a hot, dense point and has been expanding ever since |
+| **Black hole** | Remnant of a massive star with gravity so strong that not even light can escape |
+| **Comet** | Icy/dusty Solar System body with highly elliptical orbit; develops tail near Sun |
+| **Cosmic Microwave Background Radiation (CMBR)** | Uniform microwave radiation remnant from the early Universe, stretched by expansion |
+| **Dwarf planet** | Spherical body orbiting Sun but not cleared its orbital neighbourhood (e.g., Pluto) |
+| **Elliptical orbit** | Oval-shaped orbit with the Sun at one focus; speed varies with distance |
+| **Galaxy** | Massive system of billions of stars, gas, dust, and dark matter bound by gravity |
+| **Hubble constant ($H_0$)** | Ratio of galaxy recessional velocity to distance; $\approx 2.2 \times 10^{-18} \text{ s}^{-1}$ |
+| **Light-year (ly)** | Distance light travels in one year in vacuum $\approx 9.5 \times 10^{15}$ m |
+| **Nebula** | Cloud of gas and dust in space; birthplace of stars |
+| **Nuclear fusion** | Process where light nuclei combine to form heavier nuclei, releasing energy (powers stars) |
+| **Redshift** | Increase in observed wavelength of light from receding objects; evidence of expansion |
+| **Red giant** | Late stage of low/medium mass star; expanded outer layers, cooled surface |
+| **Supernova** | Violent explosion of a massive star; creates elements heavier than iron |
+| **White dwarf** | Hot, dense remnant core of a low/medium mass star; slowly cools over time |
+
+---
+
+*End of Chapter 23*

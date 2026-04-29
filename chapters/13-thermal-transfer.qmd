@@ -1,0 +1,878 @@
+---
+title: "Thermal Transfer"
+chapter: 13
+syllabus-code: "2.3 Transfer of thermal energy"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (2.3.1 Conduction):**
+
+- Describe experiments to demonstrate the properties of good thermal conductors and bad thermal conductors (thermal insulators)
+
+**Core Content (2.3.2 Convection):**
+
+- Know that convection is an important method of thermal energy transfer in liquids and gases
+
+- Explain convection in liquids and gases in terms of density changes and describe experiments to illustrate convection
+
+**Core Content (2.3.3 Radiation):**
+
+- Know that thermal radiation is infrared radiation and that all objects emit this radiation
+
+- Know that thermal energy transfer by thermal radiation does not require a medium
+
+- Describe the effect of surface colour (black or white) and texture (dull or shiny) on the emission, absorption and reflection of infrared radiation
+
+- Describe experiments to distinguish between good and bad emitters of infrared radiation
+
+- Describe experiments to distinguish between good and bad absorbers of infrared radiation
+
+- Describe how the rate of emission of radiation depends on the surface temperature and surface area of an object
+
+**Core Content (2.3.4 Consequences of thermal energy transfer):**
+
+- Explain some of the basic everyday applications and consequences of conduction, convection and radiation, including heating objects such as kitchen pans and heating a room by convection
+
+**Supplement (Extended):**
+
+- Describe thermal conduction in all solids in terms of atomic or molecular lattice vibrations and also in terms of the movement of free (delocalised) electrons in metallic conductors
+
+- Describe, in terms of particles, why thermal conduction is bad in gases and most liquids
+
+- Know that there are many solids that conduct thermal energy better than thermal insulators but do so less well than good thermal conductors
+
+- Know that for an object to be at a constant temperature it needs to transfer energy away from the object at the same rate that it receives energy
+
+- Know what happens to an object if the rate at which it receives energy is less or more than the rate at which it transfers energy away from the object
+
+- Know how the temperature of the Earth is affected by factors controlling the balance between incoming radiation and radiation emitted from the Earth's surface
+
+- Explain some of the complex applications and consequences of conduction, convection and radiation where more than one type of thermal energy transfer is significant, including a fire burning wood or coal and a radiator in a car
+
+---
+
+## Introduction to Thermal Energy Transfer
+
+### Why Does Thermal Energy Transfer Occur?
+
+Thermal energy always flows from a region of **higher temperature** to a region of **lower temperature**.
+
+- When you touch a hot object, thermal energy flows from the object to your hand → your hand feels hot
+
+- When you touch a cold object, thermal energy flows from your hand to the object → your hand feels cold
+
+- When two objects are at the same temperature, there is **no net flow** of thermal energy between them → they are in **thermal equilibrium**
+
+::: {.callout-note}
+**Key Concept:** Thermal energy transfer continues until thermal equilibrium is reached (both objects at the same temperature).
+:::
+
+### Three Methods of Thermal Energy Transfer
+
+| Method | Medium Required | How Energy Is Transferred |
+|:-------|:----------------|:--------------------------|
+| **Conduction** | Solid (best), liquid, gas | Through particle vibrations and free electron movement |
+| **Convection** | Fluid (liquid or gas) only | Through bulk movement of fluid due to density differences |
+| **Radiation** | None (can travel through vacuum) | Through electromagnetic waves (infrared radiation) |
+
+---
+
+## Conduction
+
+### What Is Conduction?
+
+**Conduction** is the transfer of thermal energy through a substance from a hotter region to a colder region **without any bulk movement of the substance itself**.
+
+- Conduction occurs mainly in **solids**
+
+- Metals are **good thermal conductors**; non-metals are generally **poor thermal conductors (thermal insulators)**
+
+### Comparing Thermal Conductors: An Experiment
+
+**Apparatus:**
+
+- Four rods of equal dimensions made of copper, steel, aluminium, and glass
+
+- Bunsen burner, tripod stand, stopwatch
+
+- Wax, drawing pins
+
+**Procedure:**
+
+1. Attach a drawing pin to one end of each rod using a small amount of wax
+
+2. Heat the opposite ends of all rods simultaneously with a Bunsen burner
+
+3. Record the time taken for each drawing pin to fall
+
+**Observation:**
+
+- The pin on the **copper rod** falls first → copper conducts thermal energy fastest
+
+- The pin on the **glass rod** falls last (or not at all) → glass is a poor conductor
+
+**Conclusion:**
+
+Different materials conduct thermal energy at different rates. Metals conduct better than non-metals.
+
+### Thermal Conductivity of Common Materials
+
+| Material | Thermal Conductivity | Classification |
+|:---------|:---------------------|:---------------|
+| Diamond | Very high | Best conductor |
+| Copper | High | Good conductor |
+| Aluminium | High | Good conductor |
+| Steel | Moderate | Moderate conductor |
+| Ice | Low | Poor conductor |
+| Glass | Low | Poor conductor (insulator) |
+| Water | Very low | Poor conductor (insulator) |
+| Air | Extremely low | Best insulator |
+| Polystyrene | Extremely low | Best insulator |
+
+::: {.callout-warning}
+**Important:** Still air is an excellent thermal insulator. Many insulating materials (e.g., fibreglass, polystyrene) work by trapping air in small pockets.
+:::
+
+### How Conduction Works: Particle Explanation (Extended)
+
+#### In Non-Metals
+
+1. Particles at the **hot end** vibrate more vigorously about their fixed positions
+
+2. These vibrating particles collide with neighbouring particles, transferring kinetic energy
+
+3. The process continues along the material → thermal energy is transferred from hot to cold
+
+4. **No particles move** from one place to another; only energy is transferred
+
+#### In Metals
+
+Metals have an **additional mechanism** that makes them excellent conductors:
+
+1. Metals contain **free (delocalised) electrons** that can move freely throughout the material
+
+2. At the hot end, free electrons gain kinetic energy and move rapidly towards cooler regions
+
+3. These fast-moving electrons collide with atoms in cooler regions, transferring energy
+
+4. **Free electron diffusion** transfers energy much faster than lattice vibrations alone
+
+::: {.callout-note}
+**Key Insight:** This is why metals are good conductors of **both** thermal energy and electricity — both processes rely on free electron movement.
+:::
+
+### Why Are Liquids and Gases Poor Conductors?
+
+- Particles in liquids and gases are **farther apart** than in solids
+
+- Collisions between particles are **less frequent**
+
+- Transfer of kinetic energy from hot to cold regions is **slower**
+
+- Therefore, conduction is inefficient in fluids
+
+::: {.callout-warning}
+**Important:** Although conduction is poor in fluids, thermal energy can still be transferred efficiently by **convection** (see Section 13.3).
+:::
+
+---
+
+## Convection
+
+### What Is Convection?
+
+**Convection** is the transfer of thermal energy in a **fluid** (liquid or gas) by means of **convection currents** due to differences in density.
+
+- Convection **cannot occur in solids** because particles cannot move freely
+
+- Convection involves the **bulk movement** of the fluid itself
+
+### How Convection Currents Form
+
+**Step-by-step explanation:**
+
+1. Fluid at the **bottom** is heated → particles gain kinetic energy and move faster
+
+2. Heated fluid **expands** → same mass occupies larger volume → **density decreases**
+
+3. Less dense (warmer) fluid **rises** because it is lighter than surrounding cooler fluid
+
+4. Cooler, denser fluid **sinks** to replace the rising warm fluid
+
+5. The cycle repeats → **convection current** is established
+
+### Demonstrating Convection in Liquids
+
+**Apparatus:**
+
+- Beaker of water, Bunsen burner, potassium permanganate crystals
+
+**Procedure:**
+
+1. Place a few potassium permanganate crystals at the bottom of a beaker of water
+
+2. Gently heat the beaker from below
+
+**Observation:**
+
+- Purple streams rise from the crystals, fan out at the surface, then sink down the sides
+
+- This shows the **circular motion** of convection currents
+
+### Demonstrating Convection in Gases
+
+**Apparatus:**
+
+- Convection box with two chimneys, candle, incense stick
+
+**Procedure:**
+
+1. Light a candle under one chimney
+
+2. Hold a smoking incense stick over the other chimney
+
+**Observation:**
+
+- Smoke is drawn down the cool chimney, across the box, and rises above the candle
+
+- This traces the **convection current** in air
+
+### Everyday Examples of Convection
+
+| Example | Explanation |
+|:--------|:------------|
+| **Sea breeze** (daytime) | Land heats faster than sea → warm air over land rises → cool air from sea flows in |
+| **Land breeze** (night-time) | Land cools faster than sea → warm air over sea rises → cool air from land flows out |
+| **Electric kettle** | Heating element at bottom → warm water rises → convection currents heat water evenly |
+| **Air conditioner** | Installed near ceiling → cool air sinks → warm air rises to be cooled → room cools evenly |
+| **Hot water radiator** | Heats air nearby → warm air rises → cool air drawn in → convection circulates warm air |
+
+::: {.callout-note}
+**Key Insight:** Convection is the dominant method of thermal energy transfer in fluids because it transfers energy much faster than conduction alone.
+:::
+
+---
+
+## Radiation
+
+### What Is Thermal Radiation?
+
+**Thermal radiation** (also called **infrared radiation**) is the transfer of thermal energy in the form of **electromagnetic waves**.
+
+- All objects **emit** and **absorb** infrared radiation
+
+- Thermal radiation **does not require a medium** → it can travel through a vacuum
+
+- The Earth receives thermal energy from the Sun **only by radiation** (space is a vacuum)
+
+### Detecting Infrared Radiation
+
+- Infrared radiation is **invisible** to the human eye
+
+- **Infrared cameras** can detect and visualise infrared radiation
+
+- Warmer objects appear brighter (or in warmer colours) on infrared images
+
+### Factors Affecting Emission and Absorption of Infrared Radiation
+
+#### 1. Surface Colour and Texture
+
+| Surface Type | Emission | Absorption | Reflection |
+|:-------------|:---------|:-----------|:-----------|
+| **Dull, black** | Good emitter | Good absorber | Poor reflector |
+| **Shiny, silver** | Poor emitter | Poor absorber | Good reflector |
+
+**Experiment: Comparing Emission**
+
+- Fill two identical tins (one dull black, one shiny silver) with hot water
+
+- Record temperature decrease over time
+
+- **Result:** Dull black tin cools faster → better emitter of infrared radiation
+
+**Experiment: Comparing Absorption**
+
+- Place two temperature sensors (one wrapped in dull black foil, one in shiny silver foil) at equal distance from a heat source
+
+- Record temperature increase over time
+
+- **Result:** Dull black foil heats faster → better absorber of infrared radiation
+
+#### 2. Surface Temperature
+
+- The **higher** the temperature of an object (relative to surroundings), the **higher** the rate of emission of infrared radiation
+
+- As an object cools, its rate of emission decreases
+
+#### 3. Surface Area
+
+- For objects of the same mass and material, the object with **larger surface area** emits or absorbs infrared radiation at a **higher rate**
+
+### Thermal Equilibrium and Radiation
+
+All objects continuously emit and absorb infrared radiation. The **net effect** determines whether the object warms, cools, or stays at constant temperature:
+
+| Situation | Absorption vs. Emission | Result |
+|:----------|:------------------------|:-------|
+| Object **cooler** than surroundings | Absorption > Emission | Object **warms up** |
+| Object **hotter** than surroundings | Emission > Absorption | Object **cools down** |
+| Object **same temperature** as surroundings | Absorption = Emission | Object stays at **constant temperature** (thermal equilibrium) |
+
+### The Greenhouse Effect and Earth's Temperature (Extended)
+
+**How the greenhouse effect works:**
+
+1. Solar radiation (visible light, UV) passes through the atmosphere and warms the Earth's surface
+
+2. The Earth emits infrared radiation back towards space
+
+3. **Greenhouse gases** (CO₂, methane, water vapour) in the atmosphere **absorb and re-emit** some of this infrared radiation
+
+4. Some of this re-emitted radiation returns to Earth → **additional warming**
+
+**Natural greenhouse effect:**
+
+- Keeps Earth's average temperature at about 15°C (instead of −18°C without it)
+
+- Essential for life as we know it
+
+**Enhanced greenhouse effect (global warming):**
+
+- Human activities increase greenhouse gas concentrations
+
+- More infrared radiation is trapped → Earth's temperature rises
+
+::: {.callout-warning}
+**Important:** The greenhouse effect is a natural and necessary process. The problem is the **enhancement** of this effect due to human activities.
+:::
+
+---
+
+## Applications and Consequences of Thermal Energy Transfer
+
+### Applications of Conduction
+
+| Application | Explanation |
+|:------------|:------------|
+| **Cooking utensils** | Metal pans conduct heat quickly from stove to food; handles made of wood/plastic (insulators) protect hands |
+| **Soldering irons** | Copper tip conducts heat rapidly to melt solder for electronic repairs |
+| **Heat sinks** | Metal fins with large surface area conduct heat away from electronic components |
+
+### Applications of Convection
+
+| Application | Explanation |
+|:------------|:------------|
+| **Room heating/cooling** | Radiators heat air → warm air rises → convection circulates warmth; air conditioners cool air → cool air sinks → convection circulates cool air |
+| **Refrigerators** | Freezing compartment at top → cool air sinks → convection currents cool the entire fridge |
+| **Weather systems** | Convection currents in atmosphere drive wind patterns, cloud formation, and weather |
+
+### Applications of Radiation
+
+| Application | Explanation |
+|:------------|:------------|
+| **Solar panels** | Blackened surfaces absorb infrared radiation from Sun to heat water |
+| **Space blankets** | Shiny silver surfaces reflect infrared radiation back to body → reduce heat loss |
+| **Infrared thermometers** | Detect infrared radiation emitted by objects to measure temperature without contact |
+
+### Complex Applications Involving Multiple Methods
+
+#### Example 1: Cooking Over a Campfire
+
+- **Conduction:** Heat transfers from fire to metal pot; from pot to food
+
+- **Convection:** Hot air and smoke rise above fire; convection currents heat water inside pot
+
+- **Radiation:** Infrared radiation from flames warms hands and surroundings
+
+#### Example 2: Car Radiator Cooling System
+
+- **Conduction:** Hot coolant transfers heat through metal tubes to fins
+
+- **Convection:** Air blown by fan carries heat away from fins; coolant circulates through engine
+
+- **Radiation:** Black-painted fins emit infrared radiation to surroundings
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Thermal energy** flows from higher to lower temperature until thermal equilibrium is reached
+
+2. **Conduction**: Transfer through solids via particle vibrations and (in metals) free electron movement
+
+3. **Convection**: Transfer in fluids via density-driven currents; warm fluid rises, cool fluid sinks
+
+4. **Radiation**: Transfer via infrared electromagnetic waves; requires no medium; all objects emit and absorb
+
+5. **Surface properties**: Dull black surfaces are good emitters/absorbers; shiny silver surfaces are good reflectors
+
+6. **Rate of radiation emission** depends on surface temperature and surface area
+
+7. **Thermal equilibrium**: Object temperature constant when absorption rate = emission rate
+
+### Extended Concepts
+
+8. **Conduction mechanisms**: Lattice vibrations (all solids) + free electron diffusion (metals only)
+
+9. **Poor conduction in fluids**: Due to large particle separation and infrequent collisions
+
+10. **Greenhouse effect**: Natural process that warms Earth; enhanced by human activities → global warming
+
+11. **Complex applications**: Real-world systems often involve multiple transfer methods simultaneously
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Heat rises"
+
+**Incorrect**: "Heat always moves upwards"
+
+**Correct**:
+- **Thermal energy** flows from hot to cold, regardless of direction
+- **Warm fluids** rise because they are less dense, but this is convection, not heat itself rising
+- In conduction and radiation, energy can flow in any direction from hot to cold
+
+---
+
+### ⚠️ Misconception 2: "Metals feel colder because they are at a lower temperature"
+
+**Incorrect**: "A metal spoon is colder than a plastic spoon at room temperature"
+
+**Correct**:
+- Both objects are at the **same temperature** (room temperature)
+- Metal **conducts thermal energy away from your hand faster** than plastic
+- Your hand loses heat more quickly to metal → feels colder
+- This is about **rate of energy transfer**, not actual temperature
+
+---
+
+### ⚠️ Misconception 3: "Convection can occur in solids"
+
+**Incorrect**: "Solids can transfer heat by convection if heated enough"
+
+**Correct**:
+- Convection requires **bulk movement of fluid**
+- Particles in solids are fixed in position and **cannot flow**
+- Solids transfer thermal energy **only by conduction** (and radiation from their surface)
+
+---
+
+### ⚠️ Misconception 4: "Black objects are always hotter"
+
+**Incorrect**: "A black car is always hotter than a white car in the Sun"
+
+**Correct**:
+- Black surfaces **absorb** infrared radiation better → heat up faster in sunlight
+- But black surfaces also **emit** infrared radiation better → cool down faster in shade
+- The final temperature depends on the **balance** of absorption and emission, and the environment
+
+---
+
+### ⚠️ Misconception 5: "Radiation only occurs at high temperatures"
+
+**Incorrect**: "Only hot objects emit infrared radiation"
+
+**Correct**:
+- **All objects** with temperature above absolute zero emit infrared radiation
+- Cooler objects emit **less** radiation and at **longer wavelengths**
+- Your body, a cup of tea, and even ice cubes emit infrared radiation
+
+---
+
+### ⚠️ Misconception 6: "The greenhouse effect is bad"
+
+**Incorrect**: "The greenhouse effect causes global warming and should be eliminated"
+
+**Correct**:
+- The **natural greenhouse effect** is essential for life on Earth
+- Without it, Earth's average temperature would be about −18°C
+- The problem is the **enhanced greenhouse effect** due to increased greenhouse gases from human activities
+
+---
+
+### ⚠️ Misconception 7: "Still air is a good conductor"
+
+**Incorrect**: "Air conducts heat well, so it's not useful for insulation"
+
+**Correct**:
+- **Still air** is actually an **excellent thermal insulator** (very poor conductor)
+- Insulating materials (fibreglass, double-glazed windows) work by **trapping air** in small pockets
+- **Moving air** (wind) transfers heat by convection, but still air minimises all three transfer methods
+
+---
+
+## Worked Examples
+
+### Example 1: Conduction Calculation (Extended)
+
+**Question:**
+A copper rod of length 0.5 m and cross-sectional area 2.0 × 10⁻⁴ m² has one end at 100°C and the other at 20°C. The thermal conductivity of copper is 400 W/(m·K). Calculate the rate of thermal energy transfer through the rod.
+
+**Solution:**
+
+**Step 1:** Identify the formula for rate of conduction:
+$$\frac{Q}{t} = kA\frac{\Delta T}{L}$$
+
+**Step 2:** Substitute values:
+- $k = 400 \text{ W/(m·K)}$
+- $A = 2.0 \times 10^{-4} \text{ m}^2$
+- $\Delta T = 100 - 20 = 80 \text{ K}$
+- $L = 0.5 \text{ m}$
+
+$$\frac{Q}{t} = 400 \times (2.0 \times 10^{-4}) \times \frac{80}{0.5}$$
+$$\frac{Q}{t} = 400 \times 2.0 \times 10^{-4} \times 160 = \boxed{12.8 \text{ W}}$$
+
+**Interpretation:** Thermal energy flows through the rod at 12.8 joules per second.
+
+---
+
+### Example 2: Convection Current Explanation
+
+**Question:**
+Explain why an electric kettle has its heating element at the bottom, not the top.
+
+**Solution:**
+
+**Step 1:** Identify the transfer method: convection in water
+
+**Step 2:** Explain the process:
+- Heating element at bottom heats water nearby
+- Heated water expands → density decreases → rises
+- Cooler, denser water sinks to replace it
+- Convection current circulates water → entire kettle heats evenly
+
+**Step 3:** Contrast with top heating:
+- If element were at top, heated water would stay at top (already least dense)
+- No convection current would form
+- Water at bottom would heat only by slow conduction → inefficient heating
+
+**Conclusion:** Bottom placement enables efficient heating via convection currents.
+
+---
+
+### Example 3: Radiation and Surface Properties
+
+**Question:**
+Two identical metal cans, one painted dull black and one shiny silver, are filled with hot water at 80°C and left in a room at 20°C. After 10 minutes, the black can is at 55°C and the silver can is at 65°C. Explain the difference.
+
+**Solution:**
+
+**Step 1:** Identify the dominant transfer method: radiation (and some convection) from can surface to room
+
+**Step 2:** Apply surface property knowledge:
+- Dull black surface: **good emitter** of infrared radiation → loses thermal energy faster
+- Shiny silver surface: **poor emitter** (good reflector) → loses thermal energy slower
+
+**Step 3:** Relate to observations:
+- Black can cooled more (80°C → 55°C = 25°C drop)
+- Silver can cooled less (80°C → 65°C = 15°C drop)
+- Difference due to different emission rates
+
+**Conclusion:** Surface colour and texture significantly affect the rate of thermal energy loss by radiation.
+
+---
+
+### Example 4: Thermal Equilibrium (Extended)
+
+**Question:**
+A cup of coffee at 70°C is left in a room at 20°C. Describe what happens to the rate of cooling over time.
+
+**Solution:**
+
+**Step 1:** Initial state:
+- Coffee much hotter than room → large temperature difference
+- High rate of emission of infrared radiation
+- High rate of convection from coffee surface to air
+- Coffee cools **rapidly** at first
+
+**Step 2:** As coffee cools:
+- Temperature difference decreases
+- Rate of emission decreases (emission ∝ temperature difference)
+- Rate of convection decreases
+- Coffee cools **more slowly** as it approaches room temperature
+
+**Step 3:** Final state:
+- Coffee reaches 20°C (same as room)
+- Absorption rate = emission rate
+- No net thermal energy transfer
+- Coffee stays at **constant temperature** (thermal equilibrium)
+
+**Conclusion:** Rate of cooling decreases over time as temperature difference decreases.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** State the three methods of thermal energy transfer and give one example of each.
+
+**2.** Explain why a metal spoon in a hot cup of tea feels hot at the handle end, even though only the bowl end is in the tea.
+
+**3.** Describe how convection currents form in a liquid when it is heated from below.
+
+**4.** Why can thermal radiation travel through a vacuum, but conduction and convection cannot?
+
+**5.** A black car and a white car are parked in the Sun on a hot day. Which car will have a hotter interior after one hour? Explain.
+
+**6.** Explain why double-glazed windows reduce thermal energy loss from a house.
+
+**7.** Describe one everyday application of convection in heating or cooling a room.
+
+**8.** Why does a shiny space blanket help keep a marathon runner warm after a race?
+
+### Extended Level
+
+**9.** Explain, in terms of particle motion, why metals are better thermal conductors than non-metals.
+
+**10.** A student claims that convection can transfer thermal energy in solids if the solid is heated enough. Evaluate this statement.
+
+**11.** The Earth receives energy from the Sun mainly by radiation. Explain why conduction and convection cannot transfer energy from the Sun to the Earth.
+
+**12.** A metal rod has one end in boiling water and the other end in ice. Describe how thermal energy is transferred along the rod in terms of particle motion.
+
+**13.** Explain how the greenhouse effect helps to maintain the Earth's temperature, and why an increase in greenhouse gases leads to global warming.
+
+**14.** A car radiator uses conduction, convection, and radiation to cool the engine. Describe the role of each method in the cooling process.
+
+**15.** Two objects of the same material and mass but different surface areas are heated to the same temperature and left to cool in the same room. Which object will cool faster? Explain.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 13.1: Comparing Thermal Conductors
+
+**Objective:**
+To compare the thermal conductivity of different materials and identify good conductors and insulators.
+
+**Apparatus:**
+- Four rods of equal dimensions: copper, aluminium, steel, glass
+- Bunsen burner, tripod stand, heatproof mat
+- Stopwatch
+- Wax, drawing pins or small paper clips
+- Safety goggles, heat-resistant gloves
+
+**Variables:**
+- **Independent:** Material of rod
+- **Dependent:** Time taken for drawing pin to fall
+- **Controlled:** Rod dimensions, amount of wax, distance from flame, initial temperature
+
+**Procedure:**
+1. Attach a drawing pin to one end of each rod using a small, equal amount of melted wax
+
+2. Set up the rods on a tripod stand so that the ends without pins are aligned
+
+3. Place a Bunsen burner under the aligned ends (pins at opposite end)
+
+4. Light the burner and start the stopwatch simultaneously
+
+5. Record the time taken for each drawing pin to fall
+
+6. Repeat the experiment twice for reliability
+
+7. Calculate average time for each material
+
+**Data Table:**
+
+| Material | Time 1 (s) | Time 2 (s) | Time 3 (s) | Average Time (s) | Rank (1 = fastest) |
+|:---------|:-----------|:-----------|:-----------|:-----------------|:-------------------|
+| Copper | | | | | |
+| Aluminium | | | | | |
+| Steel | | | | | |
+| Glass | | | | | |
+
+**Analysis:**
+1. Rank materials from best to worst conductor based on average time
+2. Explain the ranking in terms of material properties (metal vs. non-metal)
+3. Suggest why copper and aluminium are commonly used in cooking utensils
+
+**Precautions:**
+- ✓ Wear safety goggles and heat-resistant gloves
+- ✓ Ensure rods are securely clamped to prevent falling
+- ✓ Keep flammable materials away from Bunsen burner
+- ✓ Allow rods to cool completely before handling
+
+**Conclusion Template:**
+"The experiment showed that ______ was the best thermal conductor, with the drawing pin falling in ______ s on average. ______ was the poorest conductor. Metals conducted thermal energy better than non-metals because ______."
+
+**Extension (Supplement):**
+- Investigate the effect of rod length or cross-sectional area on conduction rate
+- Compare conduction in liquids using a similar method with test tubes of different liquids
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which method of thermal energy transfer can occur in a vacuum?
+
+A. Conduction only  
+
+B. Convection only  
+
+C. Radiation only  
+
+D. Conduction and convection  
+
+**2.** A metal rod is heated at one end. The other end becomes hot after a while. Which process is mainly responsible?
+
+A. Conduction  
+
+B. Convection  
+
+C. Radiation  
+
+D. Evaporation  
+
+**3.** Which surface is the best emitter of infrared radiation?
+
+A. Shiny white  
+
+B. Shiny black  
+
+C. Dull white  
+
+D. Dull black  
+
+**4.** Why does warm air rise in a room?
+
+A. Warm air has less mass than cool air  
+
+B. Warm air is less dense than cool air  
+
+C. Warm air is attracted upwards by the ceiling  
+
+D. Warm air expands and pushes cool air down  
+
+**5.** Which statement about the greenhouse effect is correct?
+
+A. It is caused only by human activities  
+
+B. It prevents all infrared radiation from escaping Earth  
+
+C. It is a natural process that helps keep Earth warm  
+
+D. It occurs only in greenhouses used for growing plants  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define thermal conduction. [1]
+
+(b) Describe an experiment to show that copper is a better thermal conductor than glass. Include:
+
+- Apparatus needed
+
+- Method
+
+- Expected observation [4]
+
+(c) Explain, in terms of particles, why metals are better thermal conductors than non-metals. [3]
+
+**7.** (a) Explain how convection currents form in air above a heater. [3]
+
+(b) A room is heated by a radiator. Explain why the radiator is usually placed near the floor rather than near the ceiling. [2]
+
+(c) Describe one way to reduce unwanted convection currents in a house to save energy. [2]
+
+**8.** (a) State two factors that affect the rate at which an object emits infrared radiation. [2]
+
+(b) Two identical metal cans, one dull black and one shiny silver, are filled with hot water. Explain why the black can cools faster. [3]
+
+(c) A solar water heater has a blackened surface. Explain why this helps it absorb thermal energy from the Sun. [2]
+
+**9.** (Extended) (a) Explain how the greenhouse effect helps to maintain the Earth's average temperature. [3]
+
+(b) Describe how human activities have enhanced the greenhouse effect. [2]
+
+(c) Suggest two ways to reduce the emission of greenhouse gases. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Thermal energy** flows from higher to lower temperature until thermal equilibrium  
+✓ **Conduction**: Transfer through solids via particle vibrations + free electrons (metals)  
+✓ **Convection**: Transfer in fluids via density-driven currents; warm rises, cool sinks  
+✓ **Radiation**: Transfer via infrared waves; no medium needed; all objects emit/absorb  
+✓ **Surface properties**: Dull black = good emitter/absorber; shiny silver = good reflector  
+✓ **Emission rate** depends on surface temperature and surface area  
+✓ **Thermal equilibrium**: Absorption rate = emission rate → constant temperature  
+✓ **Greenhouse effect**: Natural process that warms Earth; enhanced by human activities  
+✓ **Applications**: Cooking (conduction), room heating (convection), solar panels (radiation)  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Rate of conduction (Extended) | $\frac{Q}{t} = kA\frac{\Delta T}{L}$ | $k$=thermal conductivity, $A$=area, $\Delta T$=temp. difference, $L$=length |
+| Thermal equilibrium | Absorption rate = Emission rate | Object temperature constant |
+| Density change (convection) | $\rho \propto \frac{1}{V}$ (at constant mass) | Warm fluid expands → density decreases → rises |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 10 (Transfer of Thermal Energy)
+
+- Practical Work in Physics: Thermal Energy Transfer Experiments
+
+### Online Resources
+
+- PhET Interactive Simulations: Energy Forms and Changes, Greenhouse Effect
+
+- BBC Bitesize: Thermal Conduction, Convection, Radiation
+
+- NASA Climate Kids: Understanding the Greenhouse Effect
+
+### Video Resources
+
+- Demonstration: Conduction comparison with different materials
+
+- Animation: Convection currents in liquids and gases
+
+- Real-world application: How insulation works in buildings and clothing
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Conduction** | Transfer of thermal energy through a substance from hot to cold without bulk movement of the substance |
+| **Convection** | Transfer of thermal energy in a fluid by means of convection currents due to density differences |
+| **Convection current** | Circular movement of fluid caused by heating from below: warm fluid rises, cool fluid sinks |
+| **Emission** | Process by which an object gives out infrared radiation |
+| **Free electron** | Electron in a metal that is not bound to a specific atom and can move freely through the material |
+| **Greenhouse effect** | Natural process where greenhouse gases in the atmosphere absorb and re-emit infrared radiation, warming the Earth |
+| **Infrared radiation** | Electromagnetic radiation emitted by all objects with temperature above absolute zero; carries thermal energy |
+| **Lattice vibration** | Vibration of atoms or molecules about fixed positions in a solid; mechanism of conduction in non-metals |
+| **Radiation** | Transfer of thermal energy by electromagnetic waves (infrared); requires no medium |
+| **Thermal conductor** | Material that transfers thermal energy easily (e.g., metals) |
+| **Thermal equilibrium** | State where two objects at the same temperature have no net flow of thermal energy between them |
+| **Thermal insulator** | Material that transfers thermal energy poorly (e.g., wood, plastic, air) |
+| **Thermal radiation** | Another term for infrared radiation; transfer of thermal energy by electromagnetic waves |
+
+---
+
+*End of Chapter 13*

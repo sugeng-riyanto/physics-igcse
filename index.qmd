@@ -1,0 +1,62 @@
+---
+title: "Cambridge IGCSE Physics"
+subtitle: "0625 - For examinations in 2026, 2027 and 2028"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+  pdf:
+    toc: true
+    number-sections: true
+---
+## Welcome to Cambridge IGCSE Physics
+
+This textbook is designed to support students studying Cambridge IGCSE Physics (0625) for examinations in 2026, 2027, and 2028.
+
+### About This Book
+
+This comprehensive resource covers all the topics in the Cambridge IGCSE Physics syllabus, including:
+
+- **Core Content**: Essential concepts all students must learn
+- **Supplement Content**: Extended material for students aiming for grades A* to C
+
+### Syllabus Overview
+
+The syllabus is divided into six main topics:
+
+1. **Motion, Forces and Energy**
+2. **Thermal Physics**
+3. **Waves**
+4. **Electricity and Magnetism**
+5. **Nuclear Physics**
+6. **Space Physics**
+
+### Assessment Structure
+
+**Core Assessment** (Grades C-G):
+- Paper 1: Multiple Choice (45 minutes, 40 marks, 30%)
+- Paper 3: Theory (1 hour 15 minutes, 80 marks, 50%)
+- Paper 5 or 6: Practical (20%)
+
+**Extended Assessment** (Grades A*-G):
+- Paper 2: Multiple Choice (45 minutes, 40 marks, 30%)
+- Paper 4: Theory (1 hour 15 minutes, 80 marks, 50%)
+- Paper 5 or 6: Practical (20%)
+
+### How to Use This Book
+
+- Each chapter includes learning objectives aligned with the syllabus
+- Key concepts are highlighted for easy reference
+- Practice questions help reinforce understanding
+- Practical work sections develop experimental skills
+
+### Navigation
+
+Use the table of contents to navigate to specific chapters, or browse through the topics sequentially.
+
+---
+
+*This textbook is designed to complement classroom teaching and support independent study.*

@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "quarto.quarto",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker",
+    "github.copilot",
+    "ms-vscode.live-server"
+  ],
+  "unwantedRecommendations": [
+    "ms-python.black-formatter"
+  ]
+}

@@ -1,0 +1,874 @@
+---
+title: "Simple Phenomena of Magnetism"
+chapter: 18
+syllabus-code: "4.1 Simple phenomena of magnetism"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Describe the forces between magnetic poles and between magnets and magnetic materials, including the use of the terms north pole (N pole), south pole (S pole), attraction and repulsion, magnetised and unmagnetised
+
+- Describe induced magnetism
+
+- State the differences between the properties of temporary magnets (made of soft iron) and the properties of permanent magnets (made of steel)
+
+- State the difference between magnetic and non-magnetic materials
+
+- Describe a magnetic field as a region in which a magnetic pole experiences a force
+
+- Draw the pattern and direction of magnetic field lines around a bar magnet
+
+- State that the direction of a magnetic field at a point is the direction of the force on the N pole of a magnet at that point
+
+- Describe the plotting of magnetic field lines with a compass or iron filings and the use of a compass to determine the direction of the magnetic field
+
+- Describe the uses of permanent magnets and electromagnets
+
+**Supplement (Extended):**
+
+- Explain that magnetic forces are due to interactions between magnetic fields
+
+- Know that the relative strength of a magnetic field is represented by the spacing of the magnetic field lines
+
+---
+
+## 18.1 Magnets and Magnetic Materials
+
+### What Is a Magnet?
+
+A **magnet** is an object that exerts a **magnetic force**. This force causes magnets to display certain characteristic properties.
+
+**Key properties of magnets:**
+
+- Magnets attract magnetic materials
+
+- The poles of magnets have the strongest magnetic force
+
+- A freely suspended magnet points to the north–south direction
+
+- Like poles repel; unlike poles attract
+
+### Magnetic and Non-Magnetic Materials
+
+| Magnetic Materials | Non-Magnetic Materials |
+|:-------------------|:-----------------------|
+| Steel | Copper |
+| Iron | Wood |
+| Cobalt | Plastic |
+| Nickel | Brass |
+| Magnetite (lodestone) | Glass |
+
+::: {.callout-note}
+**Key Concept:** Magnetic materials are materials that can be attracted to a magnet. Non-magnetic materials cannot be attracted to a magnet.
+:::
+
+### Poles of a Magnet
+
+The ends of a magnet are called **poles**. There are two types:
+
+- **North pole (N pole)**: The end that points towards the Earth's geographic North Pole when the magnet is freely suspended
+
+- **South pole (S pole)**: The end that points towards the Earth's geographic South Pole when the magnet is freely suspended
+
+**Law of Magnetic Poles:**
+
+- Like poles **repel** each other (N–N or S–S)
+
+- Unlike poles **attract** each other (N–S)
+
+::: {.callout-warning}
+**Important:** The magnetic poles of a magnet cannot be isolated. If you break a magnet in half, you get two smaller magnets, each with its own N and S pole.
+:::
+
+---
+
+## 18.2 Induced Magnetism
+
+### What Is Induced Magnetism?
+
+**Induced magnetism** is the process by which an unmagnetised magnetic material becomes magnetised when placed near a permanent magnet.
+
+**How induction works:**
+
+1. When an unmagnetised iron bar is brought near the N pole of a permanent magnet
+
+2. The magnet's magnetic field causes the magnetic domains in the iron to align
+
+3. The end of the iron bar nearest to the magnet becomes an **induced S pole**
+
+4. The far end becomes an **induced N pole**
+
+5. The iron bar is now an **induced magnet** and can attract other magnetic materials
+
+::: {.callout-note}
+**Key Insight:** Induced magnetism does not require physical contact. The magnetic field alone can induce magnetism in a nearby magnetic material.
+:::
+
+### Temporary vs Permanent Magnets
+
+| Property | Temporary Magnets (Soft Iron) | Permanent Magnets (Steel) |
+|:---------|:------------------------------|:--------------------------|
+| **Ease of magnetisation** | Easily magnetised | Difficult to magnetise |
+| **Strength as induced magnet** | Stronger induced magnet | Weaker induced magnet |
+| **Retention of magnetism** | Loses magnetism easily | Retains magnetism well |
+| **Typical uses** | Electromagnets, relay cores | Compass needles, fridge magnets, loudspeakers |
+
+::: {.callout-warning}
+**Important:** The choice between soft iron and steel depends on the application. Use soft iron when you need a magnet that can be switched on and off; use steel when you need a magnet that stays magnetised.
+:::
+
+---
+
+## 18.3 Magnetic Fields
+
+### What Is a Magnetic Field?
+
+A **magnetic field** is a region of space in which a magnetic pole experiences a force.
+
+**Key characteristics:**
+
+- Magnetic fields are invisible but can be visualised using field lines
+
+- The direction of the magnetic field at any point is the direction of the force on the **N pole** of a magnet placed at that point
+
+- Magnetic field lines always emerge from the **N pole** and enter the **S pole**
+
+### Drawing Magnetic Field Lines
+
+**Rules for drawing magnetic field lines:**
+
+1. Field lines start at the N pole and end at the S pole
+
+2. Field lines never cross each other
+
+3. The density of field lines indicates field strength: closer lines = stronger field
+
+4. Field lines are continuous curves
+
+**Pattern around a bar magnet:**
+
+```
+        N                           S
+        |                           |
+   ---->|                           |<----
+  /     |                           |     \
+ /      |                           |      \
+|       |                           |       |
+ \      |                           |      /
+  \     |                           |     /
+   ---->|                           |<----
+        |                           |
+```
+
+::: {.callout-note}
+**Key Concept:** The magnetic field is strongest at the poles, where the field lines are most concentrated.
+:::
+
+### Plotting Magnetic Field Lines Experimentally
+
+**Method 1: Using a plotting compass**
+
+**Apparatus:**
+
+- Bar magnet
+
+- Plotting compass (small magnetic compass)
+
+- Plain paper
+
+- Pencil
+
+**Procedure:**
+
+1. Place the bar magnet at the centre of a sheet of paper
+
+2. Mark the outline of the magnet and label its N and S poles
+
+3. Place the plotting compass near the N pole
+
+4. Mark the positions of both ends of the compass needle with dots
+
+5. Move the compass so that its S end is at the previous N mark
+
+6. Mark the new position of the N end
+
+7. Repeat until you reach the S pole of the magnet
+
+8. Join the dots to form a smooth curve — this is one magnetic field line
+
+9. Repeat from different starting points to plot several field lines
+
+**Method 2: Using iron filings**
+
+**Apparatus:**
+
+- Bar magnet
+
+- Iron filings
+
+- Sheet of paper or glass plate
+
+**Procedure:**
+
+1. Place the magnet under a sheet of paper
+
+2. Sprinkle iron filings evenly over the paper
+
+3. Tap the paper gently
+
+4. The iron filings align along the magnetic field lines, revealing the field pattern
+
+::: {.callout-warning}
+**Safety note:** Iron filings are small and can be hazardous if inhaled. Handle with care and clean up thoroughly after the experiment.
+:::
+
+---
+
+## 18.4 Magnetic Forces and Field Interactions
+
+### Why Do Magnets Exert Forces?
+
+**Extended concept:** Magnetic forces arise from interactions between magnetic fields.
+
+**Explanation:**
+
+1. Every magnet produces a magnetic field around it
+
+2. When two magnets are brought close together, their magnetic fields interact
+
+3. The interaction produces a force:
+
+   - If the fields reinforce each other (unlike poles), the force is attractive
+
+   - If the fields oppose each other (like poles), the force is repulsive
+
+::: {.callout-note}
+**Key Insight:** Magnetic forces are non-contact forces — they act at a distance through the magnetic field, without physical contact between the magnets.
+:::
+
+### Representing Field Strength
+
+The **relative strength** of a magnetic field is represented by the **spacing of the magnetic field lines**:
+
+- **Closer field lines** → stronger magnetic field
+
+- **Wider spaced field lines** → weaker magnetic field
+
+**Example:** Near the poles of a bar magnet, field lines are closely packed → strong field. Far from the magnet, field lines are widely spaced → weak field.
+
+---
+
+## 18.5 Applications of Magnets
+
+### Uses of Permanent Magnets
+
+| Application | Explanation |
+|:------------|:------------|
+| **Compass needles** | A freely suspended magnet aligns with Earth's magnetic field, indicating direction |
+| **Refrigerator door seals** | Magnetic strips hold the door closed against the steel frame |
+| **Loudspeakers** | Permanent magnets interact with electromagnets to produce sound vibrations |
+| **Electric motors** | Permanent magnets provide a constant magnetic field for motor operation |
+| **Magnetic door catches** | Magnets hold doors or cabinets closed without mechanical latches |
+
+### Uses of Electromagnets
+
+**What is an electromagnet?**
+
+An electromagnet is a temporary magnet formed when electric current flows through a coil of wire. Placing a soft iron core inside the coil greatly increases the magnetic field strength.
+
+**Advantages of electromagnets:**
+
+- Can be switched on and off by controlling the current
+
+- Magnetic field strength can be varied by changing the current
+
+- Polarity can be reversed by reversing the current direction
+
+| Application | Explanation |
+|:------------|:------------|
+| **Scrapyard cranes** | Electromagnets lift and release magnetic scrap metal on demand |
+| **Relays and circuit breakers** | Electromagnets control switching of electrical circuits |
+| **MRI machines** | Powerful electromagnets create detailed images of the human body |
+| **Maglev trains** | Electromagnets levitate and propel trains with minimal friction |
+| **Electric bells** | Electromagnets repeatedly attract and release a hammer to ring a bell |
+
+::: {.callout-note}
+**Key Concept:** Electromagnets use soft iron cores because soft iron loses its magnetism quickly when the current is switched off — essential for devices that need to be switched on and off.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Magnets** exert magnetic forces; have N and S poles; like poles repel, unlike poles attract
+
+2. **Magnetic materials** (iron, steel, nickel, cobalt) are attracted to magnets; non-magnetic materials are not
+
+3. **Induced magnetism**: Unmagnetised magnetic materials become temporary magnets when placed in a magnetic field
+
+4. **Temporary magnets** (soft iron): easily magnetised, lose magnetism easily; **Permanent magnets** (steel): hard to magnetise, retain magnetism
+
+5. **Magnetic field**: Region where a magnetic pole experiences a force; direction = direction of force on N pole
+
+6. **Field lines**: Emerge from N pole, enter S pole; never cross; density indicates field strength
+
+7. **Plotting field lines**: Use plotting compass or iron filings to visualise magnetic field patterns
+
+8. **Applications**: Permanent magnets (compasses, door seals); electromagnets (cranes, relays, MRI)
+
+### Extended Concepts
+
+9. **Magnetic forces** result from interactions between magnetic fields — a non-contact force acting at a distance
+
+10. **Field line spacing** represents relative field strength: closer lines = stronger field; wider spacing = weaker field
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Magnetic poles can be isolated"
+
+**Incorrect**: "If I cut a magnet in half, I get an isolated N pole and an isolated S pole"
+
+**Correct**:
+- Magnetic poles always occur in pairs (N and S)
+
+- Cutting a magnet produces two smaller magnets, each with its own N and S pole
+
+- Isolated magnetic monopoles have never been observed experimentally
+
+---
+
+### ⚠️ Misconception 2: "All metals are magnetic"
+
+**Incorrect**: "Copper, aluminium, and gold are attracted to magnets"
+
+**Correct**:
+- Only certain metals (iron, steel, nickel, cobalt, and some alloys) are magnetic
+
+- Most metals (copper, aluminium, gold, silver, brass) are non-magnetic
+
+- Magnetism depends on the atomic structure, not just whether a material is metallic
+
+---
+
+### ⚠️ Misconception 3: "Induced magnetism requires physical contact"
+
+**Incorrect**: "A magnet must touch an iron nail to magnetise it"
+
+**Correct**:
+- Induced magnetism occurs through the **magnetic field**, not by contact
+
+- An iron nail becomes magnetised when placed near (but not touching) a permanent magnet
+
+- The strength of induced magnetism decreases with distance from the magnet
+
+---
+
+### ⚠️ Misconception 4: "Magnetic field lines are physical entities"
+
+**Incorrect**: "Magnetic field lines are real lines that exist in space"
+
+**Correct**:
+- Magnetic field lines are a **conventional representation** to visualise the direction and strength of a magnetic field
+
+- They are not physical objects but a useful model for understanding magnetic phenomena
+
+- The actual magnetic field is continuous throughout the region around a magnet
+
+---
+
+### ⚠️ Misconception 5: "The Earth's geographic North Pole is a magnetic N pole"
+
+**Incorrect**: "The North Pole of a compass points to the Earth's magnetic N pole"
+
+**Correct**:
+- The Earth's geographic North Pole is actually near a **magnetic S pole**
+
+- The N pole of a compass is attracted to the Earth's magnetic S pole (near geographic North)
+
+- This is why compass needles point north — opposite poles attract
+
+---
+
+### ⚠️ Misconception 6: "Stronger magnets have more field lines"
+
+**Incorrect**: "A stronger magnet has more magnetic field lines drawn around it"
+
+**Correct**:
+- The **number** of field lines drawn is arbitrary and chosen for clarity
+
+- What matters is the **spacing** of field lines: closer spacing indicates stronger field
+
+- Field line density (lines per unit area) represents field strength, not the total number of lines
+
+---
+
+### ⚠️ Misconception 7: "Electromagnets are always stronger than permanent magnets"
+
+**Incorrect**: "Electromagnets are always more powerful than permanent magnets"
+
+**Correct**:
+- Electromagnets can be made very strong by increasing current or number of coil turns
+
+- However, small permanent magnets (e.g., neodymium magnets) can be extremely strong
+
+- The choice depends on the application: electromagnets for controllability; permanent magnets for constant field without power
+
+---
+
+## Worked Examples
+
+### Example 1: Identifying Magnetic Materials
+
+**Question:**
+A student has four rods labelled A, B, C and D. She brings the N pole of a bar magnet close to each rod and observes:
+- Rod A is attracted to the magnet
+
+- Rod B is repelled by the magnet
+
+- Rod C shows no effect
+
+- Rod D is attracted weakly
+
+Identify the likely material of each rod and explain your reasoning.
+
+**Solution:**
+
+**Rod A**: Magnetic material (e.g., soft iron) — attracted due to induced magnetism
+
+**Rod B**: Permanent magnet with N pole facing the bar magnet's N pole — like poles repel
+
+**Rod C**: Non-magnetic material (e.g., copper, wood) — no magnetic interaction
+
+**Rod D**: Weakly magnetic material or a magnet with S pole facing the bar magnet's N pole but at a greater distance
+
+**Key reasoning:**
+- Attraction can occur with either induced magnetism or unlike poles
+
+- Repulsion only occurs between like poles of two magnets
+
+- No effect indicates a non-magnetic material
+
+---
+
+### Example 2: Drawing Magnetic Field Lines
+
+**Question:**
+Sketch the magnetic field pattern around a bar magnet. Indicate:
+(a) the direction of the field lines
+
+(b) where the field is strongest
+
+(c) one point where the field is zero
+
+**Solution:**
+
+**(a) Direction of field lines:**
+- Field lines emerge from the N pole and curve around to enter the S pole
+
+- Arrows on field lines point from N to S outside the magnet
+
+**(b) Strongest field:**
+- At the poles, where field lines are most closely packed
+
+**(c) Point of zero field:**
+- At the midpoint between two identical magnets with like poles facing each other (neutral point)
+
+- Or, theoretically, at infinity where the field becomes negligible
+
+```
+        N                           S
+        |                           |
+   ---->|                           |<----
+  /      \                       /      \
+ /        \                     /        \
+|          \                   /          |
+ \          \                 /          /
+  \          \               /          /
+   ---->|     \             /     |<----
+        |      \           /      |
+        |       \         /       |
+        |        \       /        |
+        |         \     /         |
+        |          \   /          |
+        |           \ /           |
+        |            X            |  ← Neutral point (field ≈ 0)
+```
+
+---
+
+### Example 3: Induced Magnetism Calculation (Conceptual)
+
+**Question:**
+A soft iron nail is placed near the N pole of a bar magnet.
+(a) What pole is induced at the end of the nail nearest to the magnet?
+
+(b) Explain why the nail is attracted to the magnet.
+
+(c) What happens to the nail's magnetism when the bar magnet is removed?
+
+**Solution:**
+
+**(a) Induced pole:**
+- The end nearest the magnet becomes an **induced S pole** (opposite to the magnet's N pole)
+
+**(b) Reason for attraction:**
+- Unlike poles attract: the induced S pole of the nail is attracted to the N pole of the magnet
+
+- The magnetic field of the permanent magnet aligns domains in the iron, creating a net magnetic moment
+
+**(c) After magnet removal:**
+- Soft iron loses its induced magnetism quickly
+
+- The nail returns to an unmagnetised state because its domains randomise again
+
+---
+
+### Example 4: Field Strength and Line Spacing (Extended)
+
+**Question:**
+Two bar magnets are placed with their N poles facing each other, separated by a small gap.
+(a) Sketch the magnetic field pattern in the region between the poles.
+
+(b) Explain why a small iron filings placed at the midpoint between the poles experiences no net magnetic force.
+
+**Solution:**
+
+**(a) Field pattern between like poles:**
+
+```
+        N                           N
+        |                           |
+   <----|                           |---->
+  /      \                       /      \
+ /        \                     /        \
+|          \                   /          |
+ \          \                 /          /
+  \          \               /          /
+   <----|     \             /     |---->
+        |      \           /      |
+        |       \         /       |
+        |        \       /        |
+        |         \     /         |
+        |          \   /          |
+        |           \ /           |
+        |            X            |  ← Neutral point
+```
+
+- Field lines from each N pole repel each other
+
+- Field lines curve away from the gap region
+
+- At the midpoint, fields from both magnets are equal and opposite
+
+**(b) Zero net force at midpoint:**
+- The magnetic field from the left magnet points to the right at the midpoint
+
+- The magnetic field from the right magnet points to the left at the midpoint
+
+- These fields are equal in magnitude but opposite in direction → net field = 0
+
+- With zero magnetic field, an iron filing experiences no net magnetic force
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** State the law of magnetic poles.
+
+**2.** Name three magnetic materials and three non-magnetic materials.
+
+**3.** Describe what is meant by induced magnetism.
+
+**4.** State two differences between temporary magnets (soft iron) and permanent magnets (steel).
+
+**5.** Define a magnetic field.
+
+**6.** State the direction of a magnetic field at a point.
+
+**7.** Describe how to plot magnetic field lines using a plotting compass.
+
+**8.** Give two uses of permanent magnets and two uses of electromagnets.
+
+**9.** Explain why a compass needle points north.
+
+**10.** A bar magnet is cut into two equal pieces. Describe the magnetic properties of each piece.
+
+### Extended Level
+
+**11.** Explain, in terms of magnetic field interactions, why like poles repel and unlike poles attract.
+
+**12.** Two identical bar magnets are placed end-to-end with unlike poles touching. Sketch the magnetic field pattern around the combination.
+
+**13.** A soft iron rod and a steel rod of identical dimensions are each brought near a strong permanent magnet.
+- (a) Which rod becomes more strongly magnetised? Explain.
+
+- (b) Which rod retains magnetism after the permanent magnet is removed? Explain.
+
+**14.** A plotting compass is placed at various points around a bar magnet. Describe how the compass needle orientation changes as it is moved:
+- (a) from the N pole to the S pole along a field line
+
+- (b) in a circle centred on the magnet
+
+**15.** Explain why electromagnets are preferred over permanent magnets in scrapyard cranes.
+
+**16.** Two bar magnets are arranged with their N poles facing each other. A small iron filing is placed at the midpoint between them. Explain why the filing experiences no net magnetic force at this position.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 18.1: Plotting Magnetic Field Lines
+
+**Objective:**
+To plot the magnetic field pattern around a bar magnet using a plotting compass and to determine the direction of the magnetic field.
+
+**Apparatus:**
+- Bar magnet
+
+- Plotting compass (small magnetic compass)
+
+- Plain A4 paper
+
+- Pencil
+
+- Ruler
+
+- Adhesive tape
+
+**Variables:**
+- **Independent:** Position around the magnet
+
+- **Dependent:** Orientation of compass needle (direction of field)
+
+- **Controlled:** Same magnet, same compass, same paper, same experimental conditions
+
+**Procedure:**
+1. Tape the plain paper to a flat, non-magnetic surface (e.g., wooden table)
+
+2. Place the bar magnet at the centre of the paper and trace its outline; label the N and S poles
+
+3. Place the plotting compass near the N pole of the magnet
+
+4. Mark two dots on the paper: one at each end of the compass needle
+
+5. Move the compass so that its S-end dot coincides with the previous N-end dot
+
+6. Mark the new position of the N-end dot
+
+7. Repeat steps 5–6 until you reach the S pole of the magnet or the edge of the paper
+
+8. Remove the magnet and compass; join the dots with a smooth curve to form one magnetic field line
+
+9. Add an arrow to the field line indicating the direction from N to S
+
+10. Repeat steps 3–9 starting from different points near the N pole to plot at least 5 field lines
+
+11. Observe the spacing of field lines near the poles and far from the magnet
+
+**Data Recording:**
+- Sketch the completed field pattern on a separate sheet
+
+- Note the direction of arrows on all field lines
+
+- Record observations about field line spacing at different locations
+
+**Analysis:**
+1. Describe the overall shape of the magnetic field pattern
+
+2. State where the field lines are closest together and where they are furthest apart
+
+3. Explain what the spacing of field lines tells you about magnetic field strength
+
+4. Confirm that field lines never cross and always run from N to S outside the magnet
+
+**Precautions:**
+- ✓ Keep other magnetic materials (e.g., steel rulers, mobile phones) away from the experiment
+
+- ✓ Ensure the plotting compass moves freely and is not stuck
+
+- ✓ Mark dots precisely to ensure accurate field line plotting
+
+- ✓ Work on a non-magnetic surface to avoid interference
+
+**Expected Results:**
+- Field lines emerge from N pole, curve around, and enter S pole
+
+- Field lines are closest near the poles (strongest field) and spread out with distance (weaker field)
+
+- All field lines have arrows pointing from N to S outside the magnet
+
+**Conclusion Template:**
+"The experiment successfully plotted the magnetic field pattern around a bar magnet. Field lines were observed to emerge from the N pole and enter the S pole, with closer spacing near the poles indicating stronger field strength. The direction of the magnetic field at any point was confirmed to be the direction of force on the N pole of the plotting compass."
+
+**Extension (Supplement):**
+- Investigate the field pattern when two bar magnets are placed with like poles facing each other
+
+- Compare the field patterns of a bar magnet and a horseshoe magnet
+
+- Use iron filings as an alternative method to visualise field patterns (with appropriate safety measures)
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly describes the force between magnetic poles?
+
+A. Like poles attract; unlike poles repel  
+B. Like poles repel; unlike poles attract  
+C. All poles attract each other  
+D. All poles repel each other  
+
+**2.** Which material is magnetic?
+
+A. Copper  
+B. Aluminium  
+C. Iron  
+D. Plastic  
+
+**3.** When an unmagnetised iron nail is brought near the N pole of a bar magnet, the end of the nail nearest the magnet becomes:
+
+A. An N pole  
+B. An S pole  
+C. Unmagnetised  
+D. Both N and S poles  
+
+**4.** Which statement about magnetic field lines is correct?
+
+A. Field lines cross each other at the poles  
+B. Field lines run from S pole to N pole outside the magnet  
+C. Closer field lines indicate a stronger magnetic field  
+D. Field lines are physical entities that can be touched  
+
+**5.** Which application uses an electromagnet rather than a permanent magnet?
+
+A. Compass needle  
+B. Refrigerator door seal  
+C. Scrapyard crane  
+D. Loudspeaker permanent magnet  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define the term *magnetic field*. [1]
+
+(b) Describe how to use a plotting compass to determine the direction of the magnetic field at a point near a bar magnet. [3]
+
+(c) Sketch the magnetic field pattern around a bar magnet. Include arrows to show the direction of the field. [3]
+
+**7.** (a) State two differences between temporary magnets made of soft iron and permanent magnets made of steel. [2]
+
+(b) Explain why soft iron is used for the core of an electromagnet. [2]
+
+(c) A student claims that cutting a bar magnet in half produces an isolated N pole and an isolated S pole. Evaluate this statement. [3]
+
+**8.** (a) Describe what is meant by *induced magnetism*. [2]
+
+(b) An unmagnetised steel paper clip is brought near the N pole of a bar magnet.
+   (i) What pole is induced at the end of the paper clip nearest the magnet? [1]
+
+   (ii) Explain why the paper clip is attracted to the magnet. [2]
+
+   (iii) Will the paper clip remain magnetised after the bar magnet is removed? Explain. [2]
+
+**9.** (Extended) (a) Explain, in terms of magnetic field interactions, why two bar magnets with like poles facing each other repel. [3]
+
+(b) Two identical bar magnets are placed with their N poles facing each other, separated by a small gap.
+   (i) Sketch the magnetic field pattern in the region between the poles. [3]
+
+   (ii) Explain why a small iron filing placed at the midpoint between the poles experiences no net magnetic force. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Magnets** have N and S poles; like poles repel, unlike poles attract  
+✓ **Magnetic materials** (iron, steel, nickel, cobalt) are attracted to magnets; non-magnetic materials are not  
+✓ **Induced magnetism**: Unmagnetised magnetic materials become temporary magnets in a magnetic field  
+✓ **Temporary magnets** (soft iron): easy to magnetise, lose magnetism easily; **Permanent magnets** (steel): hard to magnetise, retain magnetism  
+✓ **Magnetic field**: Region where a magnetic pole experiences a force; direction = force on N pole  
+✓ **Field lines**: Emerge from N pole, enter S pole; never cross; density indicates field strength  
+✓ **Plotting field lines**: Use plotting compass or iron filings to visualise field patterns  
+✓ **Applications**: Permanent magnets (compasses, door seals); electromagnets (cranes, relays, MRI)  
+✓ **Magnetic forces** result from interactions between magnetic fields (Extended)  
+✓ **Field line spacing** represents relative field strength: closer = stronger; wider = weaker (Extended)  
+
+### Formulae Sheet
+
+| Quantity | Formula/Relationship | Variables |
+|:---------|:---------------------|:----------|
+| Magnetic field direction | Direction of force on N pole | — |
+| Field strength representation | Density of field lines | Closer lines = stronger field |
+| Induced pole | Opposite to inducing pole | Induced S near magnet N; induced N near magnet S |
+
+*Note: Magnetism is primarily qualitative at IGCSE level; no numerical formulae are required.*
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 15 (Simple Phenomena of Magnetism)
+
+- Practical Work in Physics: Magnetism and Electromagnetism Experiments
+
+### Online Resources
+
+- PhET Interactive Simulations: Magnets and Electromagnets, Faraday's Law
+
+- BBC Bitesize: Magnetism, Magnetic Fields, Electromagnets
+
+- University of Colorado: Magnetic field visualisation simulations
+
+### Video Resources
+
+- Demonstration: Plotting magnetic field lines with compass and iron filings
+
+- Animation: Magnetic domain alignment in induced magnetism
+
+- Real-world application: How maglev trains and MRI machines use magnetism
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Electromagnet** | A temporary magnet formed when electric current flows through a coil; often includes a soft iron core to strengthen the field |
+| **Induced magnetism** | The process by which an unmagnetised magnetic material becomes magnetised when placed in a magnetic field |
+| **Magnetic field** | A region of space in which a magnetic pole experiences a force |
+| **Magnetic field line** | An imaginary line used to represent the direction and relative strength of a magnetic field; emerges from N pole, enters S pole |
+| **Magnetic material** | A material that can be attracted to a magnet (e.g., iron, steel, nickel, cobalt) |
+| **Magnetised** | Having acquired magnetic properties; able to exert magnetic forces |
+| **North pole (N pole)** | The end of a magnet that points towards the Earth's geographic North Pole when freely suspended |
+| **Permanent magnet** | A magnet made from magnetically hard material (e.g., steel) that retains its magnetism after being magnetised |
+| **Plotting compass** | A small magnetic compass used to determine the direction of a magnetic field at a point |
+| **South pole (S pole)** | The end of a magnet that points towards the Earth's geographic South Pole when freely suspended |
+| **Temporary magnet** | A magnet made from magnetically soft material (e.g., soft iron) that is easily magnetised but loses magnetism easily |
+| **Unmagnetised** | Not having acquired magnetic properties; not able to exert magnetic forces |
+
+---
+
+*End of Chapter 18*

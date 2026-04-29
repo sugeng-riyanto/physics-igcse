@@ -1,0 +1,62 @@
+---
+title: "Bibliography and References"
+---
+
+## Primary Sources
+
+### Cambridge International Examinations
+
+- Cambridge Assessment International Education. (2023). *Cambridge IGCSE Physics 0625 Syllabus for Examination in 2026, 2027 and 2028*. Cambridge: Cambridge University Press & Assessment.
+
+- Cambridge Assessment International Education. (2023). *Cambridge IGCSE Physics 0625: Specimen Papers and Mark Schemes*. Cambridge: Cambridge University Press & Assessment.
+
+### Textbooks and Coursebooks
+
+- Sang, D., Jones, G., Chadha, G., & Woodside, R. (2021). *Cambridge IGCSE Physics Coursebook* (3rd Edition). Cambridge: Cambridge University Press.
+
+- Sang, D., Jones, G., Chadha, G., & Woodside, R. (2021). *Cambridge IGCSE Physics Workbook* (3rd Edition). Cambridge: Cambridge University Press.
+
+- Sang, D., Jones, G., Chadha, G., & Woodside, R. (2021). *Cambridge IGCSE Physics Teacher's Resource* (3rd Edition). Cambridge: Cambridge University Press.
+
+## Supplementary Resources
+
+### Practical Work and Laboratory Guides
+
+- Association for Science Education. (2010). *The Language of Measurement*. Hatfield: ASE Publications.
+
+- CLEAPSS. (2019). *Laboratory Handbook and Hazcards*. Uxbridge: CLEAPSS.
+
+### Reference Works
+
+- Halliday, D., Resnick, R., & Walker, J. (2018). *Fundamentals of Physics* (11th Edition). Hoboken: John Wiley & Sons.
+
+- Tipler, P. A., & Mosca, G. (2018). *Physics for Scientists and Engineers* (7th Edition). New York: W. H. Freeman.
+
+### Online Resources
+
+- Cambridge International. (2023). *School Support Hub*. Available at: www.cambridgeinternational.org/support
+
+- PhET Interactive Simulations. (2023). *Physics Simulations*. University of Colorado Boulder. Available at: https://phet.colorado.edu/
+
+- BBC Bitesize. (2023). *GCSE Physics Revision*. Available at: www.bbc.co.uk/bitesize
+
+## Image and Media Credits
+
+All diagrams, figures, and illustrations in this guide have been created specifically for this publication or are used under appropriate educational licenses.
+
+## Acknowledgments
+
+The author wishes to acknowledge the contributions of:
+
+- Cambridge Assessment International Education for providing the syllabus framework and examination standards
+- Physics educators worldwide whose teaching insights have informed the pedagogical approach
+- Students whose questions and challenges have helped shape the content and presentation
+- The open-source community for tools and resources that made this publication possible
+
+## Copyright and Permissions
+
+This revision guide is intended for educational purposes. All rights to the Cambridge IGCSE Physics syllabus content remain with Cambridge Assessment International Education.
+
+---
+
+*This bibliography was compiled to ensure academic integrity and to provide students with additional resources for further study.*

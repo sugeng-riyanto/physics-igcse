@@ -1,0 +1,705 @@
+---
+title: "Phase Changes"
+chapter: 12
+syllabus-code: "2.2.3 Melting, boiling and evaporation"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Describe melting and boiling in terms of energy input without a change in temperature
+
+- Know the melting and boiling temperatures for water at standard atmospheric pressure
+
+- Describe condensation and solidification in terms of particles
+
+- Describe evaporation in terms of the escape of more-energetic particles from the surface of a liquid
+
+- Know that evaporation causes cooling of a liquid
+
+**Supplement (Extended):**
+
+- Describe the differences between boiling and evaporation
+
+- Describe how temperature, surface area and air movement over a surface affect evaporation
+
+- Explain the cooling of an object in contact with an evaporating liquid
+
+---
+
+## 12.1 What Happens During a Change of State?
+
+### The Heating Curve of Water
+
+When a substance changes state, energy is supplied but **the temperature remains constant**. This is a key feature of phase changes.
+
+Figure 12.1 shows the heating curve of water:
+
+```
+Temperature/°C
+    ^
+100 |----------------------- E (boiling: liquid → gas)
+    |                       |
+    |                       |
+    |              D        |
+    |             /         |
+  0 |----- C     /          |
+    |      |    /           |
+    |      |   /            |
+    |  B   |  /             |
+    | /    | /              |
+-10 |/     |/               |
+    +------------------------> Time
+      A
+```
+
+| Segment | Process | Temperature | Energy Use |
+|:--------|:--------|:------------|:-----------|
+| **A → B** | Ice warming | Increases from −10 °C to 0 °C | Increases kinetic energy of particles |
+| **B → C** | Melting (solid → liquid) | Constant at 0 °C | Breaks bonds between particles |
+| **C → D** | Water warming | Increases from 0 °C to 100 °C | Increases kinetic energy of particles |
+| **D → E** | Boiling (liquid → gas) | Constant at 100 °C | Breaks bonds and overcomes atmospheric pressure |
+
+::: {.callout-note}
+**Key Concept:** During melting or boiling, the supplied energy is used to **overcome intermolecular forces**, not to increase particle kinetic energy. This is why temperature remains constant.
+:::
+
+### Melting and Boiling Points of Water
+
+At standard atmospheric pressure (1 atmosphere):
+
+- **Melting point of pure water**: **0 °C**
+
+- **Boiling point of pure water**: **100 °C**
+
+**Note:** These values change with pressure. For example:
+
+- At high altitude (lower pressure), water boils below 100 °C
+
+- In a pressure cooker (higher pressure), water boils above 100 °C
+
+---
+
+## 12.2 Melting and Boiling: Energy Input Without Temperature Change
+
+### What Is Melting?
+
+**Melting** is the change of state from **solid to liquid** at the melting point.
+
+**Particle explanation:**
+
+1. In a solid, particles are held in fixed positions by strong intermolecular bonds
+
+2. When energy is supplied, particles vibrate more vigorously
+
+3. At the melting point, particles have enough energy to **break free from their fixed positions**
+
+4. The solid becomes a liquid; particles can now move past each other
+
+5. Temperature remains constant because energy is used to break bonds, not increase kinetic energy
+
+### What Is Boiling?
+
+**Boiling** is the change of state from **liquid to gas** at the boiling point, occurring **throughout the liquid**.
+
+**Particle explanation:**
+
+1. In a liquid, particles are held together by intermolecular forces
+
+2. When energy is supplied, particles move faster
+
+3. At the boiling point, particles have enough energy to:
+
+   - **Break intermolecular bonds** completely
+
+   - **Overcome atmospheric pressure** to escape into the air
+
+4. Bubbles of vapour form **within the liquid** and rise to the surface
+
+5. Temperature remains constant because energy is used to break bonds and overcome pressure
+
+::: {.callout-warning}
+**Important:** Boiling occurs at a specific temperature (the boiling point) and throughout the liquid. Evaporation occurs at any temperature and only at the surface.
+:::
+
+---
+
+## 12.3 Condensation and Solidification: Energy Release
+
+### Reverse Processes
+
+When a substance changes from a higher-energy state to a lower-energy state, **energy is released** to the surroundings.
+
+| Process | Change of State | Energy Transfer | Particle Explanation |
+|:--------|:----------------|:----------------|:---------------------|
+| **Condensation** | Gas → Liquid | Energy released to surroundings | Particles move closer; attractive forces pull them together, releasing energy |
+| **Solidification (Freezing)** | Liquid → Solid | Energy released to surroundings | Particles settle into fixed positions; strong bonds form, releasing energy |
+
+::: {.callout-note}
+**Key Insight:** The energy released during condensation or freezing is equal to the energy absorbed during boiling or melting for the same mass of substance.
+:::
+
+### Real-World Example: Steam Burns
+
+A burn from steam at 100 °C is more severe than a burn from boiling water at 100 °C because:
+
+1. Steam condenses on the skin, releasing **latent heat of vaporisation**
+
+2. The condensed water then cools, releasing additional thermal energy
+
+3. Total energy transferred to skin is greater for steam
+
+---
+
+## 12.4 Evaporation: Surface Phenomenon at Any Temperature
+
+### What Is Evaporation?
+
+**Evaporation** is the change of state from **liquid to gas** that occurs:
+
+- **At the surface** of a liquid
+
+- **At any temperature** (not just at the boiling point)
+
+- **Without bubble formation**
+
+### How Does Evaporation Occur? (Kinetic Particle Model)
+
+1. Particles in a liquid move randomly with a **range of kinetic energies**
+
+2. At the surface, some particles have enough kinetic energy to **overcome attractive forces** from other particles and atmospheric pressure
+
+3. These high-energy particles **escape** into the air as gas molecules
+
+4. The remaining particles have a **lower average kinetic energy**
+
+5. Therefore, the **temperature of the liquid decreases**
+
+::: {.callout-note}
+**Key Insight:** Evaporation causes **cooling** because the most energetic particles escape, lowering the average kinetic energy of the remaining liquid.
+:::
+
+### Evaporation Causes Cooling: Everyday Examples
+
+| Example | Explanation |
+|:--------|:------------|
+| **Sweating** | Sweat evaporates from skin, removing thermal energy and cooling the body |
+| **Wet cloth on forehead** | Evaporation of water from the cloth cools the skin |
+| **Drying clothes on a line** | Water evaporates from fabric; clothes feel cool while drying |
+| **Alcohol on skin** | Alcohol evaporates quickly, causing a noticeable cooling sensation |
+
+---
+
+## 12.5 Factors Affecting the Rate of Evaporation
+
+| Factor | Effect on Evaporation Rate | Particle-Level Explanation |
+|:-------|:---------------------------|:---------------------------|
+| **Temperature** | Higher temperature → faster evaporation | More particles have sufficient kinetic energy to escape the liquid surface |
+| **Surface area** | Larger surface area → faster evaporation | More particles are at the surface and can escape |
+| **Air movement** | Moving air (wind) → faster evaporation | Escaped particles are carried away, preventing them from returning to the liquid; maintains a concentration gradient |
+| **Humidity** | Lower humidity → faster evaporation | Drier air can accept more water vapour; fewer returning particles |
+
+::: {.callout-warning}
+**Important:** Evaporation occurs at **any temperature**, while boiling occurs only at the **boiling point** throughout the liquid.
+:::
+
+---
+
+## 12.6 Boiling vs. Evaporation: Key Differences
+
+| Feature | Boiling | Evaporation |
+|:--------|:--------|:------------|
+| **Temperature** | Occurs at a specific temperature (boiling point) | Occurs at any temperature |
+| **Location** | Occurs throughout the liquid (bubbles form) | Occurs only at the liquid surface |
+| **Rate** | Rapid | Relatively slow |
+| **Bubbles** | Bubbles of vapour form within the liquid | No bubbles form |
+| **Temperature change** | Temperature remains constant during boiling | Temperature of liquid may decrease |
+| **Energy source** | Requires external heat supply | Can occur without external heat (uses internal energy of liquid) |
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Melting**: Solid → liquid at melting point; energy breaks intermolecular bonds; temperature constant
+
+2. **Boiling**: Liquid → gas at boiling point; energy breaks bonds and overcomes atmospheric pressure; temperature constant
+
+3. **Melting/boiling points of water**: 0 °C and 100 °C at standard atmospheric pressure
+
+4. **Condensation**: Gas → liquid; energy released to surroundings
+
+5. **Solidification**: Liquid → solid; energy released to surroundings
+
+6. **Evaporation**: Surface phenomenon at any temperature; causes cooling
+
+### Extended Concepts
+
+7. **Boiling vs. evaporation**: Differences in location, temperature dependence, rate, and bubble formation
+
+8. **Factors affecting evaporation**: Temperature, surface area, air movement, humidity
+
+9. **Cooling by evaporation**: High-energy particles escape, lowering average kinetic energy of remaining liquid
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Temperature increases during melting or boiling"
+
+**Incorrect**: "When ice melts, its temperature rises from 0 °C"
+
+**Correct**:
+
+- During a change of state, **temperature remains constant** even though energy is supplied
+
+- Energy is used to **overcome intermolecular forces**, not to increase particle kinetic energy
+
+- Temperature only rises once the change of state is complete
+
+---
+
+### ⚠️ Misconception 2: "Evaporation and boiling are the same process"
+
+**Incorrect**: "Evaporation is just slow boiling"
+
+**Correct**:
+
+- **Boiling**: Occurs at boiling point, throughout liquid, with bubble formation
+
+- **Evaporation**: Occurs at any temperature, only at surface, no bubbles
+
+- Different particle mechanisms: boiling requires energy to overcome atmospheric pressure throughout; evaporation involves only surface particles with sufficient energy
+
+---
+
+### ⚠️ Misconception 3: "Evaporation only happens on hot days"
+
+**Incorrect**: "Water only evaporates when it is warm"
+
+**Correct**:
+
+- Evaporation occurs at **any temperature**, even below 0 °C (e.g., ice sublimating)
+
+- The **rate** of evaporation increases with temperature, but the process itself occurs at all temperatures
+
+- Puddles dry up on cold days, just more slowly
+
+---
+
+### ⚠️ Misconception 4: "Condensation is the same as evaporation, just reversed"
+
+**Incorrect**: "Condensation is evaporation going backwards"
+
+**Correct**:
+
+- While condensation is the reverse change of state (gas → liquid), the **energy transfer is opposite**
+
+- Evaporation **absorbs** energy from the liquid (causing cooling)
+
+- Condensation **releases** energy to the surroundings (causing warming)
+
+- Different particle mechanisms: evaporation involves escape of high-energy particles; condensation involves capture of particles by attractive forces
+
+---
+
+### ⚠️ Misconception 5: "Particles expand when heated during phase changes"
+
+**Incorrect**: "When water boils, the water particles get bigger"
+
+**Correct**:
+
+- Particles themselves do not change size during phase changes
+
+- The **average distance between particles increases** due to increased kinetic energy
+
+- In boiling, particles gain enough energy to break free from intermolecular forces and escape as gas
+
+---
+
+### ⚠️ Misconception 6: "All liquids boil at 100 °C"
+
+**Incorrect**: "Every liquid boils at the same temperature as water"
+
+**Correct**:
+
+- Different substances have different boiling points depending on intermolecular forces
+
+- Example: Ethanol boils at 78 °C; mercury boils at 357 °C
+
+- Boiling point also depends on atmospheric pressure
+
+---
+
+## Worked Examples
+
+### Example 1: Energy During Melting
+
+**Question:**
+A 0.5 kg block of ice at 0 °C is heated until it becomes water at 0 °C. Explain why the temperature does not rise during this process, even though energy is being supplied.
+
+**Solution:**
+
+**Step 1:** Identify the process: melting (solid → liquid) at melting point
+
+**Step 2:** Particle explanation:
+
+- Ice particles are held in fixed positions by strong intermolecular bonds
+
+- Supplied energy is used to **break these bonds**, allowing particles to move freely
+
+- Energy is **not** used to increase particle kinetic energy
+
+- Since temperature measures average kinetic energy, temperature remains constant
+
+**Conclusion:** Temperature remains at 0 °C during melting because energy is used to overcome intermolecular forces, not to increase particle motion.
+
+---
+
+### Example 2: Evaporation Cooling Calculation
+
+**Question:**
+A person sweats 0.3 kg of water during exercise. If the specific latent heat of vaporisation of water is 2.3 × 10⁶ J/kg, calculate the thermal energy removed from the body by evaporation.
+
+**Solution:**
+
+**Step 1:** Identify values
+- Mass of water m = 0.3 kg
+- Specific latent heat L_v = 2.3 × 10⁶ J/kg
+
+**Step 2:** Calculate energy removed
+$$\Delta E = mL_v = 0.3 \times 2.3 \times 10^6 = \boxed{6.9 \times 10^5 \text{ J} = 690 \text{ kJ}}$$
+
+**Interpretation:** Evaporation of sweat removes nearly 700 kJ of thermal energy, providing significant cooling to the body.
+
+---
+
+### Example 3: Factors Affecting Evaporation (Extended)
+
+**Question:**
+Explain why a puddle of water evaporates more quickly on a warm, windy day than on a cool, still day.
+
+**Solution:**
+
+**Step 1:** Identify relevant factors:
+- Temperature: warm day → higher temperature
+- Air movement: windy day → moving air
+
+**Step 2:** Particle-level explanation:
+
+- **Higher temperature**: More water molecules at the surface have sufficient kinetic energy to overcome intermolecular forces and escape into the air
+
+- **Moving air**: Escaped water molecules are carried away by the wind, preventing them from returning to the liquid surface; this maintains a concentration gradient that favours further evaporation
+
+**Conclusion:** Both higher temperature and air movement increase the rate of evaporation, causing the puddle to dry more quickly.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** State the melting and boiling points of pure water at standard atmospheric pressure.
+
+**2.** Describe what happens to the temperature of ice as it melts.
+
+**3.** Explain, in terms of particles, why evaporation causes cooling.
+
+**4.** State two factors that increase the rate of evaporation of a liquid.
+
+**5.** Describe the difference between boiling and evaporation in terms of where they occur in the liquid.
+
+**6.** Explain why a swimmer feels cold when stepping out of a pool on a windy day.
+
+**7.** Describe what happens to the particles when water condenses from steam to liquid.
+
+**8.** Why does the temperature remain constant during boiling even though energy is being supplied?
+
+### Extended Level
+
+**9.** Compare boiling and evaporation by stating:
+
+- (a) two similarities
+
+- (b) three differences
+
+**10.** A puddle of water evaporates more quickly on a warm, windy day than on a cool, still day. Explain this observation using particle theory.
+
+**11.** Explain why a wet cloth placed on the forehead of a person with a fever helps to reduce body temperature.
+
+**12.** Describe how humidity affects the rate of evaporation. Include a particle-level explanation.
+
+**13.** A student claims that evaporation can only occur when a liquid is heated. Evaluate this statement using your knowledge of the kinetic particle model.
+
+**14.** Explain why steam at 100 °C causes a more severe burn than boiling water at 100 °C.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 12.1: Investigating Evaporation and Cooling
+
+**Objective:**
+
+To demonstrate that evaporation causes cooling and to investigate factors affecting the rate of evaporation.
+
+**Apparatus:**
+
+- Laboratory thermometer (or temperature sensor with data logger)
+
+- Absorbent tissue paper
+
+- Beaker of water at room temperature
+
+- Retort stand and clamp
+
+- Adhesive tape or rubber band
+
+- Cold air fan (or hair dryer on cool setting)
+
+- Stopwatch
+
+**Variables:**
+
+- **Independent:** Air movement (still air vs. moving air)
+
+- **Dependent:** Temperature change of thermometer bulb
+
+- **Controlled:** Initial temperature, amount of water, type of tissue, ambient temperature
+
+**Procedure:**
+
+1. Cover the thermometer bulb in tissue paper and attach it with adhesive tape or a rubber band.
+
+2. Dip the thermometer bulb covered with tissue paper into the water.
+
+3. Clamp the thermometer on a retort stand so the bulb is in front of the fan.
+
+4. Note the initial temperature.
+
+5. **Trial 1 (Still air):** Do not turn on the fan. Record the temperature every 30 seconds for 3 minutes.
+
+6. **Trial 2 (Moving air):** Turn on the fan to blow air over the thermometer bulb. Record the temperature every 30 seconds for 3 minutes.
+
+7. Repeat each trial twice for reliability.
+
+**Data Table:**
+
+| Time (s) | Temperature (Still air) / °C | Temperature (Moving air) / °C |
+|:---------|:-----------------------------|:------------------------------|
+| 0 | | |
+| 30 | | |
+| 60 | | |
+| 90 | | |
+| 120 | | |
+| 150 | | |
+| 180 | | |
+
+**Analysis:**
+
+1. Plot a graph of temperature (y-axis) against time (x-axis) for both trials on the same axes.
+
+2. Compare the rate of temperature decrease for still air vs. moving air.
+
+3. Explain the difference using the kinetic particle model.
+
+**Precautions:**
+
+- ✓ Ensure the tissue paper is evenly wetted before starting
+
+- ✓ Position the thermometer bulb consistently for both trials
+
+- ✓ Avoid touching the thermometer bulb with hands to prevent heat transfer
+
+- ✓ Use the same fan speed for all moving air trials
+
+**Expected Results:**
+
+- Temperature decreases in both trials due to evaporation
+
+- Temperature decreases **more rapidly** with moving air due to increased evaporation rate
+
+**Conclusion Template:**
+
+"The experiment demonstrated that evaporation causes cooling, as shown by the decrease in temperature of the wet thermometer bulb. The rate of cooling was greater with moving air, confirming that air movement increases the rate of evaporation by removing escaped molecules and maintaining a concentration gradient."
+
+**Extension (Supplement):**
+
+- Investigate the effect of temperature by using warm water vs. cold water
+
+- Investigate the effect of surface area by using different sizes of tissue paper
+
+- Research real-world applications: cooling towers, sweat evaporation in athletes, industrial drying processes
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly describes what happens to the temperature of a substance during melting?
+
+A. Temperature increases steadily  
+
+B. Temperature decreases steadily  
+
+C. Temperature remains constant  
+
+D. Temperature fluctuates randomly  
+
+**2.** At standard atmospheric pressure, pure water boils at:
+
+A. 0 °C  
+
+B. 50 °C  
+
+C. 100 °C  
+
+D. 273 °C  
+
+**3.** Which factor does **not** increase the rate of evaporation of a liquid?
+
+A. Increasing the temperature  
+
+B. Increasing the surface area  
+
+C. Increasing the humidity of the surrounding air  
+
+D. Increasing air movement over the surface  
+
+**4.** Evaporation causes cooling because:
+
+A. The liquid loses mass  
+
+B. The most energetic particles escape, lowering the average kinetic energy of the remaining liquid  
+
+C. The liquid gains energy from the surroundings  
+
+D. The pressure above the liquid decreases  
+
+**5.** Which statement correctly describes condensation?
+
+A. Gas → liquid; energy absorbed from surroundings  
+
+B. Gas → liquid; energy released to surroundings  
+
+C. Liquid → gas; energy absorbed from surroundings  
+
+D. Liquid → gas; energy released to surroundings  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define the term *melting point*. [1]
+
+(b) A student heats a sample of ice from −10 °C to 20 °C and records the temperature every minute.
+
+   (i) Sketch a graph of temperature against time for this process. Label the melting point. [3]
+
+   (ii) Explain why the temperature remains constant during melting even though energy is being supplied. [2]
+
+(c) Describe what happens to the particles of water when it changes from liquid to gas during boiling. [2]
+
+**7.** (a) State two differences between boiling and evaporation. [2]
+
+(b) Explain, using the kinetic particle model, why evaporation causes cooling. [3]
+
+(c) A wet cloth is placed on the forehead of a person with a fever. Explain how this helps to reduce body temperature. [2]
+
+**8.** (Extended) (a) Describe how each of the following affects the rate of evaporation of water:
+
+   (i) increasing the temperature [2]
+
+   (ii) increasing the surface area [2]
+
+   (iii) blowing air over the surface [2]
+
+(b) A puddle of water evaporates more quickly on a warm, windy day than on a cool, still day. Explain this observation fully using particle theory. [3]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Melting**: Solid → liquid at melting point; energy breaks intermolecular bonds; temperature constant  
+
+✓ **Boiling**: Liquid → gas at boiling point; energy breaks bonds and overcomes atmospheric pressure; temperature constant  
+
+✓ **Water phase changes**: Melts at 0 °C, boils at 100 °C (standard pressure)  
+
+✓ **Condensation**: Gas → liquid; energy released to surroundings  
+
+✓ **Solidification**: Liquid → solid; energy released to surroundings  
+
+✓ **Evaporation**: Surface phenomenon at any temperature; causes cooling  
+
+✓ **Evaporation factors**: ↑ temperature, ↑ surface area, ↑ air movement, ↓ humidity → faster evaporation  
+
+✓ **Boiling vs. evaporation**: Different in location, temperature dependence, rate, bubble formation  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Energy for phase change | $\Delta E = mL$ | $\Delta E$=energy (J), $m$=mass (kg), $L$=specific latent heat (J/kg) |
+| Temperature conversion | $T(\text{K}) = \theta(°C) + 273$ | $T$=temperature in kelvin, $\theta$=temperature in °C |
+
+*Note: Specific latent heat calculations are covered in more detail in later chapters.*
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 9 (Sections 9.3)
+
+- Practical Work in Physics: Changes of State and Evaporation
+
+### Online Resources
+
+- PhET Interactive Simulations: States of Matter, Energy Forms and Changes
+
+- BBC Bitesize: Changes of State, Evaporation and Condensation
+
+- Royal Society of Chemistry: Particle model animations
+
+### Video Resources
+
+- Demonstration: Heating curve of water with temperature monitoring
+
+- Animation: Particle model of melting, boiling and evaporation
+
+- Real-world application: How sweating cools the body; industrial evaporation processes
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Boiling** | Change of state from liquid to gas occurring throughout the liquid at the boiling point; bubbles of vapour form |
+| **Boiling point** | The temperature at which a liquid boils at a given pressure; for pure water at standard pressure: 100 °C |
+| **Condensation** | Change of state from gas to liquid; energy is released to the surroundings |
+| **Evaporation** | Change of state from liquid to gas occurring only at the surface, at any temperature; causes cooling |
+| **Melting** | Change of state from solid to liquid at the melting point; energy is absorbed to break bonds |
+| **Melting point** | The temperature at which a solid melts at a given pressure; for pure water at standard pressure: 0 °C |
+| **Solidification (Freezing)** | Change of state from liquid to solid; energy is released as particles form fixed positions |
+| **Latent heat** | Energy absorbed or released during a change of state without a change in temperature |
+
+---
+
+*End of Chapter 12*

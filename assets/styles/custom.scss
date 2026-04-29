@@ -1,0 +1,74 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+:root {
+  /* 🎨 Colour Theory: Calm, high-contrast, low-glare palette */
+  --bs-body-bg: #fafafa;              /* Soft off-white reduces eye strain */
+  --bs-body-color: #1f2937;           /* Dark grey (not pure black) for comfortable reading */
+  --bs-primary: #1e40af;              /* Academic blue: conveys focus & trust */
+  --bs-secondary: #0f766e;            /* Teal accent for secondary highlights */
+  --bs-link-color: #1e40af;
+  --bs-link-hover-color: #1e3a8a;
+
+  /* 📐 Typography & Spacing */
+  --bs-body-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --bs-heading-font-family: 'Inter', system-ui, sans-serif;
+  --bs-font-monospace: 'Fira Code', 'Consolas', monospace;
+  --bs-body-font-size: 1.05rem;       /* ~16.8px for optimal screen readability */
+  --bs-line-height-base: 1.6;         /* Improves tracking & reduces visual crowding */
+  --bs-paragraph-margin-bottom: 1.25rem;
+}
+
+/*-- scss:rules --*/
+
+/* 🔤 Heading Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--bs-primary);
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+h1 { font-size: 2.1rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.4rem; }
+
+/* 📘 Callout Design (Cognitive Chunking) */
+.callout {
+  border-left-width: 4px;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+.callout-note    { border-color: #3b82f6; background-color: #eff6ff; }
+.callout-warning { border-color: #f59e0b; background-color: #fffbeb; }
+.callout-tip     { border-color: #10b981; background-color: #ecfdf5; }
+
+/* 📊 Table Readability */
+table {
+  font-size: 0.95rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  border-bottom: 2px solid #cbd5e1;
+}
+tr:nth-child(even) { background-color: #f8fafc; }
+td, th { padding: 0.6rem 0.8rem; }
+
+/* 💻 Code & Preformatted Blocks */
+pre code {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-family: var(--bs-font-monospace);
+  font-size: 0.9rem;
+  padding: 0.75rem;
+}

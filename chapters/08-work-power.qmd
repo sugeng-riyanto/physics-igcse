@@ -1,0 +1,652 @@
+---
+title: "Work and Power"
+chapter: 8
+syllabus-code: "1.7.2 Work; 1.7.4 Power"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (1.7.2 Work):**
+
+- Understand that mechanical or electrical work done is equal to the energy transferred
+
+- Recall and use the equation for mechanical working: $W = Fd = \Delta E$
+
+**Core Content (1.7.4 Power):**
+
+- Define power as work done per unit time and also as energy transferred per unit time
+
+- Recall and use the equations:
+
+  - $P = \frac{W}{t}$
+
+  - $P = \frac{\Delta E}{t}$
+
+---
+
+## What Is Work?
+
+### Definition of Work in Physics
+
+In everyday language, we use the word "work" to describe any activity that requires effort. However, in physics, **work** has a precise scientific meaning.
+
+> **Work is done when a force causes an object to move in the direction of the force.**
+
+The amount of work done depends on two factors:
+
+1. **The magnitude of the force** applied (in newtons, N)
+
+2. **The distance moved** by the object in the direction of the force (in metres, m)
+
+### The Work–Energy Relationship
+
+A fundamental principle in physics states:
+
+> **Mechanical or electrical work done is equal to the energy transferred.**
+
+$$W = \Delta E$$
+
+Where:
+- $W$ = work done (J)
+- $\Delta E$ = energy transferred (J)
+
+This means that when work is done on an object, energy is transferred to that object. Conversely, when an object does work, it transfers energy to something else.
+
+### Calculating Work Done
+
+The work done by a constant force is calculated using:
+
+$$W = F \times d$$
+
+Where:
+- $W$ = work done (J)
+- $F$ = constant force in the direction of motion (N)
+- $d$ = distance moved in the direction of the force (m)
+
+::: {.callout-note}
+**Key Concept:** One joule (1 J) is defined as the work done when a force of one newton moves an object through a distance of one metre in the direction of the force:
+
+$$1 \text{ J} = 1 \text{ N} \times 1 \text{ m}$$
+:::
+
+### When Is Work NOT Done?
+
+Work is **not done** in the following situations:
+
+| Situation | Explanation |
+|:----------|:------------|
+| **Force applied but no movement** | Pushing against a wall that does not move: $d = 0$, so $W = 0$ |
+| **Movement perpendicular to force** | Carrying a bag horizontally: the upward force is perpendicular to horizontal motion, so no work is done by that force |
+| **Object moving at constant velocity with balanced forces** | The net work done by the resultant force is zero (though individual forces may do work) |
+
+::: {.callout-warning}
+**Common Error:** Confusing "effort" with "work". Holding a heavy object stationary requires effort but does **no work** in the physics sense because there is no displacement.
+:::
+
+---
+
+## Worked Examples: Calculating Work
+
+### Example 1: Basic Work Calculation
+
+**Question:**
+A librarian pushes a trolley of books with a horizontal force of 8 N. The trolley moves a distance of 5 m in the direction of the force. Calculate:
+(a) the work done on the trolley
+(b) the energy transferred to the trolley
+
+**Solution:**
+
+**(a) Work done:**
+$$W = F \times d = 8 \times 5 = \boxed{40 \text{ J}}$$
+
+**(b) Energy transferred:**
+By the work–energy relationship:
+$$\Delta E = W = \boxed{40 \text{ J}}$$
+
+**Interpretation:** The 40 J of mechanical work done by the librarian is transferred into kinetic energy of the trolley (and some thermal energy due to friction).
+
+---
+
+### Example 2: Work Against Gravity
+
+**Question:**
+A 50 N package is lifted vertically through a height of 10 m at constant speed. Calculate:
+(a) the work done by the lifting force
+(b) the gravitational potential energy gained by the package
+
+**Solution:**
+
+**(a) Work done:**
+The lifting force must equal the weight (50 N) to move at constant speed.
+$$W = F \times d = 50 \times 10 = \boxed{500 \text{ J}}$$
+
+**(b) Gravitational potential energy gained:**
+By conservation of energy (neglecting losses):
+$$\Delta E_p = W = \boxed{500 \text{ J}}$$
+
+---
+
+### Example 3: Work on an Incline
+
+**Question:**
+A trolley of mass 80 kg is pushed up a gentle incline. The librarian exerts a force of 40 N parallel to the incline, moving the trolley a distance of 10 m along the slope. The vertical height gained is 0.5 m. Taking $g = 10 \text{ N/kg}$:
+(a) Calculate the work done by the 40 N force
+(b) Calculate the gain in gravitational potential energy of the trolley
+(c) Explain any difference between your answers to (a) and (b)
+
+**Solution:**
+
+**(a) Work done by applied force:**
+$$W = F \times d = 40 \times 10 = \boxed{400 \text{ J}}$$
+
+**(b) Gain in gravitational potential energy:**
+$$\Delta E_p = mg\Delta h = 80 \times 10 \times 0.5 = \boxed{400 \text{ J}}$$
+
+**(c) Explanation:**
+In this idealised example (neglecting friction and air resistance), the work done by the applied force equals the gain in gravitational potential energy. In reality, some work would be dissipated as thermal energy due to friction, so the gain in $E_p$ would be slightly less than the work input.
+
+---
+
+## What Is Power?
+
+### Definition of Power
+
+While work measures the **total amount** of energy transferred, **power** measures the **rate** at which work is done or energy is transferred.
+
+> **Power is defined as work done per unit time, or equivalently, energy transferred per unit time.**
+
+### Equations for Power
+
+$$P = \frac{W}{t} \quad \text{or} \quad P = \frac{\Delta E}{t}$$
+
+Where:
+- $P$ = power (W)
+- $W$ = work done (J)
+- $\Delta E$ = energy transferred (J)
+- $t$ = time taken (s)
+
+::: {.callout-note}
+**Key Concept:** One watt (1 W) is defined as the power when one joule of work is done (or energy transferred) per second:
+
+$$1 \text{ W} = 1 \text{ J/s}$$
+:::
+
+### Understanding Power Through Examples
+
+| Scenario | Explanation |
+|:---------|:------------|
+| **Two boys climbing stairs** (same mass, same height) | The boy who climbs faster has greater power because he does the same work in less time |
+| **Two kettles boiling water** (same amount of water) | The 1000 W kettle boils water faster than the 500 W kettle because it transfers energy at a higher rate |
+| **Lifting bricks with a machine** | A machine that lifts 200 kg of bricks 30 m in 50 s has power $P = \frac{mgh}{t} = \frac{200 \times 10 \times 30}{50} = 1200 \text{ W} = 1.2 \text{ kW}$ |
+
+---
+
+## 8.4 Worked Examples: Calculating Power
+
+### Example 4: Power of a Person
+
+**Question:**
+Eugene, who weighs 450 N, runs up ten steps. Each step is 0.20 m high. Calculate Eugene's power if he takes 5.0 seconds to run up the steps at constant speed.
+
+**Solution:**
+
+**Step 1:** Calculate total vertical height:
+$$h = 10 \times 0.20 = 2.0 \text{ m}$$
+
+**Step 2:** Calculate work done (against gravity):
+$$W = F \times d = 450 \times 2.0 = 900 \text{ J}$$
+
+**Step 3:** Calculate power:
+$$P = \frac{W}{t} = \frac{900}{5.0} = \boxed{180 \text{ W}}$$
+
+---
+
+### Example 5: Power of an Electrical Device
+
+**Question:**
+A filament lamp rated at 40 W converts 10% of its electrical energy supply to light energy. Calculate:
+(a) the total electrical energy used by the lamp in 5 minutes
+(b) the quantity of light energy given off in this time
+
+**Solution:**
+
+**(a) Total electrical energy used:**
+$$t = 5 \times 60 = 300 \text{ s}$$
+$$E_{\text{total}} = P \times t = 40 \times 300 = 1.2 \times 10^4 \text{ J} = \boxed{12 \text{ kJ}}$$
+
+**(b) Light energy output:**
+$$E_{\text{light}} = 10\% \times E_{\text{total}} = 0.10 \times 12000 = \boxed{1.2 \text{ kJ}}$$
+
+**Interpretation:** The remaining 10.8 kJ is dissipated as thermal energy, which is why the lamp becomes hot during operation.
+
+---
+
+### Example 6: Comparing Power of Machines
+
+**Question:**
+Machine A lifts a 500 N load through 4 m in 10 s. Machine B lifts the same load through the same height in 5 s. Calculate:
+(a) the work done by each machine
+(b) the power of each machine
+(c) State which machine is more powerful and explain why
+
+**Solution:**
+
+**(a) Work done (same for both):**
+$$W = F \times d = 500 \times 4 = \boxed{2000 \text{ J}}$$
+
+**(b) Power of each machine:**
+
+- Machine A: $P_A = \frac{2000}{10} = \boxed{200 \text{ W}}$
+
+- Machine B: $P_B = \frac{2000}{5} = \boxed{400 \text{ W}}$
+
+**(c) Comparison:**
+Machine B is more powerful because it transfers the same amount of energy in half the time. Power depends on **both** the amount of work done **and** the time taken.
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Work** is done when a force causes displacement in its direction: $W = Fd$
+
+2. **Work–energy relationship**: Work done = energy transferred ($W = \Delta E$)
+
+3. **Unit of work and energy**: joule (J); $1 \text{ J} = 1 \text{ N} \times 1 \text{ m}$
+
+4. **Power** is the rate of doing work or transferring energy: $P = \frac{W}{t} = \frac{\Delta E}{t}$
+
+5. **Unit of power**: watt (W); $1 \text{ W} = 1 \text{ J/s}$
+
+6. **Work is not done** when: (a) force causes no displacement, or (b) displacement is perpendicular to force
+
+### Extended Insights
+
+7. When work is done against gravity: $W = mg\Delta h = \Delta E_p$
+
+8. In real systems, not all work input appears as useful energy output due to dissipation (friction, heating)
+
+9. Higher power means the same work can be done in less time, or more work can be done in the same time
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Holding a heavy object requires work"
+
+**Incorrect**: "I am doing work holding this 20 kg box"
+
+**Correct**:
+
+- In physics, **work requires displacement**: $W = Fd$
+
+- If the box is held stationary, $d = 0$, so $W = 0$
+
+- Your muscles expend chemical energy to maintain the force, but **no mechanical work** is done on the box
+
+---
+
+### ⚠️ Misconception 2: "Work and power are the same thing"
+
+**Incorrect**: "A 100 W bulb does more work than a 60 W bulb"
+
+**Correct**:
+
+- **Work** measures total energy transferred (J)
+
+- **Power** measures the rate of energy transfer (W = J/s)
+
+- A 100 W bulb transfers energy **faster** than a 60 W bulb, but the total work depends on **how long** each bulb operates
+
+---
+
+### ⚠️ Misconception 3: "Any force applied does work"
+
+**Incorrect**: "Pushing a wall does work because I apply force"
+
+**Correct**:
+
+- Work requires **both force and displacement in the direction of the force**
+
+- If the wall does not move ($d = 0$), then $W = F \times 0 = 0$
+
+- Effort ≠ work in the physics sense
+
+---
+
+### ⚠️ Misconception 4: "Power depends only on force"
+
+**Incorrect**: "A larger force always means more power"
+
+**Correct**:
+
+- Power depends on **work done per unit time**: $P = \frac{Fd}{t}$
+
+- A small force acting over a large distance quickly can produce more power than a large force acting slowly over a short distance
+
+- Example: A cyclist pedalling lightly but rapidly may have higher power output than one pushing hard but slowly
+
+---
+
+### ⚠️ Misconception 5: "Work done always equals useful energy output"
+
+**Incorrect**: "If I do 100 J of work lifting a box, the box gains 100 J of potential energy"
+
+**Correct**:
+
+- In ideal conditions (no friction), $W = \Delta E_p$
+
+- In real situations, some work is **dissipated** as thermal energy due to friction or air resistance
+
+- Useful energy output < total work input; efficiency = $\frac{\text{useful output}}{\text{total input}} \times 100\%$
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Define the term *work* in physics. State its SI unit.
+
+**2.** A force of 25 N moves an object through a distance of 4.0 m in the direction of the force. Calculate the work done.
+
+**3.** A student carries a 30 N school bag horizontally for a distance of 50 m. Explain why the work done by the upward supporting force is zero.
+
+**4.** A crane lifts a 5000 N load vertically through 12 m. Calculate:
+
+- (a) the work done by the crane
+
+- (b) the gravitational potential energy gained by the load
+
+**5.** Define *power*. State its SI unit and express it in terms of base units.
+
+**6.** A motor does 1200 J of work in 30 seconds. Calculate its power output.
+
+**7.** Two electric kettles, one rated at 500 W and the other at 1000 W, are used to boil the same amount of water. Explain which kettle will boil the water faster and why.
+
+**8.** A person weighing 600 N climbs a flight of stairs of vertical height 3.0 m in 6.0 seconds. Calculate:
+
+- (a) the work done against gravity
+
+- (b) the person's average power output
+
+### Extended Level
+
+**9.** A box is pulled along a horizontal floor by a force of 80 N at an angle of 30° to the horizontal. The box moves 5.0 m. Calculate the work done by the force. (Hint: Use the component of force in the direction of motion.)
+
+**10.** A car engine has a power output of 60 kW. Calculate:
+
+- (a) the work done by the engine in 2.0 minutes
+
+- (b) the distance the car can travel in this time if the total resistive force is 1500 N and the car moves at constant speed
+
+**11.** A pump lifts 200 kg of water vertically through 15 m in 30 seconds. Taking $g = 10 \text{ N/kg}$:
+
+- (a) Calculate the work done against gravity
+
+- (b) Calculate the minimum power output required by the pump
+
+- (c) Explain why the actual power input to the pump must be greater than your answer to (b)
+
+**12.** Two students, A and B, each lift a 40 kg box vertically through 2.0 m. Student A takes 4.0 s; Student B takes 2.0 s.
+
+- (a) Compare the work done by each student
+
+- (b) Compare the power output of each student
+
+- (c) Explain your answers
+
+**13.** A filament lamp is rated at 60 W and has an efficiency of 8%. Calculate:
+
+- (a) the electrical energy consumed in 1 hour
+
+- (b) the useful light energy output in this time
+
+- (c) the energy dissipated as heat
+
+**14.** Explain, using the equations for work and power, why a more powerful engine allows a car to accelerate faster (assuming constant mass and resistive forces).
+
+---
+
+## Laboratory Investigation
+
+### Experiment 8.1: Measuring Human Power Output
+
+**Objective:**
+To determine the average power output of a person climbing stairs.
+
+**Apparatus:**
+- Metre rule or measuring tape
+- Stopwatch
+- Bathroom scale (to measure mass)
+- Flight of stairs with known number of steps
+
+**Variables:**
+- **Independent:** None (single measurement per trial)
+- **Dependent:** Power output $P$ (W)
+- **Controlled:** Same person, same stairs, same technique
+
+**Procedure:**
+1. Measure and record your mass $m$ using the bathroom scale.
+
+2. Measure the vertical height $h$ of one step using the metre rule.
+
+3. Count the total number of steps $n$ in the flight.
+
+4. Calculate total vertical height: $H = n \times h$.
+
+5. Stand at the bottom of the stairs. On a signal, climb the stairs at a steady, comfortable pace.
+
+6. Use the stopwatch to measure the time $t$ taken to climb from bottom to top.
+
+7. Repeat the climb two more times and calculate the average time $t_{\text{avg}}$.
+
+8. Calculate:
+   - Weight: $W = mg$ (take $g = 10 \text{ N/kg}$)
+   - Work done against gravity: $W_{\text{done}} = mgH$
+   - Average power output: $P = \frac{mgH}{t_{\text{avg}}}$
+
+**Data Table:**
+
+| Trial | Mass $m$ (kg) | Steps $n$ | Height per step $h$ (m) | Total height $H$ (m) | Time $t$ (s) |
+|:------|:--------------|:----------|:------------------------|:---------------------|:-------------|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| **Average** | — | — | — | — | **$t_{\text{avg}}$ =** |
+
+**Calculations:**
+$$\text{Weight} = mg = \_\_\_\_\_ \times 10 = \_\_\_\_\_ \text{ N}$$
+$$\text{Work done} = mgH = \_\_\_\_\_ \times \_\_\_\_\_ = \_\_\_\_\_ \text{ J}$$
+$$\text{Power output} = \frac{mgH}{t_{\text{avg}}} = \frac{\_\_\_\_\_}{\_\_\_\_\_} = \_\_\_\_\_ \text{ W}$$
+
+**Precautions:**
+- ✓ Ensure the stairs are clear of obstacles and dry to prevent slipping
+- ✓ Start the stopwatch exactly when motion begins and stop exactly at the top
+- ✓ Climb at a steady pace; avoid sprinting or stopping midway
+- ✓ Use the vertical height, not the length along the slope, for work calculation
+
+**Safety Notes:**
+- Wear appropriate footwear with good grip
+- Do not attempt this experiment if you have any health conditions that could be aggravated by climbing stairs
+- Have a partner supervise for safety
+
+**Conclusion Template:**
+"The average power output of the person climbing stairs was determined to be ______ W. This value represents the rate at which chemical energy from the body was converted to gravitational potential energy. The actual metabolic power input is higher due to inefficiencies in muscle action and energy dissipation as heat."
+
+**Extension:**
+- Compare power outputs when climbing at different speeds
+- Investigate how carrying an additional load affects power output
+- Research typical human power outputs for different activities (walking, cycling, running)
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly defines work in physics?
+
+A. Work = force × time  
+
+B. Work = force × distance moved in the direction of the force  
+
+C. Work = mass × acceleration  
+
+D. Work = energy × time  
+
+**2.** A force of 10 N moves an object 3 m in the direction of the force. What is the work done?
+
+A. 3.3 J  
+
+B. 7 J  
+
+C. 13 J  
+
+D. 30 J  
+
+**3.** Which situation involves **no work** being done by the force mentioned?
+
+A. A car accelerating along a horizontal road  
+
+B. A person holding a heavy box stationary  
+
+C. A crane lifting a load vertically  
+
+D. A cyclist pedalling uphill  
+
+**4.** A motor transfers 2400 J of energy in 1 minute. What is its power output?
+
+A. 0.025 W  
+
+B. 40 W  
+
+C. 2400 W  
+
+D. 144 000 W  
+
+**5.** Two machines lift identical loads through the same height. Machine X takes 10 s; Machine Y takes 5 s. Which statement is correct?
+
+A. Machine X does more work  
+
+B. Machine Y does more work  
+
+C. Both machines do the same work  
+
+D. Machine Y has lower power  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define the term *power*. [1]
+
+(b) A crane lifts a load of 8000 N vertically through a height of 15 m in 20 s.
+
+   (i) Calculate the work done by the crane. [2]
+
+   (ii) Calculate the power output of the crane. [2]
+
+   (iii) Explain why the electrical power input to the crane motor must be greater than your answer to (ii). [2]
+
+**7.** A student investigates the relationship between work and energy.
+
+(a) State the relationship between work done and energy transferred. [1]
+
+(b) The student pulls a box along a horizontal floor with a constant force of 50 N. The box moves 4.0 m in the direction of the force.
+
+   (i) Calculate the work done by the student. [2]
+
+   (ii) If the box starts from rest and gains 150 J of kinetic energy, explain what happened to the remaining energy. [2]
+
+(c) The student repeats the experiment with the same force but over a distance of 8.0 m. Predict how the kinetic energy gained by the box will change, assuming the same proportion of energy is dissipated. [2]
+
+**8.** (a) A person of weight 550 N runs up a flight of stairs of vertical height 4.0 m in 5.5 s.
+
+   (i) Calculate the work done against gravity. [2]
+
+   (ii) Calculate the person's average power output. [2]
+
+(b) Another person of the same weight climbs the same stairs in 4.0 s.
+
+   (i) Compare the work done by the two people. [1]
+
+   (ii) Compare their power outputs. [1]
+
+   (iii) Explain your answers. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Work** is done when a force causes displacement in its direction: $W = Fd$  
+✓ **Work–energy principle**: Work done = energy transferred ($W = \Delta E$)  
+✓ **Unit of work/energy**: joule (J); $1 \text{ J} = 1 \text{ N} \cdot \text{m}$  
+✓ **No work** is done if: (a) $d = 0$, or (b) force ⟂ displacement  
+✓ **Power** is the rate of doing work or transferring energy: $P = \frac{W}{t} = \frac{\Delta E}{t}$  
+✓ **Unit of power**: watt (W); $1 \text{ W} = 1 \text{ J/s}$  
+✓ **Work against gravity**: $W = mg\Delta h = \Delta E_p$  
+✓ **Real systems**: Useful energy output < work input due to dissipation; efficiency < 100%  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Work done | $W = F \times d$ | $W$=work (J), $F$=force in direction of motion (N), $d$=distance (m) |
+| Work–energy | $W = \Delta E$ | Energy transferred equals work done |
+| Power | $P = \frac{W}{t}$ or $P = \frac{\Delta E}{t}$ | $P$=power (W), $t$=time (s) |
+| Work against gravity | $W = mg\Delta h$ | $m$=mass (kg), $g$=field strength (N/kg), $\Delta h$=height change (m) |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 6 (Sections 6.2 and 6.4)
+
+- Practical Work in Physics: Work, Energy and Power
+
+### Online Resources
+
+- PhET Interactive Simulations: Energy Skate Park, Work and Power
+
+- BBC Bitesize: Work Done, Power and Efficiency
+
+### Video Resources
+
+- Demonstration: Measuring human power output by stair climbing
+
+- Animation: Work–energy theorem with real-world examples
+
+- Real-world application: Engineering design of cranes, elevators, and motors
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Dissipated energy** | Energy that is spread out into the surroundings (usually as thermal energy) and is no longer available to do useful work |
+| **Efficiency** | Ratio of useful energy output to total energy input, expressed as a percentage |
+| **Joule (J)** | SI unit of work and energy; $1 \text{ J} = 1 \text{ N} \cdot \text{m}$ |
+| **Power** | Rate of doing work or transferring energy; $P = \frac{W}{t}$; SI unit: watt (W) |
+| **Watt (W)** | SI unit of power; $1 \text{ W} = 1 \text{ J/s}$ |
+| **Work** | Energy transferred when a force causes displacement in its direction; $W = Fd$; SI unit: joule (J) |
+| **Work–energy principle** | The work done on an object equals the change in its energy: $W = \Delta E$ |
+
+---
+
+*End of Chapter 8*

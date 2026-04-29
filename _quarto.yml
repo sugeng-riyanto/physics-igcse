@@ -1,0 +1,100 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Cambridge IGCSE Physics 0625: Last-Minute Revision Guide"
+  subtitle: "Concepts, Common Misconceptions, Essential Skills, and Worked Calculations"
+  author: "Sugeng Riyanto, M.Sc."
+  date: "2026"
+  chapters:
+    - index.qmd
+    - syllabus-map.qmd
+    - preface.qmd 
+    - part: "Core Content"
+      chapters:
+        - chapters/01-measurement.qmd
+        - chapters/02-motion.qmd
+        - chapters/03-mass-weight-density.qmd
+        - chapters/04-forces.qmd
+        - chapters/05-moments-equilibrium.qmd
+        - chapters/06-momentum.qmd
+        - chapters/07-energy-stores.qmd
+        - chapters/08-work-power.qmd
+        - chapters/09-pressure.qmd
+        - chapters/10-kinetic-particle-model.qmd
+        - chapters/11-thermal-properties.qmd
+        - chapters/12-phase-changes.qmd
+        - chapters/13-thermal-transfer.qmd
+        - chapters/14-wave-properties.qmd
+        - chapters/15-light-reflection-refraction.qmd
+        - chapters/16-em-spectrum.qmd
+        - chapters/17-sound.qmd
+        - chapters/18-magnetism.qmd
+        - chapters/19-electric-charge-circuits.qmd
+        - chapters/20-electrical-quantities.qmd
+        - chapters/21-electromagnetic-effects.qmd
+        - chapters/22-nuclear-physics.qmd
+        - chapters/23-space-physics.qmd
+    - part: "Supporting Materials"
+      chapters:
+        - back-matter/practical-skills.qmd
+        - back-matter/maths-data.qmd
+        - back-matter/exam-technique.qmd
+        - back-matter/formula-sheet.qmd
+        - back-matter/bibliography.qmd
+        - back-matter/index.qmd
+
+# I moved HTML to the top so it is the default format
+format:
+  html:
+    theme: assets/styles/custom.scss
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    code-fold: false
+    link-external-icon: true     
+    link-external-newwindow: true
+  pdf:
+    documentclass: report
+    fontsize: 12pt
+    mainfont: "Arial"           # Temporary fallback until Inter is installed
+    sansfont: "Arial"
+    monofont: "Consolas"
+    engine: lualatex
+    geometry: margin=2.5cm
+    linestretch: 1.35
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    cite-method: biblatex
+    colorlinks: true
+    header-includes: |
+      \usepackage{xcolor}
+      \definecolor{linkblue}{HTML}{1E40AF}
+      \definecolor{urlteal}{HTML}{0F766E}
+      \definecolor{citeblue}{HTML}{1E40AF}
+      \definecolor{filepurple}{HTML}{7C3AED}
+    linkcolor: linkblue
+    urlcolor: urlteal
+    citecolor: citeblue
+    filecolor: filepurple
+  docx:
+    toc: true
+    number-sections: true
+    reference-doc: assets/styles/custom-template.docx  # Optional: remove if using default
+
+bibliography: references.bib
+csl: apa.csl
+
+execute:
+  python: "C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe"
+  echo: false
+  warning: false
+  message: false
+  cache: true
+  eval: true
+  fig-format: png
+  fig-width: 8
+  fig-height: 5
+  dpi: 300

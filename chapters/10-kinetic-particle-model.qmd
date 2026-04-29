@@ -1,0 +1,810 @@
+---
+title: "Kinetic Particle Model of Matter"
+chapter: 10
+syllabus-code: "2.1 Kinetic particle model of matter"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (2.1.1 States of Matter):**
+
+- Know the distinguishing properties of solids, liquids and gases
+
+- Know the terms for the changes in state between solids, liquids and gases (gas to solid and solid to gas transfers are not required)
+
+**Core Content (2.1.2 Particle Model):**
+
+- Describe the particle structure of solids, liquids and gases in terms of the arrangement, separation and motion of the particles and represent these states using simple particle diagrams
+
+- Describe the relationship between the motion of particles and temperature, including the idea that there is a lowest possible temperature (−273 °C), known as absolute zero, where the particles have least kinetic energy
+
+- Describe the pressure and the changes in pressure of a gas in terms of the motion of its particles and their collisions with a surface
+
+- Know that the random motion of microscopic particles in a suspension is evidence for the kinetic particle model of matter
+
+- Describe and explain this motion (sometimes known as Brownian motion) in terms of random collisions between the microscopic particles in a suspension and the particles of the gas or liquid
+
+**Core Content (2.1.3 Gases and the Absolute Scale of Temperature):**
+
+- Describe qualitatively, in terms of particles, the effect on the pressure of a fixed mass of gas of: (a) a change of temperature at constant volume (b) a change of volume at constant temperature
+
+- Convert temperatures between kelvin and degrees Celsius; recall and use the equation T(in K) = θ(in °C) + 273
+
+**Supplement (Extended):**
+
+- Know that the forces and distances between particles (atoms, molecules, ions and electrons) and the motion of the particles affects the properties of solids, liquids and gases
+
+- Describe the pressure and the changes in pressure of a gas in terms of the forces exerted by particles colliding with surfaces, creating a force per unit area
+
+- Know that microscopic particles may be moved by collisions with light fast-moving molecules and correctly use the terms atoms or molecules as distinct from microscopic particles
+
+- Recall and use the equation pV = constant for a fixed mass of gas at constant temperature, including a graphical representation of this relationship
+
+---
+
+## The Three States of Matter
+
+### Distinguishing Properties
+
+All matter exists in three states: solid, liquid, and gas. Each state has distinct properties that arise from the arrangement and motion of its particles.
+
+| Property | Solid | Liquid | Gas |
+|:---------|:------|:-------|:----|
+| **Shape** | Fixed shape | No fixed shape; takes shape of container | No fixed shape; fills entire container |
+| **Volume** | Fixed volume | Fixed volume | No fixed volume; expands to fill container |
+| **Density** | High density | High density (slightly less than solid) | Low density |
+| **Compressibility** | Incompressible | Incompressible | Compressible |
+| **Flow** | Cannot flow | Can flow | Can flow |
+
+::: {.callout-note}
+**Key Concept:** The properties of each state depend on the arrangement, separation, and motion of particles, not on the type of substance itself.
+:::
+
+### Changes of State
+
+Matter can change from one state to another when energy is added or removed. The main changes of state are:
+
+- **Melting**: Solid → Liquid (at melting point)
+
+- **Freezing/Solidifying**: Liquid → Solid (at melting point)
+
+- **Boiling**: Liquid → Gas (at boiling point)
+
+- **Condensing**: Gas → Liquid (at boiling point)
+
+::: {.callout-warning}
+**Important:** During a change of state, the temperature remains constant even though energy is being supplied or removed. This energy is used to overcome or form intermolecular forces, not to increase particle kinetic energy.
+:::
+
+---
+
+## The Kinetic Particle Model
+
+### What Is the Kinetic Particle Model?
+
+The kinetic particle model of matter states that:
+
+- All matter is made up of tiny particles (atoms, molecules, or ions)
+
+- These particles are in continuous random motion
+
+- The motion and arrangement of particles determine the properties of each state
+
+### Particle Arrangement and Motion
+
+| State | Particle Arrangement | Particle Separation | Particle Motion | Interparticle Forces |
+|:------|:---------------------|:--------------------|:----------------|:---------------------|
+| **Solid** | Regular, ordered pattern (usually) | Very close together | Vibrate about fixed positions | Very strong |
+| **Liquid** | Random, disordered | Slightly further apart than solids | Move freely within the liquid, sliding past each other | Moderately strong |
+| **Gas** | Random, widely spaced | Far apart | Move rapidly in all directions, colliding with each other and container walls | Negligible |
+
+::: {.callout-note}
+**Visual Aid:** Simple particle diagrams help represent these states:
+- Solid: Particles in a grid, closely packed
+
+- Liquid: Particles close but randomly arranged
+
+- Gas: Particles far apart, scattered randomly
+:::
+
+### How Particle Motion Relates to Temperature
+
+**Temperature** is a measure of the average kinetic energy of particles in a substance.
+
+- When temperature **increases**, particles move or vibrate **faster** (higher average kinetic energy)
+
+- When temperature **decreases**, particles move or vibrate **slower** (lower average kinetic energy)
+
+**Absolute Zero:**
+
+- The lowest possible temperature is **−273 °C**, known as **absolute zero**
+
+- At absolute zero, particles have the **least possible kinetic energy** (they do not stop completely due to quantum effects, but this is beyond IGCSE scope)
+
+- Absolute zero is the starting point of the **Kelvin temperature scale**: 0 K = −273 °C
+
+**Temperature Conversion:**
+
+$$T(\text{in K}) = \theta(\text{in °C}) + 273$$
+
+**Examples:**
+
+- 0 °C = 0 + 273 = **273 K**
+
+- 25 °C = 25 + 273 = **298 K**
+
+- 100 °C = 100 + 273 = **373 K**
+
+::: {.callout-warning}
+**Important:** A change of 1 °C is equal to a change of 1 K. Only the starting points differ.
+:::
+
+---
+
+## Gas Pressure and the Particle Model
+
+### How Do Gases Exert Pressure?
+
+Gas pressure is caused by the **constant collisions** of gas particles with the walls of their container.
+
+**Explanation using the particle model:**
+
+1. Gas particles move rapidly in random directions
+
+2. They collide with the container walls
+
+3. Each collision exerts a tiny force on the wall
+
+4. The **sum of all these forces per unit area** is the gas pressure
+
+$$\text{Pressure} = \frac{\text{Total force from collisions}}{\text{Area of container wall}}$$
+
+### Factors Affecting Gas Pressure
+
+For a **fixed mass of gas**:
+
+| Change | Effect on Pressure | Particle-Level Explanation |
+|:-------|:-------------------|:---------------------------|
+| **Temperature increases** (constant volume) | Pressure increases | Particles move faster → more frequent and more forceful collisions with walls |
+| **Volume decreases** (constant temperature) | Pressure increases | Particles have less space → more frequent collisions with walls |
+| **Volume increases** (constant temperature) | Pressure decreases | Particles have more space → less frequent collisions with walls |
+| **Temperature decreases** (constant volume) | Pressure decreases | Particles move slower → less frequent and less forceful collisions |
+
+::: {.callout-note}
+**Key Insight:** Pressure depends on the **rate** and **force** of particle collisions with the container walls.
+:::
+
+### Boyle's Law (Supplement)
+
+For a fixed mass of gas at **constant temperature**:
+
+$$pV = \text{constant} \quad \text{or} \quad p_1 V_1 = p_2 V_2$$
+
+Where:
+- $p$ = pressure (Pa)
+- $V$ = volume (m³)
+
+**Graphical Representation:**
+
+- A graph of $p$ against $V$ is a **curve** (hyperbola)
+
+- A graph of $p$ against $\frac{1}{V}$ is a **straight line through the origin**, confirming inverse proportionality
+
+---
+
+## 10.4 Brownian Motion: Evidence for the Particle Model
+
+### What Is Brownian Motion?
+
+**Brownian motion** is the random, jerky movement of microscopic particles (e.g., smoke particles, pollen grains) suspended in a fluid (liquid or gas).
+
+**Discovery:** First observed by botanist Robert Brown in 1827 when studying pollen grains in water.
+
+### Explanation Using the Particle Model
+
+Brownian motion occurs because:
+
+1. The suspended microscopic particles are much larger than the fluid molecules
+
+2. Fluid molecules (too small to see) move rapidly and randomly
+
+3. These molecules **collide randomly** with the suspended particles from all directions
+
+4. At any instant, the collisions are **unbalanced**, causing the suspended particle to jerk in a random direction
+
+5. The continuous, random collisions produce the observed **zigzag motion**
+
+::: {.callout-note}
+**Key Evidence:** Brownian motion provides direct observational evidence that:
+- Fluids are made of tiny, moving particles
+
+- These particles are in continuous random motion
+
+- The motion is random, not directed
+:::
+
+### Observing Brownian Motion
+
+**Experiment: Smoke Cell**
+
+**Apparatus:**
+- Glass cell containing smoke
+
+- Microscope
+
+- Light source
+
+**Method:**
+1. Seal a small amount of smoke in a glass cell
+
+2. Illuminate the cell with a bright light
+
+3. Observe through a microscope
+
+**Observation:**
+- Smoke particles appear as bright, dancing specks
+
+- They move in a random, jerky path
+
+- Larger particles move less vigorously than smaller ones
+
+**Conclusion:**
+The random motion of smoke particles is caused by invisible air molecules colliding with them, supporting the kinetic particle model.
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Three states of matter** have distinct properties due to particle arrangement and motion
+
+2. **Changes of state** occur at fixed temperatures (melting/boiling points) with energy transfer but no temperature change
+
+3. **Kinetic particle model**: Matter is made of tiny particles in continuous random motion
+
+4. **Temperature** measures average particle kinetic energy; absolute zero (−273 °C = 0 K) is the theoretical minimum
+
+5. **Gas pressure** results from particle collisions with container walls; increases with temperature (constant volume) or decreases with volume (constant temperature)
+
+6. **Brownian motion** provides evidence for the particle model: random motion of suspended particles due to collisions with invisible fluid molecules
+
+### Extended Concepts
+
+7. **Interparticle forces and distances** determine state properties: strong forces and close spacing in solids; weak forces and large spacing in gases
+
+8. **Pressure as force per unit area**: Gas pressure arises from the force exerted by many particle collisions per unit area of container wall
+
+9. **Boyle's Law**: For fixed mass at constant temperature, $pV = \text{constant}$; pressure and volume are inversely proportional
+
+10. **Terminology precision**: Distinguish between atoms, molecules, ions (constituents of matter) and microscopic particles (visible under microscope, e.g., smoke particles)
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Particles in a solid do not move"
+
+**Incorrect**: "Particles in ice are completely still"
+
+**Correct**:
+
+- Particles in a solid **vibrate about fixed positions**
+
+- They do not move from place to place, but they are not stationary
+
+- Higher temperature → more vigorous vibration
+
+---
+
+### ⚠️ Misconception 2: "During boiling, temperature increases because energy is added"
+
+**Incorrect**: "When water boils, its temperature keeps rising"
+
+**Correct**:
+
+- During a change of state (melting, boiling), **temperature remains constant**
+
+- Added energy is used to **overcome intermolecular forces**, not to increase particle kinetic energy
+
+- This is why a boiling kettle stays at 100 °C (at standard pressure) until all water has vaporised
+
+---
+
+### ⚠️ Misconception 3: "Gas particles are stationary until they hit the wall"
+
+**Incorrect**: "Gas particles only move when they collide"
+
+**Correct**:
+
+- Gas particles are in **continuous, rapid, random motion** at all times
+
+- Collisions change their direction and speed, but motion never stops (except theoretically at absolute zero)
+
+---
+
+### ⚠️ Misconception 4: "Brownian motion is the motion of the fluid molecules themselves"
+
+**Incorrect**: "We see air molecules moving in Brownian motion"
+
+**Correct**:
+
+- Brownian motion is the motion of **microscopic suspended particles** (e.g., smoke), **not** the fluid molecules
+
+- Fluid molecules are too small to see; their random collisions **cause** the visible jerky motion of larger suspended particles
+
+---
+
+### ⚠️ Misconception 5: "Pressure in a gas is caused by particles pushing on each other"
+
+**Incorrect**: "Gas pressure comes from particles pushing against each other"
+
+**Correct**:
+
+- Gas pressure is caused by particles **colliding with the container walls**, not with each other
+
+- Particle-particle collisions redistribute energy but do not directly create pressure on the container
+
+---
+
+### ⚠️ Misconception 6: "Kelvin and Celsius scales have different sized degrees"
+
+**Incorrect**: "1 K is a bigger change than 1 °C"
+
+**Correct**:
+
+- A change of **1 K equals a change of 1 °C**
+
+- Only the zero points differ: 0 K = −273 °C
+
+- Conversion: $T(\text{K}) = \theta(°C) + 273$
+
+---
+
+### ⚠️ Misconception 7: "When volume decreases, gas particles get smaller"
+
+**Incorrect**: "Compressing a gas makes the particles shrink"
+
+**Correct**:
+
+- Gas particles themselves **do not change size** when compressed
+
+- Compression reduces the **space between particles**, increasing collision frequency with walls → higher pressure
+
+---
+
+## Worked Examples
+
+### Example 1: Temperature Conversion
+
+**Question:**
+Convert the following temperatures:
+(a) 37 °C to kelvin
+(b) 300 K to degrees Celsius
+(c) A gas is heated from 20 °C to 80 °C. What is the change in temperature in kelvin?
+
+**Solution:**
+
+**(a) 37 °C to K:**
+$$T = \theta + 273 = 37 + 273 = \boxed{310 \text{ K}}$$
+
+**(b) 300 K to °C:**
+$$\theta = T - 273 = 300 - 273 = \boxed{27 \text{ °C}}$$
+
+**(c) Change in temperature:**
+Initial: $20 \text{ °C} = 293 \text{ K}$
+Final: $80 \text{ °C} = 353 \text{ K}$
+Change: $353 - 293 = \boxed{60 \text{ K}}$
+
+**Note:** The change is also $80 - 20 = 60 \text{ °C}$, confirming that 1 °C change = 1 K change.
+
+---
+
+### Example 2: Gas Pressure and Particle Motion
+
+**Question:**
+A fixed mass of gas is sealed in a rigid container. Explain, in terms of particle motion, why the pressure increases when the gas is heated.
+
+**Solution:**
+
+**Step 1:** Heating increases the average kinetic energy of gas particles.
+
+**Step 2:** Particles move **faster** on average.
+
+**Step 3:** Faster particles collide with the container walls:
+- More **frequently** (higher collision rate)
+
+- With greater **force** per collision (higher momentum change)
+
+**Step 4:** Pressure = total force per unit area from collisions.
+
+**Conclusion:** Both increased collision frequency and increased force per collision cause the pressure to rise.
+
+---
+
+### Example 3: Boyle's Law Calculation (Supplement)
+
+**Question:**
+A gas occupies 200 cm³ at a pressure of 150 kPa. If the volume is reduced to 120 cm³ at constant temperature, calculate the new pressure.
+
+**Solution:**
+
+**Given:**
+- $p_1 = 150 \text{ kPa}$
+- $V_1 = 200 \text{ cm}^3$
+- $V_2 = 120 \text{ cm}^3$
+- Temperature constant → use $p_1 V_1 = p_2 V_2$
+
+**Calculation:**
+$$p_2 = \frac{p_1 V_1}{V_2} = \frac{150 \times 200}{120} = \frac{30\,000}{120} = \boxed{250 \text{ kPa}}$$
+
+**Check:** Volume decreased by factor $200/120 = 1.67$, so pressure should increase by same factor: $150 \times 1.67 = 250$ kPa ✓
+
+---
+
+### Example 4: Brownian Motion Explanation
+
+**Question:**
+Describe and explain what is observed when smoke particles in air are viewed under a microscope.
+
+**Solution:**
+
+**Observation:**
+- Smoke particles appear as bright specks of light
+
+- They move in a **random, jerky, zigzag path**
+
+- Smaller particles move more vigorously than larger ones
+
+**Explanation:**
+1. Smoke particles are microscopic (visible under microscope) but much larger than air molecules
+
+2. Air molecules (N₂, O₂) are too small to see but move rapidly and randomly
+
+3. Air molecules constantly collide with smoke particles from all directions
+
+4. At any instant, collisions are unbalanced, giving a net force in a random direction
+
+5. Continuous random collisions produce the observed jerky motion
+
+**Conclusion:** This Brownian motion provides evidence that air is made of tiny, rapidly moving particles.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** State three distinguishing properties of:
+
+- (a) a solid
+
+- (b) a liquid
+
+- (c) a gas
+
+**2.** Name the change of state for:
+
+- (a) solid to liquid
+
+- (b) liquid to gas
+
+- (c) gas to liquid
+
+- (d) liquid to solid
+
+**3.** Describe the arrangement and motion of particles in:
+
+- (a) a solid
+
+- (b) a liquid
+
+- (c) a gas
+
+**4.** Explain, in terms of particle motion, why:
+
+- (a) a solid has a fixed shape
+
+- (b) a liquid can flow
+
+- (c) a gas can be compressed
+
+**5.** What is meant by absolute zero? State its value in degrees Celsius and kelvin.
+
+**6.** Convert:
+
+- (a) 0 °C to K
+
+- (b) 273 K to °C
+
+- (c) −50 °C to K
+
+**7.** Explain, using the particle model, why the pressure of a gas in a sealed container increases when the temperature is raised.
+
+**8.** Describe what is observed in a Brownian motion experiment using smoke particles. Explain how this observation supports the kinetic particle model.
+
+**9.** A gas occupies 300 cm³ at a pressure of 100 kPa. If the volume is increased to 450 cm³ at constant temperature, what happens to the pressure? Explain in terms of particle collisions.
+
+**10.** Why does the temperature of a substance remain constant during melting, even though energy is being supplied?
+
+### Extended Level
+
+**11.** A fixed mass of gas at 300 K has a pressure of 120 kPa. If the temperature is increased to 450 K at constant volume, calculate the new pressure.
+
+**12.** Explain, in terms of intermolecular forces and particle separation, why:
+
+- (a) solids are incompressible
+
+- (b) gases have low density
+
+- (c) liquids can flow but solids cannot
+
+**13.** A gas is compressed from 500 cm³ to 200 cm³ at constant temperature. If the initial pressure was 80 kPa, calculate the final pressure. Sketch a graph of pressure against volume for this process.
+
+**14.** In a Brownian motion experiment, why do smaller suspended particles move more vigorously than larger ones? Explain using the particle model.
+
+**15.** Explain why the equation $pV = \text{constant}$ only applies when:
+
+- (a) the mass of gas is fixed
+
+- (b) the temperature is constant
+
+**16.** A student claims that at absolute zero, all particle motion stops. Evaluate this statement using your knowledge of the kinetic particle model.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 10.1: Observing Brownian Motion
+
+**Objective:**
+To observe and explain the random motion of smoke particles as evidence for the kinetic particle model.
+
+**Apparatus:**
+- Glass smoke cell with cover slip
+
+- Microscope (×100 or higher magnification)
+
+- Bright light source (LED torch or microscope lamp)
+
+- Dropper with dilute smoke suspension (or incense stick for generating smoke)
+
+**Variables:**
+- **Independent:** None (observational experiment)
+
+- **Dependent:** Motion of smoke particles (qualitative description)
+
+- **Controlled:** Light intensity, magnification, smoke concentration, temperature
+
+**Procedure:**
+1. Prepare the smoke cell:
+   - If using a commercial cell, ensure it is sealed and contains a small amount of smoke
+
+   - If making your own, gently introduce a tiny amount of smoke into a clean glass cell and seal immediately
+
+2. Place the smoke cell on the microscope stage
+
+3. Illuminate the cell from the side or below to make smoke particles visible as bright specks
+
+4. Focus the microscope to obtain a clear view of individual smoke particles
+
+5. Observe the motion of several particles for 2–3 minutes
+
+6. Sketch the path of one particle over a short time interval
+
+7. Compare the motion of small particles with larger ones
+
+**Observations to Record:**
+- Describe the path of a typical smoke particle (e.g., straight, curved, zigzag)
+
+- Note whether motion is continuous or jerky
+
+- Compare vigour of motion for particles of different sizes
+
+- Note any changes when the cell is gently warmed (e.g., by holding in hands)
+
+**Analysis:**
+1. Explain the observed motion using the kinetic particle model:
+   - What causes the jerky motion?
+
+   - Why is the path random?
+
+   - Why do smaller particles move more vigorously?
+
+2. Relate observations to the existence and motion of invisible air molecules
+
+**Precautions:**
+- ✓ Use minimal smoke to avoid obscuring the view
+
+- ✓ Avoid heating the cell excessively, which could cause convection currents
+
+- ✓ Handle glass cells carefully to avoid breakage
+
+- ✓ Do not look directly at bright light sources
+
+**Conclusion Template:**
+"The observed random, jerky motion of smoke particles (Brownian motion) is caused by continuous, random collisions with invisible, rapidly moving air molecules. This provides direct evidence that gases are composed of tiny particles in continuous random motion, supporting the kinetic particle model of matter."
+
+**Extension (Supplement):**
+- Investigate the effect of temperature: gently warm the cell and observe changes in particle motion
+
+- Compare Brownian motion in different gases (if equipment allows)
+
+- Research historical significance: How did Einstein's explanation of Brownian motion help confirm the existence of atoms?
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly describes the particles in a liquid?
+
+A. They are arranged in a regular pattern and vibrate about fixed positions  
+
+B. They are close together but can move past each other  
+
+C. They are far apart and move rapidly in all directions  
+
+D. They are stationary and closely packed  
+
+**2.** What is the temperature in kelvin equivalent to 25 °C?
+
+A. 248 K  
+
+B. 273 K  
+
+C. 298 K  
+
+D. 325 K  
+
+**3.** A fixed mass of gas is heated in a rigid container. What happens to the pressure and why?
+
+A. Pressure decreases; particles move slower  
+
+B. Pressure decreases; particles collide less frequently  
+
+C. Pressure increases; particles move faster and collide more forcefully  
+
+D. Pressure increases; particles get larger  
+
+**4.** Brownian motion provides evidence for:
+
+A. The wave nature of light  
+
+B. The existence of atoms and molecules in continuous motion  
+
+C. The fixed arrangement of particles in solids  
+
+D. The compressibility of gases  
+
+**5.** Which graph correctly shows the relationship between pressure and volume for a fixed mass of gas at constant temperature?
+
+A. Straight line through origin (p against V)  
+
+B. Horizontal straight line (p against V)  
+
+C. Curve decreasing from left to right (p against V)  
+
+D. Straight line with negative gradient (p against 1/V)  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Describe the arrangement and motion of particles in a solid. [2]
+
+(b) Explain, in terms of particle motion, why a solid expands when heated. [3]
+
+(c) Why does a solid have a fixed shape but a liquid does not? [2]
+
+**7.** (a) Define absolute zero. State its value in degrees Celsius. [2]
+
+(b) Convert:
+   (i) 100 °C to kelvin [1]
+   (ii) 400 K to degrees Celsius [1]
+
+(c) A gas at 300 K is heated to 450 K at constant volume. Explain, using the kinetic particle model, why the pressure increases. [3]
+
+**8.** (a) Describe what is observed when smoke particles in air are viewed under a microscope. [2]
+
+(b) Explain how this observation supports the kinetic particle model of matter. [3]
+
+(c) Why do smaller smoke particles move more vigorously than larger ones? [2]
+
+**9.** (Extended) (a) State Boyle's Law for a fixed mass of gas at constant temperature. [1]
+
+(b) A gas occupies 250 cm³ at a pressure of 120 kPa. Calculate its volume when the pressure is increased to 200 kPa at constant temperature. [3]
+
+(c) Sketch a graph of pressure against 1/volume for this gas. Label axes and indicate the relationship. [3]
+
+(d) Explain, in terms of particle collisions, why reducing the volume of a gas at constant temperature increases its pressure. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Three states of matter**: Solids (fixed shape/volume), liquids (fixed volume, variable shape), gases (variable shape/volume)  
+
+✓ **Changes of state**: Melting, freezing, boiling, condensing occur at fixed temperatures with energy transfer but no temperature change  
+
+✓ **Kinetic particle model**: Matter is made of tiny particles in continuous random motion; arrangement and motion determine state properties  
+
+✓ **Temperature and particle motion**: Temperature measures average kinetic energy; absolute zero (−273 °C = 0 K) is theoretical minimum  
+
+✓ **Gas pressure**: Caused by particle collisions with container walls; increases with temperature (constant volume) or decreases with volume (constant temperature)  
+
+✓ **Brownian motion**: Random jerky motion of suspended microscopic particles provides evidence for invisible, moving fluid molecules  
+
+✓ **Boyle's Law** (Extended): For fixed mass at constant temperature, $pV = \text{constant}$; pressure and volume are inversely proportional  
+
+✓ **Terminology**: Distinguish atoms/molecules (constituents) from microscopic particles (visible suspended particles)  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Temperature conversion | $T(\text{K}) = \theta(°C) + 273$ | $T$=temperature in kelvin, $\theta$=temperature in °C |
+| Boyle's Law (Extended) | $p_1 V_1 = p_2 V_2$ | $p$=pressure (Pa), $V$=volume (m³), constant temperature and mass |
+| Pressure definition | $p = \frac{F}{A}$ | $p$=pressure (Pa), $F$=force (N), $A$=area (m²) |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 8
+
+- Practical Work in Physics: Particle Model and Brownian Motion
+
+### Online Resources
+
+- PhET Interactive Simulations: States of Matter, Gas Properties
+
+- BBC Bitesize: Kinetic Theory, Brownian Motion
+
+- Royal Society of Chemistry: Particle Model animations
+
+### Video Resources
+
+- Demonstration: Observing Brownian motion with smoke cell
+
+- Animation: Particle arrangement and motion in solids, liquids, gases
+
+- Real-world application: How pressure cookers and aerosols work using gas laws
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Absolute zero** | The lowest possible temperature (−273 °C or 0 K), where particles have minimum kinetic energy |
+| **Boiling** | Change of state from liquid to gas at the boiling point; occurs throughout the liquid |
+| **Boyle's Law** | For a fixed mass of gas at constant temperature, pressure and volume are inversely proportional: $pV = \text{constant}$ |
+| **Brownian motion** | The random, jerky motion of microscopic particles suspended in a fluid, caused by collisions with invisible, rapidly moving fluid molecules |
+| **Condensing** | Change of state from gas to liquid at the boiling point |
+| **Freezing/Solidifying** | Change of state from liquid to solid at the melting point |
+| **Gas pressure** | Force per unit area exerted by gas particles colliding with container walls |
+| **Kelvin scale** | Absolute temperature scale where 0 K = absolute zero; $T(\text{K}) = \theta(°C) + 273$ |
+| **Kinetic particle model** | Model stating that matter is made of tiny particles in continuous random motion; explains properties of solids, liquids, and gases |
+| **Melting** | Change of state from solid to liquid at the melting point |
+| **Microscopic particle** | A particle large enough to be seen under a microscope (e.g., smoke particle, pollen grain), but much larger than atoms or molecules |
+| **Particle collision** | Interaction where particles change direction and/or speed; gas pressure results from collisions with container walls |
+| **Temperature** | Measure of the average kinetic energy of particles in a substance |
+
+---
+
+*End of Chapter 10*

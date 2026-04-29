@@ -1,0 +1,289 @@
+
+**Descriptive questions:**
+- Use bullet points for clarity
+- One mark = one point
+- Use correct scientific terminology
+- Be concise but complete
+- Include relevant details
+
+**Graph questions:**
+- Use a ruler for straight lines
+- Label axes with quantities and units
+- Choose appropriate scales
+- Plot points accurately (±½ small square)
+- Draw smooth best-fit line
+- Calculate gradient using large triangle
+
+---
+
+### Common Question Types
+
+**Definitions:**
+- Learn key definitions precisely
+- Include units where relevant
+- Examples: speed, acceleration, pressure, power
+
+**Laws and principles:**
+- State exactly as learned
+- Examples: Newton's laws, conservation of energy, Ohm's law
+
+**Explanations:**
+- Use the structure: "Because... therefore..."
+- Link cause and effect
+- Use particle model where appropriate
+- Refer to relevant physics principles
+
+**Comparisons:**
+- Address both items being compared
+- Use comparative language: "greater than," "less than," "similar to"
+- Give specific differences/similarities
+
+---
+
+## Practical Papers (5 & 6)
+
+### Paper 5: Practical Test
+
+**What to expect:**
+- Hands-on experiments in laboratory
+- Usually 3–4 experiments
+- 1 hour 15 minutes
+- 40 marks
+
+**Skills tested:**
+- Setting up apparatus correctly
+- Taking accurate measurements
+- Recording data in tables
+- Plotting and analyzing graphs
+- Drawing conclusions
+- Evaluating methods
+
+**Tips:**
+1. Read all instructions before starting
+2. Set up apparatus carefully
+3. Take readings to appropriate precision
+4. Record units in table headings
+5. Plot graphs neatly and accurately
+6. Show all working for calculations
+7. Comment on sources of error
+8. Suggest realistic improvements
+
+---
+
+### Paper 6: Alternative to Practical
+
+**What to expect:**
+- Written questions about practical work
+- No laboratory work required
+- 1 hour
+- 40 marks
+
+**Question types:**
+- Drawing and labeling apparatus
+- Completing data tables
+- Plotting graphs from given data
+- Analyzing results
+- Identifying errors
+- Suggesting improvements
+
+**Preparation:**
+- Know common experimental setups
+- Understand how to use standard apparatus
+- Practice drawing circuit diagrams
+- Learn how to plot and interpret graphs
+- Understand sources of error
+- Know how to improve experiments
+
+---
+
+## Revision Strategies
+
+### Before the Exam
+
+**Content review:**
+- Create summary notes for each topic
+- Make formula sheets
+- Practice past papers
+- Review practical work
+- Identify weak areas and focus on them
+
+**Formula learning:**
+- Understand what each symbol means
+- Know the units
+- Practice rearranging equations
+- Learn which formulas are provided
+
+**Practical skills:**
+- Review all required practicals
+- Know the methods
+- Understand sources of error
+- Practice data analysis
+
+---
+
+### During Revision
+
+**Active learning:**
+- Do not just read—practice
+- Solve problems without looking at solutions
+- Explain concepts to others
+- Create mind maps
+- Use flashcards for definitions
+
+**Past papers:**
+- Do under timed conditions
+- Mark using mark scheme
+- Identify common question types
+- Learn from mistakes
+- Track progress
+
+---
+
+## Exam Day
+
+### Before the Exam
+
+- Get adequate sleep
+- Eat a good breakfast
+- Arrive early
+- Bring required equipment:
+  - Calculator (check batteries)
+  - Ruler (30 cm)
+  - Protractor
+  - Compasses
+  - Sharp pencils (HB and 2B)
+  - Eraser
+  - Pen (black or blue)
+
+---
+
+### During the Exam
+
+**Time allocation:**
+- Check total time available
+- Allocate time per section
+- Leave time to check answers
+- Do not get stuck on one question
+
+**Checking work:**
+- Verify calculations make sense
+- Check units are correct
+- Ensure answers are reasonable
+- Review multiple choice answers
+- Check all questions answered
+
+**Common mistakes to avoid:**
+- Forgetting units
+- Wrong number of significant figures
+- Misreading scales on graphs
+- Confusing mass and weight
+- Mixing up series and parallel circuits
+- Forgetting to convert units (cm to m, etc.)
+- Not showing working for calculations
+
+---
+
+## Specific Topic Tips
+
+### Mechanics
+- Draw free-body diagrams
+- Resolve vectors when needed
+- Check directions of forces
+- Use correct sign convention
+
+### Thermal Physics
+- Remember temperature in Kelvin for gas laws
+- Distinguish between heat and temperature
+- Know particle model explanations
+
+### Waves
+- Distinguish transverse and longitudinal
+- Remember $v = f\lambda$
+- Know electromagnetic spectrum order
+- Practice ray diagrams
+
+### Electricity
+- Draw clear circuit diagrams
+- Remember series and parallel rules
+- Check current direction
+- Know component symbols
+
+### Magnetism
+- Use Fleming's rules correctly
+- Know field patterns
+- Remember motor and generator effects
+
+### Nuclear Physics
+- Balance nuclear equations
+- Know properties of α, β, γ
+- Understand half-life calculations
+- Know safety precautions
+
+---
+
+## Mark Scheme Insights
+
+### How marks are awarded
+
+**Method marks (M):**
+- Awarded for correct method
+- Even if final answer is wrong
+- Show all working
+
+**Accuracy marks (A):**
+- Awarded for correct answer
+- Dependent on method mark
+- Must have correct units
+
+**Independent marks (B):**
+- Awarded independently
+- Often for definitions or statements
+- Do not depend on other marks
+
+**Error carried forward (ECF):**
+- If you make an early error
+- You can still get marks for correct method
+- Using your incorrect value correctly
+
+---
+
+### Maximizing marks
+
+**Show working:**
+- Even if answer is wrong
+- Method marks available
+- Helps if you make calculation error
+- Essential for full credit
+
+**Use correct terminology:**
+- Use physics terms precisely
+- Avoid vague language
+- Be specific
+
+**Answer the question:**
+- Read carefully what is asked
+- Do not provide irrelevant information
+- Match answer to command word
+
+**Check your answer:**
+- Does it make physical sense?
+- Are units correct?
+- Is magnitude reasonable?
+- Have you answered all parts?
+
+---
+
+## Final Checklist
+
+### Before submitting:
+
+- [ ] All questions attempted
+- [ ] Units included where required
+- [ ] Working shown for calculations
+- [ ] Graphs properly labeled
+- [ ] Answers to appropriate significant figures
+- [ ] Multiple choice answers clearly marked
+- [ ] Diagrams clearly drawn and labeled
+- [ ] Name and candidate number on all pages
+- [ ] Checked for careless errors
+- [ ] Time remaining used for checking

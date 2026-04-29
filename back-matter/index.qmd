@@ -1,0 +1,76 @@
+---
+title: "Cambridge IGCSE Physics Reference Guide"
+subtitle: "Back Matter Reference Materials"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: true
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Overview
+
+This section contains essential reference materials to support your study of Cambridge IGCSE Physics (0625) for examinations in 2026, 2027, and 2028.
+
+## Contents
+
+1. **Formula Sheet** - Complete list of all physics formulas organized by topic
+2. **Mathematical Data** - Physical constants, unit prefixes, material properties, and mathematical formulae
+3. **Practical Skills** - Comprehensive guide to laboratory techniques, measurement methods, and experimental procedures
+4. **Exam Technique** - Strategies for success in all examination papers, including command words and time management
+
+## How to Use This Section
+
+### For Daily Study
+- Refer to the **Formula Sheet** when solving problems
+- Use **Mathematical Data** for constants and unit conversions
+- Consult **Practical Skills** when preparing for laboratory work
+
+### For Exam Preparation
+- Study **Exam Technique** to understand assessment requirements
+- Practice using formulas from memory
+- Review practical procedures and safety guidelines
+- Master the command words and their meanings
+
+### For Quick Reference
+- All sections are organized for easy navigation
+- Key information is highlighted in tables
+- Important equations are clearly displayed
+
+## Syllabus Coverage
+
+These materials cover all topics in the Cambridge IGCSE Physics syllabus:
+
+1. Motion, Forces and Energy
+2. Thermal Physics
+3. Waves
+4. Electricity and Magnetism
+5. Nuclear Physics
+6. Space Physics
+
+## Assessment Objectives
+
+These resources support all three assessment objectives:
+
+- **AO1**: Knowledge with understanding
+- **AO2**: Handling information and problem-solving
+- **AO3**: Experimental skills and investigations
+
+## Additional Resources
+
+Remember to also use:
+- Your course textbook
+- Past examination papers
+- Teacher's guidance
+- Laboratory notebooks
+- Class notes
+
+---
+
+*These reference materials are designed to complement your classroom learning and should be used alongside your textbook and teacher's instruction.*
+
+*For the most current syllabus information, always refer to the official Cambridge International website.*

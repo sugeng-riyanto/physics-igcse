@@ -1,0 +1,740 @@
+---
+title: "Momentum"
+chapter: 6
+syllabus-code: "1.6 Momentum"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Define momentum as mass × velocity; recall and use the equation $p = mv$
+
+- Define impulse as force × time for which force acts; recall and use the equation $\text{impulse} = F\Delta t = \Delta(mv)$
+
+- Apply the principle of the conservation of momentum to solve simple problems in one dimension
+
+- Define resultant force as the change in momentum per unit time; recall and use the equation $F = \frac{\Delta p}{\Delta t}$
+
+---
+
+## What Is Momentum?
+
+### Definition and Formula
+
+**Momentum** is a measure of the quantity of motion possessed by a moving object. It is defined as the product of mass and velocity:
+
+$$p = mv$$
+
+Where:
+- $p$ = momentum (kg m/s)
+- $m$ = mass (kg)
+- $v$ = velocity (m/s)
+
+::: {.callout-note}
+**Key Concept:** Momentum is a **vector quantity**—it has both magnitude and direction. The direction of momentum is the same as the direction of velocity.
+:::
+
+### Understanding Momentum Through Examples
+
+| Situation | Explanation |
+|:----------|:------------|
+| **Fast-moving arrow vs. slow-moving arrow** (same mass) | The faster arrow has greater momentum and causes more impact on the target |
+| **Elephant vs. dog** (same velocity) | The elephant has greater momentum due to its larger mass |
+| **Two trains moving in opposite directions** | They have different momenta because momentum includes direction (one positive, one negative) |
+
+### Calculating Momentum: Worked Examples
+
+#### Example 1: Basic Momentum Calculation
+
+**Question:**
+Calculate the momentum of:
+(a) a runner of mass 50 kg running at 4 m/s
+(b) a soccer ball of mass 400 g moving at 25 m/s
+(c) a car of total mass 1000 kg travelling at 18 km/h
+
+**Solution:**
+
+**(a) Runner:**
+$$p = mv = 50 \times 4 = \boxed{200 \text{ kg m/s}}$$
+
+**(b) Soccer ball:**
+First convert mass: $400 \text{ g} = 0.4 \text{ kg}$
+$$p = mv = 0.4 \times 25 = \boxed{10 \text{ kg m/s}}$$
+
+**(c) Car:**
+First convert speed: $18 \text{ km/h} = \frac{18 \times 1000}{3600} = 5 \text{ m/s}$
+$$p = mv = 1000 \times 5 = \boxed{5000 \text{ kg m/s}}$$
+
+---
+
+#### Example 2: Finding Mass or Velocity from Momentum
+
+**Question:**
+(a) What is the speed of a bus with mass 8000 kg and momentum of 88 000 kg m/s?
+(b) A car travelling at 12 m/s has a momentum of 14 400 kg m/s. Calculate its mass.
+
+**Solution:**
+
+**(a) Speed of bus:**
+$$p = mv \quad \Rightarrow \quad v = \frac{p}{m} = \frac{88000}{8000} = \boxed{11 \text{ m/s}}$$
+
+**(b) Mass of car:**
+$$p = mv \quad \Rightarrow \quad m = \frac{p}{v} = \frac{14400}{12} = \boxed{1200 \text{ kg}}$$
+
+::: {.callout-warning}
+**Important:** To calculate momentum in SI units (kg m/s), mass must be in **kilograms** and velocity in **metres per second**. Always check and convert units before calculating.
+:::
+
+---
+
+## Impulse and Change in Momentum
+
+### What Is Impulse?
+
+When a force acts on an object for a period of time, it causes a change in the object's momentum. This product of force and time is called **impulse**.
+
+**Definition:**
+$$\text{Impulse} = F \times \Delta t$$
+
+Where:
+- $F$ = average resultant force (N)
+- $\Delta t$ = time interval for which the force acts (s)
+- Unit: **newton-second (N s)**
+
+### The Impulse–Momentum Theorem
+
+The impulse of a resultant force equals the **change in momentum** of the object:
+
+$$F\Delta t = \Delta(mv) = \Delta p$$
+
+Where:
+- $\Delta p$ = change in momentum = $p_{\text{final}} - p_{\text{initial}}$ (kg m/s or N s)
+
+::: {.callout-note}
+**Key Insight:** The SI unit for impulse (N s) is equivalent to the SI unit for momentum (kg m/s). This confirms that impulse and change in momentum represent the same physical quantity.
+:::
+
+### Calculating Impulse: Worked Examples
+
+#### Example 3: Impulse on a Kicked Ball
+
+**Question:**
+A boy kicks a stationary ball of mass 0.4 kg with an average force of 100 N. The ball moves at 5 m/s immediately afterwards. Calculate:
+(a) the impulse of the force exerted on the ball
+(b) the time of contact between his boot and the ball
+
+**Solution:**
+
+**(a) Impulse = change in momentum:**
+$$\Delta p = mv_{\text{final}} - mv_{\text{initial}} = (0.4 \times 5) - (0.4 \times 0) = 2 \text{ kg m/s} = \boxed{2 \text{ N s}}$$
+
+**(b) Time of contact:**
+$$F\Delta t = \Delta p \quad \Rightarrow \quad \Delta t = \frac{\Delta p}{F} = \frac{2}{100} = \boxed{0.02 \text{ s}}$$
+
+---
+
+#### Example 4: Impulse with Direction Change (Extended)
+
+**Question:**
+A ball of mass 0.625 kg hits the ground at 4 m/s. It bounces back from the ground at 3.8 m/s. Calculate the impulse on the ball.
+
+**Solution:**
+
+**Step 1:** Assign directions (upwards = positive)
+- Initial velocity (downwards): $u = -4.0 \text{ m/s}$
+- Final velocity (upwards): $v = +3.8 \text{ m/s}$
+
+**Step 2:** Calculate change in momentum:
+$$\Delta p = mv - mu = m(v - u)$$
+$$\Delta p = 0.625 \times [3.8 - (-4.0)] = 0.625 \times 7.8 = \boxed{4.88 \text{ N s (upwards)}}$$
+
+::: {.callout-warning}
+**Common Error:** Forgetting that velocity is a vector. When an object reverses direction, the change in velocity is $v - (-u) = v + u$, not $v - u$.
+:::
+
+---
+
+## Resultant Force and Rate of Change of Momentum
+
+### Newton's Second Law in Momentum Form
+
+From the impulse–momentum theorem:
+$$F\Delta t = \Delta p$$
+
+Rearranging gives the definition of resultant force:
+
+$$F = \frac{\Delta p}{\Delta t}$$
+
+**Resultant force** on an object is the **change in momentum per unit time**.
+
+### Connection to $F = ma$
+
+For an object of constant mass:
+$$F = \frac{\Delta p}{\Delta t} = \frac{\Delta(mv)}{\Delta t} = m\frac{\Delta v}{\Delta t} = ma$$
+
+Thus, $F = \frac{\Delta p}{\Delta t}$ is the more general form of Newton's Second Law, applicable even when mass changes (e.g., rockets expelling fuel).
+
+### Application: Crumple Zones and Safety
+
+**Worked Example 5: Force in a Car Crash**
+
+**Question:**
+A car of mass 1250 kg crashes into a concrete wall. The speed of the car is 7.2 m/s just before impact. Calculate the average force on the car if it takes:
+(a) 0.1 s to come to a complete stop
+(b) 0.4 s to come to a complete stop
+
+**Solution:**
+
+**Step 1:** Calculate initial momentum (forward = positive):
+$$p_{\text{initial}} = mv = 1250 \times 7.2 = 9000 \text{ kg m/s}$$
+$$p_{\text{final}} = 0 \text{ kg m/s (car stops)}$$
+$$\Delta p = 0 - 9000 = -9000 \text{ N s}$$
+
+**(a) Force for $\Delta t = 0.1 \text{ s}$:**
+$$F = \frac{\Delta p}{\Delta t} = \frac{-9000}{0.1} = \boxed{-90000 \text{ N}}$$
+
+**(b) Force for $\Delta t = 0.4 \text{ s}$:**
+$$F = \frac{-9000}{0.4} = \boxed{-22500 \text{ N}}$$
+
+**Interpretation:** The negative sign indicates the force acts **backwards** (opposing motion). Increasing the stopping time by a factor of 4 **reduces the force by a factor of 4**.
+
+::: {.callout-note}
+**Safety Application:** Crumple zones, seat belts, and airbags increase the time over which momentum changes during a collision, thereby **reducing the force** on passengers and minimising injury.
+:::
+
+---
+
+## The Principle of Conservation of Momentum
+
+### Statement of the Principle
+
+> **When two or more objects interact in the absence of external forces, the total momentum of the system before the interaction equals the total momentum after the interaction.**
+
+$$\sum p_{\text{before}} = \sum p_{\text{after}}$$
+
+### Conditions for Conservation
+
+| Condition | Explanation |
+|:----------|:------------|
+| **Closed system** | No external forces act on the system (or external forces are negligible during the interaction) |
+| **One-dimensional problems** | For IGCSE, we consider collisions and explosions along a straight line |
+| **Vector addition** | Assign one direction as positive; opposite direction is negative |
+
+### Types of Interactions
+
+| Type | Description | Example |
+|:-----|:------------|:--------|
+| **Collision (objects stick together)** | Objects move together after impact | Two trolleys coupling; car crash |
+| **Collision (objects separate)** | Objects rebound after impact | Billiard balls; Newton's cradle |
+| **Explosion (objects separate from rest)** | Stationary system breaks apart | Firework; recoil of a gun |
+
+---
+
+### Applying Conservation of Momentum: Worked Examples
+
+#### Example 6: Collision with Objects Sticking Together
+
+**Question:**
+Trolley A of mass 2 kg travelling at 2 m/s collides with a stationary trolley B of mass 3 kg. The two trolleys stick together after the collision. Calculate:
+(a) the velocity of the combined trolleys immediately after collision
+(b) the impulse experienced by trolley B
+
+**Solution:**
+
+**(a) Velocity after collision:**
+
+**Step 1:** Total momentum before collision:
+$$p_{\text{before}} = m_A v_A + m_B v_B = (2 \times 2) + (3 \times 0) = 4 \text{ kg m/s}$$
+
+**Step 2:** Total momentum after collision (combined mass = 5 kg):
+$$p_{\text{after}} = (m_A + m_B)v = 5v$$
+
+**Step 3:** Apply conservation:
+$$5v = 4 \quad \Rightarrow \quad v = \frac{4}{5} = \boxed{0.8 \text{ m/s (forward)}}$$
+
+**(b) Impulse on trolley B:**
+$$\text{Impulse} = \Delta p_B = m_B v_{\text{final}} - m_B v_{\text{initial}} = (3 \times 0.8) - (3 \times 0) = \boxed{2.4 \text{ N s (forward)}}$$
+
+---
+
+#### Example 7: Collision with Objects Separating
+
+**Question:**
+Ball A of mass 0.12 kg is moving forward at 0.40 m/s. It collides with a stationary ball B of mass 0.09 kg. After collision, ball B moves forward at 0.40 m/s. What is the velocity of ball A after the collision?
+
+**Solution:**
+
+**Step 1:** Total momentum before collision:
+$$p_{\text{before}} = (0.12 \times 0.40) + (0.09 \times 0) = 0.048 \text{ kg m/s}$$
+
+**Step 2:** Total momentum after collision (let $v$ = velocity of A after):
+$$p_{\text{after}} = (0.12 \times v) + (0.09 \times 0.40) = 0.12v + 0.036$$
+
+**Step 3:** Apply conservation:
+$$0.12v + 0.036 = 0.048$$
+$$0.12v = 0.012$$
+$$v = \frac{0.012}{0.12} = \boxed{0.10 \text{ m/s (forward)}}$$
+
+---
+
+#### Example 8: Explosion from Rest (Extended)
+
+**Question:**
+Two ice skaters, A (mass 80 kg) and B (mass 50 kg), are initially stationary on a frictionless rink. They push each other apart. Skater A moves off with velocity 0.5 m/s. Calculate:
+(a) the momentum of skater A
+(b) the momentum of skater B
+(c) the velocity of skater B
+
+**Solution:**
+
+**(a) Momentum of A:**
+$$p_A = m_A v_A = 80 \times 0.5 = \boxed{40 \text{ kg m/s}}$$
+
+**(b) Momentum of B:**
+Total momentum before = 0 (both stationary)
+By conservation: $p_A + p_B = 0$
+$$p_B = -p_A = \boxed{-40 \text{ kg m/s}}$$
+
+**(c) Velocity of B:**
+$$v_B = \frac{p_B}{m_B} = \frac{-40}{50} = \boxed{-0.8 \text{ m/s}}$$
+
+**Interpretation:** Skater B moves at 0.8 m/s in the **opposite direction** to skater A.
+
+::: {.callout-warning}
+**Important:** In explosion problems, the total initial momentum is zero. Therefore, the momenta of the separating objects must be **equal in magnitude and opposite in direction**.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Momentum**: $p = mv$; vector quantity (kg m/s); direction same as velocity
+
+2. **Impulse**: $F\Delta t = \Delta p$; equals change in momentum; unit N s ≡ kg m/s
+
+3. **Resultant force**: $F = \frac{\Delta p}{\Delta t}$; rate of change of momentum (general form of $F = ma$)
+
+4. **Conservation of momentum**: $\sum p_{\text{before}} = \sum p_{\text{after}}$ for closed systems with no external forces
+
+5. **Vector handling**: Assign one direction as positive; opposite direction is negative; add algebraically
+
+### Extended Concepts
+
+6. **Direction changes**: When an object reverses direction, $\Delta v = v - (-u) = v + u$
+
+7. **Safety applications**: Increasing collision time reduces force ($F = \Delta p / \Delta t$)
+
+8. **Explosions**: Initial momentum = 0 → final momenta are equal and opposite
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Momentum is the same as force"
+
+**Incorrect**: "A fast-moving object has a large force"
+
+**Correct**: 
+- **Momentum** ($p = mv$) is a property of a **moving object**
+- **Force** ($F = \Delta p / \Delta t$) is what **changes** momentum
+- An object can have large momentum with zero resultant force (moving at constant velocity)
+
+---
+
+### ⚠️ Misconception 2: "Momentum is conserved in all collisions"
+
+**Incorrect**: "Total momentum is always conserved, even with friction"
+
+**Correct**:
+- Momentum is conserved **only in closed systems** with no external forces
+- In real collisions, friction or air resistance may act as external forces
+- For IGCSE problems, we **assume** external forces are negligible during the brief collision
+
+---
+
+### ⚠️ Misconception 3: "Heavier objects always have more momentum"
+
+**Incorrect**: "A truck always has more momentum than a car"
+
+**Correct**:
+- Momentum depends on **both mass and velocity**: $p = mv$
+- A light object moving very fast can have more momentum than a heavy slow object
+- Example: A 0.01 kg bullet at 500 m/s ($p = 5$ kg m/s) vs. a 1000 kg car at 0.001 m/s ($p = 1$ kg m/s)
+
+---
+
+### ⚠️ Misconception 4: "Impulse and momentum are different physical quantities"
+
+**Incorrect**: "Impulse (N s) and momentum (kg m/s) cannot be compared"
+
+**Correct**:
+- The units are **equivalent**: $1 \text{ N s} = 1 \text{ kg m/s}$
+- Impulse **equals** change in momentum: $F\Delta t = \Delta p$
+- They represent the same physical dimension, just different contexts
+
+---
+
+### ⚠️ Misconception 5: "In a collision, both objects experience the same change in velocity"
+
+**Incorrect**: "When two objects collide, they change speed by the same amount"
+
+**Correct**:
+- Both objects experience **equal and opposite impulses** (Newton's Third Law)
+- But $\Delta v = \frac{\text{impulse}}{m}$, so the **lighter object** experiences a **larger change in velocity**
+- Example: A tennis ball hitting a wall rebounds with large $\Delta v$; the wall's $\Delta v$ is negligible
+
+---
+
+### ⚠️ Misconception 6: "If momentum is conserved, kinetic energy is also conserved"
+
+**Incorrect**: "Conservation of momentum means no energy is lost"
+
+**Correct**:
+- **Momentum** is always conserved in closed systems
+- **Kinetic energy** is conserved **only in elastic collisions**
+- Most real collisions are **inelastic**: momentum conserved, but kinetic energy is converted to heat, sound, or deformation
+
+---
+
+## Worked Examples
+
+### Example 9: Multi-Step Conservation Problem
+
+**Question:**
+A car of mass 1200 kg travelling at 8.0 m/s collides with a lorry of mass 2800 kg travelling at 2.0 m/s in the **same direction**. After the collision, the two vehicles stick together. Calculate their speed immediately after the collision.
+
+**Solution:**
+
+**Step 1:** Assign direction (forward = positive)
+
+**Step 2:** Total momentum before collision:
+$$p_{\text{before}} = (1200 \times 8.0) + (2800 \times 2.0) = 9600 + 5600 = 15200 \text{ kg m/s}$$
+
+**Step 3:** Total momentum after collision (combined mass = 4000 kg):
+$$p_{\text{after}} = 4000v$$
+
+**Step 4:** Apply conservation:
+$$4000v = 15200$$
+$$v = \frac{15200}{4000} = \boxed{3.8 \text{ m/s (forward)}}$$
+
+---
+
+### Example 10: Force from Momentum Change (Extended)
+
+**Question:**
+A basketball player bounces a ball on the ground. The ball hits the ground 10 times in 20 seconds. The average change in momentum for each collision is 15 kg m/s. What is the average force that the ground exerts on the ball?
+
+**Solution:**
+
+**Step 1:** Total change in momentum over 20 s:
+$$\Delta p_{\text{total}} = 10 \times 15 = 150 \text{ kg m/s}$$
+
+**Step 2:** Average force:
+$$F_{\text{avg}} = \frac{\Delta p_{\text{total}}}{\Delta t} = \frac{150}{20} = \boxed{7.5 \text{ N}}$$
+
+::: {.callout-note}
+**Interpretation:** This is the **average** force over the 20-second interval. The actual force during each brief impact is much larger, but acts for a very short time.
+:::
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Define momentum. State its SI unit.
+
+**2.** Calculate the momentum of a cyclist of mass 70 kg riding at 6 m/s.
+
+**3.** A force of 200 N acts on an object for 0.5 s. Calculate the impulse delivered.
+
+**4.** A 0.5 kg ball is moving at 4 m/s. A force acts on it for 0.2 s, changing its velocity to 10 m/s in the same direction. Calculate:
+
+- (a) the change in momentum
+
+- (b) the average force
+
+**5.** State the principle of conservation of momentum.
+
+**6.** Two trolleys, A (mass 1.5 kg, velocity 2 m/s) and B (mass 2.5 kg, stationary), collide and stick together. Calculate their common velocity after collision.
+
+**7.** Explain why crumple zones in cars reduce the force on passengers during a collision.
+
+**8.** A stationary firework explodes into two pieces. Piece X (mass 0.2 kg) moves left at 15 m/s. Piece Y has mass 0.3 kg. Calculate the velocity of piece Y.
+
+### Extended Level
+
+**9.** A ball of mass 0.2 kg strikes a wall at 8 m/s and rebounds at 6 m/s. Calculate:
+
+- (a) the change in momentum of the ball
+
+- (b) the impulse exerted by the wall on the ball
+
+- (c) If the contact time is 0.05 s, calculate the average force on the ball
+
+**10.** A car of mass 1500 kg travelling at 20 m/s collides head-on with a van of mass 2500 kg travelling at 10 m/s in the opposite direction. After the collision, they stick together. Calculate:
+
+- (a) their common velocity after collision
+
+- (b) the change in momentum of the car
+
+- (c) the impulse experienced by the van
+
+**11.** A rocket of mass 5000 kg (including fuel) is stationary in space. It ejects 100 kg of fuel backwards at 2000 m/s. Calculate the velocity of the rocket after ejection.
+
+**12.** Explain, using the equation $F = \frac{\Delta p}{\Delta t}$, why:
+
+- (a) catching a fast ball with 'soft hands' (moving hands backwards) reduces the force on your hands
+
+- (b) airbags reduce injury in car crashes
+
+**13.** Two ice skaters push off each other. Skater P (mass 60 kg) moves at 1.2 m/s. Skater Q moves at 0.9 m/s in the opposite direction. Calculate the mass of skater Q.
+
+**14.** A bullet of mass 0.02 kg is fired into a wooden block of mass 1.98 kg resting on a frictionless surface. Upon collision, the bullet embeds in the block, and they move together at 3 m/s. With what speed did the bullet hit the block?
+
+---
+
+## Laboratory Investigation
+
+### Experiment 6.1: Verifying Conservation of Momentum
+
+**Objective:**
+To investigate the conservation of momentum in a one-dimensional collision using trolleys on a friction-compensated runway.
+
+**Apparatus:**
+- Two dynamics trolleys with Velcro attachments (for sticking collisions)
+
+- Friction-compensated runway
+
+- Light gates or ticker-timer with tape
+
+- Electronic balance
+
+- Metre rule
+
+- Data logger (optional)
+
+**Variables:**
+- **Independent:** Masses of trolleys; initial velocity of moving trolley
+
+- **Dependent:** Final velocity of combined trolleys (or both trolleys if separating)
+
+- **Controlled:** Runway angle (friction compensation); same collision mechanism
+
+**Procedure (Collision with Sticking):**
+
+1. Measure and record masses $m_A$ and $m_B$ of the two trolleys.
+
+2. Set up the runway with a slight incline to compensate for friction (trolleys move at constant speed when given a gentle push).
+
+3. Place trolley B stationary at the centre of the runway.
+
+4. Give trolley A a gentle push so it collides with B; the Velcro causes them to stick together.
+
+5. Use light gates or ticker-tape to measure:
+   - Velocity of A before collision ($v_A$)
+   - Velocity of combined trolleys after collision ($v_{\text{combined}}$)
+
+6. Repeat three times for reliability.
+
+7. Calculate:
+   - Total momentum before: $p_{\text{before}} = m_A v_A$
+   - Total momentum after: $p_{\text{after}} = (m_A + m_B) v_{\text{combined}}$
+
+8. Compare $p_{\text{before}}$ and $p_{\text{after}}$; calculate percentage difference.
+
+**Data Table:**
+
+| Trial | $m_A$ (kg) | $m_B$ (kg) | $v_A$ (m/s) | $v_{\text{combined}}$ (m/s) | $p_{\text{before}}$ (kg m/s) | $p_{\text{after}}$ (kg m/s) | % Difference |
+|:------|:-----------|:-----------|:------------|:---------------------------|:----------------------------|:---------------------------|:-------------|
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+
+**Analysis:**
+
+1. For each trial, calculate percentage difference:
+   $$\% \text{ diff} = \frac{|p_{\text{before}} - p_{\text{after}}|}{(p_{\text{before}} + p_{\text{after}})/2} \times 100\%$$
+
+2. If all differences are within ±10% (typical experimental accuracy), conservation of momentum is verified.
+
+3. Identify sources of error: residual friction, air resistance, timing inaccuracies.
+
+**Precautions:**
+- ✓ Ensure runway is properly friction-compensated before starting
+
+- ✓ Use light gates or ticker-timer for accurate velocity measurement
+
+- ✓ Ensure trolleys collide centrally to avoid rotational motion
+
+- ✓ Repeat measurements to obtain reliable averages
+
+**Conclusion Template:**
+"The experiment verified the principle of conservation of momentum: within experimental error (±___%), the total momentum before collision equalled the total momentum after collision. This confirms that in the absence of significant external forces, momentum is conserved in one-dimensional collisions."
+
+**Extension (Supplement):**
+- Investigate elastic collisions (using magnetic repulsion instead of Velcro)
+
+- Measure kinetic energy before and after to distinguish elastic vs. inelastic collisions
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly defines momentum?
+
+A. Momentum = mass × acceleration  
+
+B. Momentum = mass × velocity  
+
+C. Momentum = force × time  
+
+D. Momentum = force × distance  
+
+**2.** A truck of mass 10 000 kg is moving at 5.0 m/s. What is its momentum?
+
+A. $5.0 \times 10^3$ kg m/s  
+
+B. $2.0 \times 10^3$ kg m/s  
+
+C. $5.0 \times 10^4$ kg m/s  
+
+D. $2.5 \times 10^5$ kg m/s  
+
+**3.** Which statement correctly defines impulse?
+
+A. Impulse = mass × velocity  
+
+B. Impulse = force × distance  
+
+C. Impulse = force × time for which force acts  
+
+D. Impulse = change in velocity  
+
+**4.** A bullet of mass 0.05 kg is fired into a wooden block of mass 1.95 kg at rest on a frictionless surface. After collision, they move together at 15 m/s. With what speed did the bullet hit the block?
+
+A. 15 m/s  
+
+B. 30 m/s  
+
+C. 585 m/s  
+
+D. 600 m/s  
+
+**5.** A basketball hits the ground 10 times in 20 seconds. The average change in momentum per collision is 15 kg m/s. What is the average force the ground exerts on the ball?
+
+A. 0.75 N  
+
+B. 2 N  
+
+C. 7.5 N  
+
+D. 20 N  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define the term *momentum*. [1]
+
+(b) A car of mass 1200 kg is travelling at 8.0 m/s.
+
+   (i) Calculate the momentum of the car. [2]
+
+   (ii) The car comes to rest in 4.0 s. Calculate the average resultant force acting on the car. [2]
+
+   (iii) Explain how the design of a car's crumple zone reduces the force on passengers during a collision. [2]
+
+**7.** Two trolleys collide on a frictionless track.
+
+(a) State the principle of conservation of momentum. [1]
+
+(b) Trolley A (mass 2.0 kg) moves at 3.0 m/s towards stationary trolley B (mass 4.0 kg). After collision, they stick together.
+
+   (i) Calculate the total momentum before collision. [2]
+
+   (ii) Calculate their common velocity after collision. [2]
+
+   (iii) Calculate the impulse experienced by trolley B. [2]
+
+(c) In a different experiment, the trolleys collide and separate. Explain why the total momentum is still conserved even though the trolleys move apart. [2]
+
+**8.** (Extended) A ball of mass 0.4 kg strikes a vertical wall at 12 m/s and rebounds at 10 m/s.
+
+(a) Calculate the change in momentum of the ball. [3]
+
+(b) If the contact time with the wall is 0.08 s, calculate the average force exerted by the wall on the ball. [2]
+
+(c) State the direction of this force relative to the ball's initial motion. [1]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Momentum**: $p = mv$; vector (kg m/s); direction = velocity direction  
+✓ **Impulse**: $F\Delta t = \Delta p$; equals change in momentum; unit N s ≡ kg m/s  
+✓ **Resultant force**: $F = \frac{\Delta p}{\Delta t}$; general form of Newton's Second Law  
+✓ **Conservation of momentum**: $\sum p_{\text{before}} = \sum p_{\text{after}}$ for closed systems  
+✓ **Vector handling**: Assign + direction; opposite = −; add algebraically  
+✓ **Safety principle**: Increasing $\Delta t$ reduces $F$ for same $\Delta p$ ($F = \Delta p / \Delta t$)  
+✓ **Explosions**: Initial $p = 0$ → final momenta equal and opposite  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Momentum | $p = mv$ | $p$=momentum (kg m/s), $m$=mass (kg), $v$=velocity (m/s) |
+| Impulse | $\text{Impulse} = F\Delta t = \Delta p$ | $F$=force (N), $\Delta t$=time (s), $\Delta p$=change in momentum |
+| Resultant force | $F = \frac{\Delta p}{\Delta t}$ | General form of Newton's Second Law |
+| Conservation of momentum | $\sum p_{\text{before}} = \sum p_{\text{after}}$ | For closed systems with no external forces |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+- Cambridge IGCSE Physics Coursebook, Chapter 5
+- Practical Work in Physics: Momentum and Collisions
+
+### Online Resources
+- PhET Interactive Simulations: Collision Lab, Momentum
+- BBC Bitesize: Momentum, Impulse, Conservation Laws
+
+### Video Resources
+- Demonstration: Trolley collisions on air track
+- Animation: Crumple zones and impulse–momentum theorem
+- Real-world application: Vehicle safety engineering and crash testing
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Closed system** | A system on which no external forces act; required for momentum conservation |
+| **Conservation of momentum** | Principle that total momentum of a closed system remains constant during interactions |
+| **Impulse** | Product of force and time for which it acts; equals change in momentum ($F\Delta t = \Delta p$) |
+| **Inelastic collision** | Collision in which kinetic energy is not conserved (converted to heat, sound, deformation); momentum is conserved |
+| **Momentum ($p$)** | Product of mass and velocity ($p = mv$); vector quantity; SI unit: kg m/s |
+| **Resultant force** | Single force equivalent to all forces acting on an object; $F = \frac{\Delta p}{\Delta t}$ |
+| **Vector quantity** | Physical quantity with both magnitude and direction (e.g., momentum, velocity, force) |
+
+---
+
+*End of Chapter 6*

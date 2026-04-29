@@ -1,0 +1,858 @@
+---
+title: "Light: Reflection and Refraction"
+chapter: 15
+syllabus-code: "3.2.1 Reflection of light; 3.2.2 Refraction of light"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (3.2.1 Reflection of Light):**
+
+- Define and use the terms normal, angle of incidence and angle of reflection
+
+- Describe the formation of an optical image by a plane mirror, and give the characteristics of the image
+
+- State that for reflection, the angle of incidence is equal to the angle of reflection; recall and use this relationship
+
+**Core Content (3.2.2 Refraction of Light):**
+
+- Define and use the terms normal, angle of incidence and angle of refraction
+
+- Describe an experiment to show refraction of light by transparent blocks of different shapes
+
+- Describe the passage of light through a transparent material (limited to the boundaries between two mediums only)
+
+- State the meaning of critical angle
+
+- Describe internal reflection and total internal reflection using both experimental and everyday examples
+
+**Supplement (Extended):**
+
+- Use simple constructions, measurements and calculations for reflection by plane mirrors
+
+- Define refractive index, n, as the ratio of the speeds of a wave in two different regions
+
+- Recall and use the equation $n = \frac{\sin i}{\sin r}$
+
+- Recall and use the equation $n = \frac{1}{\sin c}$
+
+- Describe the use of optical fibres, particularly in telecommunications
+
+---
+
+## Introduction to Light
+
+### What Is Light?
+
+Light is a form of electromagnetic radiation that is visible to the human eye. It travels in straight lines and can be reflected, refracted, and dispersed.
+
+**Key properties of light:**
+
+- Light travels at approximately $3.0 \times 10^8$ m/s in a vacuum
+
+- Light travels in straight lines (rectilinear propagation)
+
+- Light can be reflected, refracted, absorbed, or transmitted
+
+- Light exhibits both wave and particle properties (beyond IGCSE scope)
+
+::: {.callout-note}
+**Key Concept:** We see objects because light from them enters our eyes. Luminous objects (e.g., the Sun, a lamp) emit their own light. Non-luminous objects (e.g., a book, a wall) are visible because they reflect light from a luminous source into our eyes.
+:::
+
+### Representing Light: Rays and Beams
+
+In physics, we use **light rays** to represent the path of light:
+
+| Term | Definition | Diagram Representation |
+|:-----|:-----------|:----------------------|
+| **Ray** | A straight line with an arrow indicating the direction of light travel | Single line with arrow |
+| **Beam** | A bundle of parallel, convergent, or divergent rays | Multiple parallel/convergent/divergent lines |
+| **Parallel beam** | Rays that are parallel to each other | Parallel lines with arrows |
+| **Convergent beam** | Rays that meet at a point | Lines converging to a point |
+| **Divergent beam** | Rays that spread out from a point | Lines spreading from a point |
+
+---
+
+## Reflection of Light
+
+### The Law of Reflection
+
+When light strikes a smooth, polished surface (e.g., a plane mirror), it is reflected in a predictable manner.
+
+**Key terms for reflection:**
+
+- **Incident ray**: The ray of light that strikes the reflecting surface
+
+- **Reflected ray**: The ray of light that bounces off the reflecting surface
+
+- **Point of incidence**: The point where the incident ray strikes the surface
+
+- **Normal**: An imaginary line perpendicular to the reflecting surface at the point of incidence
+
+- **Angle of incidence ($i$)**: The angle between the incident ray and the normal
+
+- **Angle of reflection ($r$)**: The angle between the reflected ray and the normal
+
+**The Law of Reflection states:**
+
+1. The angle of incidence is equal to the angle of reflection: $i = r$
+
+2. The incident ray, reflected ray, and normal all lie in the same plane
+
+::: {.callout-warning}
+**Important:** Angles are always measured from the **normal**, not from the surface itself.
+:::
+
+### Images Formed by Plane Mirrors
+
+When you look into a plane mirror, you see an **image** of yourself. This image has specific characteristics:
+
+| Characteristic | Description |
+|:---------------|:------------|
+| **Same size** | The image is the same size as the object |
+| **Same distance** | The image is as far behind the mirror as the object is in front |
+| **Virtual** | The image cannot be captured on a screen; light rays do not actually meet at the image position |
+| **Upright** | The image is the right way up (not inverted) |
+| **Laterally inverted** | Left and right are swapped (e.g., text appears reversed) |
+
+### Ray Diagrams for Plane Mirrors
+
+To locate the position of an image formed by a plane mirror:
+
+**Step 1:** Draw the mirror as a straight line with shading on the back (silvered side).
+
+**Step 2:** Mark the object position in front of the mirror.
+
+**Step 3:** Draw the image behind the mirror at the same distance as the object is in front.
+
+**Step 4:** From the top of the image, draw two rays to the eye (dotted lines behind the mirror, solid lines in front).
+
+**Step 5:** Draw the incident rays from the object to the mirror, ensuring $i = r$ at each point of incidence.
+
+::: {.callout-note}
+**Key Insight:** The image is virtual because the rays only **appear** to come from behind the mirror. In reality, the light rays reflect off the mirror and enter the eye.
+:::
+
+### Applications of Plane Mirrors
+
+| Application | Explanation |
+|:------------|:------------|
+| **Periscope** | Two plane mirrors at 45° allow viewing over obstacles (e.g., in submarines) |
+| **Rear-view mirrors** | Drivers use plane or slightly curved mirrors to see behind vehicles |
+| **Optical instruments** | Mirrors redirect light in telescopes, microscopes, and cameras |
+| **Vision testing** | Mirrors extend the apparent distance of eye charts in small rooms |
+| **Blind corner mirrors** | Curved mirrors help drivers see around corners in shops or on roads |
+
+---
+
+## Refraction of Light
+
+### What Is Refraction?
+
+**Refraction** is the bending of light as it passes from one transparent medium to another with a different optical density.
+
+**Why does refraction occur?**
+
+- Light travels at different speeds in different media
+
+- When light enters a denser medium (e.g., air → glass), it **slows down** and bends **towards the normal**
+
+- When light enters a less dense medium (e.g., glass → air), it **speeds up** and bends **away from the normal**
+
+**Key terms for refraction:**
+
+- **Incident ray**: The ray approaching the boundary between two media
+
+- **Refracted ray**: The ray that has passed into the second medium and changed direction
+
+- **Normal**: An imaginary line perpendicular to the boundary at the point of incidence
+
+- **Angle of incidence ($i$)**: The angle between the incident ray and the normal
+
+- **Angle of refraction ($r$)**: The angle between the refracted ray and the normal
+
+### Snell's Law and Refractive Index
+
+For light passing from air (or vacuum) into another medium:
+
+$$n = \frac{\sin i}{\sin r}$$
+
+Where:
+- $n$ = refractive index of the medium (no unit)
+- $i$ = angle of incidence in air/vacuum
+- $r$ = angle of refraction in the medium
+
+**Refractive index** can also be defined as:
+
+$$n = \frac{\text{speed of light in vacuum}}{\text{speed of light in medium}} = \frac{c}{v}$$
+
+| Medium | Refractive Index ($n$) | Speed of Light ($\times 10^8$ m/s) |
+|:-------|:----------------------|:----------------------------------|
+| Vacuum | 1.00 (exact) | 3.00 |
+| Air | ≈ 1.00 | ≈ 3.00 |
+| Water | 1.33 | 2.25 |
+| Glass | ≈ 1.50 | ≈ 2.00 |
+| Diamond | 2.42 | 1.24 |
+
+::: {.callout-note}
+**Key Insight:** A higher refractive index means light travels **slower** in that medium and bends **more** towards the normal when entering from air.
+:::
+
+### Apparent Depth and Real Depth
+
+When viewing an object underwater, it appears **shallower** than it actually is due to refraction.
+
+**Relationship:**
+$$n = \frac{\text{real depth}}{\text{apparent depth}}$$
+
+**Example:** A coin at the bottom of a pool appears closer to the surface than it really is. Light rays from the coin refract away from the normal as they leave the water, making the coin appear at a shallower position.
+
+---
+
+## Total Internal Reflection
+
+### What Is the Critical Angle?
+
+When light travels from a denser medium to a less dense medium (e.g., glass → air):
+
+- As the angle of incidence increases, the angle of refraction increases more rapidly
+
+- At a certain angle of incidence, the angle of refraction becomes **90°** (the refracted ray travels along the boundary)
+
+- This specific angle of incidence is called the **critical angle ($c$)**
+
+**Definition:** The critical angle is the angle of incidence in the denser medium for which the angle of refraction in the less dense medium is 90°.
+
+### Total Internal Reflection
+
+When the angle of incidence in the denser medium **exceeds** the critical angle:
+
+- **No refraction occurs**
+
+- **All the light is reflected back** into the denser medium
+
+- This phenomenon is called **total internal reflection**
+
+**Conditions for total internal reflection:**
+
+1. Light must travel from a **denser medium to a less dense medium**
+
+2. The angle of incidence must be **greater than the critical angle**
+
+### Calculating Critical Angle
+
+For light travelling from a medium of refractive index $n$ to air:
+
+$$n = \frac{1}{\sin c} \quad \text{or} \quad \sin c = \frac{1}{n}$$
+
+**Example:** For glass with $n = 1.5$:
+$$\sin c = \frac{1}{1.5} = 0.667 \quad \Rightarrow \quad c = \sin^{-1}(0.667) \approx 42^\circ$$
+
+### Applications of Total Internal Reflection
+
+| Application | Explanation |
+|:------------|:------------|
+| **Optical fibres** | Light is trapped inside a glass/plastic core by total internal reflection; used for high-speed data transmission in telecommunications |
+| **Prisms in binoculars** | Right-angled prisms reflect light by total internal reflection, producing upright images without silvered surfaces |
+| **Periscopes** | Prisms can replace mirrors for clearer, more durable image reflection |
+| **Endoscopes** | Flexible optical fibres allow doctors to see inside the body without invasive surgery |
+| **Reflectors on bicycles** | Prismatic reflectors return light to its source using total internal reflection |
+
+::: {.callout-warning}
+**Important:** Total internal reflection is **100% efficient** (no light is lost), unlike reflection from a silvered mirror which absorbs some light.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Reflection**: Light bounces off a surface; $i = r$; incident ray, reflected ray, and normal lie in same plane
+
+2. **Plane mirror image**: Same size, same distance behind mirror, virtual, upright, laterally inverted
+
+3. **Refraction**: Light bends when passing between media of different optical density due to change in speed
+
+4. **Snell's Law**: $n = \frac{\sin i}{\sin r}$ for light entering from air/vacuum
+
+5. **Refractive index**: $n = \frac{c}{v}$; higher $n$ means slower light speed and greater bending
+
+6. **Critical angle**: Angle of incidence in denser medium for which refraction angle = 90°
+
+7. **Total internal reflection**: Complete reflection when $i > c$ and light travels denser → less dense medium
+
+### Extended Concepts
+
+8. **Apparent depth**: $n = \frac{\text{real depth}}{\text{apparent depth}}$; objects underwater appear shallower
+
+9. **Optical fibres**: Use total internal reflection to transmit light/data over long distances with minimal loss
+
+10. **Ray diagram constructions**: Using geometry and $i = r$ to locate images and trace light paths
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "The angle of incidence is measured from the mirror surface"
+
+**Incorrect**: "Angle of incidence is the angle between the incident ray and the mirror"
+
+**Correct**:
+- Angles of incidence and reflection are **always measured from the normal** (perpendicular to the surface)
+
+- Measuring from the surface gives the complement of the correct angle
+
+- This error leads to incorrect ray diagrams and calculations
+
+---
+
+### ⚠️ Misconception 2: "Virtual images can be captured on a screen"
+
+**Incorrect**: "A mirror image can be projected onto a wall"
+
+**Correct**:
+- **Virtual images** are formed where light rays **appear** to come from, but do not actually meet
+
+- Only **real images** (where rays actually converge) can be captured on a screen
+
+- Plane mirrors always produce virtual images
+
+---
+
+### ⚠️ Misconception 3: "Refraction changes the frequency of light"
+
+**Incorrect**: "When light enters glass, its frequency decreases"
+
+**Correct**:
+- **Frequency remains constant** during refraction
+
+- Speed and wavelength change, but frequency (determined by the source) does not
+
+- This is why the colour of light does not change when it refracts
+
+---
+
+### ⚠️ Misconception 4: "Total internal reflection can occur when light travels from air to glass"
+
+**Incorrect**: "Light can undergo total internal reflection entering a denser medium"
+
+**Correct**:
+- Total internal reflection **only occurs** when light travels from a **denser to a less dense medium**
+
+- When entering a denser medium (air → glass), light always refracts (bends towards normal)
+
+- The critical angle concept only applies for denser → less dense transitions
+
+---
+
+### ⚠️ Misconception 5: "A higher refractive index means light travels faster"
+
+**Incorrect**: "Diamond has a high refractive index, so light travels fast in it"
+
+**Correct**:
+- Refractive index $n = \frac{c}{v}$; higher $n$ means **slower** light speed in the medium
+
+- Diamond ($n = 2.42$) slows light to about $1.24 \times 10^8$ m/s, much slower than in air
+
+- Greater slowing causes greater bending towards the normal
+
+---
+
+### ⚠️ Misconception 6: "Lateral inversion means the image is upside down"
+
+**Incorrect**: "A mirror turns your image upside down"
+
+**Correct**:
+- **Lateral inversion** means left and right are swapped, not top and bottom
+
+- Your right hand appears as the left hand in the mirror image
+
+- The image remains upright; only the horizontal orientation is reversed
+
+---
+
+### ⚠️ Misconception 7: "Critical angle is the same for all materials"
+
+**Incorrect**: "All glass has a critical angle of 42°"
+
+**Correct**:
+- Critical angle depends on refractive index: $\sin c = \frac{1}{n}$
+
+- Different types of glass have different $n$ values (1.48–1.96), so critical angles vary (~32°–43°)
+
+- Water ($n = 1.33$) has $c \approx 49^\circ$; diamond ($n = 2.42$) has $c \approx 24^\circ$
+
+---
+
+## Worked Examples
+
+### Example 1: Law of Reflection Calculation
+
+**Question:**
+A ray of light strikes a plane mirror at an angle of 35° to the normal.
+(a) What is the angle of reflection?
+(b) What is the angle between the incident ray and the reflected ray?
+
+**Solution:**
+
+**(a) Angle of reflection:**
+By the law of reflection: $r = i = \boxed{35^\circ}$
+
+**(b) Angle between incident and reflected rays:**
+Angle = $i + r = 35^\circ + 35^\circ = \boxed{70^\circ}$
+
+---
+
+### Example 2: Plane Mirror Image Distance
+
+**Question:**
+A person stands 2.5 m in front of a plane mirror.
+(a) How far is the image from the mirror?
+(b) How far is the person from their image?
+(c) If the person moves 0.5 m closer to the mirror, what is the new distance between the person and their image?
+
+**Solution:**
+
+**(a) Image distance from mirror:**
+Image distance = object distance = $\boxed{2.5 \text{ m}}$
+
+**(b) Person-to-image distance:**
+Distance = $2.5 + 2.5 = \boxed{5.0 \text{ m}}$
+
+**(c) New distance after moving closer:**
+New object distance = $2.5 - 0.5 = 2.0 \text{ m}$
+New image distance = $2.0 \text{ m}$
+New person-to-image distance = $2.0 + 2.0 = \boxed{4.0 \text{ m}}$
+
+---
+
+### Example 3: Snell's Law Calculation
+
+**Question:**
+Light travels from air into glass ($n = 1.50$) at an angle of incidence of 40°. Calculate the angle of refraction.
+
+**Solution:**
+
+**Step 1:** Write Snell's Law:
+$$n = \frac{\sin i}{\sin r}$$
+
+**Step 2:** Rearrange for $\sin r$:
+$$\sin r = \frac{\sin i}{n} = \frac{\sin 40^\circ}{1.50}$$
+
+**Step 3:** Calculate:
+$$\sin r = \frac{0.643}{1.50} = 0.429$$
+$$r = \sin^{-1}(0.429) = \boxed{25.4^\circ}$$
+
+**Interpretation:** The ray bends towards the normal as expected when entering a denser medium.
+
+---
+
+### Example 4: Critical Angle and Total Internal Reflection
+
+**Question:**
+The refractive index of a certain type of glass is 1.60.
+(a) Calculate the critical angle for this glass.
+(b) A ray of light inside this glass strikes the glass-air boundary at an angle of incidence of 45°. Will total internal reflection occur? Explain.
+
+**Solution:**
+
+**(a) Critical angle:**
+$$\sin c = \frac{1}{n} = \frac{1}{1.60} = 0.625$$
+$$c = \sin^{-1}(0.625) = \boxed{38.7^\circ}$$
+
+**(b) Will TIR occur?**
+- Angle of incidence $i = 45^\circ$
+
+- Critical angle $c = 38.7^\circ$
+
+- Since $i > c$ ($45^\circ > 38.7^\circ$) and light is travelling from denser (glass) to less dense (air) medium:
+
+- **Yes, total internal reflection will occur.**
+
+---
+
+### Example 5: Apparent Depth Calculation
+
+**Question:**
+A fish is actually 1.2 m below the surface of a pond. The refractive index of water is 1.33. Calculate the apparent depth of the fish as seen by an observer directly above.
+
+**Solution:**
+
+**Step 1:** Use the apparent depth formula:
+$$n = \frac{\text{real depth}}{\text{apparent depth}}$$
+
+**Step 2:** Rearrange for apparent depth:
+$$\text{apparent depth} = \frac{\text{real depth}}{n} = \frac{1.2}{1.33} = \boxed{0.90 \text{ m}}$$
+
+**Interpretation:** The fish appears to be only 0.90 m deep, not 1.2 m, due to refraction at the water-air boundary.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+1. Define the terms:
+
+- (a) angle of incidence
+
+- (b) angle of reflection
+
+- (c) normal
+
+2. State the law of reflection.
+
+3. List four characteristics of an image formed by a plane mirror.
+
+4. A ray of light strikes a mirror at an angle of 25° to the normal. Calculate:
+
+- (a) the angle of reflection
+
+- (b) the angle between the incident ray and the mirror surface
+
+5. Define refraction.
+
+6. Explain why a pencil appears bent when partially immersed in water.
+
+7. A ray of light enters glass ($n = 1.5$) from air at an angle of incidence of 30°. Calculate the angle of refraction.
+
+8. Define the term critical angle.
+
+9. State two conditions necessary for total internal reflection to occur.
+
+10. Give one application of total internal reflection.
+
+### Extended Level
+
+11. A person 1.6 m tall stands 3.0 m in front of a vertical plane mirror.
+
+- (a) How tall is the image?
+
+- (b) How far behind the mirror is the image?
+
+- (c) If the person walks towards the mirror at 0.5 m/s, at what speed does the image approach the person?
+
+12. Light travels from air into a liquid. The angle of incidence is 45° and the angle of refraction is 30°.
+
+- (a) Calculate the refractive index of the liquid.
+
+- (b) Calculate the speed of light in the liquid. (Take $c = 3.0 \times 10^8$ m/s)
+
+13. The critical angle for a certain material is 35°.
+
+- (a) Calculate the refractive index of the material.
+
+- (b) Will total internal reflection occur if light inside the material strikes the boundary with air at an angle of 40°? Explain.
+
+14. A swimming pool is 2.0 m deep. The refractive index of water is 1.33.
+
+- (a) Calculate the apparent depth of the pool as seen from directly above.
+
+- (b) Explain why a swimmer at the bottom of the pool appears closer to the surface than they actually are.
+
+15. Describe how optical fibres transmit light over long distances. Include reference to total internal reflection in your answer.
+
+16. A ray of light passes through a rectangular glass block.
+
+- (a) Sketch a ray diagram showing the path of the ray through the block.
+
+- (b) Explain why the emergent ray is parallel to the incident ray but laterally displaced.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 15.1: Investigating Refraction Using a Rectangular Glass Block
+
+**Objective:**
+To verify Snell's Law and determine the refractive index of glass by measuring angles of incidence and refraction.
+
+**Apparatus:**
+- Rectangular glass block
+
+- Ray box with single slit
+
+- White paper
+
+- Protractor
+
+- Ruler
+
+- Pencil
+
+- Optical pins (optional alternative method)
+
+**Variables:**
+- **Independent:** Angle of incidence ($i$)
+
+- **Dependent:** Angle of refraction ($r$)
+
+- **Controlled:** Same glass block, same wavelength of light, same experimental setup
+
+**Procedure:**
+1. Place the glass block on a sheet of white paper and trace its outline.
+
+2. Remove the block and draw a normal line at the centre of one of the longer faces.
+
+3. Draw an incident ray at an angle of incidence $i = 30^\circ$ to the normal.
+
+4. Replace the glass block exactly on its outline.
+
+5. Direct a narrow ray of light from the ray box along the incident ray line.
+
+6. Mark the point where the ray emerges from the opposite face of the block.
+
+7. Remove the block and draw the refracted ray inside the block and the emergent ray.
+
+8. Measure the angle of refraction $r$ inside the block.
+
+9. Repeat steps 3–8 for angles of incidence: 40°, 50°, 60°, 70°.
+
+10. Record results in a table and calculate $\sin i$, $\sin r$, and $\frac{\sin i}{\sin r}$ for each trial.
+
+**Data Table:**
+
+| Trial | $i$ (°) | $r$ (°) | $\sin i$ | $\sin r$ | $n = \frac{\sin i}{\sin r}$ |
+|:------|:--------|:--------|:---------|:---------|:---------------------------|
+| 1 | 30 | | | | |
+| 2 | 40 | | | | |
+| 3 | 50 | | | | |
+| 4 | 60 | | | | |
+| 5 | 70 | | | | |
+
+**Analysis:**
+1. Calculate the average value of $n$ from your results.
+
+2. Plot a graph of $\sin i$ (y-axis) against $\sin r$ (x-axis).
+
+3. Determine the gradient of the best-fit line; this should equal the refractive index $n$.
+
+4. Compare your experimental $n$ with the accepted value for glass (~1.50).
+
+**Precautions:**
+- ✓ Ensure the glass block is placed exactly on its outline for each trial
+
+- ✓ Use a narrow, well-defined ray for accurate angle measurement
+
+- ✓ Measure angles from the normal, not from the surface
+
+- ✓ Avoid parallax error when reading the protractor
+
+**Expected Results:**
+- The graph of $\sin i$ against $\sin r$ should be a straight line through the origin
+
+- The gradient should be approximately 1.50 for typical glass
+
+- The emergent ray should be parallel to the incident ray but laterally displaced
+
+**Conclusion Template:**
+"The experiment verified Snell's Law: the ratio $\frac{\sin i}{\sin r}$ was approximately constant, giving a refractive index of ______ for the glass block. This value is [close to/different from] the accepted value of 1.50, which may be due to [measurement uncertainties/variations in glass composition/etc.]."
+
+**Extension (Supplement):**
+- Repeat the experiment with a semicircular glass block to study the critical angle
+
+- Investigate refraction for light travelling from glass to air to observe total internal reflection
+
+- Compare refractive indices of different transparent materials (e.g., acrylic, water)
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+1. Which statement correctly describes the law of reflection?
+
+A. The angle of incidence equals the angle between the incident ray and the mirror  
+
+B. The angle of incidence equals the angle of reflection, both measured from the normal  
+
+C. The incident ray and reflected ray are always perpendicular  
+
+D. The normal bisects the angle between the incident and reflected rays  
+
+2. An object is placed 40 cm in front of a plane mirror. How far is the image from the object?
+
+A. 20 cm  
+
+B. 40 cm  
+
+C. 80 cm  
+
+D. 160 cm  
+
+3. Light travels from air into glass. Which statement is correct?
+
+A. The light speeds up and bends away from the normal  
+
+B. The light speeds up and bends towards the normal  
+
+C. The light slows down and bends away from the normal  
+
+D. The light slows down and bends towards the normal  
+
+4. The refractive index of a material is 2.0. What is the critical angle for light travelling from this material to air?
+
+A. 25°  
+
+B. 30°  
+
+C. 45°  
+
+D. 60°  
+
+5. Which application uses total internal reflection?
+
+A. Plane mirror  
+
+B. Magnifying glass  
+
+C. Optical fibre  
+
+D. Pinhole camera  
+
+### Paper 3 Style (Structured)
+
+6. (a) State the law of reflection. [1]
+
+(b) A ray of light strikes a plane mirror at an angle of 50° to the mirror surface.
+
+   (i) Calculate the angle of incidence. [1]
+
+   (ii) Calculate the angle of reflection. [1]
+
+   (iii) Sketch a labelled ray diagram to show the incident ray, reflected ray, normal, and both angles. [3]
+
+(c) List three characteristics of the image formed by a plane mirror. [3]
+
+7. (a) Define refraction. [1]
+
+(b) Light travels from air into water ($n = 1.33$) at an angle of incidence of 40°.
+
+   (i) Calculate the angle of refraction. [3]
+
+   (ii) Explain why the light ray bends towards the normal. [2]
+
+(c) A coin is placed at the bottom of a container filled with water. Explain why the coin appears to be at a shallower depth than it actually is. [2]
+
+8. (Extended) (a) Define the term critical angle. [1]
+
+(b) The refractive index of diamond is 2.42.
+
+   (i) Calculate the critical angle for diamond. [2]
+
+   (ii) Explain why diamonds sparkle brilliantly. [2]
+
+(c) Describe how optical fibres use total internal reflection to transmit data. Include a labelled diagram in your answer. [4]
+
+9. (Extended) A student investigates refraction using a rectangular glass block.
+
+(a) Describe the procedure the student should follow to measure the angle of refraction for a given angle of incidence. [4]
+
+(b) The student obtains the following 
+
+| $i$ (°) | 20 | 30 | 40 | 50 | 60 |
+|---------|----|----|----|----|----|
+| $r$ (°) | 13 | 19 | 25 | 30 | 35 |
+
+   (i) Complete the table by calculating $\sin i$ and $\sin r$ for each pair of angles. [2]
+
+   (ii) Plot a graph of $\sin i$ (y-axis) against $\sin r$ (x-axis). [3]
+
+   (iii) Use your graph to determine the refractive index of the glass. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Reflection**: $i = r$; incident ray, reflected ray, normal in same plane  
+
+✓ **Plane mirror image**: Same size, same distance behind mirror, virtual, upright, laterally inverted  
+
+✓ **Refraction**: Light bends due to change in speed when passing between media  
+
+✓ **Snell's Law**: $n = \frac{\sin i}{\sin r}$ for air/vacuum → medium  
+
+✓ **Refractive index**: $n = \frac{c}{v}$; higher $n$ = slower light = greater bending  
+
+✓ **Critical angle**: $\sin c = \frac{1}{n}$; angle for which refraction angle = 90°  
+
+✓ **Total internal reflection**: Occurs when $i > c$ and light travels denser → less dense  
+
+✓ **Applications**: Optical fibres, prisms, endoscopes, reflectors  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Law of reflection | $i = r$ | $i$=angle of incidence, $r$=angle of reflection |
+| Snell's Law | $n = \frac{\sin i}{\sin r}$ | $n$=refractive index, $i$=incidence angle (in air), $r$=refraction angle |
+| Refractive index (speed) | $n = \frac{c}{v}$ | $c$=speed in vacuum ($3.0 \times 10^8$ m/s), $v$=speed in medium |
+| Critical angle | $\sin c = \frac{1}{n}$ | $c$=critical angle, $n$=refractive index of denser medium |
+| Apparent depth | $n = \frac{\text{real depth}}{\text{apparent depth}}$ | For viewing objects through a plane boundary |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 12 (Light: Reflection and Refraction)
+
+- Practical Work in Physics: Ray Optics Experiments
+
+### Online Resources
+
+- PhET Interactive Simulations: Bending Light, Geometric Optics
+
+- BBC Bitesize: Reflection, Refraction, Total Internal Reflection
+
+- University of Colorado: Ray Optics simulations
+
+### Video Resources
+
+- Demonstration: Ray tracing with plane mirrors and glass blocks
+
+- Animation: How optical fibres use total internal reflection
+
+- Real-world application: Telecommunications and endoscopy using optical fibres
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Angle of incidence ($i$)** | Angle between the incident ray and the normal at the point of incidence |
+| **Angle of reflection ($r$)** | Angle between the reflected ray and the normal at the point of incidence |
+| **Angle of refraction ($r$)** | Angle between the refracted ray and the normal at the point of incidence |
+| **Apparent depth** | The depth at which an object appears to be when viewed through a refracting medium |
+| **Critical angle ($c$)** | The angle of incidence in the denser medium for which the angle of refraction in the less dense medium is 90° |
+| **Incident ray** | The ray of light approaching a boundary or reflecting surface |
+| **Lateral inversion** | The swapping of left and right in an image formed by a plane mirror |
+| **Normal** | An imaginary line perpendicular to a surface or boundary at the point of incidence |
+| **Refracted ray** | The ray of light that has passed into a second medium and changed direction |
+| **Refractive index ($n$)** | Ratio of speed of light in vacuum to speed in medium; or $\frac{\sin i}{\sin r}$ for air → medium |
+| **Reflection** | The rebounding of light at a surface; governed by $i = r$ |
+| **Refraction** | The bending of light as it passes from one medium to another due to a change in speed |
+| **Total internal reflection** | Complete reflection of light within a denser medium when $i > c$ at a boundary with a less dense medium |
+| **Virtual image** | An image formed where light rays appear to come from but do not actually meet; cannot be captured on a screen |
+
+---
+
+*End of Chapter 15*

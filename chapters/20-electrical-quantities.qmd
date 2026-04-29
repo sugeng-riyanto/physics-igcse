@@ -1,0 +1,1044 @@
+---
+title: "Electrical Quantities"
+chapter: 20
+syllabus-code: "4.2 Electrical quantities"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (4.2.1 Electric Charge):**
+
+- State that there are positive and negative charges
+
+- State that positive charges repel other positive charges, negative charges repel other negative charges, but positive charges attract negative charges
+
+- Describe simple experiments to show the production of electrostatic charges by friction and to show the detection of electrostatic charges
+
+- Explain that charging of solids by friction involves only a transfer of negative charge (electrons)
+
+- Describe an experiment to distinguish between electrical conductors and insulators
+
+- Recall and use a simple electron model to explain the difference between electrical conductors and insulators and give typical examples
+
+**Core Content (4.2.2 Electric Current):**
+
+- Know that electric current is related to the flow of charge
+
+- Describe the use of ammeters (analogue and digital) with different ranges
+
+- Describe electrical conduction in metals in terms of the movement of free electrons
+
+- Know the difference between direct current (d.c.) and alternating current (a.c.)
+
+**Core Content (4.2.3 Electromotive Force and Potential Difference):**
+
+- Define electromotive force (e.m.f.) as the electrical work done by a source in moving a unit charge around a complete circuit
+
+- Know that e.m.f. is measured in volts (V)
+
+- Define potential difference (p.d.) as the work done by a unit charge passing through a component
+
+- Know that the p.d. between two points is measured in volts (V)
+
+- Describe the use of voltmeters (analogue and digital) with different ranges
+
+**Core Content (4.2.4 Resistance):**
+
+- Recall and use the equation for resistance R = V/I
+
+- Describe an experiment to determine resistance using a voltmeter and an ammeter and do the appropriate calculations
+
+- State, qualitatively, the relationship of the resistance of a metallic wire to its length and to its cross-sectional area
+
+**Core Content (4.2.5 Electrical Energy and Electrical Power):**
+
+- Understand that electric circuits transfer energy from a source of electrical energy, such as an electrical cell or mains supply, to the circuit components and then into the surroundings
+
+- Recall and use the equation for electrical power P = IV
+
+- Recall and use the equation for electrical energy E = IVt
+
+- Define the kilowatt-hour (kW h) and calculate the cost of using electrical appliances where the energy unit is the kW h
+
+**Supplement (Extended):**
+
+- State that charge is measured in coulombs
+
+- Describe an electric field as a region in which an electric charge experiences a force
+
+- State that the direction of an electric field at a point is the direction of the force on a positive charge at that point
+
+- Describe simple electric field patterns, including the direction of the field: (a) around a point charge (b) around a charged conducting sphere (c) between two oppositely charged parallel conducting plates
+
+- Define electric current as the charge passing a point per unit time; recall and use the equation I = Q/t
+
+- State that conventional current is from positive to negative and that the flow of free electrons is from negative to positive
+
+- Recall and use the equation for e.m.f. E = W/Q
+
+- Recall and use the equation for p.d. V = W/Q
+
+- Sketch and explain the current–voltage graphs for a resistor of constant resistance, a filament lamp and a diode
+
+- Recall and use the following relationship for a metallic electrical conductor: (a) resistance is directly proportional to length (b) resistance is inversely proportional to cross-sectional area
+
+---
+
+## 20.1 Electric Charge
+
+### What Is Electric Charge?
+
+Electric charge is a fundamental property of matter. There are two types of electric charge:
+
+- **Positive charge** (+)
+
+- **Negative charge** (–)
+
+**Key properties of electric charge:**
+
+- Like charges **repel** each other (positive–positive or negative–negative)
+
+- Unlike charges **attract** each other (positive–negative)
+
+- Charge is **conserved** — it cannot be created or destroyed, only transferred
+
+::: {.callout-note}
+**Key Concept:** The SI unit of electric charge is the **coulomb (C)**. One coulomb is the charge transported by a constant current of one ampere in one second.
+:::
+
+### Charging by Friction
+
+When two different insulating materials are rubbed together, electrons may be transferred from one material to the other.
+
+**Example: Charging a plastic rod with a cloth**
+
+1. Rub a plastic rod with a dry cloth
+
+2. Electrons are transferred from the cloth to the plastic rod
+
+3. The plastic rod gains electrons → becomes **negatively charged**
+
+4. The cloth loses electrons → becomes **positively charged**
+
+**Detection of electrostatic charges:**
+
+- A **gold-leaf electroscope** can detect the presence of charge
+
+- When a charged object is brought near the electroscope, the gold leaf diverges due to repulsion of like charges
+
+::: {.callout-warning}
+**Important:** Only **electrons** (negative charges) are transferred during charging by friction. Protons remain fixed in the atomic nucleus.
+:::
+
+### Conductors and Insulators
+
+| Type | Description | Examples |
+|:-----|:------------|:---------|
+| **Electrical conductors** | Materials that allow electric charge to flow easily through them | Metals (copper, aluminium), graphite, salt water |
+| **Electrical insulators** | Materials that do not allow electric charge to flow easily through them | Plastic, rubber, glass, dry wood, air |
+
+**Electron model explanation:**
+
+- **In conductors (metals)**: Some electrons are free to move throughout the material (free electrons). When a potential difference is applied, these free electrons drift, creating an electric current.
+
+- **In insulators**: Electrons are tightly bound to their atoms and cannot move freely. No significant current flows even when a potential difference is applied.
+
+**Experiment: Distinguishing conductors and insulators**
+
+**Apparatus:**
+
+- Battery, bulb, connecting wires, test materials
+
+**Procedure:**
+
+1. Set up a simple circuit with a battery and bulb
+
+2. Insert the test material into the circuit
+
+3. Observe whether the bulb lights up
+
+**Observation:**
+
+- Bulb lights up → material is a **conductor**
+
+- Bulb does not light up → material is an **insulator**
+
+---
+
+## 20.2 Electric Field (Supplement)
+
+### What Is an Electric Field?
+
+An **electric field** is a region of space in which an electric charge experiences a force.
+
+**Key characteristics:**
+
+- Electric fields are invisible but can be visualised using field lines
+
+- The direction of the electric field at any point is the direction of the force on a **positive charge** placed at that point
+
+- Electric field lines always emerge from **positive charges** and enter **negative charges**
+
+### Drawing Electric Field Lines
+
+**Rules for drawing electric field lines:**
+
+1. Field lines start at positive charges and end at negative charges
+
+2. Field lines never cross each other
+
+3. The density of field lines indicates field strength: closer lines = stronger field
+
+4. Field lines are continuous curves
+
+**Simple electric field patterns:**
+
+| Pattern | Description |
+|:--------|:------------|
+| **Around a point charge** | Radial lines emerging from a positive charge or converging to a negative charge |
+| **Around a charged conducting sphere** | Similar to a point charge at the centre; no field inside the conductor |
+| **Between parallel plates** | Uniform, parallel lines from positive to negative plate |
+
+::: {.callout-note}
+**Key Concept:** The electric field is strongest near charges, where the field lines are most concentrated.
+:::
+
+---
+
+## 20.3 Electric Current
+
+### What Is Electric Current?
+
+**Electric current** is the rate of flow of electric charge.
+
+$$I = \frac{Q}{t}$$
+
+Where:
+- $I$ = electric current (A)
+- $Q$ = charge flowing (C)
+- $t$ = time (s)
+
+::: {.callout-note}
+**Key Concept:** One ampere (1 A) is defined as one coulomb of charge passing a point per second: $1 \text{ A} = 1 \text{ C/s}$.
+:::
+
+### Conventional Current vs Electron Flow
+
+| Concept | Direction | Explanation |
+|:--------|:----------|:------------|
+| **Conventional current** | Positive → Negative | Historical convention established before electrons were discovered |
+| **Electron flow** | Negative → Positive | Actual movement of free electrons in metallic conductors |
+
+::: {.callout-warning}
+**Important:** In circuit analysis and diagrams, we use **conventional current** direction (positive to negative), even though electrons actually flow in the opposite direction.
+:::
+
+### Direct Current (d.c.) vs Alternating Current (a.c.)
+
+| Type | Description | Examples |
+|:-----|:------------|:---------|
+| **Direct current (d.c.)** | Current flows in one direction only | Batteries, solar cells, d.c. power supplies |
+| **Alternating current (a.c.)** | Current reverses direction periodically | Mains electricity (50 Hz or 60 Hz), a.c. generators |
+
+### Measuring Electric Current: Ammeters
+
+- **Ammeters** measure electric current in amperes (A)
+
+- Must be connected **in series** with the component being measured
+
+- **Analogue ammeters**: Use a moving coil mechanism; read from a scale
+
+- **Digital ammeters**: Display numerical values; often more precise
+
+**Precautions when using ammeters:**
+
+- ✓ Always connect in series, never in parallel
+
+- ✓ Select an appropriate range to avoid damaging the meter
+
+- ✓ For analogue meters, avoid parallax error by viewing the scale perpendicularly
+
+---
+
+## 20.4 Electromotive Force and Potential Difference
+
+### What Is Electromotive Force (e.m.f.)?
+
+**Electromotive force (e.m.f.)** is the electrical work done by a source in moving a unit charge around a complete circuit.
+
+$$E = \frac{W}{Q}$$
+
+Where:
+- $E$ = e.m.f. (V)
+- $W$ = work done or energy transferred (J)
+- $Q$ = charge (C)
+
+**Key points about e.m.f.:**
+
+- Measured in **volts (V)**
+
+- Represents the **total energy per unit charge** supplied by the source
+
+- Measured across the terminals of a source when **no current is flowing** (open circuit)
+
+### What Is Potential Difference (p.d.)?
+
+**Potential difference (p.d.)** is the work done by a unit charge passing through a component.
+
+$$V = \frac{W}{Q}$$
+
+Where:
+- $V$ = potential difference (V)
+- $W$ = work done or energy transferred (J)
+- $Q$ = charge (C)
+
+**Key points about p.d.:**
+
+- Also measured in **volts (V)**
+
+- Represents the **energy transferred per unit charge** by a component
+
+- Measured **across** a component when current is flowing
+
+### Measuring Potential Difference: Voltmeters
+
+- **Voltmeters** measure potential difference in volts (V)
+
+- Must be connected **in parallel** across the component being measured
+
+- **Analogue voltmeters**: Use a moving coil mechanism; read from a scale
+
+- **Digital voltmeters**: Display numerical values; often more precise
+
+**Precautions when using voltmeters:**
+
+- ✓ Always connect in parallel, never in series
+
+- ✓ Select an appropriate range to avoid damaging the meter
+
+- ✓ For analogue meters, avoid parallax error by viewing the scale perpendicularly
+
+---
+
+## 20.5 Resistance and Ohm's Law
+
+### What Is Electrical Resistance?
+
+**Resistance** is a measure of how much a component opposes the flow of electric current.
+
+$$R = \frac{V}{I}$$
+
+Where:
+- $R$ = resistance (Ω)
+- $V$ = potential difference across the component (V)
+- $I$ = current through the component (A)
+
+::: {.callout-note}
+**Key Concept:** One ohm (1 Ω) is defined as the resistance when a potential difference of one volt produces a current of one ampere: $1 \text{ Ω} = 1 \text{ V/A}$.
+:::
+
+### Ohm's Law
+
+For a metallic conductor at constant temperature:
+
+> **The current through the conductor is directly proportional to the potential difference across it.**
+
+$$V \propto I \quad \text{or} \quad V = IR$$
+
+**Conditions for Ohm's Law to apply:**
+
+- Temperature must remain constant
+
+- The conductor must be ohmic (e.g., a fixed resistor)
+
+### Factors Affecting the Resistance of a Wire
+
+For a metallic wire at constant temperature:
+
+| Factor | Effect on Resistance | Explanation |
+|:-------|:---------------------|:------------|
+| **Length ($L$)** | $R \propto L$ (directly proportional) | Longer wire → more collisions for electrons → higher resistance |
+| **Cross-sectional area ($A$)** | $R \propto \frac{1}{A}$ (inversely proportional) | Thicker wire → more paths for electrons → lower resistance |
+| **Material** | Depends on resistivity ($\rho$) | Different materials have different numbers of free electrons |
+| **Temperature** | For metals: $R$ increases with temperature | Higher temperature → more lattice vibrations → more electron collisions |
+
+### Current–Voltage (I–V) Characteristics
+
+| Component | I–V Graph Shape | Explanation |
+|:----------|:----------------|:------------|
+| **Fixed resistor** | Straight line through origin | Ohmic conductor; constant resistance |
+| **Filament lamp** | Curve with decreasing gradient | Resistance increases as filament heats up |
+| **Diode** | Conducts in one direction only; very high resistance in reverse | Allows current in forward bias; blocks current in reverse bias |
+
+---
+
+## 20.6 Electrical Energy and Power
+
+### Electrical Power
+
+**Electrical power** is the rate at which electrical energy is transferred.
+
+$$P = IV$$
+
+Where:
+- $P$ = power (W)
+- $I$ = current (A)
+- $V$ = potential difference (V)
+
+**Alternative forms (using $V = IR$):**
+
+$$P = I^2R \quad \text{or} \quad P = \frac{V^2}{R}$$
+
+### Electrical Energy
+
+**Electrical energy** transferred by a component:
+
+$$E = IVt$$
+
+Where:
+- $E$ = energy (J)
+- $I$ = current (A)
+- $V$ = potential difference (V)
+- $t$ = time (s)
+
+### The Kilowatt-Hour (kW h)
+
+The **kilowatt-hour** is a practical unit for measuring electrical energy used in homes.
+
+$$1 \text{ kW h} = 1000 \text{ W} \times 3600 \text{ s} = 3.6 \times 10^6 \text{ J}$$
+
+**Calculating cost of electricity:**
+
+$$\text{Cost} = \text{Energy used (kW h)} \times \text{Cost per kW h}$$
+
+::: {.callout-note}
+**Key Insight:** The kilowatt-hour is used because the joule is too small for practical household energy measurements.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Electric charge**: Two types (+ and –); like charges repel, unlike attract; measured in coulombs (C)
+
+2. **Charging by friction**: Transfer of electrons only; insulators can be charged, conductors cannot (unless insulated)
+
+3. **Conductors vs insulators**: Conductors have free electrons; insulators have bound electrons
+
+4. **Electric current**: Rate of flow of charge; $I = Q/t$; measured in amperes (A) with ammeters in series
+
+5. **d.c. vs a.c.**: d.c. flows one way; a.c. reverses direction periodically
+
+6. **e.m.f. and p.d.**: Both measured in volts; e.m.f. is energy supplied per charge by source; p.d. is energy transferred per charge by component
+
+7. **Resistance**: Opposition to current flow; $R = V/I$; measured in ohms (Ω)
+
+8. **Ohm's Law**: $V = IR$ for ohmic conductors at constant temperature
+
+9. **Factors affecting resistance**: $R \propto L$, $R \propto 1/A$, depends on material and temperature
+
+10. **Electrical power and energy**: $P = IV$; $E = IVt$; kilowatt-hour (kW h) for practical energy measurement
+
+### Extended Concepts
+
+11. **Electric fields**: Region where a charge experiences a force; direction = force on positive charge
+
+12. **Field patterns**: Radial around point charge; uniform between parallel plates
+
+13. **I–V characteristics**: Resistor (linear), filament lamp (curve), diode (one-way conduction)
+
+14. **Quantitative resistance relationships**: $R = \rho \frac{L}{A}$ for metallic conductors
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Current is used up as it flows through a circuit"
+
+**Incorrect**: "The current is smaller after passing through a lamp"
+
+**Correct**:
+
+- **Current is conserved** in a series circuit; the same current flows through all components
+
+- What is "used up" is **energy**, not charge or current
+
+- The p.d. across a component represents energy transferred per charge, not current loss
+
+---
+
+### ⚠️ Misconception 2: "Electrons flow from positive to negative"
+
+**Incorrect**: "Electrons move from the positive terminal of a battery to the negative terminal"
+
+**Correct**:
+
+- **Electrons** (negative charges) flow from **negative to positive**
+
+- **Conventional current** is defined as flowing from **positive to negative** (historical convention)
+
+- In circuit analysis, we use conventional current direction
+
+---
+
+### ⚠️ Misconception 3: "A voltmeter should be connected in series"
+
+**Incorrect**: "To measure voltage, connect the voltmeter in the same path as the current"
+
+**Correct**:
+
+- **Voltmeters** must be connected **in parallel** across the component
+
+- Connecting a voltmeter in series would break the circuit (very high resistance)
+
+- **Ammeters** are connected in series; **voltmeters** in parallel
+
+---
+
+### ⚠️ Misconception 4: "Resistance depends only on the material"
+
+**Incorrect**: "All copper wires have the same resistance"
+
+**Correct**:
+
+- Resistance depends on **four factors**: length, cross-sectional area, material, and temperature
+
+- For a given material at constant temperature: $R \propto \frac{L}{A}$
+
+- A longer or thinner wire has higher resistance
+
+---
+
+### ⚠️ Misconception 5: "Ohm's Law applies to all components"
+
+**Incorrect**: "All electrical components obey $V = IR$"
+
+**Correct**:
+
+- Ohm's Law applies **only to ohmic conductors** (e.g., fixed resistors) at constant temperature
+
+- Filament lamps, diodes, and thermistors are **non-ohmic**; their I–V graphs are not straight lines
+
+- Always check the I–V characteristic before applying Ohm's Law
+
+---
+
+### ⚠️ Misconception 6: "The kilowatt-hour is a unit of power"
+
+**Incorrect**: "My electricity bill charges me per kilowatt-hour of power used"
+
+**Correct**:
+
+- The **kilowatt-hour (kW h)** is a unit of **energy**, not power
+
+- Power is measured in watts (W) or kilowatts (kW)
+
+- Energy = Power × Time → kW h = kW × h
+
+---
+
+### ⚠️ Misconception 7: "Charging by friction creates new charge"
+
+**Incorrect**: "Rubbing a rod with cloth creates electric charge"
+
+**Correct**:
+
+- Charging by friction **transfers existing electrons** from one material to another
+
+- Charge is **conserved**; no new charge is created or destroyed
+
+- The total charge of the system remains zero (one object gains electrons, the other loses the same amount)
+
+---
+
+## Worked Examples
+
+### Example 1: Charge and Current Calculation
+
+**Question:**
+A current of 0.5 A flows through a wire for 2 minutes. Calculate:
+(a) the charge that passes a point in the wire
+(b) the number of electrons that pass that point (charge of one electron = $1.6 \times 10^{-19}$ C)
+
+**Solution:**
+
+**(a) Charge:**
+$$I = 0.5 \text{ A}, \quad t = 2 \times 60 = 120 \text{ s}$$
+$$Q = It = 0.5 \times 120 = \boxed{60 \text{ C}}$$
+
+**(b) Number of electrons:**
+$$\text{Number} = \frac{Q}{e} = \frac{60}{1.6 \times 10^{-19}} = \boxed{3.75 \times 10^{20} \text{ electrons}}$$
+
+---
+
+### Example 2: Resistance Calculation
+
+**Question:**
+A resistor has a potential difference of 6.0 V across it when a current of 0.25 A flows through it. Calculate:
+(a) the resistance of the resistor
+(b) the power dissipated by the resistor
+(c) the energy transferred in 5 minutes
+
+**Solution:**
+
+**(a) Resistance:**
+$$R = \frac{V}{I} = \frac{6.0}{0.25} = \boxed{24 \text{ Ω}}$$
+
+**(b) Power:**
+$$P = IV = 0.25 \times 6.0 = \boxed{1.5 \text{ W}}$$
+
+**(c) Energy:**
+$$t = 5 \times 60 = 300 \text{ s}$$
+$$E = IVt = 0.25 \times 6.0 \times 300 = \boxed{450 \text{ J}}$$
+
+---
+
+### Example 3: e.m.f. and p.d. Calculation (Supplement)
+
+**Question:**
+A battery does 120 J of work in moving 20 C of charge around a complete circuit. A lamp in the circuit has a p.d. of 4.0 V across it. Calculate:
+(a) the e.m.f. of the battery
+(b) the charge that passes through the lamp in 10 s if the current is 0.5 A
+
+**Solution:**
+
+**(a) e.m.f. of battery:**
+$$E = \frac{W}{Q} = \frac{120}{20} = \boxed{6.0 \text{ V}}$$
+
+**(b) Charge through lamp:**
+$$I = 0.5 \text{ A}, \quad t = 10 \text{ s}$$
+$$Q = It = 0.5 \times 10 = \boxed{5.0 \text{ C}}$$
+
+---
+
+### Example 4: Electrical Energy Cost Calculation
+
+**Question:**
+A 2.4 kW electric heater is used for 3 hours each day for a week. If electricity costs $0.25 per kW h, calculate:
+(a) the total energy used in kW h
+(b) the total cost
+
+**Solution:**
+
+**(a) Energy used:**
+$$P = 2.4 \text{ kW}, \quad t = 3 \text{ h/day} \times 7 \text{ days} = 21 \text{ h}$$
+$$E = Pt = 2.4 \times 21 = \boxed{50.4 \text{ kW h}}$$
+
+**(b) Total cost:**
+$$\text{Cost} = 50.4 \times 0.25 = \boxed{\$12.60}$$
+
+---
+
+### Example 5: Resistance and Wire Dimensions (Supplement)
+
+**Question:**
+A copper wire of length 2.0 m and cross-sectional area 0.50 mm² has a resistance of 0.068 Ω. Calculate the resistance of another copper wire of the same material with:
+(a) length 4.0 m and area 0.50 mm²
+(b) length 2.0 m and area 1.0 mm²
+
+**Solution:**
+
+**(a) Double the length, same area:**
+$$R \propto L \quad \Rightarrow \quad R_{\text{new}} = R \times \frac{L_{\text{new}}}{L} = 0.068 \times \frac{4.0}{2.0} = \boxed{0.136 \text{ Ω}}$$
+
+**(b) Same length, double the area:**
+$$R \propto \frac{1}{A} \quad \Rightarrow \quad R_{\text{new}} = R \times \frac{A}{A_{\text{new}}} = 0.068 \times \frac{0.50}{1.0} = \boxed{0.034 \text{ Ω}}$$
+
+---
+
+## Practice Questions
+
+### Core Level
+
+1. State the two types of electric charge and the rule for attraction and repulsion.
+
+2. Explain why a plastic rod becomes negatively charged when rubbed with a cloth.
+
+3. Define electric current and state its SI unit.
+
+4. A charge of 30 C passes a point in a circuit in 15 s. Calculate the current.
+
+5. State the difference between direct current (d.c.) and alternating current (a.c.).
+
+6. Define potential difference and state its SI unit.
+
+7. A resistor has a p.d. of 9.0 V across it when a current of 0.3 A flows. Calculate its resistance.
+
+8. State two factors that affect the resistance of a wire.
+
+9. Calculate the power of a lamp that operates at 12 V with a current of 0.5 A.
+
+10. A 100 W lamp is used for 5 hours. Calculate the energy used in kW h.
+
+11. Describe how to use an ammeter to measure current in a circuit.
+
+12. Explain why metals are good electrical conductors using the electron model.
+
+13. A battery has an e.m.f. of 9.0 V. What does this mean?
+
+14. Calculate the cost of using a 1.5 kW appliance for 4 hours if electricity costs $0.30 per kW h.
+
+15. Describe an experiment to distinguish between a conductor and an insulator.
+
+### Extended Level
+
+16. Calculate the number of electrons that pass a point in a wire when a current of 2.0 A flows for 30 s. (Charge of electron = $1.6 \times 10^{-19}$ C)
+
+17. Explain, in terms of electron motion, why the resistance of a metal increases with temperature.
+
+18. Sketch the I–V characteristic for: 
+
+- (a) a fixed resistor
+
+- (b) a filament lamp
+
+- (c) a diode
+
+19. A wire of resistance 12 Ω is cut into three equal pieces which are then connected in parallel. Calculate the combined resistance.
+
+20. In a circuit, a current of 0.8 A enters a junction. Two wires leave the junction, one carrying 0.3 A. Calculate the current in the other wire.
+
+21. A potential divider circuit uses a thermistor (NTC) and a fixed resistor. Explain how the output voltage changes as temperature increases.
+
+22. A 3 kW electric heater is used for 2.5 hours. If electricity costs $0.28 per kW h, calculate the total cost.
+
+23. Two identical lamps are connected in parallel to a battery. A third identical lamp is added in parallel. State and explain what happens to: 
+
+- (a) the brightness of each lamp
+
+- (b) the total current from the battery
+
+24. Describe an experiment to determine the resistance of a wire using a voltmeter and an ammeter. Include a circuit diagram and state the precautions.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 20.1: Determining Resistance Using Voltmeter-Ammeter Method
+
+**Objective:**
+To determine the resistance of a fixed resistor using the voltmeter-ammeter method and verify Ohm's Law.
+
+**Apparatus:**
+- Fixed resistor (unknown value)
+
+- Variable resistor (rheostat)
+
+- d.c. power supply (0–12 V)
+
+- Ammeter (0–1 A)
+
+- Voltmeter (0–15 V)
+
+- Connecting wires
+
+- Switch
+
+**Variables:**
+- **Independent:** Potential difference across resistor (adjusted using rheostat)
+
+- **Dependent:** Current through resistor
+
+- **Controlled:** Same resistor, same temperature, same circuit configuration
+
+**Procedure:**
+1. Set up the circuit as shown in the diagram below:
+
+   - Connect the power supply, switch, rheostat, ammeter, and fixed resistor in series
+
+   - Connect the voltmeter in parallel across the fixed resistor
+
+2. Close the switch and adjust the rheostat to give a small current (e.g., 0.1 A)
+
+3. Record the voltmeter reading $V$ and ammeter reading $I$
+
+4. Adjust the rheostat to increase the current in steps (e.g., 0.2 A, 0.3 A, ..., 0.6 A)
+
+5. Record $V$ and $I$ for each step
+
+6. Open the switch between readings to minimise heating of the resistor
+
+7. Calculate resistance $R = V/I$ for each pair of readings
+
+8. Plot a graph of $V$ (y-axis) against $I$ (x-axis)
+
+**Circuit Diagram:**
+```
+     ┌─────┐
+     │     │
+    ┌┴┐   ┌┴┐
+    │ │   │ │  Variable
+    │ │   │ │  resistor
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐   ┌┴┐
+    │A│   │V│  Ammeter   Voltmeter
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐   ┌┴┐
+    │R│   │ │  Fixed
+    │ │   │ │  resistor
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐   ┌┴┐
+    │ │   │ │  Power
+    │ │   │ │  supply
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐
+    │S│  Switch
+    └┬┘
+     │
+    GND
+```
+
+**Data Table:**
+
+| Trial | $V$ (V) | $I$ (A) | $R = V/I$ (Ω) |
+|:------|:--------|:--------|:--------------|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
+| 6 | | | |
+
+**Analysis:**
+1. Calculate the average resistance from the $R = V/I$ column
+
+2. Plot a graph of $V$ (y-axis) against $I$ (x-axis)
+
+3. Determine the gradient of the best-fit line; this equals the resistance $R$
+
+4. Compare the average $R$ from calculations with the gradient from the graph
+
+5. Comment on whether the resistor obeys Ohm's Law (straight line through origin)
+
+**Precautions:**
+- ✓ Open the switch between readings to prevent the resistor from heating up
+
+- ✓ Ensure all connections are tight to avoid contact resistance
+
+- ✓ Select appropriate meter ranges to avoid damage and improve precision
+
+- ✓ Avoid parallax error when reading analogue meters
+
+**Expected Results:**
+- The graph of $V$ against $I$ should be a straight line through the origin
+
+- The gradient should equal the resistance of the fixed resistor
+
+- Calculated $R$ values should be consistent (within experimental error)
+
+**Conclusion Template:**
+"The resistance of the fixed resistor was determined to be ______ Ω using the voltmeter-ammeter method. The linear $V$–$I$ graph confirmed that the resistor obeys Ohm's Law at constant temperature. The average calculated resistance agreed with the gradient of the graph within experimental error."
+
+**Extension (Supplement):**
+- Repeat the experiment with a filament lamp and compare the I–V characteristic
+
+- Investigate how the resistance of a thermistor changes with temperature
+
+- Use the potential divider configuration to study the effect of varying $R_1$ or $R_2$ on $V_{\text{out}}$
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+1. Which statement about electric charge is correct?
+
+A. Positive charges attract other positive charges  
+
+B. Negative charges repel other negative charges  
+
+C. Positive charges attract negative charges  
+
+D. Charge can be created but not destroyed  
+
+2. A current of 2.0 A flows for 30 s. What charge passes a point in the circuit?
+
+A. 0.067 C  
+
+B. 15 C  
+
+C. 32 C  
+
+D. 60 C  
+
+3. Which instrument is used to measure potential difference and how is it connected?
+
+A. Ammeter, in series  
+
+B. Ammeter, in parallel  
+
+C. Voltmeter, in series  
+
+D. Voltmeter, in parallel  
+
+4. A resistor has a resistance of 10 Ω. What current flows when the p.d. across it is 5.0 V?
+
+A. 0.5 A  
+
+B. 2.0 A  
+
+C. 15 A  
+
+D. 50 A  
+
+5. Which statement about series circuits is correct?
+
+A. The current is different at different points  
+
+B. The p.d. is the same across each component  
+
+C. The total resistance is the sum of individual resistances  
+
+D. If one lamp blows, the others continue to work  
+
+### Paper 3 Style (Structured)
+
+6. (a) State the difference between a conductor and an insulator. [2]
+
+(b) Explain, in terms of electron motion, why metals are good conductors. [2]
+
+(c) Describe an experiment to show that a plastic rod can be charged by friction. Include how you would detect the charge. [3]
+
+7. (a) Define electromotive force (e.m.f.). [1]
+
+(b) A battery of e.m.f. 9.0 V supplies a current of 0.5 A to a circuit. Calculate:
+
+   (i) the charge that passes through the battery in 2 minutes [2]
+
+   (ii) the energy transferred by the battery in this time [2]
+
+(c) State one advantage of using a digital voltmeter rather than an analogue voltmeter. [1]
+
+8. (a) State Ohm's Law. [1]
+
+(b) A student investigates the resistance of a wire. She measures the current for different potential differences and plots the graph shown.
+
+   (i) Explain how she can determine the resistance of the wire from the graph. [2]
+
+   (ii) The wire is replaced with a thicker wire of the same material and length. Sketch the new I–V graph on the same axes. [2]
+
+   (iii) Explain why the resistance of a filament lamp increases as the current increases. [2]
+
+9. (Extended) (a) Two resistors, 4.0 Ω and 6.0 Ω, are connected in parallel. Calculate their combined resistance. [3]
+
+(b) The parallel combination is connected in series with a 2.0 Ω resistor to a 12 V supply. Calculate:
+
+   (i) the total resistance of the circuit [2]
+
+   (ii) the current from the supply [2]
+
+   (iii) the p.d. across the 2.0 Ω resistor [2]
+
+(c) Explain why lamps in a house are connected in parallel rather than in series. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Electric charge**: Two types (+ and –); like repel, unlike attract; measured in coulombs (C)  
+
+✓ **Charging by friction**: Transfer of electrons only; insulators can be charged  
+
+✓ **Conductors vs insulators**: Conductors have free electrons; insulators have bound electrons  
+
+✓ **Electric current**: $I = Q/t$; measured in amperes (A) with ammeters in series  
+
+✓ **d.c. vs a.c.**: d.c. one direction; a.c. reverses periodically  
+
+✓ **e.m.f. and p.d.**: Both in volts; e.m.f. = energy supplied per charge; p.d. = energy transferred per charge  
+
+✓ **Resistance**: $R = V/I$; measured in ohms (Ω); $R \propto L$, $R \propto 1/A$  
+
+✓ **Ohm's Law**: $V = IR$ for ohmic conductors at constant temperature  
+
+✓ **Electrical power and energy**: $P = IV$; $E = IVt$; kW h for practical energy measurement  
+
+✓ **Circuit symbols**: Standard symbols; ammeters in series, voltmeters in parallel  
+
+✓ **Electric field**: Region where charge experiences force; direction = force on positive charge  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Electric current | $I = \frac{Q}{t}$ | $I$=current (A), $Q$=charge (C), $t$=time (s) |
+| Resistance | $R = \frac{V}{I}$ | $R$=resistance (Ω), $V$=p.d. (V), $I$=current (A) |
+| Electrical power | $P = IV = I^2R = \frac{V^2}{R}$ | $P$=power (W) |
+| Electrical energy | $E = IVt = Pt$ | $E$=energy (J) |
+| e.m.f. / p.d. | $E \text{ or } V = \frac{W}{Q}$ | $W$=work/energy (J), $Q$=charge (C) |
+| Combined resistance (series) | $R_{\text{total}} = R_1 + R_2 + R_3 + \dots$ | — |
+| Combined resistance (parallel) | $\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \dots$ | — |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 16 (Electrical Quantities)
+
+- Practical Work in Physics: Electrical Measurements and Circuit Investigations
+
+### Online Resources
+
+- PhET Interactive Simulations: Circuit Construction Kit, Ohm's Law, Battery Voltage
+
+- BBC Bitesize: Electric Charge, Current and Voltage, Resistance, Circuit Calculations
+
+- University of Colorado: Circuit simulation tools for series and parallel circuits
+
+### Video Resources
+
+- Demonstration: Charging by friction and detection with electroscope
+
+- Animation: Electron flow vs conventional current in metallic conductors
+
+- Real-world application: How household wiring uses parallel circuits for safety and convenience
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Ammeter** | Instrument for measuring electric current; connected in series |
+| **Conventional current** | Conventional direction of current flow from positive to negative terminal |
+| **Conductor** | Material that allows electric charge to flow easily (e.g., metals) |
+| **Coulomb (C)** | SI unit of electric charge; charge transported by 1 A in 1 s |
+| **Direct current (d.c.)** | Electric current that flows in one direction only |
+| **Electric current ($I$)** | Rate of flow of electric charge; $I = Q/t$; unit: ampere (A) |
+| **Electric field** | Region in which an electric charge experiences a force |
+| **Electromotive force (e.m.f.)** | Electrical work done by a source per unit charge around a complete circuit; unit: volt (V) |
+| **Electron** | Negatively charged subatomic particle; carrier of charge in metallic conductors |
+| **Insulator** | Material that does not allow electric charge to flow easily (e.g., plastic, rubber) |
+| **Kilowatt-hour (kW h)** | Unit of electrical energy; energy used by a 1 kW device in 1 hour |
+| **Ohm (Ω)** | SI unit of resistance; $1 \text{ Ω} = 1 \text{ V/A}$ |
+| **Ohm's Law** | For an ohmic conductor at constant temperature: $V = IR$ |
+| **Potential difference (p.d.)** | Work done per unit charge passing through a component; unit: volt (V) |
+| **Resistance ($R$)** | Opposition to the flow of electric current; $R = V/I$; unit: ohm (Ω) |
+| **Volt (V)** | SI unit of e.m.f. and p.d.; $1 \text{ V} = 1 \text{ J/C}$ |
+| **Voltmeter** | Instrument for measuring potential difference; connected in parallel |
+
+---
+
+*End of Chapter 20*

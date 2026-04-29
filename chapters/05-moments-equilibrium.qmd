@@ -1,0 +1,771 @@
+---
+title: "Moments and Equilibrium"
+chapter: 5
+syllabus-code: "1.5.2 Turning effect of forces; 1.5.3 Centre of gravity"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (1.5.2 Turning Effect of Forces):**
+
+- Describe the moment of a force as a measure of its turning effect and give everyday examples
+
+- Define the moment of a force as moment = force × perpendicular distance from the pivot; recall and use this equation
+
+- Apply the principle of moments to situations with one force each side of the pivot, including balancing of a beam
+
+- State that, when there is no resultant force and no resultant moment, an object is in equilibrium
+
+
+**Core Content (1.5.3 Centre of Gravity):**
+
+- State what is meant by centre of gravity
+
+- Describe an experiment to determine the position of the centre of gravity of an irregularly shaped plane lamina
+
+- Describe, qualitatively, the effect of the position of the centre of gravity on the stability of simple objects
+
+**Supplement (Extended):**
+
+- Apply the principle of moments to situations with more than one force each side of the pivot
+
+- Describe an experiment to demonstrate that there is no resultant moment on an object in equilibrium
+
+---
+
+## The Turning Effect of Forces: Moment
+
+### What is a Moment?
+
+A **moment of a force** (also called *torque*) is a measure of the **turning effect** of a force about a pivot.
+
+**Everyday examples:**
+
+- Opening a door by pushing the handle (far from the hinge)
+
+- Turning a steering wheel
+
+- Using a spanner to tighten a bolt
+
+- Opening a bottle cap with a bottle opener
+
+::: {.callout-note}
+**Key Concept:** The turning effect depends on **two factors**:
+
+1. The magnitude of the force applied
+
+2. The **perpendicular distance** from the pivot to the line of action of the force
+:::
+
+### Definition and Formula
+
+The moment of a force is defined as:
+
+$$\text{Moment} = F \times d_{\perp}$$
+
+Where:
+- $F$ = force (N)
+- $d_{\perp}$ = **perpendicular distance** from the pivot to the line of action of the force (m)
+- Unit: **newton-metre (N m)**
+
+**Direction of moment:**
+
+- **Clockwise moment**: tends to rotate the object clockwise about the pivot
+
+- **Anticlockwise moment**: tends to rotate the object anticlockwise about the pivot
+
+### Calculating Moments: Worked Examples
+
+#### Example 1: Basic Moment Calculation
+
+**Question:**
+A force of 50 N is applied perpendicular to a door handle at a distance of 0.8 m from the hinge. Calculate the moment of the force about the hinge.
+
+**Solution:**
+$$\text{Moment} = F \times d_{\perp} = 50 \times 0.8 = \boxed{40 \text{ N m (anticlockwise)}}$$
+
+---
+
+#### Example 2: Finding Perpendicular Distance
+
+**Question:**
+A minimum moment of 25 N m is required to open a heavy gate. If a force of 100 N is applied, what is the minimum perpendicular distance from the pivot at which the force must be applied?
+
+**Solution:**
+$$\text{Moment} = F \times d_{\perp}$$
+$$25 = 100 \times d_{\perp}$$
+$$d_{\perp} = \frac{25}{100} = \boxed{0.25 \text{ m}}$$
+
+---
+
+#### Example 3: Force Not Perpendicular (Extended)
+
+**Question:**
+A force of 60 N is applied at an angle of 30° to a wrench of length 0.4 m. Calculate the moment about the pivot.
+
+**Solution:**
+The perpendicular component of the force is:
+$$F_{\perp} = F \sin \theta = 60 \times \sin 30° = 60 \times 0.5 = 30 \text{ N}$$
+
+$$\text{Moment} = F_{\perp} \times d = 30 \times 0.4 = \boxed{12 \text{ N m}}$$
+
+::: {.callout-warning}
+**Important:** Always use the **perpendicular distance** or the **perpendicular component of force**. Using the wrong distance is a common error.
+:::
+
+---
+
+## The Principle of Moments
+
+### Statement of the Principle
+
+> **For an object in rotational equilibrium, the sum of clockwise moments about any pivot equals the sum of anticlockwise moments.**
+
+$$\sum M_{\text{clockwise}} = \sum M_{\text{anticlockwise}}$$
+
+### Conditions for Complete Equilibrium
+
+For an object to be in **complete equilibrium**, **two conditions** must be satisfied:
+
+| Condition | Mathematical Expression | Physical Meaning |
+|:----------|:------------------------|:-----------------|
+| **Translational equilibrium** | $\sum F = 0$ | No resultant force → object does not accelerate linearly |
+| **Rotational equilibrium** | $\sum M = 0$ | No resultant moment → object does not rotate |
+
+### Applying the Principle: Worked Examples
+
+#### Example 4: Simple Beam Balance (One Force Each Side)
+
+**Question:**
+A uniform metre rule is balanced at the 50 cm mark. A 4.0 N weight is hung at the 20 cm mark. Where must a 2.0 N weight be hung to balance the rule?
+
+**Solution:**
+
+**Step 1:** Identify distances from pivot (50 cm mark)
+- 4.0 N weight: $d_1 = 50 - 20 = 30 \text{ cm}$ (left side → anticlockwise moment)
+- 2.0 N weight: let distance = $d_2$ (right side → clockwise moment)
+
+**Step 2:** Apply principle of moments
+$$\text{Anticlockwise moment} = \text{Clockwise moment}$$
+$$(4.0)(30) = (2.0)(d_2)$$
+$$120 = 2.0 d_2$$
+$$d_2 = \frac{120}{2.0} = 60 \text{ cm}$$
+
+**Step 3:** Find position on rule
+Position = pivot + $d_2$ = $50 + 60 = \boxed{110 \text{ cm}}$
+
+::: {.callout-warning}
+**Note:** Since the rule is only 100 cm long, this arrangement is **not physically possible** on a standard metre rule. The 2.0 N weight would need to be hung beyond the end of the rule, or a heavier weight must be used.
+:::
+
+---
+
+#### Example 5: Multiple Forces (Extended)
+
+**Question:**
+A uniform beam is balanced at its centre. Forces act as shown:
+- 10 N downward at 0.3 m left of pivot
+- 15 N downward at 0.2 m right of pivot
+- Unknown force $F$ downward at 0.4 m right of pivot
+
+Calculate $F$ for equilibrium.
+
+**Solution:**
+
+**Step 1:** Assign moment directions
+- 10 N at 0.3 m left → anticlockwise moment
+- 15 N at 0.2 m right → clockwise moment
+- $F$ at 0.4 m right → clockwise moment
+
+**Step 2:** Apply principle of moments
+$$\sum M_{\text{acw}} = \sum M_{\text{cw}}$$
+$$(10)(0.3) = (15)(0.2) + (F)(0.4)$$
+$$3.0 = 3.0 + 0.4F$$
+$$0 = 0.4F$$
+$$F = \boxed{0 \text{ N}}$$
+
+**Interpretation:** The 10 N and 15 N forces already balance each other. No additional force is required for rotational equilibrium.
+
+---
+
+#### Example 6: Beam with Weight (Extended)
+
+**Question:**
+A uniform metre rule of weight 1.5 N is balanced at the 30 cm mark. A 3.0 N weight is hung at the 10 cm mark. Where must a 2.0 N weight be hung to balance the rule?
+
+**Solution:**
+
+**Step 1:** Identify all forces and their positions
+- Weight of rule (1.5 N) acts at centre of gravity = 50 cm mark
+- 3.0 N weight at 10 cm mark
+- 2.0 N weight at unknown position $x$ cm
+- Pivot at 30 cm mark
+
+**Step 2:** Calculate distances from pivot
+- Rule's weight: $d_{\text{rule}} = 50 - 30 = 20 \text{ cm}$ (right → clockwise)
+- 3.0 N weight: $d_1 = 30 - 10 = 20 \text{ cm}$ (left → anticlockwise)
+- 2.0 N weight: $d_2 = |x - 30|$ cm
+
+**Step 3:** Determine which side the 2.0 N weight must be on
+Anticlockwise moment from 3.0 N: $(3.0)(20) = 60 \text{ N cm}$
+Clockwise moment from rule's weight: $(1.5)(20) = 30 \text{ N cm}$
+
+Since anticlockwise > clockwise, the 2.0 N weight must provide additional **clockwise** moment → hang on the **right** of pivot.
+
+**Step 4:** Apply principle of moments
+$$\sum M_{\text{acw}} = \sum M_{\text{cw}}$$
+$$(3.0)(20) = (1.5)(20) + (2.0)(d_2)$$
+$$60 = 30 + 2.0 d_2$$
+$$30 = 2.0 d_2$$
+$$d_2 = 15 \text{ cm}$$
+
+**Step 5:** Find position
+Position = pivot + $d_2$ = $30 + 15 = \boxed{45 \text{ cm mark}}$
+
+---
+
+## Centre of Gravity
+
+### Definition
+
+The **centre of gravity (CG)** of an object is the point through which the **entire weight** of the object may be considered to act.
+
+| Object Type | Location of CG |
+|:------------|:--------------|
+| Regular, uniform object | Geometric centre |
+| Irregular object | Determined experimentally |
+| Hollow symmetric object (e.g., ring) | May lie **outside** the material |
+
+::: {.callout-note}
+**Key Insight:** The CG is not necessarily within the material of the object. For a ring, the CG is at the centre—in empty space.
+:::
+
+### Locating the CG of an Irregular Lamina
+
+**Apparatus:** Irregular cardboard lamina, pin, plumb line, retort stand, pencil
+
+**Procedure:**
+
+1. Make three small holes near the edge of the lamina, well separated from each other
+
+2. Suspend the lamina freely from one hole using a pin
+
+3. Hang a plumb line from the same pin
+
+4. When steady, mark the line of the plumb line on the lamina with a pencil
+
+5. Repeat steps 2–4 for the other two holes
+
+6. The **intersection** of the three lines is the centre of gravity
+
+**Why three holes?**
+
+- Using three lines provides a check: if all three intersect at one point, the result is reliable
+
+- If they form a small triangle, the CG is at the centre of that triangle
+
+**Precautions:**
+
+- ✓ Ensure the lamina swings freely without obstruction
+
+- ✓ Allow the plumb line to come to rest before marking
+
+- ✓ Draw thin, accurate lines for precise intersection
+
+- ✓ Make holes small to avoid removing significant material
+
+---
+
+## Stability and the Centre of Gravity
+
+### Factors Affecting Stability
+
+The stability of an object depends on:
+
+1. **Position of the centre of gravity** (lower = more stable)
+
+2. **Area of the base** (wider = more stable)
+
+### Types of Equilibrium
+
+| Type | Effect of Small Displacement | CG Movement | Example |
+|:-----|:----------------------------|:------------|:--------|
+| **Stable** | Object returns to original position | CG **rises** then returns | Cone on base, racing car |
+| **Unstable** | Object moves further from original position | CG **falls** | Cone on tip, pencil balanced vertically |
+| **Neutral** | Object stays in new position | CG remains at **same height** | Sphere on flat surface, wheel on axle |
+
+### Design Applications
+
+| Application | Stability Feature | Purpose |
+|:------------|:----------------|:--------|
+| **Racing car** | Low CG + wide wheelbase | Prevent rollover at high speed |
+| **Bunsen burner** | Heavy, wide base | Resist tipping during use |
+| **Double-decker bus** | Passengers encouraged to use lower deck | Lower overall CG for cornering safety |
+| **Table lamp** | Weighted base | Prevent toppling when cord is pulled |
+| **Crane** | Counterweight + wide outriggers | Maintain stability when lifting heavy loads |
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Moment** = $F \times d_{\perp}$; unit: N m; direction: clockwise or anticlockwise
+
+2. **Principle of moments**: For equilibrium, $\sum M_{\text{cw}} = \sum M_{\text{acw}}$
+
+3. **Complete equilibrium** requires: $\sum F = 0$ **and** $\sum M = 0$
+
+4. **Centre of gravity**: Point where entire weight acts; may lie outside the object
+
+5. **Stability** increases with lower CG and wider base
+
+6. **Three types of equilibrium**: stable (CG rises), unstable (CG falls), neutral (CG unchanged)
+
+### Extended Concepts
+
+7. **Multiple-force problems**: Apply principle of moments with several forces on each side of pivot
+
+8. **Non-perpendicular forces**: Use perpendicular component $F_{\perp} = F \sin \theta$ or perpendicular distance
+
+9. **Experimental verification**: Demonstrate zero resultant moment using balanced beam apparatus
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Moment depends only on force, not on where it is applied"
+
+**Incorrect**: "Pushing a door near the hinge is as effective as pushing at the handle"
+
+**Correct**:
+
+- Moment = $F \times d_{\perp}$; **distance from pivot is crucial**
+
+- Pushing at the handle (large $d_{\perp}$) produces a larger moment for the same force
+
+- This is why door handles, spanners, and bottle openers are designed with long lever arms
+
+---
+
+### ⚠️ Misconception 2: "Centre of gravity is always inside the object"
+
+**Incorrect**: "The CG of a ring is in the metal"
+
+**Correct**:
+
+- The CG is the point where the **entire weight** may be considered to act
+
+- For symmetric hollow objects (ring, hollow sphere), the CG is at the geometric centre—**in empty space**
+
+- This is why a ring can balance on a fingertip at its centre
+
+---
+
+### ⚠️ Misconception 3: "An object in equilibrium must be at rest"
+
+**Incorrect**: "If an object is moving, it cannot be in equilibrium"
+
+**Correct**:
+
+- **Translational equilibrium** ($\sum F = 0$) → constant velocity (which may be zero)
+
+- **Rotational equilibrium** ($\sum M = 0$) → no angular acceleration (may be rotating at constant angular velocity)
+
+- A car moving at constant speed on a straight road is in translational equilibrium
+
+---
+
+### ⚠️ Misconception 4: "The weight of a uniform beam can be ignored in moment calculations"
+
+**Incorrect**: "Only external loads matter for balancing"
+
+**Correct**:
+
+- The weight of a uniform beam acts at its **centre of gravity** (geometric centre)
+
+- If the pivot is not at the CG, the beam's weight produces a moment that must be included
+
+- Example: A metre rule balanced away from the 50 cm mark requires accounting for its own weight
+
+---
+
+### ⚠️ Misconception 5: "Stability depends only on mass"
+
+**Incorrect**: "A heavier object is always more stable"
+
+**Correct**:
+
+- Stability depends on **CG position** and **base area**, not absolute mass
+
+- A light object with a low CG and wide base (e.g., a plastic stool) can be more stable than a heavy object with a high CG and narrow base (e.g., a tall vase)
+
+---
+
+### ⚠️ Misconception 6: "Clockwise and anticlockwise are absolute directions"
+
+**Incorrect**: "Clockwise always means to the right"
+
+**Correct**:
+
+- Clockwise/anticlockwise are defined **relative to the pivot** and the observer's viewpoint
+
+- Always specify the pivot and draw a clear diagram to avoid sign errors in calculations
+
+---
+
+## Worked Examples
+
+### Example 7: Crane Balance (Extended)
+
+**Question:**
+A crane arm is balanced at a pivot. A load of 5000 N is suspended 8.0 m from the pivot. A counterweight of mass $M$ is placed 2.0 m from the pivot on the opposite side. The arm itself has a weight of 1000 N acting at its centre, 3.0 m from the pivot on the load side. Calculate $M$ for equilibrium. Take $g = 10 \text{ N/kg}$.
+
+**Solution:**
+
+**Step 1:** Identify forces and distances from pivot
+- Load: 5000 N at 8.0 m (load side → anticlockwise)
+- Arm weight: 1000 N at 3.0 m (load side → anticlockwise)
+- Counterweight: $W = Mg = 10M$ N at 2.0 m (opposite side → clockwise)
+
+**Step 2:** Apply principle of moments
+$$\sum M_{\text{acw}} = \sum M_{\text{cw}}$$
+$$(5000)(8.0) + (1000)(3.0) = (10M)(2.0)$$
+$$40000 + 3000 = 20M$$
+$$43000 = 20M$$
+$$M = \frac{43000}{20} = \boxed{2150 \text{ kg}}$$
+
+---
+
+### Example 8: Stability Analysis
+
+**Question:**
+A rectangular block (40 cm × 20 cm × 10 cm) is placed on a horizontal surface. Explain why it is more stable when resting on its 40 cm × 20 cm face than on its 20 cm × 10 cm face.
+
+**Solution:**
+
+**Case 1: Resting on 40 cm × 20 cm face**
+- Base area = $40 \times 20 = 800 \text{ cm}^2$ (large)
+- Height of CG ≈ half of 10 cm = 5 cm (low)
+
+**Case 2: Resting on 20 cm × 10 cm face**
+- Base area = $20 \times 10 = 200 \text{ cm}^2$ (small)
+- Height of CG ≈ half of 40 cm = 20 cm (high)
+
+**Conclusion**: Stability increases with **larger base area** and **lower CG**. Case 1 satisfies both conditions. The block can be tilted further before the line of action of weight falls outside the base, making it significantly more stable.
+
+---
+
+### Example 9: Experimental Verification (Extended)
+
+**Question:**
+Describe an experiment to demonstrate that there is no resultant moment on an object in equilibrium.
+
+**Solution:**
+
+**Apparatus:** Metre rule, optical pin (pivot), retort stand, known masses (50 g, 100 g), thread, plasticine
+
+**Procedure:**
+
+1. Balance the metre rule horizontally on the optical pin at the 50 cm mark
+
+2. If the rule does not balance, attach a small amount of plasticine to the lighter end until it does
+
+3. Hang a 50 g mass (weight ≈ 0.5 N) at 40.0 cm from the pivot on one side
+
+4. Hang a 100 g mass (weight ≈ 1.0 N) on the opposite side and adjust its position until the rule balances horizontally
+
+5. Measure and record the distance $d_2$ of the 100 g mass from the pivot
+
+6. Calculate moments: $M_1 = 0.5 \times 40.0$, $M_2 = 1.0 \times d_2$
+
+7. Repeat for different masses and distances
+
+**Expected Result:**
+Within experimental error, $M_1 \approx M_2$, confirming that $\sum M_{\text{cw}} = \sum M_{\text{acw}}$ for an object in rotational equilibrium.
+
+**Precautions:**
+
+- ✓ Ensure the rule is horizontal before taking readings
+
+- ✓ Measure distances from the pivot to the centre of each mass
+
+- ✓ Avoid parallax error when reading positions
+
+- ✓ Use a sensitive pivot to minimise friction
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Define the moment of a force. State its SI unit.
+
+**2.** A force of 25 N is applied perpendicular to a spanner at a distance of 0.2 m from the pivot. Calculate the moment.
+
+**3.** State the principle of moments.
+
+**4.** A uniform metre rule is balanced at its centre. A 6.0 N weight is hung at the 20 cm mark. Where must a 3.0 N weight be hung to balance the rule?
+
+**5.** What is meant by the centre of gravity of an object?
+
+**6.** Describe one way to increase the stability of a table lamp.
+
+**7.** A child of weight 300 N sits 1.5 m from the pivot of a see-saw. Where must a second child of weight 450 N sit to balance the see-saw?
+
+**8.** Explain why a racing car is designed with a low, wide body.
+
+### Extended Level
+
+**9.** A uniform beam of weight 200 N and length 4.0 m is supported at its centre. A 150 N load is hung 0.5 m from the left end. Calculate the force that must be applied at the right end to keep the beam horizontal.
+
+**10.** A crane arm of length 10 m is pivoted at one end. The arm has a weight of 2000 N acting at its centre. A load of 8000 N is suspended 9.0 m from the pivot. Calculate the counterweight (in newtons) required at 1.5 m from the pivot on the opposite side for equilibrium.
+
+**11.** A force of 80 N is applied at an angle of 40° to a wrench of length 0.3 m. Calculate the moment about the pivot.
+
+**12.** Describe, with a labelled diagram, an experiment to locate the centre of gravity of an irregularly shaped plane lamina.
+
+**13.** A cone can rest in three positions: on its base, on its tip, or on its side.
+
+- (a) Identify which position represents stable, unstable, and neutral equilibrium.
+
+- (b) Explain your answer for the stable equilibrium position in terms of centre of gravity and base.
+
+**14.** A uniform metre rule of weight 1.2 N is balanced at the 40 cm mark. A 2.4 N weight is hung at the 10 cm mark. Calculate where a 1.8 N weight must be hung to balance the rule.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 5.1: Verifying the Principle of Moments
+
+**Objective:**
+To demonstrate that for an object in rotational equilibrium, the sum of clockwise moments equals the sum of anticlockwise moments.
+
+**Apparatus:**
+- Uniform metre rule
+- Optical pin and retort stand (pivot)
+- Set of slotted masses (10 g to 100 g)
+- Thread loops
+- Plasticine (for initial balancing)
+- Metre rule for measuring distances
+
+**Variables:**
+- **Independent:** Masses and their distances from pivot
+- **Dependent:** Position required for equilibrium
+- **Controlled:** Same pivot, same rule, same method of measuring distances
+
+**Procedure:**
+
+1. Set up the metre rule balanced horizontally on the optical pin at the 50 cm mark
+
+2. If the rule does not balance, attach a small amount of plasticine to the lighter end until it does (this becomes part of the rule for the experiment)
+
+3. Hang a known mass $m_1$ (e.g., 50 g → weight ≈ 0.5 N) at a measured distance $d_1$ from the pivot on one side
+
+4. Hang another known mass $m_2$ (e.g., 100 g → weight ≈ 1.0 N) on the opposite side
+
+5. Adjust the position of $m_2$ until the rule balances horizontally
+
+6. Measure and record the distance $d_2$ of $m_2$ from the pivot
+
+7. Calculate moments: $M_1 = m_1 g d_1$, $M_2 = m_2 g d_2$
+
+8. Repeat for at least four different combinations of masses and distances
+
+**Data Table:**
+
+| Trial | $m_1$ (g) | $d_1$ (cm) | $M_1 = m_1 g d_1$ (N cm) | $m_2$ (g) | $d_2$ (cm) | $M_2 = m_2 g d_2$ (N cm) | % Difference |
+|:------|:----------|:-----------|:-------------------------|:----------|:-----------|:-------------------------|:-------------|
+| 1 | 50 | | | 100 | | | |
+| 2 | 50 | | | 150 | | | |
+| 3 | 100 | | | 100 | | | |
+| 4 | 100 | | | 200 | | | |
+
+**Analysis:**
+
+1. For each trial, calculate the percentage difference:
+   $$\% \text{ difference} = \frac{|M_1 - M_2|}{(M_1 + M_2)/2} \times 100\%$$
+
+2. If all percentage differences are within ±10% (typical experimental accuracy), the principle of moments is verified
+
+3. Identify possible sources of error (e.g., friction at pivot, parallax in reading distances)
+
+**Precautions:**
+
+- ✓ Ensure the rule is horizontal before taking readings
+
+- ✓ Measure distances from the pivot to the centre of each mass
+
+- ✓ Avoid parallax error: view the scale with eye perpendicular
+
+- ✓ Use a sensitive pivot to minimise friction
+
+- ✓ Allow the rule to settle completely before recording positions
+
+**Conclusion Template:**
+"The experiment verified the principle of moments: within experimental error (±___%), the sum of clockwise moments equalled the sum of anticlockwise moments for a balanced beam. This confirms that an object in rotational equilibrium experiences no resultant moment."
+
+**Extension (Supplement):**
+
+- Investigate the effect of the beam's own weight by balancing the rule away from its centre of gravity
+
+- Use three or more masses on each side to test the principle with multiple forces
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement about the moment of a force is correct?
+
+A. Moment depends only on the magnitude of the force  
+
+B. Moment is greatest when the force is applied at the pivot  
+
+C. Moment = force × perpendicular distance from pivot  
+
+D. The SI unit of moment is the newton  
+
+**2.** A uniform metre rule is balanced at the 50 cm mark. A 4.0 N weight is hung at the 30 cm mark. Where must a 2.0 N weight be hung to balance the rule?
+
+A. 10 cm mark  
+
+B. 70 cm mark  
+
+C. 90 cm mark  
+
+D. 110 cm mark  
+
+**3.** Which factor does **not** affect the stability of an object?
+
+A. Height of centre of gravity  
+
+B. Area of base  
+
+C. Mass of the object  
+
+D. Position of centre of gravity relative to base  
+
+**4.** An object is in equilibrium. Which statement must be true?
+
+A. The object is at rest  
+
+B. The resultant force is zero  
+
+C. The resultant moment is zero  
+
+D. Both resultant force and resultant moment are zero  
+
+### Paper 3 Style (Structured)
+
+**5.** (a) Define the term *moment of a force*. [1]
+
+(b) A spanner of length 0.25 m is used to turn a nut. A force of 40 N is applied perpendicular to the spanner at its end.
+
+   (i) Calculate the moment of the force about the nut. [2]
+
+   (ii) Suggest one way to increase the moment without increasing the force. [1]
+
+(c) Explain why it is easier to open a door by pushing at the handle rather than near the hinge. [2]
+
+**6.** A student investigates the principle of moments using a metre rule balanced on a pivot.
+
+(a) State the principle of moments. [1]
+
+(b) The rule is balanced at the 50 cm mark. A 3.0 N weight is hung at the 20 cm mark. Calculate the distance from the pivot at which a 6.0 N weight must be hung to balance the rule. [3]
+
+(c) The student repeats the experiment with the pivot at the 40 cm mark. Explain why the weight of the rule itself must now be considered in the calculation. [2]
+
+**7.** (a) Describe an experiment to locate the centre of gravity of an irregularly shaped plane lamina. Include a labelled diagram. [4]
+
+(b) A cone can rest in three positions: on its base, on its tip, or on its side.
+
+   (i) Identify which position represents stable, unstable, and neutral equilibrium. [3]
+
+   (ii) Explain your answer for the unstable equilibrium position in terms of centre of gravity and base. [2]
+
+**8.** (Extended) A uniform beam AB of length 6.0 m and weight 300 N is supported at its centre C. A load of 200 N is hung at end A. Calculate the force that must be applied at end B to keep the beam horizontal. [4]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+- **Moment** = $F \times d_{\perp}$ (unit: N m); direction: clockwise or anticlockwise  
+
+- **Principle of moments**: For rotational equilibrium, $\sum M_{\text{cw}} = \sum M_{\text{acw}}$  
+
+- **Complete equilibrium**: $\sum F = 0$ **and** $\sum M = 0$  
+
+- **Centre of gravity**: Point where entire weight acts; may lie outside the object  
+
+- **Stability** ↑ with lower CG and wider base  
+
+- **Three equilibrium types**: stable (CG rises), unstable (CG falls), neutral (CG unchanged)  
+
+- **Experimental verification**: Balanced beam apparatus confirms zero resultant moment  
+
+- **Multiple-force problems**: Sum all clockwise and anticlockwise moments separately  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Moment of a force | $M = F \times d_{\perp}$ | $M$=moment (N m), $F$=force (N), $d_{\perp}$=perpendicular distance (m) |
+| Principle of moments | $\sum M_{\text{cw}} = \sum M_{\text{acw}}$ | For rotational equilibrium |
+| Weight | $W = mg$ | $W$=weight (N), $m$=mass (kg), $g$=gravitational field strength (N/kg) |
+| Perpendicular force component | $F_{\perp} = F \sin \theta$ | For forces not perpendicular to lever arm |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+- Cambridge IGCSE Physics Coursebook, Chapter 4 (Sections 4.2–4.3)
+- Practical Work in Physics: Moments and Stability
+
+### Online Resources
+- PhET Interactive Simulations: Balancing Act, Torque
+- BBC Bitesize: Moments, Centre of Gravity, Stability
+
+### Video Resources
+- Demonstration: Principle of moments experiment with metre rule
+- Animation: Centre of gravity and stability of vehicles
+- Real-world application: Engineering design for cranes and lifting equipment
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Anticlockwise moment** | Turning effect that tends to rotate an object anticlockwise about a pivot |
+| **Centre of gravity** | The point through which the entire weight of an object may be considered to act |
+| **Clockwise moment** | Turning effect that tends to rotate an object clockwise about a pivot |
+| **Equilibrium** | State where resultant force = 0 **and** resultant moment = 0; object is at rest or moving with constant velocity without rotation |
+| **Moment of a force** | Turning effect of a force about a pivot: $M = F \times d_{\perp}$ (unit: N m) |
+| **Neutral equilibrium** | When displaced, an object stays in its new position (CG remains at same height) |
+| **Perpendicular distance** | Shortest distance from pivot to the line of action of a force; used in moment calculations |
+| **Pivot** | Fixed point about which an object can rotate |
+| **Principle of moments** | For an object in rotational equilibrium, sum of clockwise moments = sum of anticlockwise moments |
+| **Stable equilibrium** | When displaced, an object returns to its original position (CG rises) |
+| **Unstable equilibrium** | When displaced, an object moves further from its original position (CG falls) |
+
+---
+
+*End of Chapter 5*

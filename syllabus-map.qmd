@@ -1,0 +1,174 @@
+---
+title: "Syllabus Mapping"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  html:
+    toc: true
+  pdf:
+    toc: true
+---
+## Cambridge IGCSE Physics 0625 - Content Mapping
+
+This document maps the textbook chapters to the official Cambridge IGCSE Physics syllabus (0625) for 2026-2028.
+
+### Topic 1: Motion, Forces and Energy
+
+#### 1.1 Physical Quantities and Measurement Techniques
+- **Core**: 1.1.1-1.1.3
+- **Supplement**: 1.1.4-1.1.7
+- **Chapter**: Chapter 1 - Measurement of Physical Quantities
+
+#### 1.2 Motion
+- **Core**: 1.2.1-1.2.8
+- **Supplement**: 1.2.9-1.2.13
+- **Chapter**: Chapter 2 - Motion
+
+#### 1.3 Mass and Weight
+- **Core**: 1.3.1-1.3.4
+- **Supplement**: 1.3.5
+- **Chapter**: Chapter 3 - Mass, Weight and Density
+
+#### 1.4 Density
+- **Core**: 1.4.1-1.4.3
+- **Supplement**: 1.4.4
+- **Chapter**: Chapter 3 - Mass, Weight and Density
+
+#### 1.5 Forces
+- **Core**: 1.5.1.1-1.5.1.8
+- **Supplement**: 1.5.1.9-1.5.1.12
+- **Chapter**: Chapter 4 - Forces
+
+#### 1.5.2 Turning Effect of Forces
+- **Core**: 1.5.2.1-1.5.2.4
+- **Supplement**: 1.5.2.5-1.5.2.6
+- **Chapter**: Chapter 4 - Forces
+
+#### 1.5.3 Centre of Gravity
+- **Core**: 1.5.3.1-1.5.3.3
+- **Chapter**: Chapter 4 - Forces
+
+#### 1.6 Momentum
+- **Supplement**: 1.6.1-1.6.4
+- **Chapter**: Chapter 5 - Momentum
+
+#### 1.7 Energy, Work and Power
+- **Core**: 1.7.1.1-1.7.1.3, 1.7.2.1-1.7.2.2, 1.7.3.1-1.7.3.3, 1.7.4.1
+- **Supplement**: 1.7.1.4-1.7.1.6, 1.7.3.4-1.7.3.7
+- **Chapter**: Chapter 6 - Energy, Work and Power
+
+#### 1.8 Pressure
+- **Core**: 1.8.1-1.8.3
+- **Supplement**: 1.8.4
+- **Chapter**: Chapter 7 - Pressure
+
+### Topic 2: Thermal Physics
+
+#### 2.1 Kinetic Particle Model of Matter
+- **Core**: 2.1.1.1-2.1.1.2, 2.1.2.1-2.1.2.5, 2.1.3.1-2.1.3.2
+- **Supplement**: 2.1.2.6-2.1.2.8, 2.1.3.3
+- **Chapter**: Chapter 8 - Kinetic Particle Model of Matter
+
+#### 2.2 Thermal Properties and Temperature
+- **Core**: 2.2.1.1-2.2.1.2, 2.2.2.1, 2.2.3.1-2.2.3.5
+- **Supplement**: 2.2.2.2-2.2.2.4, 2.2.3.6-2.2.3.8
+- **Chapter**: Chapter 9 - Thermal Properties and Temperature
+
+#### 2.3 Transfer of Thermal Energy
+- **Core**: 2.3.1.1, 2.3.2.1-2.3.2.2, 2.3.3.1-2.3.3.3, 2.3.4.1
+- **Supplement**: 2.3.1.2-2.3.1.4, 2.3.3.4-2.3.3.9, 2.3.4.2
+- **Chapter**: Chapter 10 - Transfer of Thermal Energy
+
+### Topic 3: Waves
+
+#### 3.1 General Properties of Waves
+- **Core**: 3.1.1-3.1.8
+- **Supplement**: 3.1.9-3.1.10
+- **Chapter**: Chapter 11 - General Properties of Waves
+
+#### 3.2 Light
+- **Core**: 3.2.1.1-3.2.1.3, 3.2.2.1-3.2.2.5, 3.2.3.1-3.2.3.5, 3.2.4.1-3.2.4.2
+- **Supplement**: 3.2.1.4, 3.2.2.6-3.2.2.9, 3.2.3.6-3.2.3.8, 3.2.4.3
+- **Chapter**: Chapter 12 - Light
+
+#### 3.3 Electromagnetic Spectrum
+- **Core**: 3.3.1-3.3.5
+- **Supplement**: 3.3.6-3.3.10
+- **Chapter**: Chapter 13 - Electromagnetic Spectrum
+
+#### 3.4 Sound
+- **Core**: 3.4.1-3.4.9
+- **Supplement**: 3.4.10-3.4.12
+- **Chapter**: Chapter 14 - Sound
+
+### Topic 4: Electricity and Magnetism
+
+#### 4.1 Simple Phenomena of Magnetism
+- **Core**: 4.1.1-4.1.9
+- **Supplement**: 4.1.10-4.1.11
+- **Chapter**: Chapter 15 - Simple Phenomena of Magnetism
+
+#### 4.2 Electrical Quantities
+- **Core**: 4.2.1.1-4.2.1.6, 4.2.2.1-4.2.2.4, 4.2.3.1-4.2.3.5, 4.2.4.1-4.2.4.3, 4.2.5.1-4.2.5.4
+- **Supplement**: 4.2.1.7-4.2.1.10, 4.2.2.5-4.2.2.6, 4.2.3.6-4.2.3.7, 4.2.4.4-4.2.4.5
+- **Chapter**: Chapter 16 - Electrical Quantities
+
+#### 4.3 Electric Circuits
+- **Core**: 4.3.1.1, 4.3.2.1-4.3.2.7
+- **Supplement**: 4.3.1.2, 4.3.2.8-4.3.2.10, 4.3.3.1-4.3.3.3
+- **Chapter**: Chapter 17 - Electrical Circuits
+
+#### 4.4 Electrical Safety
+- **Core**: 4.4.1-4.4.5
+- **Chapter**: Chapter 17 - Electrical Circuits
+
+#### 4.5 Electromagnetic Effects
+- **Core**: 4.5.1.1-4.5.1.3, 4.5.2.1, 4.5.3.1-4.5.3.3, 4.5.4.1, 4.5.5.1, 4.5.6.1-4.5.6.5
+- **Supplement**: 4.5.1.4-4.5.1.5, 4.5.2.2, 4.5.3.4-4.5.3.5, 4.5.4.2-4.5.4.3, 4.5.5.2, 4.5.6.6-4.5.6.8
+- **Chapter**: Chapter 18 - Electromagnetic Effects
+
+### Topic 5: Nuclear Physics
+
+#### 5.1 The Nuclear Model of the Atom
+- **Core**: 5.1.1.1-5.1.1.2, 5.1.2.1-5.1.2.5
+- **Supplement**: 5.1.1.3, 5.1.2.6-5.1.2.8
+- **Chapter**: Chapter 19 - Nuclear Model of the Atom
+
+#### 5.2 Radioactivity
+- **Core**: 5.2.1.1-5.2.1.4, 5.2.2.1-5.2.2.2, 5.2.3.1-5.2.3.2, 5.2.4.1, 5.2.5.1-5.2.5.2
+- **Supplement**: 5.2.1.5, 5.2.2.3-5.2.2.4, 5.2.3.3-5.2.3.5, 5.2.4.2-5.2.4.3, 5.2.5.3
+- **Chapter**: Chapter 20 - Radioactivity
+
+### Topic 6: Space Physics
+
+#### 6.1 The Earth and the Solar System
+- **Core**: 6.1.1.1-6.1.1.3, 6.1.2.1-6.1.2.6
+- **Supplement**: 6.1.1.4, 6.1.2.7-6.1.2.10
+- **Chapter**: Chapter 21 - Earth and the Solar System
+
+#### 6.2 Stars and the Universe
+- **Core**: 6.2.1.1, 6.2.2.1, 6.2.3.1-6.2.3.4
+- **Supplement**: 6.2.1.2, 6.2.2.2-6.2.2.3, 6.2.3.5-6.2.3.11
+- **Chapter**: Chapter 22 - Stars and the Universe
+
+---
+
+## Assessment Objectives Coverage
+
+### AO1: Knowledge with Understanding (50%)
+- Covered throughout all chapters
+- Key definitions, facts, laws, and concepts
+
+### AO2: Handling Information and Problem-Solving (30%)
+- Worked examples in each chapter
+- Practice questions requiring application
+- Data analysis exercises
+
+### AO3: Experimental Skills and Investigations (20%)
+- Practical investigations in each topic
+- Notes to Physics Practical Work section
+- Laboratory safety guidelines
+
+---
+
+*This mapping ensures complete coverage of the Cambridge IGCSE Physics 0625 syllabus for 2026-2028.*

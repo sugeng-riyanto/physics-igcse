@@ -1,0 +1,1277 @@
+---
+title: "Measurement of Physical Quantities"
+chapter: 1
+syllabus-code: "1.1 Physical quantities and measurement techniques"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    documentclass: report
+    fontsize: 11pt
+    geometry: margin=2.5cm
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+execute:
+  echo: false
+  warning: false
+  message: false
+  cache: true
+  fig-format: png
+  fig-width: 8
+  fig-height: 5
+  dpi: 300
+---
+
+## Learning Objectives
+
+### Core Content
+By the end of this chapter, you will be able to:
+
+- Describe the use of rulers and measuring cylinders to find a length or a volume
+
+- Describe how to measure a variety of time intervals using clocks and digital timers
+
+- Determine an average value for a small distance and for a short interval of time by measuring multiples (including the period of oscillation of a pendulum)
+
+### Supplement (Extended)
+
+By the end of this chapter, you will be able to:
+
+- Understand that a scalar quantity has magnitude (size) only and that a vector quantity has both magnitude and direction
+
+- Know that the following quantities are scalars: distance, speed, time, mass, energy and temperature
+
+- Know that the following quantities are vectors: force, weight, velocity, acceleration, momentum, electric field strength and gravitational field strength
+
+- Determine, by calculation or graphically, the resultant of two vectors at right angles, limited to forces or velocities only
+
+---
+
+## Key Concepts
+
+### Physical Quantities and SI Units
+
+* A **physical quantity** is a quantity that can be measured. It consists of two essential components:
+
+  - **Numerical magnitude**: the number that indicates the size or amount
+
+  - **Unit**: the standard of measurement for comparison
+  
+* Example: In "the height is 3.8 m":
+
+  - `3.8` is the numerical magnitude
+
+  - `m` (metre) is the unit
+
+* There are **seven base quantities** in the International System of Units (SI):
+
+| Base Quantity | SI Unit | Symbol |
+|:--------------|:--------|:-------|
+| Length | metre | m |
+| Mass | kilogram | kg |
+| Time | second | s |
+| Electric current | ampere | A |
+| Thermodynamic temperature | kelvin | K |
+| Luminous intensity | candela | cd |
+| Amount of substance | mole | mol |
+
+* **Derived quantities** are obtained from base quantities through mathematical relationships:
+
+| Physical Quantity | How Derived | SI Unit |
+|:------------------|:------------|:--------|
+| Area | Length × Width | m$^{2}$ |
+| Volume | Length × Width × Height | m$^{3}$ |
+| Speed | Length ÷ Time | m/s |
+
+### Prefixes and Standard Form
+
+* **SI Prefixes** simplify notation for very large or very small quantities:
+
+```{python}
+#| label: fig-si-prefixes
+#| fig-cap: "SI prefixes on a logarithmic scale showing multiples and submultiples"
+#| fig-align: center
+#| warning: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# SI prefixes data
+prefixes = ['n', 'μ', 'm', 'c', 'd', '', 'k', 'M', 'G']
+factors = [-9, -6, -3, -2, -1, 0, 3, 6, 9]
+names = ['nano', 'micro', 'milli', 'centi', 'deci', 'base', 'kilo', 'mega', 'giga']
+colors = ['#2563eb' if f < 0 else '#059669' if f == 0 else '#dc2626' for f in factors]
+
+fig, ax = plt.subplots(figsize=(8, 4))
+ax.barh(prefixes, factors, color=colors, edgecolor='black', linewidth=0.8)
+
+# Add labels
+for i, (p, f, n) in enumerate(zip(prefixes, factors, names)):
+    label = f'{n}\n(10^{f})' if f != 0 else f'{n}\n(10^0)'
+    ax.text(0.5 if f < 0 else 1.5, i, label, 
+            va='center', ha='left' if f < 0 else 'right',
+            fontsize=9, fontweight='bold')
+
+ax.set_xlabel('Exponent of 10', fontsize=11)
+ax.set_title('SI Prefixes: Logarithmic Scale', fontsize=12, fontweight='bold')
+ax.set_xlim(-10, 10)
+ax.grid(axis='x', alpha=0.3, linestyle='--')
+ax.axvline(x=0, color='black', linewidth=1)
+
+# Add example annotations
+ax.text(-9.5, 8, '1 nm = 10⁻⁹ m', fontsize=9, bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.3))
+ax.text(9.5, 0, '1 km = 10³ m', fontsize=9, bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.3), ha='right')
+
+plt.tight_layout()
+plt.show()
+```
+
+| Factor | Prefix | Symbol | Example |
+|:-------|:-------|:-------|:--------|
+| **Multiples** | | | |
+| $10^{9}$ | giga- | G | 1 GHz = $10^{9}$ Hz |
+| $10^{6}$ | mega- | M | 1 MJ = $10^{6}$ J |
+| $10^{3}$ | kilo- | k | 1 km = $10^{3}$ m |
+| **Submultiples** | | | |
+| $10^{-1}$ | deci- | d | 1 dm = $10^{-1}$ m |
+| $10^{-2}$ | centi- | c | 1 cm = $10^{-2}$ m |
+| $10^{-3}$ | milli- | m | 1 mA = $10^{-3}$ A |
+| $10^{-6}$ | micro- | μ | 1 μm = $10^{-6}$ m |
+| $10^{-9}$ | nano- | n | 1 ns = $10^{-9}$ s |
+
+* **Standard form** (scientific notation) expresses numbers as $a \times 10^{n}$ where $1 \leq a < 10$:
+
+  - Example: $0.00567 = 5.67 \times 10^{-3}$
+
+  - Example: $16\,800 = 1.68 \times 10^{4}$
+
+  - Example: $0.01\ \mu\text{m} = 1 \times 10^{-8}\ \text{m}$
+
+### Measurement of Length
+
+* **Instruments for measuring length**:
+
+| Instrument | Precision | Measuring Range | Use |
+|:-----------|:----------|:----------------|:----|
+| Metre rule | 1 mm (0.1 cm) | Up to 1 m | Short, straight lengths |
+| Steel measuring tape | 1 mm | Several metres | Longer straight distances |
+| Cloth measuring tape | 1 mm | Several metres | Curved surfaces (e.g., waist) |
+| Vernier calipers | 0.01 cm (0.1 mm) | 1 cm to 15 cm | Internal/external diameters |
+
+* **Using a metre rule – Precautions**:
+
+  - Avoid **parallax error**: Position your eye perpendicular to the rule (look straight on)
+
+  - Check for **zero error**: If the zero mark is worn, measure from another point and subtract
+
+  - Take **multiple readings** and calculate the average to minimise random errors
+
+::: {.callout-warning}
+**Parallax Error** occurs when the eye is not positioned perpendicular to the scale, leading to inaccurate readings.
+:::
+
+```{python}
+#| label: fig-parallax-error
+#| fig-cap: "Parallax error: correct vs incorrect eye position when reading a scale"
+#| fig-align: center
+#| warning: false
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
+
+# Correct viewing (perpendicular)
+ax1.axvline(x=0, ymin=0, ymax=1, color='black', linewidth=2, label='Scale')
+ax1.plot([-2, 2], [0.5, 0.5], 'b-', linewidth=3, label='Object edge')
+ax1.plot([0, 0], [0.45, 0.55], 'r--', linewidth=2, label="Eye position (correct)")
+ax1.annotate('Eye', xy=(0, 0.8), xytext=(0, 0.9),
+             arrowprops=dict(arrowstyle='->', color='red'),
+             ha='center', fontsize=10)
+ax1.text(0, 0.3, 'Reading =\nexact value', ha='center', fontsize=9, 
+         bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.5))
+ax1.set_xlim(-3, 3)
+ax1.set_ylim(0, 1)
+ax1.set_title('✓ Correct: Eye perpendicular', fontsize=11, fontweight='bold', color='green')
+ax1.set_xticks([])
+ax1.set_yticks([])
+ax1.grid(axis='y', alpha=0.2)
+ax1.legend(fontsize=8)
+
+# Incorrect viewing (angled - parallax)
+ax2.axvline(x=0, ymin=0, ymax=1, color='black', linewidth=2)
+ax2.plot([-2, 2], [0.5, 0.5], 'b-', linewidth=3)
+ax2.plot([-2, 0], [0.8, 0.5], 'r--', linewidth=1.5, alpha=0.7)  # Line of sight
+ax2.annotate('Eye', xy=(-2, 0.85), xytext=(-2.5, 0.95),
+             arrowprops=dict(arrowstyle='->', color='red'),
+             ha='right', fontsize=10)
+ax2.axvline(x=-0.8, ymin=0.48, ymax=0.52, color='orange', linewidth=2, 
+            label='Apparent position')
+ax2.text(-0.8, 0.3, 'Reading =\nincorrect value', ha='center', fontsize=9,
+         bbox=dict(boxstyle='round', facecolor='lightcoral', alpha=0.5))
+ax2.set_xlim(-3, 3)
+ax2.set_ylim(0, 1)
+ax2.set_title('✗ Incorrect: Angled view (parallax)', fontsize=11, fontweight='bold', color='red')
+ax2.set_xticks([])
+ax2.set_yticks([])
+ax2.grid(axis='y', alpha=0.2)
+
+plt.tight_layout()
+plt.show()
+```
+
+* **Using Vernier Calipers**:
+
+  - Precision: 0.01 cm (0.1 mm)
+
+  - Used for measuring internal and external diameters
+  
+* **How to read vernier calipers**:
+
+  1. Grip the object gently using the appropriate jaws
+
+  2. Read the main scale to the immediate left of the zero mark on the vernier scale
+
+  3. Find the vernier mark that coincides with a marking on the main scale
+
+  4. Add the readings: Main scale + Vernier scale
+
+```{python}
+#| label: fig-vernier-reading
+#| fig-cap: "Reading vernier calipers: main scale + vernier scale alignment"
+#| fig-align: center
+#| warning: false
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, ax = plt.subplots(figsize=(8, 3))
+
+# Main scale (0 to 4 cm, marked every 1 mm)
+main_ticks = np.arange(0, 41, 1)  # 0 to 40 mm
+for i, tick in enumerate(main_ticks):
+    if tick % 10 == 0:  # cm marks
+        ax.plot([tick, tick], [0.6, 1.0], 'k-', linewidth=1.5)
+        ax.text(tick, 1.1, f'{tick//10}', ha='center', fontsize=10)
+    elif tick % 5 == 0:  # half-cm marks
+        ax.plot([tick, tick], [0.7, 1.0], 'k-', linewidth=1)
+    else:  # mm marks
+        ax.plot([tick, tick], [0.8, 1.0], 'k-', linewidth=0.5)
+
+# Vernier scale (10 divisions over 9 mm, zero at 31.4 mm)
+vernier_zero = 31.4
+vernier_divisions = np.linspace(vernier_zero, vernier_zero + 9, 11)
+for i, pos in enumerate(vernier_divisions):
+    if i % 2 == 0:  # Mark every other division for clarity
+        ax.plot([pos, pos], [0.0, 0.4], 'b-', linewidth=1)
+        if i == 4:  # The coinciding mark (vernier 4 aligns with main 35)
+            ax.plot([pos, pos], [0.0, 0.5], 'r-', linewidth=2)
+            ax.text(pos, -0.2, '4', ha='center', color='red', fontweight='bold')
+
+# Highlight the reading
+ax.axvline(x=vernier_zero, ymin=0.4, ymax=1.0, color='green', linestyle='--', 
+           linewidth=1, label=f'Zero at {vernier_zero} mm')
+ax.text(vernier_zero, 1.3, f'Main: {int(vernier_zero)} mm', ha='center', 
+        fontsize=10, fontweight='bold', color='green')
+ax.text(35, -0.5, f'Vernier: 0.4 mm', ha='center', 
+        fontsize=10, fontweight='bold', color='red')
+
+# Final result box
+ax.text(20, 1.5, 'Total = 31.0 + 0.4 = 31.4 mm', ha='center', fontsize=11,
+        bbox=dict(boxstyle='round', facecolor='lightyellow', edgecolor='orange', linewidth=1.5))
+
+ax.set_xlim(-1, 42)
+ax.set_ylim(-0.8, 1.8)
+ax.set_xlabel('Position / mm', fontsize=11)
+ax.set_title('Vernier Caliper Reading: 31.4 mm', fontsize=12, fontweight='bold')
+ax.grid(axis='x', alpha=0.2, linestyle=':')
+ax.set_yticks([])
+ax.legend(fontsize=9, loc='upper right')
+
+plt.tight_layout()
+plt.show()
+```
+  
+* **Example reading**:
+
+  - Main scale: 31 mm (3.1 cm)
+
+  - Vernier scale: 0.4 mm (0.04 cm)
+
+  - **Total: 31.4 mm (3.14 cm)**
+
+* **Zero error in vernier calipers**:
+
+| Type of Zero Error | Description | Correction |
+|:-------------------|:------------|:-----------|
+| No zero error | Zero marks coincide | No correction needed |
+| Positive zero error | Vernier zero is to the **right** of main scale zero | **Subtract** the error |
+| Negative zero error | Vernier zero is to the **left** of main scale zero | **Add** the error (subtract negative) |
+
+* **Formula**: $\text{Corrected Reading} = \text{Observed Reading} - \text{Zero Error}$
+
+### Measurement of Volume
+
+* **Volume of regular solids** – Use a metre rule or vernier calipers, then apply formula:
+
+  - Rectangular block: $V = l \times b \times h$
+
+  - Cylinder: $V = \frac{1}{4}\pi d^{2}h$
+
+  - Sphere: $V = \frac{4}{3}\pi \left(\frac{d}{2}\right)^{3}$
+
+* **Volume of irregular solids**:
+
+| Object Type | Method | Procedure |
+|:------------|:-------|:----------|
+| Small, sinks | Measuring cylinder | $V = V_{2} - V_{1}$ |
+| Small, floats | Measuring cylinder + sinker | $V = V_{4} - V_{3}$ |
+| Large, sinks | Displacement can | Volume displaced = Object volume |
+
+* **Precautions for volume measurement**:
+
+  - Place cylinder on a flat horizontal surface
+
+  - Remove any air bubbles
+
+  - Read at the **bottom of the meniscus** at eye level
+
+  - Position eye perpendicular to scale to avoid parallax error
+
+```{python}
+#| label: fig-meniscus-reading
+#| fig-cap: "Reading a measuring cylinder: bottom of the meniscus at eye level"
+#| fig-align: center
+#| warning: false
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, ax = plt.subplots(figsize=(5, 6))
+
+# Draw cylinder
+cylinder_width = 2
+cylinder_height = 8
+ax.plot([-cylinder_width/2, -cylinder_width/2], [0, cylinder_height], 'k-', linewidth=2)
+ax.plot([cylinder_width/2, cylinder_width/2], [0, cylinder_height], 'k-', linewidth=2)
+ax.plot([-cylinder_width/2, cylinder_width/2], [0, 0], 'k-', linewidth=2)
+
+# Draw water with concave meniscus
+water_level = 5
+x = np.linspace(-cylinder_width/2 + 0.2, cylinder_width/2 - 0.2, 100)
+meniscus = water_level - 0.3 * np.exp(-((x)/0.8)**2)  # Concave curve
+ax.fill_between(x, 0, meniscus, alpha=0.3, color='skyblue', label='Water')
+ax.plot(x, meniscus, 'b-', linewidth=1.5)
+
+# Markings on cylinder
+for i in range(1, 9):
+    y_pos = i
+    ax.plot([-cylinder_width/2 - 0.3, -cylinder_width/2], [y_pos, y_pos], 'k-', linewidth=0.5)
+    if i % 2 == 0:
+        ax.text(-cylinder_width/2 - 0.5, y_pos, f'{i*10}', ha='right', va='center', fontsize=8)
+
+# Eye positions
+# Correct: at bottom of meniscus
+ax.annotate('Eye (correct)', xy=(-4, water_level - 0.3), xytext=(-5.5, water_level - 0.3),
+            arrowprops=dict(arrowstyle='->', color='green', linewidth=1.5),
+            ha='right', fontsize=9, color='green', fontweight='bold')
+ax.plot([-5, -cylinder_width/2], [water_level - 0.3, water_level - 0.3], 
+        'g--', linewidth=1, alpha=0.7)
+ax.plot([water_level - 0.3, water_level - 0.3], [-0.2, water_level - 0.1], 
+        'g-', linewidth=2, label='Read here')
+
+# Incorrect: above meniscus
+ax.annotate('Eye (too high)', xy=(-4, water_level + 0.5), xytext=(-5.5, water_level + 0.8),
+            arrowprops=dict(arrowstyle='->', color='red', linewidth=1),
+            ha='right', fontsize=8, color='red')
+ax.plot([-5, -cylinder_width/2], [water_level + 0.5, water_level + 0.2], 
+        'r:', linewidth=0.5, alpha=0.5)
+
+# Incorrect: below meniscus  
+ax.annotate('Eye (too low)', xy=(-4, water_level - 1.0), xytext=(-5.5, water_level - 1.3),
+            arrowprops=dict(arrowstyle='->', color='red', linewidth=1),
+            ha='right', fontsize=8, color='red')
+
+ax.set_xlim(-6, 3)
+ax.set_ylim(-0.5, cylinder_height + 0.5)
+ax.set_xlabel('Width (not to scale)', fontsize=10)
+ax.set_ylabel('Volume markings', fontsize=10)
+ax.set_title('Measuring Cylinder: Read at Bottom of Meniscus', fontsize=11, fontweight='bold')
+ax.grid(axis='y', alpha=0.2, linestyle=':')
+ax.legend(fontsize=9, loc='lower right')
+ax.set_xticks([])
+
+plt.tight_layout()
+plt.show()
+```
+
+### Measurement of Time
+
+* **Instruments for measuring time**:
+
+| Instrument | Precision | Use |
+|:-----------|:----------|:----|
+| Clock | 1 s | General time intervals |
+| Stopwatch (digital) | 0.01 s | Short time intervals |
+| Stopwatch (analogue) | 0.1 s | Short time intervals |
+
+* **Note**: Although digital stopwatches display to 0.01 s, we usually record to **0.1 s** due to **human reaction time** (approximately 0.3–0.5 s).
+
+* **Simple pendulum**:
+
+  - **Oscillation**: One complete to-and-fro motion (e.g., R → S → R)
+
+  - **Period ($T$)**: Time taken for one complete oscillation
+
+  - **Amplitude**: Maximum displacement from equilibrium position
+
+* **The period of a pendulum depends on**:
+
+  - ✓ **Length of the pendulum** (longer length = longer period)
+
+  - ✗ **Mass of the bob** (no effect)
+
+  - ✗ **Amplitude** (for small angles < 10°, no effect)
+
+* **Measuring the period accurately**:
+
+  1. Ignore the first few oscillations (wait until motion is steady)
+
+  2. Time multiple oscillations (e.g., 20 oscillations)
+
+  3. Repeat the measurement (at least twice)
+
+  4. Calculate the average time
+
+  5. Divide by the number of oscillations
+
+* **Formula**: $T = \frac{t_{\text{average}}}{n}$
+
+* **Why measure multiple oscillations?**
+
+  - Reduces the effect of human reaction time
+
+  - Provides a more accurate average value
+
+### Scalars and Vectors (Extended)
+
+* **Definitions**:
+
+  - **Scalar quantity**: Has **magnitude (size) only**
+
+  - **Vector quantity**: Has **both magnitude and direction**
+
+* **Examples**:
+
+| Scalars | Vectors |
+|:--------|:--------|
+| Distance | Displacement |
+| Speed | Velocity |
+| Time | Force |
+| Mass | Weight |
+| Energy | Acceleration |
+| Temperature | Momentum |
+| — | Electric field strength |
+| — | Gravitational field strength |
+
+* **Memory aid**: "**S**am **M**agoo has a **V**ery **M**ild **D**iarrhoea"
+
+  - **S**calars: **M**agnitude only
+
+  - **V**ectors: **M**agnitude + **D**irection
+
+* **Vector representation**:
+
+  - Vectors are represented by **arrows** in vector diagrams
+
+  - **Length of arrow** ∝ magnitude of vector
+
+  - **Direction of arrow** = direction of vector
+
+* **Adding vectors**:
+
+| Situation | Method | Result |
+|:----------|:-------|:-------|
+| Parallel, same direction | Add magnitudes | $3\ \text{N} + 5\ \text{N} = 8\ \text{N}$ |
+| Parallel, opposite directions | Subtract magnitudes | $5\ \text{N} + (-3\ \text{N}) = 2\ \text{N}$ |
+| Equal and opposite | Cancel out | Resultant = $0\ \text{N}$ |
+| Perpendicular (right angles) | Pythagoras + trigonometry | See calculation below |
+
+* **Perpendicular vectors – Calculation method**:
+
+  - Magnitude: $R = \sqrt{F_{1}^{2} + F_{2}^{2}}$
+
+  - Direction: $\tan \theta = \frac{F_{2}}{F_{1}}$
+
+```{python}
+#| label: fig-vector-addition
+#| fig-cap: "Vector addition: resultant of two perpendicular forces using Pythagoras' theorem"
+#| fig-align: center
+#| warning: false
+
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.patches as mpatches
+
+# Define two perpendicular vectors
+F1 = 6  # N, along x-axis (east)
+F2 = 8  # N, along y-axis (north)
+
+# Calculate resultant
+R = np.sqrt(F1**2 + F2**2)
+theta = np.degrees(np.arctan2(F2, F1))
+
+# Create figure
+fig, ax = plt.subplots(figsize=(6, 6))
+
+# Draw coordinate axes
+ax.axhline(y=0, color='gray', linewidth=0.5, linestyle=':')
+ax.axvline(x=0, color='gray', linewidth=0.5, linestyle=':')
+
+# Draw F1 (horizontal, blue)
+ax.arrow(0, 0, F1, 0, head_width=0.4, head_length=0.6, 
+         fc='blue', ec='blue', linewidth=2, label=f'$F_1$ = {F1} N (east)')
+
+# Draw F2 from tip of F1 (vertical, green) - tip-to-tail method
+ax.arrow(F1, 0, 0, F2, head_width=0.4, head_length=0.6, 
+         fc='green', ec='green', linewidth=2, label=f'$F_2$ = {F2} N (north)')
+
+# Draw resultant R (red, from origin to final tip)
+ax.arrow(0, 0, F1, F2, head_width=0.4, head_length=0.6, 
+         fc='red', ec='red', linewidth=2.5, label=f'Resultant $R$ = {R:.1f} N')
+
+# Draw dashed lines to complete rectangle (parallelogram method)
+ax.plot([F1, F1], [0, F2], 'gray', linestyle='--', linewidth=0.8, alpha=0.6)
+ax.plot([0, F1], [F2, F2], 'gray', linestyle='--', linewidth=0.8, alpha=0.6)
+
+# Draw angle arc
+angle_arc = mpatches.Arc((0, 0), width=2.0, height=2.0, angle=0, 
+                         theta1=0, theta2=theta, color='orange', linewidth=2)
+ax.add_patch(angle_arc)
+ax.text(1.5, 0.4, f'${theta:.1f}^{{\\circ}}$', fontsize=11, color='orange', fontweight='bold')
+
+# Labels and styling
+ax.set_xlabel('East / N', fontsize=10)
+ax.set_ylabel('North / N', fontsize=10)
+ax.set_title('Perpendicular Vector Addition: $R = \\sqrt{F_1^2 + F_2^2}$', 
+             fontsize=11, fontweight='bold')
+ax.legend(loc='upper right', fontsize=9)
+ax.grid(True, alpha=0.2, linestyle=':')
+ax.set_aspect('equal')
+ax.set_xlim(-0.5, F1 + 1)
+ax.set_ylim(-0.5, F2 + 1)
+
+# Add calculation box
+ax.text(F1/2 + 0.5, F2 + 0.3, 
+        f'$R = \\sqrt{{{F1}^2 + {F2}^2}} = {R:.1f}\\ \\text{{N}}$', 
+        fontsize=10, bbox=dict(boxstyle='round', facecolor='lightyellow', edgecolor='orange'))
+
+plt.tight_layout()
+plt.show()
+```
+  
+* **Example**:
+
+  - $F_{1} = 4\ \text{N}$, $F_{2} = 3\ \text{N}$
+
+  - $R = \sqrt{4^{2} + 3^{2}} = \sqrt{25} = 5\ \text{N}$
+
+  - $\tan \theta = \frac{3}{4} = 0.75$
+
+  - $\theta = \tan^{-1}(0.75) = 36.9^{\circ}$ to horizontal
+
+---
+
+## Common Misconceptions
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 1: "The mass of the pendulum bob affects the period"
+
+**Incorrect belief**: Heavier bobs swing faster or slower than lighter ones.
+
+**Correct understanding**: 
+
+- The period depends **only on the length** of the pendulum (for small angles < 10°)
+
+- Mass has **no effect** on the period
+
+- This can be verified experimentally: pendulums of identical length but different bob masses have identical periods within experimental uncertainty
+:::
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 2: "Digital precision equals measurement accuracy"
+
+**Incorrect belief**: Because a digital stopwatch displays to 0.01 s, the measurement is accurate to that precision.
+
+**Correct understanding**:
+
+- **Precision** = smallest division an instrument can display
+
+- **Accuracy** = closeness to the true value
+
+- Human reaction time (0.3–0.5 s) limits accuracy of manual timing
+
+- Record time measurements to **0.1 s** and time **multiple oscillations** to reduce relative error
+:::
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 3: "Parallax error is negligible for careful observers"
+
+**Incorrect belief**: Small viewing angles do not matter much if you are careful.
+
+**Correct understanding**:
+
+- Even small angular deviations can produce significant inaccuracies
+
+- Parallax error is especially problematic when measuring small quantities
+
+- **Always position your eye perpendicular** to the scale at the point of reading
+
+- For measuring cylinders, read at the **bottom of the meniscus** with eye at the same level
+:::
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 4: "All physical quantities can be added by simple arithmetic"
+
+**Incorrect belief**: Just add the numbers together regardless of type.
+
+**Correct understanding**:
+
+- **Scalar quantities** (mass, energy, time) may be added algebraically
+
+- **Vector quantities** (force, velocity, displacement) require consideration of direction
+
+- Two 5 N forces can produce resultants from 0 N to 10 N depending on relative orientation
+
+- Perpendicular vectors require Pythagoras' theorem for magnitude and trigonometry for direction
+:::
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 5: "Zero error means the instrument is broken"
+
+**Incorrect belief**: An instrument with zero error must be discarded.
+
+**Correct understanding**:
+
+- Zero error is a **systematic error** that can be identified and corrected mathematically
+
+- **Positive zero error**: Subtract from observed reading
+
+- **Negative zero error**: Add to observed reading (subtract negative value)
+
+- Regular checking for zero error is essential for maintaining measurement reliability
+:::
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 6: "Volume readings are taken from the top of the meniscus"
+
+**Incorrect belief**: Read the scale at the top of the curved liquid surface.
+
+**Correct understanding**:
+
+- For water and most liquids that wet glass, the meniscus is **concave**
+
+- The correct reading is taken at the **bottom of the meniscus**
+
+- Reading from the top introduces a consistent positive error
+
+- Place cylinder on level surface and position eye at same height as bottom of meniscus
+:::
+
+::: {.callout-warning icon="warning"}
+### ⚠️ Misconception 7: "Distance and displacement are interchangeable terms"
+
+**Incorrect belief**: Both terms measure how far an object moves.
+
+**Correct understanding**:
+
+- **Distance** (scalar): Total path length travelled, no direction
+
+- **Displacement** (vector): Shortest straight-line distance from start to finish **with direction**
+
+- Example: Walk 3 m east, then 4 m north
+
+  - Distance = 7 m
+
+  - Displacement = 5 m at 53.1° north of east
+:::
+
+---
+
+## Essential Skills
+
+### Measurement Techniques and Instrument Selection
+
+* **Select appropriate instrument based on range and precision required**:
+
+  - Lengths up to 1 m, mm precision → Metre rule
+
+  - Internal/external diameters, 0.1 mm precision → Vernier calipers
+
+  - Very small lengths → Micrometer screw gauge
+
+  - Volume of regular solids → Direct calculation from dimensions
+
+  - Volume of irregular solids → Displacement method
+
+* **Key decision factors**:
+
+  - Required precision of measurement
+
+  - Range of values to be measured
+
+  - Physical properties of object (sinks/floats, regular/irregular shape)
+
+  - Available apparatus and time constraints
+
+### Precautions to Minimise Measurement Errors
+
+* **For length measurements**:
+
+  - ✓ Avoid parallax error: position eye perpendicular to scale
+
+  - ✓ Check for zero error before use; apply corrections where necessary
+
+  - ✓ Use appropriate instrument for the measuring range
+
+  - ✓ Take multiple readings and calculate average
+
+* **For time measurements**:
+
+  - ✓ Repeat timings and take average to reduce random error
+
+  - ✓ Time multiple oscillations (e.g., 20) to reduce relative impact of reaction time
+
+  - ✓ Ignore first few oscillations; start timing when motion is steady
+
+  - ✓ Ignore abnormal oscillations (e.g., elliptical pendulum motion)
+
+* **For volume measurements**:
+
+  - ✓ Read at bottom of meniscus with eye at same level
+
+  - ✓ Place measuring cylinder on flat, horizontal surface
+
+  - ✓ Remove air bubbles before taking reading
+
+  - ✓ Ensure object is fully immersed (use sinker for floating objects)
+
+* **For mass measurements**:
+
+  - ✓ Zero the balance before use
+
+  - ✓ Do not place wet objects directly on pan
+
+  - ✓ Use container of known mass for chemicals or granular solids
+
+### Data Recording and Presentation
+
+* **Record measurements with appropriate significant figures**:
+
+  - Metre rule: record to nearest mm (e.g., 23.4 cm)
+
+  - Vernier calipers: record to 0.01 cm (e.g., 2.34 cm)
+
+  - Stopwatch: record to 0.1 s for manual timing
+
+* **Table formatting conventions**:
+
+  - Label each column with quantity name and unit, separated by solidus: `time/s`, `length/cm`
+
+  - Include units in column headings only, not in body of table
+
+  - Repeat measurements where appropriate to assess reliability
+
+* **Error analysis**:
+
+  - **Random errors**: Cause scatter in repeated measurements; reduce by averaging
+
+  - **Systematic errors**: Cause consistent deviation; require calibration or correction
+
+  - Estimate uncertainty as ± half the smallest division of instrument
+
+  - Propagate uncertainties appropriately in calculations
+
+### Practical Investigation Planning
+
+* **Four-step planning framework**:
+
+| Step | Action | Example: Pendulum Period |
+|:-----|:-------|:-------------------------|
+| 1. Define problem | State question; identify variables | Q: How does period depend on length? IV: length; DV: period |
+| 2. Data collection | Describe procedure; control variables | Vary length; time 20 oscillations; keep mass constant |
+| 3. Data analysis | Process data; draw conclusions | Calculate T; plot T² vs. l; determine relationship |
+| 4. Safety precautions | Identify risks; suggest controls | Ensure bob secure; keep area clear; handle glass carefully |
+
+---
+
+## Worked Calculations
+
+### Example 1: Correcting for Zero Error in Vernier Calipers
+
+**Question**:  
+A pair of vernier calipers exhibits a positive zero error of $+0.03\ \text{cm}$. When measuring the diameter of a steel ball bearing, the observed reading is $2.47\ \text{cm}$. Determine the corrected diameter.
+
+**Solution**:
+
+* Step 1: Write the correction formula
+
+  $$\text{Corrected Reading} = \text{Observed Reading} - \text{Zero Error}$$
+
+* Step 2: Substitute values
+
+  $$\text{Corrected Reading} = 2.47\ \text{cm} - (+0.03\ \text{cm})$$
+
+* Step 3: Calculate
+
+  $$\text{Corrected Reading} = 2.44\ \text{cm}$$
+
+**Answer**: The corrected diameter is $2.44\ \text{cm}$.
+
+**Explanation**: A positive zero error means the instrument reads higher than the true value. Subtracting the error corrects the systematic bias.
+
+---
+
+### Example 2: Determining the Period of a Simple Pendulum
+
+**Question**:  
+A student measures the time for 20 complete oscillations of a simple pendulum three times: $t_{1} = 24.2\ \text{s}$, $t_{2} = 24.6\ \text{s}$, $t_{3} = 24.4\ \text{s}$. Calculate the average period.
+
+**Solution**:
+
+* Step 1: Calculate average time for 20 oscillations
+
+  $$t_{\text{average}} = \frac{24.2 + 24.6 + 24.4}{3} = \frac{73.2}{3} = 24.4\ \text{s}$$
+
+* Step 2: Calculate period (time for one oscillation)
+
+  $$T = \frac{t_{\text{average}}}{n} = \frac{24.4\ \text{s}}{20} = 1.22\ \text{s}$$
+
+**Answer**: The period is $1.22\ \text{s}$.
+
+**Explanation**: Timing multiple oscillations reduces the relative impact of human reaction time. Averaging repeated measurements minimises random error.
+
+---
+
+### Example 3: Resultant of Two Perpendicular Vectors
+
+**Question**:  
+Two forces act on an object at right angles: $F_{1} = 6\ \text{N}$ (east), $F_{2} = 8\ \text{N}$ (north). Calculate magnitude and direction of resultant force.
+
+**Solution**:
+
+* Step 1: Calculate magnitude using Pythagoras' theorem
+
+  $$R = \sqrt{F_{1}^{2} + F_{2}^{2}} = \sqrt{6^{2} + 8^{2}} = \sqrt{36 + 64} = \sqrt{100} = 10\ \text{N}$$
+
+* Step 2: Calculate direction using trigonometry
+
+  $$\tan \theta = \frac{F_{2}}{F_{1}} = \frac{8}{6} = 1.333$$
+
+  $$\theta = \tan^{-1}(1.333) = 53.1^{\circ}$$
+
+**Answer**: Resultant force is $10\ \text{N}$ at $53.1^{\circ}$ north of east.
+
+**Explanation**: Vector addition requires both magnitude and direction. For perpendicular vectors, use Pythagoras for magnitude and inverse tangent for direction.
+
+---
+
+### Example 4: Volume Determination by Displacement
+
+**Question**:  
+A measuring cylinder initially contains $45.0\ \text{cm}^{3}$ of water. When a small irregular stone is immersed, the water level rises to $72.0\ \text{cm}^{3}$. Calculate the volume of the stone.
+
+**Solution**:
+
+* Apply displacement principle:
+
+  $$V_{\text{stone}} = V_{2} - V_{1} = 72.0\ \text{cm}^{3} - 45.0\ \text{cm}^{3} = 27.0\ \text{cm}^{3}$$
+
+**Answer**: The volume of the stone is $27.0\ \text{cm}^{3}$.
+
+**Explanation**: Archimedes' principle states that a submerged object displaces a volume of fluid equal to its own volume. Ensure complete immersion and remove air bubbles for accuracy.
+
+---
+
+### Example 5: Unit Conversion Using Prefixes and Standard Form
+
+**Question**:  
+Express in standard form, then convert to appropriate SI prefix notation: (a) $0.00045\ \text{m}$, (b) $25\,000\ \text{g}$, (c) $0.00000078\ \text{s}$.
+
+**Solution**:
+
+| Quantity | Standard Form | SI Prefix Notation |
+|:---------|:--------------|:-------------------|
+| (a) $0.00045\ \text{m}$ | $4.5 \times 10^{-4}\ \text{m}$ | $0.45\ \text{mm}$ |
+| (b) $25\,000\ \text{g}$ | $2.5 \times 10^{4}\ \text{g}$ | $25\ \text{kg}$ |
+| (c) $0.00000078\ \text{s}$ | $7.8 \times 10^{-7}\ \text{s}$ | $0.78\ \mu\text{s}$ |
+
+**Answer**: 
+
+- (a) $4.5 \times 10^{-4}\ \text{m}$ or $0.45\ \text{mm}$
+
+- (b) $2.5 \times 10^{4}\ \text{g}$ or $25\ \text{kg}$
+
+- (c) $7.8 \times 10^{-7}\ \text{s}$ or $0.78\ \mu\text{s}$
+
+**Explanation**: Standard form facilitates calculation with extreme values; SI prefixes improve readability in practical contexts. Mastery of both notations is essential for clear scientific communication.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+1. State the precision of each instrument:
+
+   - (a) A metre rule
+
+   - (b) Vernier calipers
+
+   - (c) A digital stopwatch (practical recording)
+
+2. A stack of 100 sheets of paper has measured thickness $1.2\ \text{cm}$. Calculate thickness of one sheet in mm, stating answer to appropriate significant figures.
+
+3. Explain why it is preferable to time 20 oscillations of a pendulum rather than one oscillation when determining period.
+
+4. Describe method to determine volume of:
+
+   - (a) A rectangular metal block
+
+   - (b) A small irregular stone that sinks in water
+
+   - (c) A cork that floats on water
+
+5. Convert to standard form:
+
+   - (a) $0.00045\ \text{m}$
+
+   - (b) $25\,000\ \text{g}$
+
+   - (c) $0.00000078\ \text{s}$
+
+### Extended Level
+
+6. Classify as scalar or vector:
+
+   - (a) Temperature
+
+   - (b) Velocity
+
+   - (c) Energy
+
+   - (d) Force
+
+   - (e) Mass
+
+   - (f) Displacement
+
+7. Two forces of $9\ \text{N}$ and $12\ \text{N}$ act at right angles. Calculate:
+
+   - (a) Magnitude of resultant force
+
+   - (b) Angle resultant makes with $12\ \text{N}$ force
+
+8. A vernier calipers has negative zero error of $-0.02\ \text{cm}$. If observed reading is $3.56\ \text{cm}$, determine corrected reading.
+
+9. Period of simple pendulum is $1.50\ \text{s}$. Calculate time for 50 complete oscillations.
+
+10. Distinguish between:
+
+    - (a) Accuracy and precision (provide example)
+
+    - (b) Distance and displacement (provide example)
+
+---
+
+## Laboratory Investigation
+
+### Experiment 1.1: Investigating Relationship Between Pendulum Length and Period
+
+**Objective**  
+To determine how the period of a simple pendulum varies with its length and to verify that $T^{2}$ is directly proportional to $l$.
+
+**Apparatus**  
+
+- Pendulum bob and inextensible string
+
+- Retort stand, boss, and clamp
+
+- Metre rule (precision 1 mm)
+
+- Stopwatch (precision 0.01 s)
+
+- Protractor
+
+**Variables**  
+
+- Independent: Length of pendulum, $l$ (m)
+
+- Dependent: Period of oscillation, $T$ (s)
+
+- Controlled: Mass of bob, amplitude of swing (< 10°), environmental conditions
+
+**Procedure**  
+
+1. Set up pendulum with initial length $l = 0.500\ \text{m}$ (measured from suspension point to centre of bob)
+
+2. Displace bob through small angle (< 10°) and release to oscillate in vertical plane
+
+3. Ignore first two oscillations to allow motion to stabilise
+
+4. Time 20 complete oscillations using stopwatch; record time $t_{1}$
+
+5. Repeat timing to obtain $t_{2}$ and $t_{3}$
+
+6. Calculate average time $t_{\text{ave}}$ and period $T = t_{\text{ave}} / 20$
+
+7. Repeat steps 1–6 for lengths $l = 0.600$, $0.700$, $0.800$, and $0.900\ \text{m}$
+
+**Data Table**
+
+| Length $l$ (m) | $t_{1}$ (s) | $t_{2}$ (s) | $t_{3}$ (s) | $t_{\text{ave}}$ (s) | Period $T$ (s) | $T^{2}$ (s$^{2}$) |
+|:--------------:|:-----------:|:-----------:|:-----------:|:--------------------:|:--------------:|:-----------------:|
+| 0.500 | | | | | | |
+| 0.600 | | | | | | |
+| 0.700 | | | | | | |
+| 0.800 | | | | | | |
+| 0.900 | | | | | | |
+
+**Analysis**  
+
+1. Plot graph of period $T$ (y-axis) against length $l$ (x-axis). Describe shape of curve.
+
+2. Plot graph of $T^{2}$ (y-axis) against $l$ (x-axis). Draw best-fit straight line.
+
+3. Determine gradient of $T^{2}$ vs. $l$ graph.
+
+4. State mathematical relationship between $T$ and $l$ based on graphs.
+
+```{python}
+#| label: fig-pendulum-analysis
+#| fig-cap: "Pendulum analysis: T vs l (curve) and T² vs l (linear) graphs"
+#| fig-align: center
+#| warning: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Simulated experimental data (with small random error)
+np.random.seed(42)
+l_values = np.array([0.500, 0.600, 0.700, 0.800, 0.900])
+g = 9.81
+T_theoretical = 2 * np.pi * np.sqrt(l_values / g)
+T_measured = T_theoretical + np.random.normal(0, 0.02, size=len(l_values))  # Add small error
+
+# Create subplots
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+
+# Graph 1: T vs l (non-linear curve)
+ax1.plot(l_values, T_measured, 'bo', markersize=8, label='Experimental data', zorder=5)
+l_smooth = np.linspace(0.4, 1.0, 100)
+T_smooth = 2 * np.pi * np.sqrt(l_smooth / g)
+ax1.plot(l_smooth, T_smooth, 'r-', linewidth=1.5, label='Theoretical: $T = 2\\pi\\sqrt{l/g}$')
+ax1.set_xlabel('Length $l$ / m', fontsize=11)
+ax1.set_ylabel('Period $T$ / s', fontsize=11)
+ax1.set_title('(a) Period vs Length: Curve', fontsize=11, fontweight='bold')
+ax1.grid(True, alpha=0.3)
+ax1.legend(fontsize=10)
+
+# Graph 2: T² vs l (linear relationship)
+T2_measured = T_measured**2
+T2_theoretical = T_theoretical**2
+
+ax2.plot(l_values, T2_measured, 'bo', markersize=8, label='Experimental data', zorder=5)
+# Linear fit
+coeffs = np.polyfit(l_values, T2_measured, 1)
+fit_line = np.poly1d(coeffs)
+ax2.plot(l_smooth, fit_line(l_smooth), 'r-', linewidth=1.5, 
+         label=f'Best fit: slope = {coeffs[0]:.3f} s²/m')
+ax2.set_xlabel('Length $l$ / m', fontsize=11)
+ax2.set_ylabel('Period² $T^2$ / s²', fontsize=11)
+ax2.set_title('(b) $T^2$ vs Length: Linear', fontsize=11, fontweight='bold')
+ax2.grid(True, alpha=0.3)
+ax2.legend(fontsize=10)
+
+# Add theoretical gradient annotation
+theoretical_gradient = 4 * np.pi**2 / g
+ax2.text(0.85, 3.2, f'Theoretical\ngradient = $4\\pi^2/g$\n≈ {theoretical_gradient:.3f} s²/m', 
+         fontsize=9, bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7))
+
+plt.tight_layout()
+plt.show()
+```
+
+**Expected Conclusion**  
+The square of the period ($T^{2}$) is directly proportional to the length ($l$) of the pendulum, confirming theoretical relationship $T = 2\pi\sqrt{l/g}$.
+
+**Safety Considerations**  
+
+- Ensure pendulum bob is securely attached to prevent detachment during oscillation
+
+- Keep area around oscillating pendulum clear to avoid injury
+
+- Handle glass apparatus with care to prevent breakage
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+1. Which instrument is most suitable for measuring diameter of a wire of approximately 1 mm?  
+
+   A. Metre rule  
+
+   B. Measuring tape  
+
+   C. Vernier calipers  
+
+   D. Measuring cylinder  
+
+2. A pendulum completes 10 oscillations in $15.0\ \text{s}$. What is the period?  
+
+   A. $0.67\ \text{s}$  
+
+   B. $1.5\ \text{s}$  
+
+   C. $3.0\ \text{s}$  
+
+   D. $15.0\ \text{s}$  
+
+3. Which of the following is a vector quantity?  
+
+   A. Speed  
+
+   B. Mass  
+
+   C. Force  
+
+   D. Temperature  
+
+4. When measuring volume of water in a measuring cylinder, which precaution is most important?  
+
+   A. Use cylinder with smallest possible diameter  
+
+   B. Read scale at top of meniscus  
+
+   C. Position eye at same level as bottom of meniscus  
+
+   D. Shake cylinder to remove air bubbles after reading  
+
+### Paper 3 Style (Structured)
+
+5. (a) Define the term **density**. [1]  
+
+   (b) Describe how you would determine density of an irregularly shaped object that sinks in water. Include:  
+
+   - measurements you would take,  
+
+   - apparatus you would use,  
+
+   - calculations you would perform. [5]  
+
+6. Two students investigate period of simple pendulum.  
+
+   (a) Explain why they should time 20 oscillations rather than 1 oscillation. [2]  
+
+   (b) State two precautions to obtain accurate value for period. [2]  
+
+   (c) Students find period increases when length increases. Sketch graph to show how $T^{2}$ varies with $l$. [2]  
+
+7. (a) Distinguish between scalar quantity and vector quantity. [2]  
+
+   (b) Two forces, $5\ \text{N}$ and $12\ \text{N}$, act at right angles. Calculate magnitude of resultant. [2]  
+
+   (c) State direction of resultant relative to $12\ \text{N}$ force. [1]  
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Physical quantity** = numerical magnitude + unit; seven base quantities form SI foundation  
+
+✓ **Precision** = smallest division instrument can measure:  
+
+  - Metre rule: 1 mm  
+
+  - Vernier calipers: 0.01 cm  
+
+  - Stopwatch: 0.1 s (practical recording)  
+
+✓ **Avoid errors**:  
+
+  - Parallax: position eye perpendicular to scale  
+
+  - Zero error: check and correct mathematically  
+
+  - Reaction time: time multiple oscillations  
+
+  - Meniscus: read at bottom with eye at same level  
+
+✓ **Pendulum period** depends on length only (for small angles); mass and amplitude have no effect  
+
+✓ **Scalars** (magnitude only): distance, speed, time, mass, energy, temperature  
+
+✓ **Vectors** (magnitude + direction): displacement, velocity, force, weight, acceleration, momentum  
+
+✓ **Resultant of perpendicular vectors**:  
+
+  - Magnitude: $R = \sqrt{F_{1}^{2} + F_{2}^{2}}$  
+
+  - Direction: $\tan \theta = \frac{F_{2}}{F_{1}}$  
+
+✓ **Volume by displacement**: $V_{\text{object}} = V_{\text{final}} - V_{\text{initial}}$ for sinking objects; use sinker for floating objects  
+
+✓ **Standard form**: $a \times 10^{n}$ where $1 \leq a < 10$; **SI prefixes** (k, M, G, m, μ, n) simplify extreme values  
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Accuracy** | Closeness of measured value to true value of quantity |
+| **Base quantity** | One of seven fundamental quantities in SI system |
+| **Derived quantity** | Quantity obtained by combining base quantities mathematically |
+| **Meniscus** | Curved surface of liquid in container; read at bottom for water in glass |
+| **Oscillation** | One complete to-and-fro motion of periodic system |
+| **Parallax error** | Error from viewing scale at angle rather than perpendicularly |
+| **Period** | Time taken for one complete oscillation |
+| **Precision** | Smallest division instrument can measure; indicates reproducibility |
+| **Scalar quantity** | Physical quantity with magnitude only, no direction |
+| **Standard form** | Number expressed as $a \times 10^{n}$ where $1 \leq a < 10$ |
+| **Vector quantity** | Physical quantity with both magnitude and direction |
+| **Zero error** | Systematic error when instrument does not read zero when it should |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE™ Physics Coursebook, Chapter 1: Measurement of Physical Quantities
+
+- Cambridge IGCSE™ Physics Practical Workbook, Practical 1A and 1B
+
+### Online Resources
+
+- PhET Interactive Simulations: "Pendulum Lab" for visualising period–length relationships
+
+- Khan Academy: "Vectors and Scalars" for animated explanations of vector addition
+
+### Video Resources
+
+- Measurement techniques and error analysis (Cambridge International YouTube channel)
+
+- Vector addition methods: graphical and analytical approaches
+
+---
+
+*End of Chapter*

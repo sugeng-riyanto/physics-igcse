@@ -1,0 +1,990 @@
+---
+title: "Electromagnetic Spectrum"
+chapter: 16
+syllabus-code: "3.3 Electromagnetic spectrum"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Know the main regions of the electromagnetic spectrum in order of frequency and in order of wavelength
+
+- Know that all electromagnetic waves travel at the same high speed in a vacuum
+
+- Describe typical uses of the different regions of the electromagnetic spectrum including:
+
+  - Radio waves: radio and television transmissions, astronomy, radio frequency identification (RFID)
+
+  - Microwaves: satellite television, mobile phones (cell phones), microwave ovens
+
+  - Infrared: electric grills, short range communications such as remote controllers for televisions, intruder alarms, thermal imaging, optical fibres
+
+  - Visible light: vision, photography, illumination
+
+  - Ultraviolet: security marking, detecting fake bank notes, sterilising water
+
+  - X-rays: medical scanning, security scanners
+
+  - Gamma rays: sterilising food and medical equipment, detection of cancer and its treatment
+
+- Describe the harmful effects on people of excessive exposure to electromagnetic radiation, including:
+
+  - Microwaves: internal heating of body cells
+
+  - Infrared: skin burns
+
+  - Ultraviolet: damage to surface cells and eyes, leading to skin cancer and eye conditions
+
+  - X-rays and gamma rays: mutation or damage to cells in the body
+
+- Know that communication with artificial satellites is mainly by microwaves:
+
+  - Some satellite phones use low orbit artificial satellites
+
+  - Some satellite phones and direct broadcast satellite television use geostationary satellites
+
+**Supplement (Extended):**
+
+- Know that the speed of electromagnetic waves in a vacuum is 3.0 × 10⁸ m/s and is approximately the same in air
+
+- Know that many important systems of communications rely on electromagnetic radiation including:
+
+  - Mobile phones and wireless internet use microwaves because microwaves can penetrate some walls and only require a short aerial for transmission and reception
+
+  - Bluetooth uses radio waves because radio waves pass through walls but the signal is weakened on doing so
+
+  - Optical fibres (visible light or infrared) are used for cable television and high-speed broadband because glass is transparent to visible light and some infrared; visible light and short wavelength infrared can carry high rates of data
+
+- Know the difference between a digital and analogue signal
+
+- Know that a sound can be transmitted as a digital or analogue signal
+
+- Explain the benefits of digital signalling including increased rate of transmission of data and increased range due to accurate signal regeneration
+
+---
+
+## 16.1 What Is the Electromagnetic Spectrum?
+
+### Discovery of Invisible Light
+
+In 1800, astronomer Sir Frederick William Herschel conducted an experiment using a prism to split sunlight into a spectrum. He placed thermometers in different parts of the visible spectrum and beyond.
+
+**Observation:**
+
+- The thermometer placed just beyond the red light showed the highest temperature reading
+
+- This indicated the presence of invisible radiation beyond visible red light
+
+**Conclusion:**
+
+- The electromagnetic spectrum contains more than just visible light
+
+- Invisible regions exist that can only be detected by instruments
+
+### The Electromagnetic Spectrum
+
+The electromagnetic spectrum consists of all types of electromagnetic waves arranged in order of frequency or wavelength.
+
+**Key properties:**
+
+- All electromagnetic waves are transverse waves
+
+- All electromagnetic waves can travel through a vacuum
+
+- All electromagnetic waves travel at the same speed in a vacuum: $c = 3.0 \times 10^8 \text{ m/s}$
+
+- Frequency ($f$) and wavelength ($\lambda$) are related by: $c = f\lambda$
+
+::: {.callout-note}
+**Key Concept:** Since $c$ is constant, frequency and wavelength are inversely proportional: higher frequency means shorter wavelength, and vice versa.
+:::
+
+### Main Regions of the Electromagnetic Spectrum
+
+| Region | Approximate Wavelength Range | Approximate Frequency Range |
+|:-------|:----------------------------|:---------------------------|
+| **Radio waves** | > 10⁻¹ m | < 3 × 10⁹ Hz |
+| **Microwaves** | 10⁻³ m to 10⁻¹ m | 3 × 10⁹ Hz to 3 × 10¹¹ Hz |
+| **Infrared** | 7 × 10⁻⁷ m to 10⁻³ m | 3 × 10¹¹ Hz to 4 × 10¹⁴ Hz |
+| **Visible light** | 4 × 10⁻⁷ m to 7 × 10⁻⁷ m | 4 × 10¹⁴ Hz to 7.5 × 10¹⁴ Hz |
+| **Ultraviolet** | 10⁻⁸ m to 4 × 10⁻⁷ m | 7.5 × 10¹⁴ Hz to 3 × 10¹⁶ Hz |
+| **X-rays** | 10⁻¹¹ m to 10⁻⁸ m | 3 × 10¹⁶ Hz to 3 × 10¹⁹ Hz |
+| **Gamma rays** | < 10⁻¹¹ m | > 3 × 10¹⁹ Hz |
+
+**Order of increasing frequency (decreasing wavelength):**
+
+- Radio waves → Microwaves → Infrared → Visible light → Ultraviolet → X-rays → Gamma rays
+
+**Memory aid:** "Rugby Match Is Very Unusual, Xciting Games"
+
+- **R**adio → **M**icrowave → **I**nfrared → **V**isible → **U**ltraviolet → **X**-rays → **G**amma
+
+---
+
+## 16.2 Uses of Electromagnetic Radiation
+
+### Radio Waves
+
+**Typical uses:**
+
+- **Radio and television transmissions**: Tall broadcast towers send radio waves carrying sound and image data to receivers
+
+- **Astronomy**: Large radio telescopes detect radio waves from stars, galaxies, and other astronomical objects
+
+- **Radio Frequency Identification (RFID)**: Radio waves transfer data for tracking items with RFID tags
+
+**Why radio waves are suitable:**
+
+- Long wavelengths (up to 1 km) allow diffraction around obstacles like buildings and hills
+
+- Can pass through walls, enabling indoor reception
+
+- Low energy means they are generally safe for continuous exposure
+
+### Microwaves
+
+**Typical uses:**
+
+- **Satellite television**: Microwaves carry image and sound data from satellites to ground-based dishes
+
+- **Mobile phones (cell phones)**: Convert sound to microwave signals for wireless communication
+
+- **Microwave ovens**: Cause water molecules in food to vibrate, generating heat for cooking
+
+- **Wireless internet (Wi-Fi)**: Transmit data between devices and routers
+
+**Why microwaves are suitable:**
+
+- Can penetrate clouds and some building materials
+
+- Short wavelengths allow compact aerials for transmission and reception
+
+- High frequencies enable high data transmission rates
+
+### Infrared Radiation
+
+**Typical uses:**
+
+- **Electric grills and heaters**: Convert electrical energy to infrared for heating and cooking
+
+- **Remote controllers**: Simple LEDs emit infrared pulses to control televisions and other devices
+
+- **Intruder alarms**: Infrared transmitters and detectors sense when a beam is blocked
+
+- **Thermal imaging**: Detectors convert infrared to electrical signals, producing thermal images showing temperature variations
+
+- **Optical fibres**: Some infrared wavelengths pass through glass with minimal signal loss, enabling long-distance data transmission
+
+**Why infrared is suitable:**
+
+- Easily generated and detected using simple electronic components
+
+- Causes heating effects useful for cooking and warmth
+
+- Short-range communication minimises interference
+
+### Visible Light
+
+**Typical uses:**
+
+- **Vision**: Human eyes detect visible light, enabling us to see our surroundings
+
+- **Photography**: Sensors sensitive to visible light capture images in cameras
+
+- **Illumination**: Light sources provide visibility for work, safety, and aesthetics
+
+- **Optical fibres**: Visible light undergoes total internal reflection for data transmission
+
+**Why visible light is suitable:**
+
+- Detected by human eyes without special equipment
+
+- Can be focused and manipulated using lenses and mirrors
+
+- High frequencies enable high data rates in optical communication
+
+### Ultraviolet Radiation
+
+**Typical uses:**
+
+- **Security marking**: Chemicals that glow under UV light create invisible markings for authentication
+
+- **Detecting fake banknotes**: UV lamps reveal security features invisible under normal light
+
+- **Sterilising water**: UV radiation damages microorganisms, making water safe to drink
+
+**Why ultraviolet is suitable:**
+
+- High energy can break chemical bonds in microorganisms
+
+- Causes fluorescence in certain materials for detection purposes
+
+- Can be generated using specialised lamps
+
+### X-rays
+
+**Typical uses:**
+
+- **Medical scanning**: X-rays penetrate soft tissues but are absorbed by bones, producing images for diagnosis
+
+- **Security scanners**: Airport baggage scanners use X-rays to detect hidden weapons or contraband
+
+**Why X-rays are suitable:**
+
+- High penetrating power allows imaging of internal structures
+
+- Different materials absorb X-rays to different degrees, creating contrast in images
+
+### Gamma Rays
+
+**Typical uses:**
+
+- **Sterilising food and medical equipment**: Gamma rays kill bacteria and other microorganisms without heating
+
+- **Detection and treatment of cancer**: Gamma rays can destroy cancer cells; radioactive tracers emitting gamma rays help locate tumours
+
+**Why gamma rays are suitable:**
+
+- Extremely high penetrating power reaches deep into materials and tissues
+
+- High energy can kill cells and break chemical bonds
+
+---
+
+## 16.3 Harmful Effects of Electromagnetic Radiation
+
+### General Principle
+
+The harmful effects of electromagnetic radiation depend on:
+
+- **Frequency/energy**: Higher frequency radiation carries more energy per photon
+
+- **Intensity**: Greater intensity means more radiation energy absorbed
+
+- **Exposure time**: Longer exposure increases total energy absorbed
+
+- **Type of tissue**: Different body tissues respond differently to radiation
+
+### Specific Harmful Effects
+
+| Radiation Type | Harmful Effects of Excessive Exposure |
+|:---------------|:------------------------------------|
+| **Microwaves** | Internal heating of body cells; can cause tissue damage if intensity is very high |
+| **Infrared** | Skin burns; excessive exposure to intense infrared sources can damage skin |
+| **Ultraviolet** | Damage to surface cells and eyes; can cause skin cancer, premature skin ageing, cataracts, and macular degeneration |
+| **X-rays** | Mutation or damage to cells; excessive exposure increases cancer risk; can harm developing foetuses |
+| **Gamma rays** | Mutation or damage to cells; high doses can cause radiation sickness; increases long-term cancer risk |
+
+::: {.callout-warning}
+**Important:** Normal, controlled use of electromagnetic radiation (e.g., medical X-rays, UV sterilisation) is safe. Harm occurs only with excessive or uncontrolled exposure.
+:::
+
+### Safety Precautions
+
+- **Microwaves**: Maintain safe distance from operating microwave ovens; ensure door seals are intact
+
+- **Infrared**: Use protective eyewear when working with intense infrared sources; avoid prolonged exposure to heat lamps
+
+- **Ultraviolet**: Wear sunscreen and protective clothing outdoors; avoid staring at UV lamps; use UV-blocking sunglasses
+
+- **X-rays and gamma rays**: Use lead shielding; minimise exposure time; maintain distance from sources; only trained personnel should operate equipment
+
+---
+
+## 16.4 Electromagnetic Waves in Communication
+
+### Speed of Electromagnetic Waves
+
+All electromagnetic waves travel at the same speed in a vacuum:
+
+$$c = 3.0 \times 10^8 \text{ m/s}$$
+
+In air, the speed is approximately the same (slightly less, but the difference is negligible for most purposes).
+
+**Worked Example: Signal Travel Time**
+
+**Question:**
+How long does it take a microwave signal to travel from Earth to a geostationary satellite 36,000 km away and back?
+
+**Solution:**
+
+**Step 1:** Calculate total distance
+$$\text{Total distance} = 36,000 \text{ km} + 36,000 \text{ km} = 72,000 \text{ km} = 7.2 \times 10^7 \text{ m}$$
+
+**Step 2:** Apply speed formula
+$$t = \frac{\text{distance}}{\text{speed}} = \frac{7.2 \times 10^7}{3.0 \times 10^8} = \boxed{0.24 \text{ s}}$$
+
+**Interpretation:** Communication via geostationary satellites has a noticeable delay of about 0.24 seconds for a round trip.
+
+### Satellite Communication
+
+**Types of artificial satellites:**
+
+| Type | Altitude | Characteristics | Uses |
+|:-----|:---------|:----------------|:-----|
+| **Geostationary satellites** | ~36,000 km above equator | Orbit period = 24 hours; appear stationary relative to Earth | Direct broadcast TV, some satellite phones, weather monitoring |
+| **Low Earth Orbit (LEO) satellites** | ~500–2,000 km above Earth | Orbit period ~90 minutes; move rapidly across sky | Some satellite phones, Earth observation, internet constellations |
+
+**Why microwaves for satellite communication?**
+
+- Can penetrate clouds and atmosphere with minimal attenuation
+
+- Short wavelengths allow compact, directional aerials on satellites and ground stations
+
+- High frequencies support high data transmission rates for TV and internet
+
+### Wireless Communication Technologies
+
+#### Mobile Phones and Wireless Internet
+
+- Use **microwaves** (typically 800 MHz to 2.6 GHz)
+
+- Microwaves can penetrate some walls, enabling indoor use
+
+- Short wavelengths allow compact aerials in mobile devices
+
+- High frequencies support voice, text, and data transmission
+
+#### Bluetooth
+
+- Uses **radio waves** (2.4 GHz band)
+
+- Radio waves pass through walls but are weakened, limiting range to ~10 m
+
+- Suitable for short-range device-to-device communication (e.g., phone to speaker)
+
+#### Optical Fibres
+
+- Use **visible light** or **short-wavelength infrared** (650–1600 nm)
+
+- Glass is transparent to these wavelengths; light undergoes total internal reflection
+
+- Very high frequencies enable extremely high data rates (terabits per second)
+
+- Minimal signal loss over long distances; ideal for cable TV and broadband internet
+
+::: {.callout-note}
+**Key Insight:** The choice of electromagnetic region for a communication technology depends on wavelength, penetration ability, data capacity, and practical considerations like aerial size.
+:::
+
+---
+
+## 16.5 Analogue and Digital Signals
+
+### What Is a Signal?
+
+A **signal** is a varying quantity that carries information. In communication systems, signals represent sound, images, or data.
+
+### Analogue Signals
+
+**Characteristics:**
+
+- Have **continuous values** that vary smoothly over time
+
+- Information is encoded in variations of amplitude, frequency, or phase
+
+- Examples: traditional radio broadcasts, vinyl records, analogue telephone lines
+
+**Graphical representation:**
+
+```
+Value
+  ^
+  |    /\/\    /\
+  |   /    \  /  \
+  |  /      \/    \
+  +------------------> Time
+```
+
+### Digital Signals
+
+**Characteristics:**
+
+- Have **discrete values**, typically two states: 'on' (1) and 'off' (0)
+
+- Information is encoded as sequences of binary digits (bits)
+
+- Examples: digital TV, mobile phone calls, internet data, CDs
+
+**Graphical representation:**
+
+```
+Value
+  ^
+1 |  ┌─┐  ┌───┐  ┌─
+  |  │ │  │   │  │
+0 |──┘ └──┘   └──┘──> Time
+```
+
+### Transmitting Sound as Signals
+
+Sound can be transmitted using either analogue or digital signals:
+
+**Analogue transmission:**
+
+1. Microphone converts sound waves to continuous electrical signals
+
+2. Signals modulate a carrier wave (e.g., radio wave)
+
+3. Receiver demodulates and converts back to sound
+
+**Digital transmission:**
+
+1. Microphone converts sound to analogue electrical signals
+
+2. Analogue-to-digital converter (ADC) samples and encodes signals as binary data
+
+3. Binary data modulates a carrier wave for transmission
+
+4. Receiver demodulates and digital-to-analogue converter (DAC) reconstructs sound
+
+---
+
+## 16.6 Benefits of Digital Signalling
+
+### Increased Data Transmission Rate
+
+- Digital signals can be compressed using mathematical algorithms
+
+- Compression reduces the number of bits needed to represent the same information
+
+- More data can be transmitted in the same time → higher data rates
+
+- Enables high-quality video streaming, fast internet downloads
+
+### Accurate Signal Regeneration
+
+**Problem with analogue signals:**
+
+- Noise (unwanted variations) accumulates during transmission
+
+- Amplifiers boost both signal and noise → degraded quality over long distances
+
+**Advantage of digital signals:**
+
+- Only two values (1 and 0) are expected
+
+- If noise is not too large, the original signal can be **regenerated accurately**
+
+- Repeaters along the transmission path recover and retransmit clean digital signals
+
+- Enables high-quality communication over very long distances
+
+### Other Benefits
+
+- **Error detection and correction**: Digital systems can detect and correct transmission errors
+
+- **Encryption**: Digital data can be encrypted for secure communication
+
+- **Multiplexing**: Multiple digital signals can be combined and transmitted simultaneously
+
+- **Storage and processing**: Digital signals are easily stored, copied, and processed by computers
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Electromagnetic spectrum regions** in order of increasing frequency: radio → microwave → infrared → visible → ultraviolet → X-ray → gamma
+
+2. **All electromagnetic waves** travel at $c = 3.0 \times 10^8 \text{ m/s}$ in vacuum; speed approximately same in air
+
+3. **Uses of each region**: Radio (broadcasting, RFID), microwave (satellites, phones, ovens), infrared (heating, remote controls, thermal imaging), visible (vision, photography), UV (security, sterilisation), X-ray (medical imaging, security), gamma (sterilisation, cancer treatment)
+
+4. **Harmful effects**: Microwaves (internal heating), infrared (skin burns), UV (skin/eye damage, cancer), X-rays/gamma (cell damage, mutation, cancer)
+
+5. **Satellite communication**: Mainly uses microwaves; geostationary (~36,000 km) and LEO (~500–2,000 km) satellites serve different purposes
+
+### Extended Concepts
+
+6. **Communication technologies**: Mobile phones/Wi-Fi use microwaves (penetrate walls, short aerials); Bluetooth uses radio waves (pass through walls but weaken); optical fibres use visible/short-wavelength infrared (high data rates, low loss)
+
+7. **Analogue vs digital signals**: Analogue = continuous values; digital = discrete values (1/0); sound can be transmitted either way
+
+8. **Benefits of digital signalling**: Higher data rates via compression; accurate regeneration over long distances; error correction; encryption; easy storage/processing
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Different electromagnetic waves travel at different speeds"
+
+**Incorrect**: "Radio waves travel slower than light"
+
+**Correct**:
+
+- All electromagnetic waves travel at the **same speed** in a vacuum: $3.0 \times 10^8 \text{ m/s}$
+
+- Differences in wavelength and frequency do not affect speed in vacuum
+
+- In materials (e.g., glass), different frequencies may travel at slightly different speeds (dispersion), but this is not the case in vacuum/air
+
+---
+
+### ⚠️ Misconception 2: "Higher frequency means more dangerous radiation"
+
+**Incorrect**: "Gamma rays are always dangerous; radio waves are always safe"
+
+**Correct**:
+
+- Danger depends on **intensity, exposure time, and frequency**, not frequency alone
+
+- Low-intensity gamma rays (e.g., medical tracers) can be safe; high-intensity radio waves can cause heating
+
+- Normal, controlled use of any electromagnetic radiation is generally safe
+
+---
+
+### ⚠️ Misconception 3: "Microwaves cook food by making it radioactive"
+
+**Incorrect**: "Microwave ovens make food radioactive"
+
+**Correct**:
+
+- Microwaves cause water molecules to **vibrate**, generating heat through friction
+
+- This is a **non-ionising** process; it does not change the chemical structure of food or make it radioactive
+
+- Food heated in a microwave is no different from food heated by other methods
+
+---
+
+### ⚠️ Misconception 4: "Digital signals are always better than analogue"
+
+**Incorrect**: "Analogue signals are obsolete; digital is always superior"
+
+**Correct**:
+
+- Digital signals have advantages for long-distance transmission, storage, and processing
+
+- Analogue signals can be simpler and adequate for short-range, low-complexity applications
+
+- Choice depends on application requirements, cost, and available technology
+
+---
+
+### ⚠️ Misconception 5: "Optical fibres use any type of light"
+
+**Incorrect**: "Any light can travel through optical fibres"
+
+**Correct**:
+
+- Optical fibres are transparent only to **visible light and short-wavelength infrared**
+
+- Other wavelengths (e.g., long-wavelength infrared, ultraviolet) are absorbed or scattered
+
+- The specific wavelengths used (650–1600 nm) are chosen for minimal loss in glass
+
+---
+
+### ⚠️ Misconception 6: "All ultraviolet radiation comes from the Sun"
+
+**Incorrect**: "UV radiation only comes from sunlight"
+
+**Correct**:
+
+- The Sun is a major natural source of UV radiation
+
+- Artificial sources include UV lamps for sterilisation, tanning beds, and certain types of lighting
+
+- Some electrical equipment (e.g., welding arcs) also emits UV radiation
+
+---
+
+### ⚠️ Misconception 7: "X-rays and gamma rays are the same thing"
+
+**Incorrect**: "X-rays and gamma rays are identical; the names are interchangeable"
+
+**Correct**:
+
+- Both are high-frequency, high-energy electromagnetic radiation
+
+- **Origin differs**: X-rays are produced by electron transitions; gamma rays are produced by nuclear processes
+
+- **Energy ranges overlap**, but gamma rays typically have higher frequencies
+
+- Applications and safety precautions may differ based on source and energy
+
+---
+
+## Worked Examples
+
+### Example 1: Ordering Electromagnetic Waves
+
+**Question:**
+Arrange the following electromagnetic waves in order of increasing wavelength: visible light, microwaves, gamma rays, infrared, radio waves.
+
+**Solution:**
+
+**Step 1:** Recall order of increasing frequency: gamma → X-ray → UV → visible → infrared → microwave → radio
+
+**Step 2:** Since wavelength is inversely proportional to frequency, reverse the order for increasing wavelength:
+
+$$\text{gamma rays} < \text{visible light} < \text{infrared} < \text{microwaves} < \text{radio waves}$$
+
+**Answer:** Gamma rays, visible light, infrared, microwaves, radio waves
+
+---
+
+### Example 2: Calculating Wavelength
+
+**Question:**
+A mobile phone uses microwaves with a frequency of 1.8 GHz. Calculate the wavelength of these microwaves. (Take $c = 3.0 \times 10^8 \text{ m/s}$)
+
+**Solution:**
+
+**Step 1:** Convert frequency to Hz
+$$f = 1.8 \text{ GHz} = 1.8 \times 10^9 \text{ Hz}$$
+
+**Step 2:** Apply wave equation
+$$c = f\lambda \quad \Rightarrow \quad \lambda = \frac{c}{f} = \frac{3.0 \times 10^8}{1.8 \times 10^9} = \boxed{0.17 \text{ m} = 17 \text{ cm}}$$
+
+**Interpretation:** The wavelength is about 17 cm, which is why mobile phone aerials can be compact.
+
+---
+
+### Example 3: Signal Travel Time to Satellite
+
+**Question:**
+A geostationary satellite is 36,000 km above the Earth. Calculate the minimum time delay for a signal to travel from Earth to the satellite and back.
+
+**Solution:**
+
+**Step 1:** Total distance for round trip
+$$d = 2 \times 36,000 \text{ km} = 72,000 \text{ km} = 7.2 \times 10^7 \text{ m}$$
+
+**Step 2:** Time calculation
+$$t = \frac{d}{c} = \frac{7.2 \times 10^7}{3.0 \times 10^8} = \boxed{0.24 \text{ s}}$$
+
+**Interpretation:** This 0.24 s delay is noticeable in satellite phone conversations and live satellite TV broadcasts.
+
+---
+
+### Example 4: Digital vs Analogue Signal Quality
+
+**Question:**
+Explain why a digital TV signal received over a long distance via satellite maintains better quality than an analogue TV signal transmitted over the same distance.
+
+**Solution:**
+
+**Step 1:** Identify key difference: signal regeneration
+
+**Step 2:** Analogue signal behaviour:
+- Noise accumulates during transmission
+- Amplifiers boost both signal and noise
+- Quality degrades progressively with distance
+
+**Step 3:** Digital signal behaviour:
+- Only two values (1/0) are expected
+- Repeaters detect and regenerate clean digital signals
+- Noise is eliminated at each regeneration point
+
+**Conclusion:** Digital signals can be accurately regenerated at repeaters, maintaining quality over long distances; analogue signals accumulate noise that cannot be removed.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** List the seven main regions of the electromagnetic spectrum in order of increasing frequency.
+
+**2.** State the speed of electromagnetic waves in a vacuum.
+
+**3.** Give one typical use for each of the following:
+
+- (a) Radio waves
+
+- (b) Microwaves
+
+- (c) Infrared radiation
+
+- (d) Visible light
+
+- (e) Ultraviolet radiation
+
+- (f) X-rays
+
+- (g) Gamma rays
+
+**4.** Describe one harmful effect of excessive exposure to:
+
+- (a) Ultraviolet radiation
+
+- (b) X-rays
+
+**5.** Explain why microwaves are used for communication with artificial satellites.
+
+**6.** State two differences between geostationary and low Earth orbit satellites.
+
+**7.** What is the main advantage of using optical fibres for transmitting television signals compared to copper wires?
+
+**8.** Describe one benefit of digital signalling over analogue signalling.
+
+### Extended Level
+
+**9.** A radio station broadcasts at a frequency of 100 MHz. Calculate the wavelength of these radio waves. (Take $c = 3.0 \times 10^8 \text{ m/s}$)
+
+**10.** Explain why mobile phones use microwaves rather than radio waves for communication.
+
+**11.** Describe how an optical fibre transmits light over long distances with minimal loss. Include reference to total internal reflection in your answer.
+
+**12.** Compare the transmission of sound using analogue and digital signals. State one advantage of each method.
+
+**13.** Explain why digital signals can be transmitted over longer distances with better quality than analogue signals.
+
+**14.** A satellite phone communicates with a low Earth orbit satellite at an altitude of 1,500 km. Calculate the minimum time delay for a signal to travel from the phone to the satellite and back.
+
+**15.** Explain why ultraviolet radiation is used for sterilising water, but visible light is not.
+
+**16.** Describe how thermal imaging cameras work, including reference to infrared radiation.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 16.1: Investigating Infrared Radiation
+
+**Objective:**
+To demonstrate the detection of infrared radiation and its heating effect.
+
+**Apparatus:**
+
+- Infrared lamp or heat source
+
+- Thermometer or temperature sensor with data logger
+
+- Black and white/silver surfaces (e.g., painted metal plates)
+
+- Retort stand and clamp
+
+- Stopwatch
+
+**Variables:**
+
+- **Independent:** Surface colour/texture (black vs. white/silver)
+
+- **Dependent:** Temperature change over time
+
+- **Controlled:** Distance from heat source, initial temperature, exposure time
+
+**Procedure:**
+
+1. Set up the infrared lamp at a fixed distance from the test surfaces.
+
+2. Place the black surface and the white/silver surface at equal distances from the lamp.
+
+3. Attach a thermometer or temperature sensor to each surface.
+
+4. Record the initial temperature of each surface.
+
+5. Switch on the infrared lamp and start the stopwatch.
+
+6. Record the temperature of each surface every 30 seconds for 5 minutes.
+
+7. Switch off the lamp and allow surfaces to cool.
+
+8. Repeat the experiment with the surfaces swapped to check for consistency.
+
+**Data Table:**
+
+| Time (s) | Temperature of black surface (°C) | Temperature of white/silver surface (°C) |
+|:---------|:----------------------------------|:-----------------------------------------|
+| 0 | | |
+| 30 | | |
+| 60 | | |
+| 90 | | |
+| 120 | | |
+| 150 | | |
+| 180 | | |
+| 210 | | |
+| 240 | | |
+| 270 | | |
+| 300 | | |
+
+**Analysis:**
+
+1. Plot a graph of temperature (y-axis) against time (x-axis) for both surfaces on the same axes.
+
+2. Compare the rates of temperature increase for the two surfaces.
+
+3. Explain the difference in terms of absorption of infrared radiation.
+
+**Precautions:**
+
+- ✓ Keep the distance from the lamp to each surface constant
+
+- ✓ Avoid touching the hot surfaces; use tongs if necessary
+
+- ✓ Ensure the thermometer bulbs are in good thermal contact with the surfaces
+
+- ✓ Allow surfaces to return to room temperature between trials
+
+**Expected Results:**
+
+- The black surface will heat up faster than the white/silver surface
+
+- This demonstrates that dark, dull surfaces absorb infrared radiation more effectively than light, shiny surfaces
+
+**Conclusion Template:**
+
+"The experiment demonstrated that black, dull surfaces absorb infrared radiation more effectively than white, shiny surfaces, as shown by the faster temperature rise of the black surface. This supports the principle that surface colour and texture affect the absorption of infrared radiation."
+
+**Extension (Supplement):**
+
+- Investigate the emission of infrared radiation by comparing cooling rates of hot black and white surfaces
+
+- Research applications: solar water heaters (blackened surfaces), space blankets (shiny surfaces)
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which region of the electromagnetic spectrum has the highest frequency?
+
+A. Radio waves  
+B. Microwaves  
+C. Ultraviolet  
+D. Gamma rays  
+
+**2.** All electromagnetic waves travel at the same speed in a vacuum. What is this speed?
+
+A. $3.0 \times 10^6 \text{ m/s}$  
+B. $3.0 \times 10^8 \text{ m/s}$  
+C. $3.0 \times 10^{10} \text{ m/s}$  
+D. $3.0 \times 10^{12} \text{ m/s}$  
+
+**3.** Which electromagnetic radiation is used in optical fibres for high-speed internet?
+
+A. Radio waves  
+B. Microwaves  
+C. Visible light or short-wavelength infrared  
+D. Ultraviolet  
+
+**4.** Which statement about digital signals is correct?
+
+A. Digital signals have continuous values  
+B. Digital signals cannot be regenerated accurately  
+C. Digital signals can be compressed to increase data transmission rates  
+D. Digital signals are always transmitted as analogue waves  
+
+**5.** Excessive exposure to which type of electromagnetic radiation can cause skin cancer?
+
+A. Radio waves  
+B. Microwaves  
+C. Infrared  
+D. Ultraviolet  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) List the main regions of the electromagnetic spectrum in order of increasing wavelength. [3]
+
+(b) State one typical use for:
+
+   (i) Microwaves [1]  
+   (ii) X-rays [1]  
+
+(c) Describe one harmful effect of excessive exposure to X-rays. [1]
+
+**7.** (a) State the speed of electromagnetic waves in a vacuum. [1]
+
+(b) A satellite television signal uses microwaves with a frequency of 12 GHz. Calculate the wavelength of these microwaves. [3]
+
+(c) Explain why microwaves are suitable for satellite communication. [2]
+
+**8.** (a) Describe the difference between an analogue signal and a digital signal. [2]
+
+(b) Sound can be transmitted using either analogue or digital signals. State one advantage of digital transmission. [1]
+
+(c) Explain why digital signals can be transmitted over longer distances with better quality than analogue signals. [3]
+
+**9.** (Extended) (a) Optical fibres are used for cable television and high-speed broadband.
+
+   (i) State the type of electromagnetic radiation used in optical fibres. [1]  
+   (ii) Explain why this type of radiation is suitable for use in optical fibres. [2]  
+
+(b) Compare the use of microwaves and radio waves for wireless communication. State one advantage of each. [2]
+
+(c) A geostationary satellite is used for direct broadcast television. Explain why geostationary satellites are suitable for this purpose. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Electromagnetic spectrum order** (increasing frequency): radio → microwave → infrared → visible → ultraviolet → X-ray → gamma  
+✓ **All EM waves** travel at $c = 3.0 \times 10^8 \text{ m/s}$ in vacuum; approximately same in air  
+✓ **Uses**: Radio (broadcasting, RFID), microwave (satellites, phones, ovens), infrared (heating, remote controls, thermal imaging), visible (vision, photography), UV (security, sterilisation), X-ray (medical imaging, security), gamma (sterilisation, cancer treatment)  
+✓ **Harmful effects**: Microwaves (internal heating), infrared (skin burns), UV (skin/eye damage, cancer), X-rays/gamma (cell damage, mutation, cancer)  
+✓ **Satellite communication**: Uses microwaves; geostationary (~36,000 km) for TV/phones; LEO (~500–2,000 km) for phones/observation  
+✓ **Wireless tech**: Mobile/Wi-Fi use microwaves (penetrate walls, short aerials); Bluetooth uses radio waves (pass through walls but weaken); optical fibres use visible/short IR (high data rates, low loss)  
+✓ **Analogue vs digital**: Analogue = continuous values; digital = discrete (1/0); digital enables compression, regeneration, error correction  
+✓ **Digital benefits**: Higher data rates, accurate regeneration over distance, encryption, easy storage/processing  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Wave speed | $c = f\lambda$ | $c$=speed in vacuum ($3.0 \times 10^8 \text{ m/s}$), $f$=frequency (Hz), $\lambda$=wavelength (m) |
+| Signal travel time | $t = \frac{d}{c}$ | $t$=time (s), $d$=distance (m), $c$=speed of EM waves |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 13 (Electromagnetic Spectrum)
+- Practical Work in Physics: Electromagnetic Radiation and Communication
+
+### Online Resources
+
+- PhET Interactive Simulations: Radio Waves & Electromagnetic Fields
+- BBC Bitesize: Electromagnetic Spectrum, Digital and Analogue Signals
+- NASA Space Place: The Electromagnetic Spectrum
+
+### Video Resources
+
+- Demonstration: Using a prism to show the visible spectrum and infrared detection
+- Animation: How optical fibres transmit data using total internal reflection
+- Real-world application: How satellite communication and mobile networks work
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Analogue signal** | A signal with continuous values that vary smoothly over time; information encoded in amplitude, frequency, or phase variations |
+| **Digital signal** | A signal with discrete values, typically two states ('on'/1 and 'off'/0); information encoded as binary data |
+| **Electromagnetic spectrum** | The complete range of electromagnetic waves arranged in order of frequency or wavelength |
+| **Electromagnetic wave** | A transverse wave consisting of oscillating electric and magnetic fields; can travel through vacuum at speed $c$ |
+| **Frequency ($f$)** | Number of complete waves passing a point per second; unit: hertz (Hz) |
+| **Geostationary satellite** | A satellite orbiting ~36,000 km above the equator with an orbital period of 24 hours, appearing stationary relative to Earth |
+| **Infrared radiation** | Electromagnetic radiation with wavelengths longer than visible red light; associated with heating effects |
+| **Low Earth Orbit (LEO) satellite** | A satellite orbiting ~500–2,000 km above Earth with an orbital period of ~90 minutes |
+| **Microwave** | Electromagnetic radiation with wavelengths between radio waves and infrared; used in communication and cooking |
+| **Optical fibre** | A thin glass or plastic fibre that transmits light by total internal reflection; used for high-speed data transmission |
+| **Total internal reflection** | The complete reflection of light within a denser medium when the angle of incidence exceeds the critical angle; principle behind optical fibres |
+| **Ultraviolet radiation** | Electromagnetic radiation with wavelengths shorter than visible violet light; can cause fluorescence and cell damage |
+| **Wavelength ($\lambda$)** | Shortest distance between two consecutive points in phase on a wave; unit: metre (m) |
+
+---
+
+*End of Chapter 16*

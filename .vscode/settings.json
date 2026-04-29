@@ -1,0 +1,57 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "quarto.quarto",
+  
+  "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.languageServer": "Pylance",
+  
+  "quarto.render.onSave": false,
+  "quarto.preview.autoLaunch": true,
+  "quarto.pandoc.enabled": true,
+  
+  "jupyter.askForKernelRestart": false,
+  "jupyter.enablePythonEnvSelection": true,
+  
+  "files.associations": {
+    "*.qmd": "quarto",
+    "*.Rmd": "rmd",
+    "*.ipynb": "json"
+  },
+  
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "icon": "terminal-bash"
+    }
+  },
+  
+  "files.exclude": {
+    "**/.git": true,
+    "**/.venv": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/_book": false
+  },
+  
+  "search.exclude": {
+    "**/_book/**": true,
+    "**/.venv/**": true,
+    "**/node_modules/**": true
+  },
+  
+  "editor.rulers": [80, 100],
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "selection",
+  
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  
+  "breadcrumbs.enabled": true,
+  "workbench.editor.enablePreview": false
+}

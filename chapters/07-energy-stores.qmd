@@ -1,0 +1,699 @@
+---
+title: "Energy Stores"
+chapter: 7
+syllabus-code: "1.7.1 Energy"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- State that energy may be stored as kinetic, gravitational potential, chemical, elastic (strain), nuclear, electrostatic and internal (thermal)
+
+- Describe how energy is transferred between stores during events and processes, including examples of transfer by forces (mechanical work done), electrical currents (electrical work done), heating, and by electromagnetic, sound and other waves
+
+- Know the principle of the conservation of energy and apply this principle to simple examples including the interpretation of simple flow diagrams
+
+**Supplement (Extended):**
+
+- Recall and use the equation for kinetic energy: $E_k = \frac{1}{2}mv^2$
+
+- Recall and use the equation for the change in gravitational potential energy: $\Delta E_p = mg\Delta h$
+
+- Know the principle of the conservation of energy and apply this principle to complex examples involving multiple stages, including the interpretation of Sankey diagrams
+
+---
+
+## What Is Energy?
+
+### Definition
+
+In physics:
+
+> **Energy is the capacity to do work.**
+
+- The SI unit of energy is the **joule (J)**
+
+- Work usually means making a body or an object move to achieve a purpose
+
+- In order to do work, energy is **transferred** between objects or **converted** from one form to another
+
+::: {.callout-note}
+**Key Concept:** Energy cannot be created or destroyed. It can only be transferred from one store to another or converted from one form to another. The total amount of energy remains constant.
+:::
+
+---
+
+## Different Forms of Energy Stores
+
+Energy may be stored in different forms. Each form represents a different way that energy can be held within a system.
+
+### Potential Energy Stores
+
+Potential energy is the **stored energy** in a system due to its state, shape, or position.
+
+| Type of Potential Energy | Description | Example |
+|:-------------------------|:------------|:--------|
+| **Chemical potential energy** | Energy stored in a substance due to the position of atoms or electrons | Food, fossil fuels, batteries |
+| **Elastic (strain) energy** | Energy stored in a body due to its elastic deformation | Stretched spring, compressed rubber band |
+| **Gravitational potential energy** | Energy stored in a body due to its height from the ground | Book on a shelf, water behind a dam |
+| **Electrostatic potential energy** | Energy stored in the electric fields of static charges | Charged capacitor in a camera flash |
+| **Nuclear energy** | Energy stored in the nuclei of atoms | Uranium fuel in nuclear power plants |
+
+### Kinetic Energy Store
+
+**Kinetic energy** is the energy of a body due to its motion.
+
+- Wind has kinetic energy
+
+- Sea waves, a spinning frisbee, and a rolling soccer ball all possess kinetic energy
+
+- Kinetic energy can be used to do work (e.g., wind turning turbines to generate electricity)
+
+### Internal (Thermal) Energy Store
+
+**Internal (thermal) energy** is the energy stored in a body due to its temperature.
+
+- The particles of a hotter body possess more internal energy than those of a colder body
+
+- Internal energy is transferred from the hotter body to the colder body
+
+### Other Energy Forms
+
+| Form | Description | Example |
+|:-----|:------------|:--------|
+| **Electrical energy** | Energy of an electric charge due to its motion and position | Lightning, mains electricity |
+| **Light (electromagnetic) energy** | Energy carried by electromagnetic waves | Sunlight, LED lamps |
+| **Sound energy** | Energy carried by mechanical waves through a medium | Music from a speaker, human voice |
+
+---
+
+## Calculating Energy Stores (Extended)
+
+### Kinetic Energy
+
+The kinetic energy ($E_k$) of a moving object depends on its **mass** and **speed**:
+
+$$E_k = \frac{1}{2}mv^2$$
+
+Where:
+
+- $E_k$ = kinetic energy (J)
+
+- $m$ = mass of the body (kg)
+
+- $v$ = speed of the body (m/s)
+
+::: {.callout-warning}
+**Important:** Speed must be in **metres per second (m/s)** and mass in **kilograms (kg)** for the answer to be in joules (J).
+:::
+
+#### Worked Example 1: Calculating Kinetic Energy
+
+**Question:**
+
+A bullet of mass 0.02 kg travels at a speed of 1200 m/s. Calculate its kinetic energy.
+
+**Solution:**
+
+$$E_k = \frac{1}{2}mv^2 = \frac{1}{2}(0.02)(1200)^2$$
+
+$$E_k = 0.01 \times 1\,440\,000 = \boxed{14\,400 \text{ J}}$$
+
+---
+
+### Gravitational Potential Energy
+
+The change in gravitational potential energy ($\Delta E_p$) depends on the **mass**, **gravitational field strength**, and **change in height**:
+
+$$\Delta E_p = mg\Delta h$$
+
+Where:
+
+- $\Delta E_p$ = change in gravitational potential energy (J)
+
+- $m$ = mass of the body (kg)
+
+- $g$ = gravitational field strength (N/kg); on Earth, $g \approx 10 \text{ N/kg}$
+
+- $\Delta h$ = change in height (m)
+
+#### Worked Example 2: Calculating Gravitational Potential Energy
+
+**Question:**
+
+A package of 5 kg is lifted vertically through a distance of 10 m at a constant speed. Taking $g = 10 \text{ N/kg}$, calculate the gravitational potential energy gained by the package.
+
+**Solution:**
+
+$$\Delta E_p = mg\Delta h = (5)(10)(10) = \boxed{500 \text{ J}}$$
+
+---
+
+#### Worked Example 3: Energy Conversion in a Pendulum (Extended)
+
+**Question:**
+
+Figure 7.1 shows a pendulum of mass 0.4 kg oscillating in a vacuum. If P is the lowest position of the pendulum where its maximum speed is 1.5 m/s, calculate:
+
+(a) the maximum kinetic energy of the pendulum
+
+(b) the maximum gravitational potential energy of the pendulum as it rises to its greatest height at Q
+
+(c) the greatest height, $h$
+
+(Take $g = 10 \text{ N/kg}$)
+
+**Solution:**
+
+**(a) Maximum kinetic energy at P:**
+
+$$E_k = \frac{1}{2}mv^2 = \frac{1}{2}(0.4)(1.5)^2 = \boxed{0.45 \text{ J}}$$
+
+**(b) Maximum gravitational potential energy at Q:**
+
+By conservation of energy:
+
+Loss of kinetic energy at P = Gain in gravitational potential energy at Q
+
+$$\therefore \Delta E_p = \boxed{0.45 \text{ J}}$$
+
+**(c) Greatest height $h$:**
+
+$$\Delta E_p = mg\Delta h$$
+
+$$0.45 = (0.4)(10)(h)$$
+
+$$h = \frac{0.45}{4.0} = \boxed{0.113 \text{ m}}$$
+
+---
+
+## 7.4 Energy Transfers Between Stores
+
+Energy is transferred between stores during events and processes. The main mechanisms of energy transfer are:
+
+### 1. Transfer by Forces (Mechanical Work Done)
+
+- When a force moves an object through a distance, energy is transferred mechanically
+
+- Example: Pushing a trolley transfers chemical energy from your muscles to kinetic energy of the trolley
+
+### 2. Transfer by Electrical Currents (Electrical Work Done)
+
+- When charge flows through a circuit, energy is transferred electrically
+
+- Example: A battery transfers chemical energy to electrical energy, which is then transferred to light and thermal energy in a bulb
+
+### 3. Transfer by Heating
+
+- Energy is transferred from a hotter object to a colder object
+
+- Example: A hot cup of tea transfers thermal energy to the surrounding air
+
+### 4. Transfer by Waves
+
+- Energy is transferred by electromagnetic, sound, or other waves
+
+- Example: Sunlight (electromagnetic waves) transfers energy from the Sun to the Earth
+
+---
+
+### Example: Energy Transfers in an Ideal Pendulum
+
+Figure 7.2 illustrates energy conversions in an ideal pendulum swinging without air resistance:
+
+1. **At position A (highest point):**
+
+   - The pendulum bob has maximum **gravitational potential energy**
+
+   - Kinetic energy is zero (bob is momentarily at rest)
+
+2. **As the bob swings down to position B (lowest point):**
+
+   - Gravitational potential energy is converted to **kinetic energy**
+
+   - The bob has maximum kinetic energy at B
+
+3. **As the bob swings up to position C (opposite highest point):**
+
+   - Kinetic energy is converted back to **gravitational potential energy**
+
+   - The bob is momentarily at rest at C
+
+**Flow diagram:**
+
+```
+Gravitational potential energy at A
+              ↓
+      Kinetic energy at B
+              ↓
+Gravitational potential energy at C
+```
+
+::: {.callout-note}
+**Key Insight:** Since energy cannot be created or destroyed, the kinetic energy gained must have been converted from the gravitational potential energy lost. In an ideal pendulum with no air resistance, the bob would swing forever.
+:::
+
+---
+
+## 7.5 The Principle of Conservation of Energy
+
+### Statement of the Principle
+
+> **Energy cannot be created or destroyed. It can be converted from one form to another or transferred from one body to another. The total amount of energy remains constant.**
+
+### Applying Conservation of Energy
+
+When energy is converted from one form to another:
+
+$$\text{Total energy before} = \text{Total energy after}$$
+
+#### Worked Example 4: Conservation of Energy in Free Fall
+
+**Question:**
+
+A 2.0 kg flower pot accidentally falls from a height of 45 m towards the ground. Assuming negligible air resistance and taking $g = 10 \text{ N/kg}$, calculate:
+
+(a) the gravitational potential energy of the flower pot before the fall
+
+(b) the speed of the flower pot just before it hits the ground
+
+**Solution:**
+
+**(a) Gravitational potential energy before fall:**
+
+$$\Delta E_p = mg\Delta h = (2.0)(10)(45) = \boxed{900 \text{ J}}$$
+
+**(b) Speed just before impact:**
+
+By conservation of energy:
+
+Loss of gravitational potential energy = Gain in kinetic energy
+
+$$900 = \frac{1}{2}mv^2$$
+
+$$900 = \frac{1}{2}(2.0)v^2$$
+
+$$v^2 = \frac{900}{1.0} = 900$$
+
+$$v = \sqrt{900} = \boxed{30 \text{ m/s}}$$
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Energy** is the capacity to do work; SI unit: joule (J)
+
+2. **Energy stores** include: kinetic, gravitational potential, chemical, elastic (strain), nuclear, electrostatic, and internal (thermal)
+
+3. **Potential energy** is stored energy due to state, shape, or position
+
+4. **Kinetic energy** is energy due to motion: $E_k = \frac{1}{2}mv^2$
+
+5. **Gravitational potential energy change**: $\Delta E_p = mg\Delta h$
+
+6. **Energy transfers** occur by: forces (mechanical work), electrical currents, heating, and waves
+
+7. **Conservation of energy**: Total energy before = Total energy after
+
+### Extended Concepts
+
+8. Apply conservation of energy to complex examples involving multiple stages
+
+9. Interpret simple flow diagrams and Sankey diagrams showing energy transfers
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Energy can be used up or destroyed"
+
+**Incorrect**: "When a battery runs out, the energy is gone"
+
+**Correct**:
+
+- Energy cannot be created or destroyed (conservation of energy)
+
+- When a battery "runs out", its **chemical energy store** has been transferred to other stores (e.g., light, thermal, sound)
+
+- The energy is **dissipated** (spread out) into the surroundings, often as thermal energy
+
+---
+
+### ⚠️ Misconception 2: "An object at rest has no energy"
+
+**Incorrect**: "A book on a shelf has zero energy"
+
+**Correct**:
+
+- A stationary object may have **gravitational potential energy** due to its height
+
+- It may also have **chemical energy** (if it is food or fuel) or **internal (thermal) energy** due to its temperature
+
+- Energy is a property of the **system**, not just motion
+
+---
+
+### ⚠️ Misconception 3: "Heavier objects always have more kinetic energy"
+
+**Incorrect**: "A truck always has more kinetic energy than a car"
+
+**Correct**:
+
+- Kinetic energy depends on **both mass and speed**: $E_k = \frac{1}{2}mv^2$
+
+- Speed is **squared** in the equation, so it has a greater effect than mass
+
+- Example: A 0.01 kg bullet at 500 m/s ($E_k = 1250 \text{ J}$) has more kinetic energy than a 1000 kg car at 1 m/s ($E_k = 500 \text{ J}$)
+
+---
+
+### ⚠️ Misconception 4: "Gravitational potential energy depends only on height"
+
+**Incorrect**: "Two objects at the same height have the same gravitational potential energy"
+
+**Correct**:
+
+- Gravitational potential energy depends on **mass**, **gravitational field strength**, and **height**: $\Delta E_p = mg\Delta h$
+
+- Two objects at the same height but with different masses have different gravitational potential energies
+
+- The same object has different gravitational potential energy on Earth ($g = 10 \text{ N/kg}$) and on the Moon ($g = 1.6 \text{ N/kg}$)
+
+---
+
+### ⚠️ Misconception 5: "Energy transfers are 100% efficient"
+
+**Incorrect**: "All the electrical energy in a bulb becomes light energy"
+
+**Correct**:
+
+- In real processes, some energy is always **dissipated** (usually as thermal energy)
+
+- A filament lamp converts only about 10% of electrical energy to light; the rest becomes thermal energy
+
+- Efficiency = $\frac{\text{useful energy output}}{\text{total energy input}} \times 100\%$
+
+---
+
+### ⚠️ Misconception 6: "Potential energy is only gravitational"
+
+**Incorrect**: "Potential energy means energy due to height"
+
+**Correct**:
+
+- **Potential energy** is a general term for stored energy due to state, shape, or position
+
+- Types include: gravitational, chemical, elastic (strain), electrostatic, nuclear, and magnetic potential energy
+
+- Each type has a different physical origin and conversion mechanism
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** State the seven forms in which energy may be stored.
+
+**2.** Give one example of an object that has:
+
+- (a) kinetic energy
+
+- (b) gravitational potential energy
+
+- (c) chemical potential energy
+
+- (d) elastic (strain) energy
+
+**3.** Describe two ways in which energy can be transferred from one store to another.
+
+**4.** State the principle of conservation of energy.
+
+**5.** A roller coaster car descends from a high point. Describe the main energy transfers that take place.
+
+**6.** Explain why a swinging pendulum eventually comes to rest in the real world, even though energy is conserved.
+
+**7.** A 3.0 kg object is lifted vertically through a height of 2.0 m. Calculate the gravitational potential energy gained. (Take $g = 10 \text{ N/kg}$)
+
+### Extended Level
+
+**8.** A cyclist of mass 70 kg rides at a speed of 8.0 m/s. Calculate the kinetic energy of the cyclist.
+
+**9.** A 0.5 kg ball is dropped from a height of 20 m. Assuming negligible air resistance:
+
+- (a) Calculate the gravitational potential energy lost by the ball
+
+- (b) Calculate the speed of the ball just before it hits the ground
+
+**10.** A spring is compressed and then released, launching a 0.1 kg trolley. The trolley moves at 2.0 m/s after release. Calculate the elastic potential energy that was stored in the spring (assume 100% energy transfer).
+
+**11.** A Sankey diagram for a filament lamp shows that 100 J of electrical energy is supplied. If the lamp has an efficiency of 10%, calculate:
+
+- (a) the useful light energy output
+
+- (b) the wasted thermal energy output
+
+**12.** Explain, using energy stores and transfers, what happens when a person jumps on a trampoline from the moment they leave the ground to the moment they return to the same height.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 7.1: Investigating Energy Transfers in a Pendulum
+
+**Objective:**
+
+To investigate the conversion between gravitational potential energy and kinetic energy in a swinging pendulum.
+
+**Apparatus:**
+
+- Pendulum bob and string
+
+- Retort stand and clamp
+
+- Metre rule
+
+- Light gate or stopwatch
+
+- Electronic balance
+
+**Variables:**
+
+- **Independent:** Height of release ($\Delta h$)
+
+- **Dependent:** Speed at lowest point ($v$)
+
+- **Controlled:** Mass of bob, length of string, release method
+
+**Procedure:**
+
+1. Measure and record the mass $m$ of the pendulum bob.
+
+2. Set up the pendulum with a fixed length of string.
+
+3. Displace the bob to a measured height $\Delta h$ above its lowest position.
+
+4. Release the bob and measure its speed $v$ at the lowest point using a light gate (or calculate from timing over a short distance).
+
+5. Repeat for at least five different release heights.
+
+6. For each trial, calculate:
+
+   - Gravitational potential energy lost: $\Delta E_p = mg\Delta h$
+
+   - Kinetic energy gained: $E_k = \frac{1}{2}mv^2$
+
+7. Compare $\Delta E_p$ and $E_k$ for each trial.
+
+**Data Table:**
+
+| Trial | $\Delta h$ (m) | $v$ (m/s) | $\Delta E_p = mg\Delta h$ (J) | $E_k = \frac{1}{2}mv^2$ (J) | % Difference |
+|:------|:---------------|:----------|:------------------------------|:----------------------------|:-------------|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+
+**Analysis:**
+
+1. Plot a graph of $E_k$ (y-axis) against $\Delta E_p$ (x-axis).
+
+2. If energy is conserved, the graph should be a straight line through the origin with gradient ≈ 1.
+
+3. Calculate the average percentage difference between $\Delta E_p$ and $E_k$.
+
+**Precautions:**
+
+- ✓ Ensure the pendulum swings in a vertical plane without elliptical motion
+
+- ✓ Release the bob gently without imparting extra force
+
+- ✓ Use a light gate for accurate speed measurement, or time over a short, measured distance
+
+- ✓ Minimise air resistance by using a dense, streamlined bob
+
+**Conclusion Template:**
+
+"The experiment showed that gravitational potential energy lost was approximately equal to kinetic energy gained, supporting the principle of conservation of energy. The average percentage difference was ___%, which may be attributed to air resistance and measurement uncertainties."
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which of the following is a form of potential energy?
+
+A. Kinetic energy
+
+B. Thermal energy
+
+C. Chemical energy
+
+D. Sound energy
+
+**2.** A ball of mass 0.2 kg is moving at 5 m/s. What is its kinetic energy?
+
+A. 0.5 J
+
+B. 2.5 J
+
+C. 5.0 J
+
+D. 25 J
+
+**3.** Which statement correctly describes the principle of conservation of energy?
+
+A. Energy can be created but not destroyed
+
+B. Energy can be destroyed but not created
+
+C. Energy can be converted from one form to another, but the total amount remains constant
+
+D. Energy is always lost as heat in any process
+
+**4.** A 2 kg object is lifted through a height of 3 m. Taking $g = 10 \text{ N/kg}$, what is the gain in gravitational potential energy?
+
+A. 6 J
+
+B. 15 J
+
+C. 30 J
+
+D. 60 J
+
+### Paper 3 Style (Structured)
+
+**5.** (a) State three forms in which energy may be stored. [3]
+
+(b) Describe one example of energy transfer by heating. [2]
+
+(c) A 1.5 kg book is lifted from the floor to a shelf 1.2 m high.
+
+   (i) Calculate the gravitational potential energy gained by the book. (Take $g = 10 \text{ N/kg}$) [2]
+
+   (ii) The book is then knocked off the shelf and falls to the floor. Assuming negligible air resistance, calculate the speed of the book just before it hits the floor. [3]
+
+**6.** (a) State the principle of conservation of energy. [1]
+
+(b) A roller coaster train of mass 1200 kg starts from rest at a height of 40 m above the ground.
+
+   (i) Calculate the gravitational potential energy of the train at the start. (Take $g = 10 \text{ N/kg}$) [2]
+
+   (ii) The train descends to a point 10 m above the ground. Assuming no energy is dissipated, calculate the kinetic energy of the train at this point. [2]
+
+   (iii) Hence, calculate the speed of the train at this point. [3]
+
+(c) In reality, the speed of the train is less than your calculated value. Suggest one reason for this difference. [1]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Energy** = capacity to do work; unit: joule (J)
+
+✓ **Energy stores**: kinetic, gravitational potential, chemical, elastic (strain), nuclear, electrostatic, internal (thermal)
+
+✓ **Kinetic energy**: $E_k = \frac{1}{2}mv^2$ (mass in kg, speed in m/s)
+
+✓ **Gravitational potential energy change**: $\Delta E_p = mg\Delta h$ ($g \approx 10 \text{ N/kg}$ on Earth)
+
+✓ **Energy transfers** occur by: forces (mechanical work), electrical currents, heating, waves
+
+✓ **Conservation of energy**: Total energy before = Total energy after; energy cannot be created or destroyed
+
+✓ **Efficiency**: $\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100\%$
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Kinetic energy | $E_k = \frac{1}{2}mv^2$ | $E_k$=kinetic energy (J), $m$=mass (kg), $v$=speed (m/s) |
+| Change in gravitational potential energy | $\Delta E_p = mg\Delta h$ | $\Delta E_p$=change in GPE (J), $m$=mass (kg), $g$=field strength (N/kg), $\Delta h$=height change (m) |
+| Efficiency | $\text{Efficiency} = \frac{\text{useful output}}{\text{total input}} \times 100\%$ | Expressed as a percentage |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 6 (Section 6.1 only)
+
+- Practical Work in Physics: Energy Transfers and Conservation
+
+### Online Resources
+
+- PhET Interactive Simulations: Energy Forms and Changes, Pendulum Lab
+
+- BBC Bitesize: Energy Stores and Transfers, Conservation of Energy
+
+### Video Resources
+
+- Demonstration: Pendulum energy conversions with light gate timing
+
+- Animation: Energy flow diagrams and Sankey diagrams explained
+
+- Real-world application: Renewable energy systems and efficiency
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Chemical potential energy** | Energy stored in a substance due to the position of atoms or electrons |
+| **Conservation of energy** | Principle that energy cannot be created or destroyed, only transferred or converted; total energy remains constant |
+| **Dissipated energy** | Energy that is spread out into the surroundings, usually as thermal energy, and is no longer available to do useful work |
+| **Elastic (strain) energy** | Energy stored in a body due to its elastic deformation (e.g., stretched spring) |
+| **Electrostatic potential energy** | Energy stored in the electric fields of static charges |
+| **Energy** | The capacity to do work; SI unit: joule (J) |
+| **Energy transfer** | Process by which energy moves from one store to another via forces, electrical currents, heating, or waves |
+| **Flow diagram** | Simple diagram showing the sequence of energy stores and transfers in a process |
+| **Gravitational potential energy** | Energy stored in a body due to its height in a gravitational field |
+| **Internal (thermal) energy** | Energy stored in a body due to its temperature; related to the kinetic energy of its particles |
+| **Kinetic energy** | Energy of a body due to its motion; $E_k = \frac{1}{2}mv^2$ |
+| **Nuclear energy** | Energy stored in the nuclei of atoms, released during nuclear reactions |
+| **Potential energy** | Stored energy in a system due to its state, shape, or position |
+| **Sankey diagram** | Diagram showing energy inputs, useful outputs, and wasted outputs; width of arrows represents energy magnitude |
+
+---
+
+*End of Chapter 7*

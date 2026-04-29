@@ -1,0 +1,817 @@
+---
+title: "Sound"
+chapter: 17
+syllabus-code: "3.4 Sound"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content:**
+
+- Describe the production of sound by vibrating sources
+
+- Describe the longitudinal nature of sound waves
+
+- State the approximate range of frequencies audible to humans as 20 Hz to 20 000 Hz
+
+- Know that a medium is needed to transmit sound waves
+
+- Know that the speed of sound in air is approximately 330–350 m/s
+
+- Describe a method involving a measurement of distance and time for determining the speed of sound in air
+
+- Describe how changes in amplitude and frequency affect the loudness and pitch of sound waves
+
+- Describe an echo as the reflection of sound waves
+
+- Define ultrasound as sound with a frequency higher than 20 kHz
+
+**Supplement (Extended):**
+
+- Describe compression and rarefaction
+
+- Know that, in general, sound travels faster in solids than in liquids and faster in liquids than in gases
+
+- Describe the uses of ultrasound in non-destructive testing of materials, medical scanning of soft tissue and sonar including calculation of depth or distance from time and wave speed
+
+---
+
+## 17.1 Production and Nature of Sound Waves
+
+### How Is Sound Produced?
+
+Sound is produced by **vibrating sources** placed in a medium.
+
+- When a guitar string vibrates, it pushes and pulls on the surrounding air particles
+
+- When vocal cords vibrate, they create pressure variations in the air
+
+- When a drum skin is struck, it vibrates and transfers energy to the air
+
+::: {.callout-note}
+**Key Concept:** Without vibration, there is no sound. If you stop a vibrating object (e.g., by placing your hand on a ringing bell), the sound stops because the vibration stops.
+:::
+
+### The Longitudinal Nature of Sound Waves
+
+Sound waves are **longitudinal waves**. This means:
+
+- The direction of vibration of particles is **parallel** to the direction of wave propagation
+
+- Sound waves propagate as a series of **compressions** and **rarefactions**
+
+| Term | Description | Particle Arrangement |
+|:-----|:------------|:---------------------|
+| **Compression** | Region where air pressure is higher than surrounding pressure | Particles are close together |
+| **Rarefaction** | Region where air pressure is lower than surrounding pressure | Particles are spread apart |
+
+**Visual representation of a sound wave:**
+
+```
+Direction of wave propagation →
+
+Compression    Rarefaction    Compression    Rarefaction
+[|||||]        [   ]          [|||||]        [   ]
+particles      particles      particles      particles
+close          spread         close          spread
+together       apart          together       apart
+```
+
+::: {.callout-warning}
+**Important:** Do not confuse the motion of individual particles with the motion of the wave. Particles oscillate back and forth about fixed positions; they do not travel with the wave.
+:::
+
+### The Audible Range of Human Hearing
+
+The human ear can detect sound waves within a specific range of frequencies:
+
+- **Lower limit**: approximately **20 Hz**
+
+- **Upper limit**: approximately **20 000 Hz** (or 20 kHz)
+
+**Terminology:**
+
+| Term | Frequency Range | Audible to Humans? |
+|:-----|:----------------|:-------------------|
+| **Infrasound** | Below 20 Hz | No |
+| **Audible sound** | 20 Hz to 20 kHz | Yes |
+| **Ultrasound** | Above 20 kHz | No |
+
+**Note:** The upper limit of hearing decreases with age. Many adults cannot hear sounds above 15–17 kHz.
+
+---
+
+## 17.2 Transmission of Sound
+
+### Why Is a Medium Needed?
+
+Sound waves require a **medium** (solid, liquid, or gas) to travel because:
+
+- Sound is produced by particle vibrations
+
+- These vibrations must be transferred from one particle to the next
+
+- In a vacuum, there are no particles to vibrate → sound cannot travel
+
+**Demonstration: The Bell Jar Experiment**
+
+1. An electric bell is suspended inside a sealed bell jar
+
+2. When the bell rings with air inside, the sound is clearly heard
+
+3. As air is pumped out, the sound becomes fainter
+
+4. When a near-vacuum is achieved, the sound cannot be heard (though the bell is still visibly vibrating)
+
+**Conclusion:** Sound cannot travel through a vacuum.
+
+### Speed of Sound in Different Media
+
+The speed of sound depends on the medium through which it travels:
+
+| Medium | Approximate Speed of Sound (m/s) |
+|:-------|:---------------------------------|
+| Air (at 20°C) | 330–350 |
+| Water | ≈ 1500 |
+| Steel | ≈ 5000 |
+| Granite | ≈ 5400 |
+
+**General rule:** Sound travels fastest in solids, slower in liquids, and slowest in gases.
+
+**Explanation using particle model:**
+
+- In solids, particles are closely packed → vibrations transfer quickly between particles
+
+- In liquids, particles are slightly further apart → transfer is slower
+
+- In gases, particles are far apart → transfer is slowest
+
+::: {.callout-note}
+**Key Insight:** The speed of sound also depends on temperature. In air, sound travels faster at higher temperatures because particles have more kinetic energy and collide more frequently.
+:::
+
+### Measuring the Speed of Sound in Air
+
+**Method: Distance–Time Measurement**
+
+**Apparatus:**
+
+- Two observers (A and B) positioned a known distance apart (e.g., 500 m)
+
+- Electronic starting pistol (produces flash and sound simultaneously)
+
+- Stopwatch
+
+- Measuring tape
+
+**Procedure:**
+
+1. Observer A fires the electronic starting pistol
+
+2. Observer B starts the stopwatch when seeing the flash (light travels almost instantaneously)
+
+3. Observer B stops the stopwatch when hearing the sound
+
+4. Record the time interval $t$
+
+5. Calculate speed: $v = \frac{d}{t}$
+
+**Example calculation:**
+
+- Distance $d = 500 \text{ m}$
+
+- Time $t = 1.5 \text{ s}$
+
+- Speed $v = \frac{500}{1.5} = 333 \text{ m/s}$
+
+**Precautions:**
+
+- ✓ Repeat the experiment and take an average to minimise random errors
+
+- ✓ Interchange positions of observers to cancel wind effects
+
+- ✓ Use a large distance to reduce timing error relative to total time
+
+---
+
+## 17.3 Loudness and Pitch
+
+### What Affects Loudness?
+
+**Loudness** is related to the **amplitude** of a sound wave.
+
+- Larger amplitude → louder sound
+
+- Smaller amplitude → softer sound
+
+**Particle explanation:**
+
+- Larger amplitude means particles oscillate with greater displacement
+
+- This creates larger pressure variations (greater difference between compressions and rarefactions)
+
+- The ear detects these larger pressure variations as a louder sound
+
+### What Affects Pitch?
+
+**Pitch** is related to the **frequency** of a sound wave.
+
+- Higher frequency → higher pitch
+
+- Lower frequency → lower pitch
+
+**Particle explanation:**
+
+- Higher frequency means particles oscillate more times per second
+
+- The ear interprets more frequent pressure variations as a higher-pitched sound
+
+### Visualising Sound Waves with a C.R.O.
+
+A cathode-ray oscilloscope (c.r.o.) connected to a microphone can display sound waveforms:
+
+| Waveform Feature | What It Represents |
+|:-----------------|:-------------------|
+| Height of wave (from rest position) | Amplitude → loudness |
+| Distance between successive peaks | Wavelength → related to frequency and pitch |
+| Number of waves per second on screen | Frequency → pitch |
+
+**Example comparisons:**
+
+- A loud, low-pitched sound: large amplitude, widely spaced peaks
+
+- A soft, high-pitched sound: small amplitude, closely spaced peaks
+
+---
+
+## 17.4 Echoes and Ultrasound
+
+### What Is an Echo?
+
+An **echo** is the **reflection of sound waves** from a hard, flat surface.
+
+**How echoes form:**
+
+1. Sound waves travel from a source towards a surface (e.g., a wall or cliff)
+
+2. The waves strike the surface and are reflected back
+
+3. The reflected waves reach the listener after a time delay
+
+**Law of reflection for sound:**
+
+- Angle of incidence = Angle of reflection
+
+- Both angles measured from the normal to the reflecting surface
+
+**Calculating distance using echoes:**
+
+$$d = \frac{v \times t}{2}$$
+
+Where:
+- $d$ = distance to reflecting surface (m)
+
+- $v$ = speed of sound in the medium (m/s)
+
+- $t$ = time for echo to return (s)
+
+- Divide by 2 because sound travels to the surface and back
+
+**Worked Example: Echo Calculation**
+
+**Question:**
+A ship sends a sound pulse downwards into the sea. An echo from the seabed is received 0.4 s later. If the speed of sound in seawater is 1500 m/s, calculate the depth of the sea.
+
+**Solution:**
+
+**Step 1:** Identify values
+- $v = 1500 \text{ m/s}$
+
+- $t = 0.4 \text{ s}$
+
+**Step 2:** Apply formula
+$$d = \frac{v \times t}{2} = \frac{1500 \times 0.4}{2} = \boxed{300 \text{ m}}$$
+
+---
+
+### What Is Ultrasound?
+
+**Ultrasound** is sound with a frequency **higher than 20 kHz** (above the upper limit of human hearing).
+
+### Uses of Ultrasound
+
+#### 1. Non-Destructive Testing of Materials
+
+- Ultrasound is sent through materials such as metal pipes or concrete slabs
+
+- Defects (cracks, cavities) reflect or scatter the ultrasound
+
+- By analysing the reflected signals, engineers can locate and size defects without damaging the material
+
+#### 2. Medical Scanning of Soft Tissue
+
+- Ultrasound pulses are sent into the body via a transducer
+
+- Different tissues reflect ultrasound to different degrees
+
+- The time taken for echoes to return is used to build up an image of internal structures
+
+- **Advantages over X-rays:** Ultrasound is non-ionising and safer for scanning foetuses and soft tissues
+
+#### 3. Sonar (Sound Navigation and Ranging)
+
+- Ships use sonar to detect the depth of the seabed or the position of objects underwater
+
+- A pulse of ultrasound is sent downwards; the time for the echo to return is measured
+
+- Depth is calculated using $d = \frac{v \times t}{2}$
+
+**Worked Example: Sonar Calculation**
+
+**Question:**
+A submarine uses sonar to detect a shoal of fish. The ultrasound pulse returns after 0.12 s. If the speed of sound in seawater is 1500 m/s, calculate the distance to the shoal.
+
+**Solution:**
+
+**Step 1:** Identify values
+- $v = 1500 \text{ m/s}$
+
+- $t = 0.12 \text{ s}$
+
+**Step 2:** Apply formula
+$$d = \frac{v \times t}{2} = \frac{1500 \times 0.12}{2} = \boxed{90 \text{ m}}$$
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Sound production**: Sound is produced by vibrating sources in a medium
+
+2. **Longitudinal waves**: Sound waves consist of compressions and rarefactions; particle vibration is parallel to wave propagation
+
+3. **Audible range**: Humans can hear frequencies from approximately 20 Hz to 20 kHz
+
+4. **Medium required**: Sound cannot travel through a vacuum; it requires a medium (solid, liquid, or gas)
+
+5. **Speed of sound**: Approximately 330–350 m/s in air; faster in liquids and solids
+
+6. **Speed measurement**: Use distance–time method with flash and sound from a starting pistol
+
+7. **Loudness and pitch**: Loudness depends on amplitude; pitch depends on frequency
+
+8. **Echoes**: Reflection of sound waves; used to calculate distances
+
+9. **Ultrasound**: Sound with frequency > 20 kHz; used in testing, medical scanning, and sonar
+
+### Extended Concepts
+
+10. **Compression and rarefaction**: Regions of high and low pressure in a longitudinal sound wave
+
+11. **Speed comparison**: Sound travels fastest in solids, slower in liquids, slowest in gases
+
+12. **Ultrasound applications**: Non-destructive testing, medical imaging, sonar depth/distance calculations
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Sound can travel through a vacuum"
+
+**Incorrect**: "Sound from explosions in space movies is realistic"
+
+**Correct**:
+- Sound requires a medium (particles) to transfer vibrations
+
+- In a vacuum, there are no particles → sound cannot propagate
+
+- Space is a near-vacuum → no sound can travel through it
+
+---
+
+### ⚠️ Misconception 2: "Particles travel with the sound wave"
+
+**Incorrect**: "Air molecules move from the speaker to your ear when you hear music"
+
+**Correct**:
+- Particles oscillate back and forth about fixed positions
+
+- They transfer energy to neighbouring particles through collisions
+
+- Only the **wave pattern and energy** travel forward, not the particles themselves
+
+---
+
+### ⚠️ Misconception 3: "Loudness depends on frequency"
+
+**Incorrect**: "High-pitched sounds are always louder than low-pitched sounds"
+
+**Correct**:
+- **Loudness** depends on **amplitude** (size of pressure variations)
+
+- **Pitch** depends on **frequency** (number of vibrations per second)
+
+- A low-pitched sound can be very loud if it has large amplitude
+
+---
+
+### ⚠️ Misconception 4: "Ultrasound is harmful because it is 'ultra'"
+
+**Incorrect**: "Ultrasound is dangerous because it is very high frequency"
+
+**Correct**:
+- Ultrasound is **non-ionising** radiation and is generally safe at diagnostic intensities
+
+- It is preferred over X-rays for scanning foetuses because it does not damage cells
+
+- Harm depends on **intensity and exposure time**, not just frequency
+
+---
+
+### ⚠️ Misconception 5: "Echoes are a different type of sound"
+
+**Incorrect**: "An echo is a special kind of sound wave"
+
+**Correct**:
+- An echo is simply a **reflected sound wave**
+
+- It has the same frequency, speed, and wavelength as the original sound
+
+- The only difference is the direction of propagation and the time delay
+
+---
+
+### ⚠️ Misconception 6: "Sound travels at the same speed in all materials"
+
+**Incorrect**: "Sound travels at 340 m/s everywhere"
+
+**Correct**:
+- Speed of sound depends on the **medium** and its properties (density, elasticity, temperature)
+
+- In air: ~330–350 m/s; in water: ~1500 m/s; in steel: ~5000 m/s
+
+- Temperature also affects speed: sound travels faster in warmer air
+
+---
+
+### ⚠️ Misconception 7: "Ultrasound cannot be used for distance measurement"
+
+**Incorrect**: "Ultrasound is only for medical imaging"
+
+**Correct**:
+- Ultrasound is ideal for distance measurement because:
+  - High frequency → short wavelength → precise measurements
+
+  - Can be directed in narrow beams
+
+  - Reflects well from boundaries between different materials
+
+- Used in sonar, parking sensors, and industrial thickness gauging
+
+---
+
+## Worked Examples
+
+### Example 1: Frequency and Period
+
+**Question:**
+A tuning fork vibrates at a frequency of 440 Hz. Calculate:
+(a) the period of one vibration
+(b) the number of complete vibrations in 2.5 seconds
+
+**Solution:**
+
+**(a) Period:**
+$$T = \frac{1}{f} = \frac{1}{440} = \boxed{0.00227 \text{ s} = 2.27 \text{ ms}}$$
+
+**(b) Number of vibrations:**
+$$\text{Number} = f \times t = 440 \times 2.5 = \boxed{1100 \text{ vibrations}}$$
+
+---
+
+### Example 2: Speed of Sound Calculation
+
+**Question:**
+A student stands 170 m from a large wall and claps her hands. She hears the echo 1.0 s later. Calculate the speed of sound in air.
+
+**Solution:**
+
+**Step 1:** Identify that sound travels to the wall and back
+$$\text{Total distance} = 2 \times 170 = 340 \text{ m}$$
+
+**Step 2:** Apply speed formula
+$$v = \frac{\text{distance}}{\text{time}} = \frac{340}{1.0} = \boxed{340 \text{ m/s}}$$
+
+---
+
+### Example 3: Ultrasound in Medical Scanning
+
+**Question:**
+An ultrasound scanner sends a pulse into a patient's abdomen. The pulse reflects off the foetus and returns to the scanner after 0.00012 s. If the speed of ultrasound in soft tissue is 1540 m/s, calculate the depth of the foetus below the scanner.
+
+**Solution:**
+
+**Step 1:** Identify values
+- $v = 1540 \text{ m/s}$
+
+- $t = 0.00012 \text{ s}$
+
+**Step 2:** Apply echo formula
+$$d = \frac{v \times t}{2} = \frac{1540 \times 0.00012}{2} = \boxed{0.0924 \text{ m} = 9.24 \text{ cm}}$$
+
+---
+
+### Example 4: Comparing Loudness and Pitch
+
+**Question:**
+Two sound waves are displayed on a c.r.o. Wave A has an amplitude of 2.0 cm and a wavelength of 4.0 cm. Wave B has an amplitude of 1.0 cm and a wavelength of 2.0 cm. The time base is the same for both. Compare the loudness and pitch of the two sounds.
+
+**Solution:**
+
+**Loudness comparison:**
+- Amplitude of A (2.0 cm) > Amplitude of B (1.0 cm)
+
+- Therefore, **Sound A is louder** than Sound B
+
+**Pitch comparison:**
+- Wavelength of A (4.0 cm) > Wavelength of B (2.0 cm)
+
+- Since $v = f\lambda$ and $v$ is constant, longer wavelength → lower frequency
+
+- Therefore, **Sound A has a lower pitch** than Sound B
+
+**Conclusion:** Sound A is louder but lower-pitched than Sound B.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Describe how sound is produced by a vibrating source.
+
+**2.** State whether sound waves are transverse or longitudinal. Explain your answer.
+
+**3.** State the approximate range of frequencies that can be heard by a healthy human ear.
+
+**4.** Explain why sound cannot travel through a vacuum.
+
+**5.** State the approximate speed of sound in air.
+
+**6.** Describe a method to measure the speed of sound in air using a starting pistol and a stopwatch.
+
+**7.** Explain how the amplitude and frequency of a sound wave affect the loudness and pitch of the sound.
+
+**8.** Define the term *echo*.
+
+**9.** Define *ultrasound* and state its frequency range.
+
+**10.** A ship uses sonar to measure the depth of the sea. The ultrasound pulse returns after 0.20 s. If the speed of sound in seawater is 1500 m/s, calculate the depth.
+
+### Extended Level
+
+**11.** Describe, in terms of particle motion, what happens in a compression and a rarefaction of a sound wave.
+
+**12.** Explain why sound travels faster in steel than in air, using the kinetic particle model.
+
+**13.** Describe how ultrasound is used in non-destructive testing of materials. Include a labelled diagram if helpful.
+
+**14.** A bat emits an ultrasound pulse at 50 kHz. The pulse reflects off an insect and returns after 0.02 s. If the speed of sound in air is 340 m/s, calculate the distance to the insect.
+
+**15.** Explain why ultrasound is preferred over X-rays for scanning a developing foetus.
+
+**16.** Two sound waves have the same amplitude but different frequencies. Compare their loudness and pitch.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 17.1: Measuring the Speed of Sound Using Echoes
+
+**Objective:**
+To determine the speed of sound in air by measuring the time for an echo to return from a reflecting surface.
+
+**Apparatus:**
+- Two flat wooden boards (to create a sharp clap)
+
+- Stopwatch
+
+- Measuring tape (at least 50 m)
+
+- Large flat wall or building (reflecting surface)
+
+**Variables:**
+- **Independent:** Distance to reflecting surface
+
+- **Dependent:** Time for echo to return
+
+- **Controlled:** Same clapping method, same observer timing, same environmental conditions
+
+**Procedure:**
+1. Measure and mark a distance $d$ (e.g., 50 m) from a large flat wall.
+
+2. Stand at the marked position facing the wall.
+
+3. Clap the two boards together sharply and listen for the echo.
+
+4. Practise clapping rhythmically so that each clap coincides with the echo of the previous clap.
+
+5. Once a steady rhythm is achieved, have a partner time 20 claps using a stopwatch.
+
+6. Record the total time $t_{\text{total}}$ for 20 claps.
+
+7. Calculate the time for one round trip: $t = \frac{t_{\text{total}}}{20}$
+
+8. Calculate the speed of sound: $v = \frac{2d}{t}$
+
+9. Repeat for different distances and calculate an average value.
+
+**Data Table:**
+
+| Trial | Distance $d$ (m) | Time for 20 claps $t_{\text{total}}$ (s) | Time for one round trip $t$ (s) | Calculated speed $v$ (m/s) |
+|:------|:-----------------|:-----------------------------------------|:--------------------------------|:---------------------------|
+| 1 | 50 | | | |
+| 2 | 60 | | | |
+| 3 | 70 | | | |
+| **Average** | — | — | — | **$v_{\text{avg}}$ =** |
+
+**Analysis:**
+1. Calculate the speed of sound for each trial using $v = \frac{2d}{t}$
+
+2. Calculate the average speed from all trials
+
+3. Compare your result with the accepted value (~340 m/s) and discuss possible sources of error
+
+**Precautions:**
+- ✓ Choose a quiet location to hear echoes clearly
+
+- ✓ Ensure the reflecting surface is large and flat for a clear echo
+
+- ✓ Practise the clapping rhythm before timing to reduce reaction time errors
+
+- ✓ Use a distance of at least 50 m to make timing errors relatively small
+
+**Expected Results:**
+- The calculated speed should be close to 330–350 m/s, depending on air temperature
+
+- Repeating at different distances helps identify and reduce systematic errors
+
+**Conclusion Template:**
+"The speed of sound in air was determined to be ______ m/s. This value is [close to/different from] the accepted value of 340 m/s, which may be due to [reaction time errors/temperature variations/wind effects/etc.]."
+
+**Extension (Supplement):**
+- Investigate how temperature affects the speed of sound by conducting the experiment at different times of day
+
+- Compare the speed of sound in different media (e.g., through a metal rod vs. through air)
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly describes how sound is produced?
+
+A. By vibrating sources in a medium  
+B. By stationary sources in a vacuum  
+C. By electromagnetic waves in air  
+D. By light waves in a medium  
+
+**2.** Sound waves are longitudinal waves. This means that:
+
+A. The particles vibrate perpendicular to the direction of wave travel  
+B. The particles vibrate parallel to the direction of wave travel  
+C. The waves can travel through a vacuum  
+D. The waves have compressions but no rarefactions  
+
+**3.** The approximate range of frequencies audible to humans is:
+
+A. 2 Hz to 200 Hz  
+B. 20 Hz to 2000 Hz  
+C. 20 Hz to 20 000 Hz  
+D. 200 Hz to 20 000 Hz  
+
+**4.** Which statement about the speed of sound is correct?
+
+A. Sound travels fastest in gases  
+B. Sound travels at the same speed in all media  
+C. Sound travels faster in solids than in liquids  
+D. Sound cannot travel through liquids  
+
+**5.** Ultrasound is defined as sound with a frequency:
+
+A. Below 20 Hz  
+B. Between 20 Hz and 20 kHz  
+C. Above 20 kHz  
+D. Exactly 20 kHz  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Describe how sound is produced by a vibrating source. [2]
+
+(b) Explain why sound cannot travel through a vacuum. [2]
+
+(c) State the approximate speed of sound in air. [1]
+
+**7.** (a) Define the terms *compression* and *rarefaction* as applied to sound waves. [2]
+
+(b) A student claps her hands 100 m from a large wall. She hears the echo 0.59 s later.
+   (i) Calculate the speed of sound in air based on this measurement. [3]
+   (ii) Suggest one reason why her calculated value might differ from the accepted value. [1]
+
+**8.** (a) Explain how the amplitude and frequency of a sound wave affect the loudness and pitch of the sound. [3]
+
+(b) A microphone connected to a c.r.o. displays the waveform of a sound. Describe how the display would change if:
+   (i) the sound became louder but kept the same pitch [2]
+   (ii) the sound became higher-pitched but kept the same loudness [2]
+
+**9.** (Extended) (a) Describe how ultrasound is used in medical scanning of soft tissue. Include reference to how the image is formed. [4]
+
+(b) A ship uses sonar to detect a submarine. The ultrasound pulse returns after 0.30 s. If the speed of sound in seawater is 1500 m/s, calculate the distance to the submarine. [3]
+
+(c) Explain why ultrasound is suitable for measuring distances underwater. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Sound production**: Vibrating sources in a medium produce sound waves  
+✓ **Longitudinal waves**: Sound consists of compressions and rarefactions; particle vibration ∥ wave propagation  
+✓ **Audible range**: ~20 Hz to ~20 kHz for healthy human hearing  
+✓ **Medium required**: Sound cannot travel through a vacuum; needs solid, liquid, or gas  
+✓ **Speed of sound**: ~330–350 m/s in air; faster in liquids and solids  
+✓ **Speed measurement**: Use distance–time method with flash and sound  
+✓ **Loudness**: Depends on amplitude; larger amplitude → louder sound  
+✓ **Pitch**: Depends on frequency; higher frequency → higher pitch  
+✓ **Echoes**: Reflection of sound; used to calculate distances: $d = \frac{v \times t}{2}$  
+✓ **Ultrasound**: Frequency > 20 kHz; used in testing, medical scanning, sonar  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Wave speed | $v = f\lambda$ | $v$=speed (m/s), $f$=frequency (Hz), $\lambda$=wavelength (m) |
+| Frequency–period | $f = \frac{1}{T}$ or $T = \frac{1}{f}$ | $T$=period (s), $f$=frequency (Hz) |
+| Echo distance | $d = \frac{v \times t}{2}$ | $d$=distance to reflector (m), $v$=speed of sound (m/s), $t$=echo time (s) |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 14 (Sound)
+
+- Practical Work in Physics: Sound Waves and Ultrasound Experiments
+
+### Online Resources
+
+- PhET Interactive Simulations: Sound, Wave on a String
+
+- BBC Bitesize: Sound Waves, Ultrasound, Echoes
+
+- University of Colorado: Sound wave simulations and visualisations
+
+### Video Resources
+
+- Demonstration: Bell jar experiment showing sound cannot travel in vacuum
+
+- Animation: Particle motion in compressions and rarefactions
+
+- Real-world application: How sonar and medical ultrasound work
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Amplitude** | Maximum displacement of a particle from its rest position; determines loudness of sound |
+| **Audible range** | Range of frequencies detectable by the human ear (~20 Hz to ~20 kHz) |
+| **Compression** | Region in a longitudinal sound wave where particles are close together and pressure is high |
+| **Echo** | Reflection of sound waves from a hard, flat surface; used to calculate distances |
+| **Frequency ($f$)** | Number of complete waves (or vibrations) per second; unit: hertz (Hz); determines pitch |
+| **Infrasound** | Sound with frequency below 20 Hz; inaudible to humans |
+| **Longitudinal wave** | Wave in which particle vibration is parallel to the direction of wave propagation |
+| **Pitch** | Perception of how high or low a sound is; determined by frequency |
+| **Rarefaction** | Region in a longitudinal sound wave where particles are spread apart and pressure is low |
+| **Sonar** | Sound Navigation and Ranging; uses ultrasound pulses to detect objects and measure distances underwater |
+| **Ultrasound** | Sound with frequency higher than 20 kHz; inaudible to humans but useful in medical and industrial applications |
+
+---
+
+*End of Chapter 17*

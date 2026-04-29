@@ -1,0 +1,1337 @@
+---
+title: "Nuclear Physics"
+chapter: 22
+syllabus-code: "5.1 The nuclear model of the atom; 5.2 Radioactivity"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (5.1.1 The Atom):**
+
+- Describe the structure of an atom in terms of a positively charged nucleus and negatively charged electrons in orbit around the nucleus
+
+- Know how atoms may form positive ions by losing electrons or form negative ions by gaining electrons
+
+**Core Content (5.1.2 The Nucleus):**
+
+- Describe the composition of the nucleus in terms of protons and neutrons
+
+- State the relative charges of protons, neutrons and electrons as +1, 0 and –1 respectively
+
+- Define the terms proton number (atomic number) Z and nucleon number (mass number) A and be able to calculate the number of neutrons in a nucleus
+
+- Use the nuclide notation $^A_ZX$
+
+- Explain what is meant by an isotope and state that an element may have more than one isotope
+
+**Core Content (5.2.1 Detection of Radioactivity):**
+
+- Know what is meant by background radiation
+
+- Know the sources that make a significant contribution to background radiation including: radon gas (in the air), rocks and buildings, food and drink, cosmic rays
+
+- Know that ionising nuclear radiation can be measured using a detector connected to a counter
+
+- Use count rate measured in counts/s or counts/min
+
+**Core Content (5.2.2 The Three Types of Nuclear Emission):**
+
+- Describe the emission of radiation from a nucleus as spontaneous and random in direction
+
+- Identify alpha (α-), beta (β-) and gamma (γ-) emissions from the nucleus by recalling:
+
+  - (a) their nature
+
+  - (b) their relative ionising effects
+
+  - (c) their relative penetrating abilities (β+ are not included, β-particles will be taken to refer to β–)
+
+**Core Content (5.2.3 Radioactive Decay):**
+
+- Know that radioactive decay is a change in an unstable nucleus that can result in the emission of α-particles or β-particles and/or γ-radiation and know that these changes are spontaneous and random
+
+- State that during α-decay or β-decay, the nucleus changes to that of a different element
+
+**Core Content (5.2.4 Half-life):**
+
+- Define the half-life of a particular isotope as the time taken for half the nuclei of that isotope in any sample to decay; recall and use this definition in simple calculations, which might involve information in tables or decay curves (calculations will not include background radiation)
+
+**Core Content (5.2.5 Safety Precautions):**
+
+- State the effects of ionising nuclear radiations on living things, including cell death, mutations and cancer
+
+- Describe how radioactive materials are moved, used and stored in a safe way
+
+**Supplement (Extended):**
+
+- Describe how the scattering of alpha (α) particles by a sheet of thin metal supports the nuclear model of the atom, by providing evidence for:
+
+  - (a) a very small nucleus surrounded by mostly empty space
+
+  - (b) a nucleus containing most of the mass of the atom
+
+  - (c) a nucleus that is positively charged
+
+- Describe the processes of nuclear fission and nuclear fusion as the splitting or joining of nuclei, to include the nuclide equation and qualitative description of mass and energy changes without values
+
+- Know the relationship between the proton number and the relative charge on a nucleus
+
+- Know the relationship between the nucleon number and the relative mass of a nucleus
+
+- Describe the deflection of α-particles, β-particles and γ-radiation in electric fields and magnetic fields
+
+- Explain their relative ionising effects with reference to:
+
+  - (a) kinetic energy
+
+  - (b) electric charge
+
+- Know that isotopes of an element may be radioactive due to an excess of neutrons in the nucleus and/or the nucleus being too heavy
+
+- Describe the effect of α-decay, β-decay and γ-emissions on the nucleus, including an increase in stability and a reduction in the number of excess neutrons; the following change in the nucleus occurs during β-emission: neutron → proton + electron
+
+- Use decay equations, using nuclide notation, to show the emission of α-particles, β-particles and γ-radiation
+
+- Calculate half-life from data or decay curves from which background radiation has not been subtracted
+
+- Explain how the type of radiation emitted and the half-life of an isotope determine which isotope is used for applications including:
+
+  - (a) household fire (smoke) alarms
+
+  - (b) irradiating food to kill bacteria
+
+  - (c) sterilisation of equipment using gamma rays
+
+  - (d) measuring and controlling thicknesses of materials with the choice of radiations used linked to penetration and absorption
+
+  - (e) diagnosis and treatment of cancer using gamma rays
+
+- Explain safety precautions for all ionising radiation in terms of reducing exposure time, increasing distance between source and living tissue and using shielding to absorb radiation
+
+---
+
+## The Nuclear Model of the Atom
+
+### What Is an Atom?
+
+An **atom** is the smallest unit of a chemical element that retains the chemical properties of that element. However, atoms are not indivisible — they consist of even smaller particles.
+
+**Structure of an atom:**
+
+- **Nucleus**: A small, dense, positively charged centre containing protons and neutrons
+
+- **Electrons**: Negatively charged particles that orbit the nucleus at relatively large distances
+
+```
+                    Electron orbit
+                    ↗
+    ┌─────────────────────────┐
+    │                         │
+    │    ● ● ● ● ● ● ● ●     │  ← Electrons in orbit
+    │                         │
+    │         [Nucleus]       │  ← Protons (+) and neutrons (0)
+    │                         │
+    └─────────────────────────┘
+```
+
+::: {.callout-note}
+**Key Concept:** The nucleus contains almost all the mass of the atom but occupies a tiny fraction of its volume. If an atom were the size of a football stadium, the nucleus would be about the size of a marble at the centre!
+:::
+
+### Relative Charges and Masses of Subatomic Particles
+
+| Particle | Relative Charge | Relative Mass (atomic mass units) | Location |
+|:---------|:----------------|:----------------------------------|:---------|
+| **Proton** | +1 | 1 | Nucleus |
+| **Neutron** | 0 | 1 | Nucleus |
+| **Electron** | –1 | $\frac{1}{2000}$ (≈ 0.0005) | Orbiting nucleus |
+
+::: {.callout-warning}
+**Important:** The relative mass of an electron is so small that it is often considered negligible when calculating the mass of an atom. The mass of an atom is essentially the mass of its nucleus.
+:::
+
+### Proton Number and Nucleon Number
+
+**Proton number (atomic number) Z:**
+
+- The number of protons in the nucleus of an atom
+
+- Determines the identity of the element (e.g., all carbon atoms have Z = 6)
+
+- In a neutral atom, the number of electrons equals the proton number
+
+**Nucleon number (mass number) A:**
+
+- The total number of protons and neutrons in the nucleus
+
+- A = number of protons + number of neutrons
+
+**Calculating the number of neutrons:**
+
+$$\text{Number of neutrons} = A - Z$$
+
+### Nuclide Notation
+
+Atoms are represented using **nuclide notation**:
+
+$$^A_ZX$$
+
+Where:
+- $X$ = chemical symbol of the element
+- $A$ = nucleon number (mass number)
+- $Z$ = proton number (atomic number)
+
+**Example:** Carbon-12 is written as $^{12}_6\text{C}$
+
+- 6 protons in the nucleus
+- 12 – 6 = 6 neutrons in the nucleus
+- 6 electrons orbiting the nucleus (in a neutral atom)
+
+### Isotopes
+
+**Isotopes** are atoms of the same element that have:
+
+- The **same proton number** (same number of protons)
+
+- **Different nucleon numbers** (different numbers of neutrons)
+
+**Example: Isotopes of carbon**
+
+| Isotope | Nuclide Notation | Protons | Neutrons | Electrons |
+|:--------|:-----------------|:--------|:---------|:----------|
+| Carbon-12 | $^{12}_6\text{C}$ | 6 | 6 | 6 |
+| Carbon-13 | $^{13}_6\text{C}$ | 6 | 7 | 6 |
+| Carbon-14 | $^{14}_6\text{C}$ | 6 | 8 | 6 |
+
+::: {.callout-note}
+**Key Insight:** Isotopes of the same element have identical chemical properties (because they have the same number of electrons) but may have different physical properties (e.g., mass, stability).
+:::
+
+### Formation of Ions
+
+Atoms can gain or lose electrons to form **ions**:
+
+**Positive ions (cations):**
+
+- Formed when an atom **loses electrons**
+
+- Has more protons than electrons → net positive charge
+
+- Example: Sodium atom (Na) loses 1 electron → sodium ion (Na$^+$)
+
+**Negative ions (anions):**
+
+- Formed when an atom **gains electrons**
+
+- Has more electrons than protons → net negative charge
+
+- Example: Chlorine atom (Cl) gains 1 electron → chloride ion (Cl$^-$)
+
+::: {.callout-warning}
+**Important:** Only electrons are transferred when atoms form ions. Protons remain fixed in the nucleus and do not participate in ion formation.
+:::
+
+### Evidence for the Nuclear Model: Rutherford's Scattering Experiment
+
+In 1911, Ernest Rutherford, with his assistants Geiger and Marsden, conducted an experiment that provided crucial evidence for the nuclear model of the atom.
+
+**The experiment:**
+
+1. A beam of alpha (α) particles was directed at a very thin sheet of gold foil
+
+2. A fluorescent screen surrounding the foil detected where the α-particles landed
+
+3. The scattering pattern was observed and recorded
+
+**Observations:**
+
+- **Most α-particles** passed straight through the foil with little or no deflection
+
+- **Some α-particles** were deflected at small angles
+
+- **A very few α-particles** (about 1 in 8000) were deflected at angles greater than 90° — some even bounced straight back!
+
+**Conclusions:**
+
+| Observation | Conclusion |
+|:------------|:-----------|
+| Most α-particles passed through | The atom is mostly **empty space** |
+| Some α-particles deflected at small angles | The nucleus is **positively charged** (like charges repel) |
+| Very few α-particles deflected at large angles | The nucleus is **very small and contains most of the mass** |
+
+::: {.callout-note}
+**Key Concept:** Rutherford's experiment overturned the earlier "plum pudding" model and established that atoms have a tiny, dense, positively charged nucleus surrounded by mostly empty space where electrons orbit.
+:::
+
+---
+
+## Radioactivity
+
+### What Is Radioactivity?
+
+**Radioactivity** is the spontaneous emission of radiation from the nucleus of an unstable atom.
+
+**Key characteristics:**
+
+- **Spontaneous**: Cannot be influenced by external factors (temperature, pressure, chemical state)
+
+- **Random**: Impossible to predict which nucleus will decay next or when it will decay
+
+- **Ionising**: The emitted radiation has enough energy to knock electrons from atoms, forming ions
+
+### Background Radiation
+
+**Background radiation** is ionising nuclear radiation that is present in the environment from natural and artificial sources, even when no radioactive source is deliberately introduced.
+
+**Sources of background radiation:**
+
+| Source | Contribution | Description |
+|:-------|:-------------|:------------|
+| **Radon gas** (in air) | ~50% | Radioactive gas from decay of uranium in rocks; can accumulate in buildings |
+| **Rocks and buildings** | ~15% | Natural radioactive materials (uranium, thorium) in soil and construction materials |
+| **Food and drink** | ~10% | Naturally occurring radioactive isotopes (e.g., potassium-40 in bananas) |
+| **Cosmic rays** | ~10% | High-energy particles from space; intensity increases with altitude |
+| **Medical procedures** | ~10% | X-rays, nuclear medicine scans, radiotherapy |
+| **Other artificial sources** | ~5% | Nuclear power, fallout from weapons testing, consumer products |
+
+::: {.callout-warning}
+**Important:** Background radiation levels vary by location. Areas with granite rock or high altitude have higher background radiation. However, typical levels are well below those that cause harm.
+:::
+
+### Measuring Radioactivity
+
+**Geiger-Müller (GM) tube and counter:**
+
+- Detects ionising radiation by measuring the electrical pulses produced when radiation ionises gas in the tube
+
+- Displays **count rate** in counts per second (counts/s) or counts per minute (counts/min)
+
+**Corrected count rate:**
+
+$$\text{Corrected count rate} = \text{Measured count rate} - \text{Background count rate}$$
+
+::: {.callout-note}
+**Key Concept:** Always measure background radiation first and subtract it from measurements with a radioactive source to obtain the true count rate from the source alone.
+:::
+
+---
+
+## Types of Nuclear Emission
+
+### The Three Types of Nuclear Radiation
+
+| Radiation Type | Nature | Relative Charge | Relative Mass | Symbol |
+|:---------------|:-------|:----------------|:--------------|:-------|
+| **Alpha (α)** | Helium nucleus (2 protons + 2 neutrons) | +2 | 4 | $^4_2\alpha$ or $^4_2\text{He}$ |
+| **Beta (β)** | Fast-moving electron ejected from nucleus | –1 | $\frac{1}{2000}$ | $^0_{-1}\beta$ or $^0_{-1}\text{e}$ |
+| **Gamma (γ)** | High-energy electromagnetic wave | 0 | 0 | $\gamma$ |
+
+### Relative Ionising Effects
+
+**Ionising effect**: The ability of radiation to knock electrons from atoms, creating ions.
+
+| Radiation | Relative Ionising Effect | Explanation |
+|:----------|:-------------------------|:------------|
+| **Alpha (α)** | **Highest** | Large mass and +2 charge → strong electric force transfers more energy to electrons in atoms |
+| **Beta (β)** | **Medium** | Smaller mass and –1 charge → less energy transferred per collision |
+| **Gamma (γ)** | **Lowest** | No charge, no mass → interacts less frequently with matter; transfers energy via photoelectric effect, Compton scattering, or pair production |
+
+### Relative Penetrating Abilities
+
+| Radiation | Penetrating Ability | Stopped By |
+|:----------|:--------------------|:-----------|
+| **Alpha (α)** | **Least** | A few cm of air, a sheet of paper, or human skin |
+| **Beta (β)** | **Medium** | A few mm of aluminium or plastic |
+| **Gamma (γ)** | **Highest** | Several cm of lead or very thick concrete; intensity reduced but not completely stopped |
+
+::: {.callout-warning}
+**Important:** Alpha particles are the most dangerous if ingested or inhaled because they cause intense ionisation in a small volume of tissue. Outside the body, alpha particles are stopped by skin and pose little risk.
+:::
+
+### Deflection in Electric and Magnetic Fields
+
+**In an electric field:**
+
+- **Alpha particles** (+2 charge): Deflected towards the negative plate; small deflection due to large mass
+
+- **Beta particles** (–1 charge): Deflected towards the positive plate; large deflection due to small mass
+
+- **Gamma rays** (no charge): Not deflected; travel in a straight line
+
+**In a magnetic field:**
+
+- **Alpha particles**: Deflected according to Fleming's left-hand rule; circular path with large radius (due to large mass)
+
+- **Beta particles**: Deflected in the opposite direction to alpha; circular path with small radius (due to small mass)
+
+- **Gamma rays**: Not deflected; travel in a straight line
+
+::: {.callout-note}
+**Key Insight:** The direction and amount of deflection can be used to identify the type of radiation and distinguish between α, β, and γ emissions.
+:::
+
+---
+
+## Radioactive Decay
+
+### What Is Radioactive Decay?
+
+**Radioactive decay** is a spontaneous change in an unstable nucleus that results in the emission of α-particles, β-particles, and/or γ-radiation.
+
+**Key points:**
+
+- Decay is **spontaneous**: Cannot be sped up, slowed down, or stopped by external conditions
+
+- Decay is **random**: Impossible to predict which specific nucleus will decay next
+
+- Decay increases **stability**: The nucleus moves towards a more stable configuration
+
+### Alpha Decay
+
+**Process:**
+
+- Nucleus emits an alpha particle ($^4_2\alpha$)
+
+- Nucleon number decreases by 4; proton number decreases by 2
+
+- Element changes to one two places earlier in the periodic table
+
+**Nuclide equation:**
+
+$$^A_ZX \rightarrow ^{A-4}_{Z-2}Y + ^4_2\alpha$$
+
+**Example:** Radon-222 decays to polonium-218:
+
+$$^{222}_{86}\text{Rn} \rightarrow ^{218}_{84}\text{Po} + ^4_2\alpha$$
+
+### Beta Decay
+
+**Process:**
+
+- A neutron in the nucleus changes into a proton and an electron: $n \rightarrow p + e^-$
+
+- The proton remains in the nucleus; the electron is emitted as a beta particle
+
+- Nucleon number remains unchanged; proton number increases by 1
+
+- Element changes to one place later in the periodic table
+
+**Nuclide equation:**
+
+$$^A_ZX \rightarrow ^A_{Z+1}Y + ^0_{-1}\beta$$
+
+**Example:** Carbon-14 decays to nitrogen-14:
+
+$$^{14}_6\text{C} \rightarrow ^{14}_7\text{N} + ^0_{-1}\beta$$
+
+### Gamma Emission
+
+**Process:**
+
+- Nucleus releases excess energy after α- or β-decay
+
+- No change in nucleon number or proton number
+
+- Element does not change
+
+**Nuclide equation:**
+
+$$^A_ZX^* \rightarrow ^A_ZX + \gamma$$
+
+Where $X^*$ indicates an excited (high-energy) nucleus.
+
+::: {.callout-note}
+**Key Concept:** Gamma emission often accompanies α- or β-decay. The nucleus first decays by emitting α or β, then releases excess energy as γ-rays to reach a more stable state.
+:::
+
+### Why Are Some Isotopes Radioactive?
+
+Isotopes may be radioactive due to:
+
+1. **Excess neutrons**: Nucleus has too many neutrons relative to protons → unstable → β– decay reduces neutron excess
+
+2. **Too massive**: Very heavy nuclei (e.g., uranium, radium) are unstable → α decay reduces mass and increases stability
+
+3. **High energy state**: Nucleus has excess energy after another decay → γ emission releases energy
+
+::: {.callout-warning}
+**Important:** Radioactive decay is a natural process that moves nuclei towards greater stability. It cannot be controlled or influenced by chemical or physical conditions.
+:::
+
+---
+
+## Half-life
+
+### What Is Half-life?
+
+**Half-life** ($t_{1/2}$) of a radioactive isotope is the time taken for:
+
+- Half the nuclei of that isotope in any sample to decay, **or**
+
+- The count rate (or activity) of the isotope to fall to half its initial value
+
+**Key properties:**
+
+- Half-life is **constant** for a given isotope (cannot be changed)
+
+- Half-life is **independent** of the amount of substance, temperature, pressure, or chemical state
+
+- Different isotopes have vastly different half-lives (from fractions of a second to billions of years)
+
+### Calculations Using Half-life
+
+**Method 1: Using the definition directly**
+
+After each half-life, the number of undecayed nuclei (or count rate) is halved:
+
+| Number of half-lives | Fraction remaining | Percentage remaining |
+|:---------------------|:-------------------|:---------------------|
+| 0 | 1 | 100% |
+| 1 | $\frac{1}{2}$ | 50% |
+| 2 | $\frac{1}{4}$ | 25% |
+| 3 | $\frac{1}{8}$ | 12.5% |
+| $n$ | $\left(\frac{1}{2}\right)^n$ | $\left(\frac{1}{2}\right)^n \times 100\%$ |
+
+**Method 2: Using decay curves**
+
+A decay curve plots count rate (or number of nuclei) against time. The half-life can be determined by:
+
+1. Finding the initial count rate
+
+2. Finding the time when count rate has fallen to half this value
+
+3. This time interval is the half-life
+
+::: {.callout-note}
+**Key Concept:** The decay curve is exponential — the count rate never reaches zero but approaches it asymptotically. Background radiation must be subtracted before analysing decay curves.
+:::
+
+---
+
+## Applications of Radioactivity
+
+### Choosing Isotopes for Applications
+
+The suitability of a radioactive isotope for a particular application depends on:
+
+1. **Type of radiation emitted**: Linked to penetrating ability and ionising effect
+
+2. **Half-life**: Must be appropriate for the intended use
+
+### Common Applications
+
+| Application | Isotope Used | Radiation Type | Half-life | Why Suitable |
+|:------------|:-------------|:---------------|:----------|:-------------|
+| **Smoke alarms** | Americium-241 | α | 432 years | α-particles ionise air; smoke disrupts ionisation current; long half-life means source lasts for years |
+| **Sterilising medical equipment** | Cobalt-60 | γ | 5.3 years | γ-rays penetrate packaging to kill bacteria; half-life long enough for practical use but not too long for disposal |
+| **Irradiating food** | Cobalt-60 | γ | 5.3 years | γ-rays kill bacteria and pests without making food radioactive; penetrates packaging |
+| **Thickness control (paper/plastic)** | Strontium-90 | β | 29 years | β-particles partially absorbed; count rate indicates thickness; half-life suitable for industrial use |
+| **Thickness control (metal)** | Cobalt-60 | γ | 5.3 years | γ-rays penetrate metal; count rate indicates thickness |
+| **Medical diagnosis (tracers)** | Technetium-99m | γ | 6 hours | γ-rays detected outside body; short half-life minimises patient exposure; decays quickly after procedure |
+| **Cancer treatment (radiotherapy)** | Cobalt-60, Iodine-131 | γ, β | 5.3 years, 8 days | Radiation damages cancer cells; γ penetrates to reach tumours; β used for thyroid cancer (iodine concentrates in thyroid) |
+
+::: {.callout-warning}
+**Important:** For medical tracers, isotopes with short half-lives are preferred to minimise radiation exposure to the patient. The isotope should decay quickly after the diagnostic procedure is complete.
+:::
+
+---
+
+## Nuclear Fission and Fusion (Extended)
+
+### Nuclear Fission
+
+**Definition:** Nuclear fission is the splitting of a heavy nucleus into two lighter nuclei, accompanied by the release of energy and (usually) neutrons.
+
+**Example: Uranium-235 fission**
+
+$$^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow ^{144}_{56}\text{Ba} + ^{90}_{36}\text{Kr} + 2^1_0\text{n} + \text{energy}$$
+
+**Key points:**
+
+- Triggered by neutron absorption
+
+- Releases additional neutrons → can sustain a chain reaction
+
+- Mass of products < mass of reactants → mass converted to energy ($E = mc^2$)
+
+- Used in nuclear power stations and nuclear weapons
+
+### Nuclear Fusion
+
+**Definition:** Nuclear fusion is the joining of two light nuclei to form a heavier nucleus, accompanied by the release of energy.
+
+**Example: Deuterium-tritium fusion**
+
+$$^2_1\text{H} + ^3_1\text{H} \rightarrow ^4_2\text{He} + ^1_0\text{n} + \text{energy}$$
+
+**Key points:**
+
+- Occurs naturally in stars (including the Sun) at extremely high temperatures and pressures
+
+- Releases more energy per unit mass than fission
+
+- Produces less long-lived radioactive waste than fission
+
+- Not yet achieved for sustained power generation on Earth (research ongoing, e.g., ITER project)
+
+### Mass–Energy Conversion
+
+In both fission and fusion:
+
+- Total mass of products < total mass of reactants
+
+- The "missing" mass is converted to energy according to Einstein's equation:
+
+$$E = mc^2$$
+
+Where:
+
+- $E$ = energy released (J)
+
+- $m$ = mass defect (kg)
+
+- $c$ = speed of light in vacuum ($3.0 \times 10^8$ m/s)
+
+::: {.callout-note}
+**Key Insight:** Because $c^2$ is an enormous number ($9 \times 10^{16}$ m²/s²), even a tiny mass defect produces a huge amount of energy. This explains why nuclear reactions release vastly more energy than chemical reactions.
+:::
+
+---
+
+## Safety Precautions
+
+### Effects of Ionising Radiation on Living Things
+
+Ionising radiation can damage living cells by:
+
+1. **Direct damage**: Breaking chemical bonds in DNA or other critical molecules
+
+2. **Indirect damage**: Ionising water molecules to produce reactive free radicals that damage cells
+
+**Consequences of exposure:**
+
+| Exposure Level | Effect |
+|:---------------|:-------|
+| Low dose | Possible cell mutation; increased long-term cancer risk |
+| Moderate dose | Cell death; tissue damage; radiation sickness (nausea, fatigue, hair loss) |
+| High dose | Severe radiation sickness; organ failure; death |
+
+### Principles of Radiation Protection
+
+**Three key principles to minimise exposure:**
+
+1. **Time**: Reduce the time spent near radioactive sources
+
+2. **Distance**: Increase distance from sources (intensity decreases with square of distance)
+
+3. **Shielding**: Use appropriate materials to absorb radiation:
+
+   - α: Paper, skin, a few cm of air
+
+   - β: Aluminium, plastic, a few mm of metal
+
+   - γ: Lead, thick concrete, several cm of dense material
+
+### Safe Handling of Radioactive Materials
+
+**Storage:**
+
+- Keep sources in labelled, shielded containers (e.g., lead-lined boxes for γ-emitters)
+
+- Store in secure, access-controlled areas
+
+**Use:**
+
+- Use tongs or remote-handling tools to increase distance
+
+- Wear protective clothing (lab coat, gloves, safety glasses)
+
+- Work behind shielding (e.g., lead glass screens for γ-sources)
+
+- Monitor exposure with personal dosimeters
+
+**Disposal:**
+
+- Follow institutional and regulatory procedures
+
+- Store waste in appropriate shielded containers until decay or disposal
+
+::: {.callout-warning}
+**Important:** Never eat, drink, or apply cosmetics in areas where radioactive materials are used. Always wash hands after handling sources. Report spills or accidents immediately.
+:::
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Atomic structure**: Atom = small, dense, positively charged nucleus (protons + neutrons) + orbiting electrons
+
+2. **Proton number (Z)**: Number of protons; defines the element; equals electrons in neutral atom
+
+3. **Nucleon number (A)**: Total protons + neutrons; number of neutrons = $A - Z$
+
+4. **Nuclide notation**: $^A_ZX$ represents an atom of element X with mass number A and atomic number Z
+
+5. **Isotopes**: Atoms of same element (same Z) with different numbers of neutrons (different A)
+
+6. **Ions**: Formed by loss (positive ion) or gain (negative ion) of electrons; protons unchanged
+
+7. **Background radiation**: Natural and artificial ionising radiation present in environment; sources include radon, rocks, food, cosmic rays
+
+8. **Detection**: GM tube + counter measures count rate (counts/s or counts/min); subtract background for corrected count rate
+
+9. **Three emissions**:
+   - α: Helium nucleus, +2 charge, high ionising, low penetrating
+   - β: Fast electron, –1 charge, medium ionising, medium penetrating
+   - γ: EM wave, 0 charge, low ionising, high penetrating
+
+10. **Radioactive decay**: Spontaneous, random change in unstable nucleus; α- or β-decay changes element; γ emission releases excess energy
+
+11. **Half-life**: Time for half the nuclei in a sample to decay (or count rate to halve); constant for a given isotope
+
+12. **Applications**: Smoke alarms (α), sterilisation (γ), medical tracers (γ, short $t_{1/2}$), thickness control (β/γ), cancer treatment (γ/β)
+
+13. **Safety**: Effects include cell death, mutation, cancer; protect by reducing time, increasing distance, using shielding
+
+### Extended Concepts
+
+14. **Rutherford scattering**: α-particle experiment provided evidence for small, massive, positively charged nucleus surrounded by empty space
+
+15. **Deflection in fields**: α (+2) and β (–1) deflected in opposite directions in electric/magnetic fields; γ (0) not deflected
+
+16. **Ionising effect explanation**: Depends on charge (electric force) and kinetic energy; α has highest due to +2 charge and high KE
+
+17. **Decay equations**: Use nuclide notation to show α, β, γ emissions; conserve nucleon number and charge
+
+18. **Why isotopes are radioactive**: Excess neutrons → β– decay; too massive → α decay; excited state → γ emission
+
+19. **Half-life with background**: Subtract background count rate before determining half-life from decay data or curves
+
+20. **Choosing isotopes**: Match radiation type (penetration/ionisation) and half-life to application requirements
+
+21. **Nuclear fission**: Heavy nucleus splits into lighter nuclei + neutrons + energy; used in power stations
+
+22. **Nuclear fusion**: Light nuclei join to form heavier nucleus + energy; powers stars; research ongoing for power generation
+
+23. **Mass–energy conversion**: $E = mc^2$; small mass defect → large energy release in nuclear reactions
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Atoms are solid spheres with electrons embedded in them"
+
+**Incorrect**: "The atom is like a plum pudding — electrons stuck in a positive sphere"
+
+**Correct**:
+
+- Rutherford's scattering experiment showed atoms have a **tiny, dense nucleus** containing protons and neutrons
+
+- Electrons orbit at relatively large distances; the atom is **mostly empty space**
+
+- The plum pudding model was disproved in 1911
+
+---
+
+### ⚠️ Misconception 2: "Isotopes have different chemical properties"
+
+**Incorrect**: "Carbon-12 and carbon-14 behave differently in chemical reactions"
+
+**Correct**:
+
+- Isotopes have the **same number of protons and electrons** → identical electron configuration
+
+- Chemical properties depend on electron arrangement → isotopes have **identical chemical properties**
+- Physical properties (e.g., mass, nuclear stability) may differ
+
+---
+
+### ⚠️ Misconception 3: "Radioactive decay can be sped up or slowed down"
+
+**Incorrect**: "Heating a radioactive sample makes it decay faster"
+
+**Correct**:
+
+- Radioactive decay is **spontaneous and random**; cannot be influenced by temperature, pressure, or chemical state
+
+- Half-life is a **fixed property** of each isotope
+
+- Only the probability of decay per nucleus is fixed; we cannot control when individual nuclei decay
+
+---
+
+### ⚠️ Misconception 4: "Alpha particles are the most dangerous type of radiation"
+
+**Incorrect**: "Alpha radiation is always the most harmful"
+
+**Correct**:
+
+- Danger depends on **exposure pathway**:
+
+  - **Outside body**: α stopped by skin → low risk; γ most penetrating → highest external risk
+
+  - **Inside body**: α causes intense ionisation in small volume → highest internal risk if ingested/inhaled
+
+- Risk assessment must consider radiation type, energy, exposure route, and dose
+
+---
+
+### ⚠️ Misconception 5: "Gamma rays are particles like alpha and beta"
+
+**Incorrect**: "Gamma rays are heavy particles emitted from the nucleus"
+
+**Correct**:
+
+- Gamma rays are **electromagnetic waves** (like light or X-rays), not particles
+
+- They have **no mass and no charge** → not deflected by electric/magnetic fields
+
+- Emitted when an excited nucleus releases excess energy after α- or β-decay
+
+---
+
+### ⚠️ Misconception 6: "After two half-lives, all the radioactive material has decayed"
+
+**Incorrect**: "If half-life is 10 years, after 20 years the sample is no longer radioactive"
+
+**Correct**:
+
+- After 1 half-life: 50% remains
+
+- After 2 half-lives: 25% remains
+
+- After $n$ half-lives: $\left(\frac{1}{2}\right)^n$ remains
+
+- Radioactive material **never completely disappears**; it approaches zero asymptotically
+
+---
+
+### ⚠️ Misconception 7: "Nuclear fusion is the same as nuclear fission"
+
+**Incorrect**: "Fusion and fission are just different names for splitting atoms"
+
+**Correct**:
+
+- **Fission**: Heavy nucleus **splits** into lighter nuclei (e.g., uranium → barium + krypton)
+
+- **Fusion**: Light nuclei **join** to form heavier nucleus (e.g., hydrogen → helium in the Sun)
+
+- Both release energy via $E = mc^2$, but mechanisms, conditions, and applications differ greatly
+
+---
+
+## Worked Examples
+
+### Example 1: Nuclide Notation and Neutron Calculation
+
+**Question:**
+An atom of uranium has a nucleon number of 238 and a proton number of 92.
+(a) Write the nuclide notation for this atom.
+(b) Calculate the number of neutrons in its nucleus.
+(c) How many electrons does a neutral atom of this isotope have?
+
+**Solution:**
+
+**(a) Nuclide notation:**
+$$^{238}_{92}\text{U}$$
+
+**(b) Number of neutrons:**
+$$\text{Neutrons} = A - Z = 238 - 92 = \boxed{146}$$
+
+**(c) Electrons in neutral atom:**
+In a neutral atom, number of electrons = number of protons = $\boxed{92}$
+
+---
+
+### Example 2: Identifying Decay Type from Nuclide Equation
+
+**Question:**
+Complete the following decay equation and identify the type of decay:
+$$^{210}_{84}\text{Po} \rightarrow ^{206}_{82}\text{Pb} + \text{?}$$
+
+**Solution:**
+
+**Step 1:** Check conservation of nucleon number (A):
+$$210 = 206 + A_{\text{?}} \Rightarrow A_{\text{?}} = 4$$
+
+**Step 2:** Check conservation of charge/proton number (Z):
+$$84 = 82 + Z_{\text{?}} \Rightarrow Z_{\text{?}} = 2$$
+
+**Step 3:** Identify particle with $A = 4$, $Z = 2$:
+This is an alpha particle: $^4_2\alpha$
+
+**Answer:**
+$$^{210}_{84}\text{Po} \rightarrow ^{206}_{82}\text{Pb} + \boxed{^4_2\alpha}$$
+Type of decay: **Alpha decay**
+
+---
+
+### Example 3: Half-life Calculation
+
+**Question:**
+A radioactive source has an initial count rate of 800 counts/min. The background count rate is 50 counts/min. The half-life of the isotope is 15 minutes.
+(a) Calculate the corrected initial count rate.
+(b) Calculate the corrected count rate after 45 minutes.
+(c) Calculate the measured count rate after 45 minutes (including background).
+
+**Solution:**
+
+**(a) Corrected initial count rate:**
+$$\text{Corrected} = 800 - 50 = \boxed{750 \text{ counts/min}}$$
+
+**(b) Corrected count rate after 45 minutes:**
+Number of half-lives: $n = \frac{45}{15} = 3$
+$$\text{Corrected after 45 min} = 750 \times \left(\frac{1}{2}\right)^3 = 750 \times \frac{1}{8} = \boxed{93.75 \text{ counts/min}}$$
+
+**(c) Measured count rate (including background):**
+$$\text{Measured} = 93.75 + 50 = \boxed{143.75 \text{ counts/min} \approx 144 \text{ counts/min}}$$
+
+---
+
+### Example 4: Choosing an Isotope for an Application (Extended)
+
+**Question:**
+A company wants to use a radioactive source to monitor the thickness of aluminium foil during production. Suggest whether an alpha, beta, or gamma source would be most suitable and explain your choice.
+
+**Solution:**
+
+**Analysis:**
+- Aluminium foil is relatively thin but denser than paper/plastic
+- Need radiation that is **partially absorbed** so count rate changes with thickness
+- Radiation must **penetrate** the foil to reach the detector
+
+**Evaluation of options:**
+
+| Radiation | Suitability for aluminium foil | Reason |
+|:----------|:-------------------------------|:-------|
+| **Alpha** | ❌ Unsuitable | Stopped by paper; cannot penetrate aluminium foil at all |
+| **Beta** | ✅ Suitable | Partially absorbed by thin metal; count rate varies with thickness; aluminium is within β penetration range |
+| **Gamma** | ❌ Less suitable | Too penetrating; most γ-rays pass through thin foil with little absorption → small change in count rate |
+
+**Conclusion:**
+A **beta source** (e.g., strontium-90) is most suitable because beta particles are partially absorbed by aluminium foil, allowing the count rate to vary measurably with thickness changes.
+
+---
+
+### Example 5: Nuclear Fission Equation (Extended)
+
+**Question:**
+In a nuclear reactor, uranium-235 absorbs a neutron and undergoes fission to produce barium-141, krypton-92, and three neutrons. Write the balanced nuclide equation for this reaction.
+
+**Solution:**
+
+**Step 1:** Write reactants:
+$$^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow \text{?}$$
+
+**Step 2:** Write known products:
+$$\rightarrow ^{141}_{56}\text{Ba} + ^{92}_{36}\text{Kr} + 3^1_0\text{n}$$
+
+**Step 3:** Verify conservation:
+- Nucleon number: $235 + 1 = 236$; $141 + 92 + 3(1) = 236$ ✓
+- Proton number: $92 + 0 = 92$; $56 + 36 + 3(0) = 92$ ✓
+
+**Answer:**
+$$\boxed{^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow ^{141}_{56}\text{Ba} + ^{92}_{36}\text{Kr} + 3^1_0\text{n} + \text{energy}}$$
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** State the relative charge and relative mass of:
+- (a) a proton
+- (b) a neutron
+- (c) an electron
+
+**2.** An atom has a proton number of 17 and a nucleon number of 35.
+- (a) How many protons, neutrons, and electrons does a neutral atom of this isotope have?
+- (b) Write the nuclide notation for this atom.
+
+**3.** Define the term "isotope". Give an example using carbon isotopes.
+
+**4.** What is meant by background radiation? Name two natural sources.
+
+**5.** A Geiger counter measures 240 counts/min from a radioactive source. The background count rate is 40 counts/min. Calculate the corrected count rate.
+
+**6.** Complete the table comparing alpha, beta, and gamma radiation:
+
+| Property | Alpha (α) | Beta (β) | Gamma (γ) |
+|:---------|:----------|:---------|:----------|
+| Nature | | | |
+| Relative charge | | | |
+| Relative ionising effect | | | |
+| Stopped by | | | |
+
+**7.** What is meant by the term "half-life"?
+
+**8.** A radioactive isotope has a half-life of 10 hours. If a sample initially has a corrected count rate of 400 counts/min, calculate the corrected count rate after:
+- (a) 10 hours
+- (b) 20 hours
+- (c) 30 hours
+
+**9.** State two effects of ionising radiation on living cells.
+
+**10.** Describe two safety precautions that should be taken when handling radioactive sources in a school laboratory.
+
+**11.** Explain why americium-241 (alpha emitter, half-life 432 years) is suitable for use in smoke alarms.
+
+**12.** Why is technetium-99m (gamma emitter, half-life 6 hours) suitable as a medical tracer?
+
+### Extended Level
+
+**13.** Describe how Rutherford's alpha-particle scattering experiment provided evidence for:
+- (a) the atom being mostly empty space
+- (b) the nucleus being positively charged
+- (c) the nucleus containing most of the mass of the atom
+
+**14.** Explain why alpha particles are deflected less than beta particles in the same electric field, even though alpha particles have a larger charge.
+
+**15.** Write balanced nuclide equations for:
+- (a) Alpha decay of radium-226 ($^{226}_{88}\text{Ra}$)
+- (b) Beta decay of carbon-14 ($^{14}_6\text{C}$)
+- (c) Gamma emission from an excited cobalt-60 nucleus
+
+**16.** A sample of radioactive iodine-131 (half-life 8 days) has an initial corrected count rate of 1600 counts/min.
+- (a) Calculate the corrected count rate after 24 days.
+- (b) If the background count rate is 50 counts/min, what is the measured count rate after 24 days?
+- (c) Sketch a graph of corrected count rate against time for the first 32 days.
+
+**17.** Explain why isotopes with excess neutrons tend to undergo beta-minus decay, while very heavy isotopes tend to undergo alpha decay.
+
+**18.** Compare nuclear fission and nuclear fusion in terms of:
+- (a) The process involved
+- (b) Conditions required
+- (c) Energy released per unit mass
+- (d) Current practical applications
+
+**19.** A hospital uses cobalt-60 (half-life 5.3 years) for cancer radiotherapy. Explain:
+- (a) Why gamma radiation is used rather than alpha or beta
+- (b) Why the half-life of 5.3 years is suitable for this application
+- (c) Two safety precautions that must be taken when using this source
+
+**20.** The count rate from a radioactive source was measured at 10-minute intervals. Background count rate was 20 counts/min. The results are shown:
+
+| Time (min) | 0 | 10 | 20 | 30 | 40 | 50 |
+|:-----------|:---|:---|:---|:---|:---|:---|
+| Measured count rate (counts/min) | 420 | 310 | 230 | 175 | 135 | 105 |
+
+
+- (a) Calculate the corrected count rate for each time.
+
+- (b) Plot a graph of corrected count rate against time.
+
+- (c) Use your graph to estimate the half-life of the isotope.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 22.1: Investigating Radioactive Decay and Half-life
+
+**Objective:**
+To determine the half-life of a radioactive isotope using count rate measurements and to understand the random nature of radioactive decay.
+
+**Apparatus:**
+
+- Geiger-Müller tube and counter (or radiation sensor with data logger)
+
+- Radioactive source with suitable half-life (e.g., protactinium-234 generator, or simulated data)
+
+- Retort stand and clamp
+
+- Stopwatch
+
+- Lead shielding (for safety)
+
+- Distance measuring tool
+
+**Variables:**
+
+- **Independent:** Time
+
+- **Dependent:** Count rate (counts/min)
+
+- **Controlled:** Distance from source to detector, background radiation level, detector settings
+
+**Safety Precautions:**
+
+- ✓ Handle radioactive sources with tongs; never touch with bare hands
+
+- ✓ Keep source in shielded container when not in use
+
+- ✓ Maintain maximum practical distance from source
+
+- ✓ Limit exposure time; plan measurements in advance
+
+- ✓ Wear personal dosimeter if available
+
+- ✓ Follow institutional radiation safety protocols
+
+**Procedure:**
+
+1. **Measure background radiation:**
+
+   - Remove all radioactive sources from the area
+
+   - Record count rate for 5 minutes; calculate average background count rate in counts/min
+
+2. **Set up the experiment:**
+
+   - Clamp the GM tube at a fixed height
+
+   - Position the radioactive source at a fixed distance (e.g., 10 cm) from the detector
+
+   - Ensure the setup is stable and will not be disturbed during measurements
+
+3. **Collect decay data:**
+
+   - Start the counter and stopwatch simultaneously
+
+   - Record the total counts for successive 1-minute intervals (or use data logger for continuous recording)
+
+   - Continue for at least 5–6 half-lives of the isotope (or until count rate approaches background)
+
+4. **Data processing:**
+
+   - Convert total counts per interval to count rate (counts/min)
+
+   - Subtract background count rate to obtain corrected count rate
+
+   - Tabulate time vs. corrected count rate
+
+**Data Table:**
+
+| Time (min) | Total counts in interval | Count rate (counts/min) | Corrected count rate (counts/min) |
+|:-----------|:-------------------------|:------------------------|:----------------------------------|
+| 0–1 | | | |
+| 1–2 | | | |
+| 2–3 | | | |
+| 3–4 | | | |
+| 4–5 | | | |
+| ... | | | |
+
+**Analysis:**
+
+1. Plot a graph of **corrected count rate (y-axis)** against **time (x-axis)**
+
+2. Determine the half-life by:
+
+   - Finding the initial corrected count rate ($R_0$)
+
+   - Finding the time when count rate falls to $\frac{1}{2}R_0$ → this is one half-life
+
+   - Repeat for $\frac{1}{4}R_0$, $\frac{1}{8}R_0$ to check consistency
+
+3. Alternatively, plot **ln(corrected count rate)** against time; the gradient = $-\lambda$ (decay constant), and $t_{1/2} = \frac{\ln 2}{\lambda}$
+
+4. Comment on the random variation in count rates and how averaging over longer intervals reduces this effect
+
+**Precautions:**
+
+- ✓ Ensure detector is properly calibrated and zeroed
+
+- ✓ Keep geometry (distance, orientation) constant throughout
+
+- ✓ Account for dead time of GM tube if count rates are high
+
+- ✓ Repeat measurements to assess random uncertainty
+
+**Expected Results:**
+
+- Graph shows exponential decay: count rate decreases by half every half-life
+
+- Random fluctuations around the smooth decay curve demonstrate the random nature of decay
+
+- Calculated half-life should agree with accepted value within experimental uncertainty
+
+**Conclusion Template:**
+"The experiment demonstrated the exponential nature of radioactive decay. The corrected count rate decreased by approximately half every ______ minutes, giving a half-life of ______ min for the isotope. Random variations in count rate confirmed the spontaneous and random nature of nuclear decay. The measured half-life agreed with the accepted value of ______ min within experimental error."
+
+**Extension (Supplement):**
+- Investigate how background subtraction affects half-life determination
+- Compare decay curves for isotopes with different half-lives
+- Research how half-life data is used in radiometric dating (e.g., carbon-14 dating)
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly describes the structure of an atom?
+
+A. Protons and electrons are in the nucleus; neutrons orbit outside  
+B. Protons and neutrons are in the nucleus; electrons orbit outside  
+C. Neutrons and electrons are in the nucleus; protons orbit outside  
+D. All three particles orbit the nucleus at different distances  
+
+**2.** An atom has 11 protons and 12 neutrons. What is its nucleon number?
+
+A. 11  
+B. 12  
+C. 23  
+D. 34  
+
+**3.** Which type of radiation has the highest ionising effect?
+
+A. Alpha  
+B. Beta  
+C. Gamma  
+D. All have the same ionising effect  
+
+**4.** A radioactive source has a half-life of 20 minutes. What fraction of the original nuclei remain after 60 minutes?
+
+A. $\frac{1}{2}$  
+B. $\frac{1}{4}$  
+C. $\frac{1}{6}$  
+D. $\frac{1}{8}$  
+
+**5.** Which statement about background radiation is correct?
+
+A. It comes only from artificial sources like nuclear power stations  
+B. It is harmful at all levels and should be eliminated  
+C. It includes natural sources such as radon gas and cosmic rays  
+D. It is the same everywhere on Earth  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define the term "isotope". [2]
+
+(b) Chlorine has two stable isotopes: chlorine-35 and chlorine-37.
+   (i) State the number of protons, neutrons, and electrons in a neutral atom of chlorine-35. [3]
+   (ii) Explain why these two isotopes have identical chemical properties. [2]
+
+**7.** (a) Describe the nature, charge, and penetrating ability of alpha radiation. [3]
+
+(b) A student uses a Geiger counter to measure radiation from three sources A, B, and C. The count rates with different absorbers are shown:
+
+| Absorber | Source A | Source B | Source C |
+|:---------|:---------|:---------|:---------|
+| None | 850 | 920 | 780 |
+| Paper | 840 | 120 | 770 |
+| 3 mm aluminium | 830 | 110 | 200 |
+| 2 cm lead | 150 | 100 | 180 |
+
+   Identify the type of radiation emitted by each source and explain your reasoning. [4]
+
+**8.** (a) Define the half-life of a radioactive isotope. [1]
+
+(b) A sample of radioactive iodine-131 has an initial corrected count rate of 640 counts/min. The half-life of iodine-131 is 8 days.
+   (i) Calculate the corrected count rate after 24 days. [2]
+   (ii) Explain why the measured count rate after 24 days would be higher than your answer in (i). [2]
+
+**9.** (Extended) (a) Describe how Rutherford's alpha-particle scattering experiment provided evidence for the nuclear model of the atom. [4]
+
+(b) Explain why most alpha particles passed straight through the gold foil, while a very few were deflected at large angles. [3]
+
+**10.** (Extended) (a) Write a balanced nuclide equation for the beta decay of carbon-14 ($^{14}_6\text{C}$). [2]
+
+(b) Explain why carbon-14 is radioactive while carbon-12 is stable, in terms of nuclear composition. [2]
+
+(c) Carbon-14 dating is used to estimate the age of organic materials. Explain why this method is only reliable for samples up to about 50,000 years old. [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Atomic structure**: Nucleus (protons + neutrons) at centre; electrons orbit at distance; atom mostly empty space  
+✓ **Proton number (Z)**: Number of protons; defines element; = electrons in neutral atom  
+✓ **Nucleon number (A)**: Protons + neutrons; neutrons = $A - Z$  
+✓ **Nuclide notation**: $^A_ZX$  
+✓ **Isotopes**: Same Z, different A; same chemical properties, different nuclear properties  
+✓ **Ions**: Formed by electron loss/gain; protons unchanged  
+✓ **Background radiation**: Natural/artificial ionising radiation; measure and subtract for accurate source measurement  
+✓ **Three emissions**: α (He nucleus, +2, high ionising, low penetrating), β (electron, –1, medium), γ (EM wave, 0, low ionising, high penetrating)  
+✓ **Radioactive decay**: Spontaneous, random; α/β change element; γ releases excess energy  
+✓ **Half-life**: Time for half nuclei to decay (or count rate to halve); constant for given isotope  
+✓ **Applications**: Match radiation type and half-life to use (smoke alarms, sterilisation, medical tracers, thickness control, radiotherapy)  
+✓ **Safety**: Radiation can cause cell damage, mutation, cancer; protect by time, distance, shielding  
+✓ **Rutherford scattering**: Evidence for small, massive, positive nucleus in empty space (Extended)  
+✓ **Deflection in fields**: α and β deflected oppositely; γ not deflected (Extended)  
+✓ **Decay equations**: Conserve A and Z; use nuclide notation (Extended)  
+✓ **Fission/fusion**: Splitting/joining nuclei; $E = mc^2$ explains energy release (Extended)  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Number of neutrons | $N = A - Z$ | $A$=nucleon number, $Z$=proton number |
+| Corrected count rate | $R_{\text{corr}} = R_{\text{meas}} - R_{\text{bg}}$ | $R_{\text{meas}}$=measured rate, $R_{\text{bg}}$=background rate |
+| Fraction remaining after $n$ half-lives | $\left(\frac{1}{2}\right)^n$ | $n$=number of half-lives |
+| Decay constant and half-life (Extended) | $t_{1/2} = \frac{\ln 2}{\lambda}$ | $\lambda$=decay constant |
+| Mass–energy equivalence (Extended) | $E = mc^2$ | $E$=energy (J), $m$=mass defect (kg), $c$=speed of light |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 19 (Nuclear Model of the Atom) and Chapter 20 (Radioactivity)
+
+- Practical Work in Physics: Radioactivity and Nuclear Physics Experiments
+
+### Online Resources
+
+- PhET Interactive Simulations: Alpha Decay, Beta Decay, Nuclear Fission
+
+- BBC Bitesize: Atomic Structure, Radioactivity, Nuclear Fission and Fusion
+
+- IAEA: Radiation and Nuclear Safety educational materials
+
+### Video Resources
+
+- Demonstration: Geiger counter measurements and background radiation
+
+- Animation: Rutherford scattering experiment and nuclear model development
+
+- Real-world application: How nuclear medicine uses radioactive tracers for diagnosis and treatment
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Alpha particle (α)** | A helium nucleus ($^4_2\text{He}$) emitted during alpha decay; +2 charge, high ionising, low penetrating |
+| **Background radiation** | Ionising radiation present in the environment from natural and artificial sources |
+| **Beta particle (β)** | A high-speed electron ($^0_{-1}\text{e}$) emitted during beta decay; –1 charge, medium ionising and penetrating |
+| **Count rate** | Number of radiation detections per unit time (counts/s or counts/min) measured by a detector |
+| **Electron** | Negatively charged subatomic particle orbiting the nucleus; relative charge –1, relative mass ≈ $\frac{1}{2000}$ |
+| **Gamma ray (γ)** | High-energy electromagnetic radiation emitted by excited nuclei; no charge or mass, low ionising, high penetrating |
+| **Geiger-Müller tube** | A detector that measures ionising radiation by counting electrical pulses from ionisation events |
+| **Half-life ($t_{1/2}$)** | Time taken for half the nuclei in a radioactive sample to decay, or for count rate to halve |
+| **Ion** | An atom or molecule with a net electric charge due to loss or gain of electrons |
+| **Ionising radiation** | Radiation with sufficient energy to remove electrons from atoms, creating ions |
+| **Isotope** | Atoms of the same element (same proton number) with different numbers of neutrons (different nucleon number) |
+| **Neutron** | Neutral subatomic particle in the nucleus; relative charge 0, relative mass 1 |
+| **Nuclear fission** | Splitting of a heavy nucleus into lighter nuclei, releasing energy and neutrons |
+| **Nuclear fusion** | Joining of light nuclei to form a heavier nucleus, releasing energy |
+| **Nucleon** | A proton or neutron; constituent of atomic nuclei |
+| **Nucleon number (A)** | Total number of protons and neutrons in a nucleus (mass number) |
+| **Nucleus** | Small, dense, positively charged centre of an atom containing protons and neutrons |
+| **Nuclide notation** | Symbolic representation of an atom: $^A_ZX$, where A = nucleon number, Z = proton number, X = element symbol |
+| **Proton** | Positively charged subatomic particle in the nucleus; relative charge +1, relative mass 1 |
+| **Proton number (Z)** | Number of protons in a nucleus (atomic number); defines the element |
+| **Radioactive decay** | Spontaneous, random change in an unstable nucleus with emission of α, β, and/or γ radiation |
+| **Radioactivity** | The property of unstable nuclei to spontaneously emit ionising radiation |
+
+---
+
+*End of Chapter 22*

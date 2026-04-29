@@ -1,0 +1,1018 @@
+---
+title: "Electromagnetic Effects"
+chapter: 21
+syllabus-code: "4.5 Electromagnetic effects"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (4.5.1 Electromagnetic Induction):**
+
+- Know that a conductor moving across a magnetic field or a changing magnetic field linking with a conductor can induce an e.m.f. in the conductor
+
+- Describe an experiment to demonstrate electromagnetic induction
+
+- State the factors affecting the magnitude of an induced e.m.f.
+
+**Core Content (4.5.2 The a.c. Generator):**
+
+- Describe a simple form of a.c. generator and the use of slip rings and brushes
+
+- Sketch and interpret graphs of e.m.f. against time for simple a.c. generators and relate the position of the generator coil to the peaks, troughs and zeros of the e.m.f.
+
+**Core Content (4.5.3 Magnetic Effect of a Current):**
+
+- Describe the pattern and direction of the magnetic field due to currents in straight wires and in solenoids
+
+- Describe an experiment to identify the pattern of the magnetic field (including direction) due to currents in straight wires and in solenoids
+
+- Describe how the magnetic effect of a current is used in relays and loudspeakers and give examples of their application
+
+**Core Content (4.5.4 Force on a Current-Carrying Conductor):**
+
+- Describe an experiment to show that a force acts on a current-carrying conductor in a magnetic field
+
+**Core Content (4.5.5 The d.c. Motor):**
+
+- Know that a current-carrying coil in a magnetic field may experience a turning effect and that the turning effect is increased by increasing the number of turns on the coil, the current, or the strength of the magnetic field
+
+**Core Content (4.5.6 The Transformer):**
+
+- Describe the construction of a simple transformer with a soft-iron core, as used for voltage transformations
+
+- Use the terms primary, secondary, step-up and step-down
+
+- Recall and use the equation $V_p/V_s = N_p/N_s$ where p and s refer to primary and secondary
+
+- Describe the use of transformers in high-voltage transmission of electricity
+
+- State the advantages of high-voltage transmission
+
+**Supplement (Extended):**
+
+- Know that the direction of an induced e.m.f. opposes the change causing it (Lenz's Law)
+
+- State and use the relative directions of force, field and induced current (Fleming's right-hand rule)
+
+- State the qualitative variation of the strength of the magnetic field around straight wires and solenoids
+
+- Describe the effect on the magnetic field around straight wires and solenoids of changing the magnitude and direction of the current
+
+- Recall and use the relative directions of force, magnetic field and current (Fleming's left-hand rule)
+
+- Determine the direction of the force on beams of charged particles in a magnetic field
+
+- Describe the operation of an electric motor, including the action of a split-ring commutator and brushes
+
+- Explain the principle of operation of a simple iron-cored transformer
+
+- Recall and use the equation for 100% efficiency in a transformer, $I_pV_p = I_sV_s$
+
+- Recall and use the equation $P = I^2R$ to explain why power losses in cables are smaller when the voltage is greater
+
+---
+
+## Electromagnetic Induction
+
+### What Is Electromagnetic Induction?
+
+In 1831, Michael Faraday discovered that a changing magnetic field can produce an electric current. This phenomenon is known as **electromagnetic induction**.
+
+> **Electromagnetic induction** is the process through which an induced e.m.f. is produced in a conductor due to a changing magnetic field.
+
+If the conductor is part of a complete circuit, the induced e.m.f. will drive an **induced current**.
+
+### Demonstrating Electromagnetic Induction
+
+**Apparatus:**
+
+- Solenoid (coil of insulated wire)
+
+- Strong bar magnet
+
+- Centre-zero galvanometer (sensitive ammeter)
+
+- Connecting wires
+
+**Procedure and Observations:**
+
+1. Move the N pole of the magnet **into** the solenoid.
+
+   - **Observation:** Galvanometer needle deflects momentarily to one side.
+
+   - **Conclusion:** An e.m.f. is induced, causing a current to flow.
+
+2. Hold the magnet **stationary** inside the solenoid.
+
+   - **Observation:** Galvanometer needle returns to zero and stays there.
+
+   - **Conclusion:** No e.m.f. is induced when there is no relative motion or change in magnetic flux.
+
+3. Withdraw the magnet **out of** the solenoid.
+
+   - **Observation:** Galvanometer needle deflects momentarily to the **opposite** side.
+
+   - **Conclusion:** The direction of the induced e.m.f. reverses when the direction of motion reverses.
+
+4. Repeat with the S pole, or reverse the magnet's poles.
+
+   - **Observation:** Deflection directions reverse accordingly.
+
+### Factors Affecting the Magnitude of Induced E.m.f.
+
+The size of the induced e.m.f. depends on the **rate of change of magnetic flux** through the coil. It can be increased by:
+
+1. Increasing the **speed** of relative motion between the magnet and the coil.
+
+2. Increasing the **strength** of the magnetic field (using a stronger magnet).
+
+3. Increasing the **number of turns** on the solenoid.
+
+4. Increasing the **cross-sectional area** of the coil.
+
+### Lenz's Law and Fleming's Right-Hand Rule (Extended)
+
+**Lenz's Law:**
+
+The direction of the induced e.m.f. (and hence induced current) is always such that it **opposes the change** causing it.
+
+- When a N pole moves **into** a coil, the induced current creates a N pole at that end to **repel** the incoming magnet.
+
+- When a N pole moves **out of** a coil, the induced current creates a S pole at that end to **attract** the departing magnet.
+
+- This ensures conservation of energy: mechanical work must be done to overcome the magnetic opposition, which is converted into electrical energy.
+
+**Fleming's Right-Hand Rule (for generators):**
+
+Used to determine the direction of induced current when a conductor moves in a magnetic field.
+
+- **Thumb:** Direction of motion (force applied)
+
+- **Forefinger:** Direction of magnetic field (N to S)
+
+- **Second finger:** Direction of induced current
+
+---
+
+## The A.C. Generator
+
+### How Does an A.C. Generator Work?
+
+An a.c. generator converts **mechanical energy** into **electrical energy** using electromagnetic induction.
+
+**Key Components:**
+
+1. **Armature coil:** Rectangular coil of wire mounted on an axle.
+
+2. **Magnets:** Provide a uniform magnetic field.
+
+3. **Slip rings:** Two continuous metal rings attached to the coil ends, rotating with it.
+
+4. **Carbon brushes:** Stationary contacts pressing against the slip rings to transfer current to the external circuit without twisting wires.
+
+**Operation:**
+
+- As the coil rotates, it cuts through magnetic field lines.
+
+- This changes the magnetic flux linking the coil, inducing an alternating e.m.f.
+
+- The direction of induced current reverses every half-turn, producing **alternating current (a.c.)**.
+
+### E.m.F. Against Time Graph
+
+The induced e.m.f. varies sinusoidally with time:
+
+- **Maximum e.m.f. (peaks/troughs):** Occur when the plane of the coil is **parallel** to the magnetic field. The sides of the coil cut field lines at the maximum rate.
+
+- **Zero e.m.f.:** Occurs when the plane of the coil is **perpendicular** to the magnetic field. The sides move parallel to field lines and cut none.
+
+**Factors increasing maximum induced e.m.f.:**
+
+1. Increasing the number of turns in the coil.
+
+2. Using stronger magnets.
+
+3. Increasing the frequency of rotation.
+
+4. Winding the coil around a soft iron core to concentrate flux.
+
+---
+
+## Magnetic Effect of a Current
+
+### Magnetic Field Patterns
+
+When an electric current flows through a conductor, it produces a magnetic field around it.
+
+**1. Straight Current-Carrying Wire:**
+
+- **Pattern:** Concentric circles centred on the wire.
+
+- **Direction:** Determined by the **right-hand grip rule** (thumb = current direction, curled fingers = field direction).
+
+- **Strength:** Strongest near the wire; decreases with distance. Increases with current magnitude.
+
+**2. Solenoid (Coil of Wire):**
+
+- **Pattern:** Resembles a bar magnet; field lines emerge from one end (N) and enter the other (S).
+
+- **Inside:** Field lines are straight, parallel, and equally spaced → **uniform magnetic field**.
+
+- **Direction:** Right-hand grip rule (fingers curl in current direction, thumb points to N pole).
+
+- **Strength increased by:** Increasing current, increasing turns per unit length, inserting a soft iron core.
+
+### Applications
+
+**Relays:**
+
+- An electromagnetic switch that uses a small current in one circuit to control a large current in another.
+
+- When the control circuit is closed, the electromagnet attracts an iron armature, closing the high-power circuit contacts.
+
+- Provides safe isolation between low-voltage control circuits and high-voltage power circuits.
+
+**Loudspeakers:**
+
+- An alternating current passes through a coil attached to a paper cone, placed in a radial magnetic field.
+
+- The motor effect produces an alternating force on the coil, causing the cone to vibrate.
+
+- Cone vibrations produce sound waves matching the electrical signal frequency.
+
+---
+
+## Force on a Current-Carrying Conductor
+
+### The Motor Effect
+
+When a current-carrying conductor is placed in an external magnetic field, it experiences a force. This is the **motor effect**.
+
+**Conditions:**
+
+- The conductor must not be parallel to the magnetic field.
+
+- Maximum force occurs when the conductor is **perpendicular** to the field.
+
+**Reversing the Force:**
+
+- Reversing the current direction reverses the force.
+
+- Reversing the magnetic field direction reverses the force.
+
+### Fleming's Left-Hand Rule (Extended)
+
+Used to determine the direction of force on a current-carrying conductor in a magnetic field:
+
+- **Thumb:** Direction of Force (Motion)
+
+- **Forefinger:** Direction of Magnetic Field (N to S)
+
+- **Second finger:** Direction of Current (conventional, + to –)
+
+**Force on Charged Particle Beams:**
+
+- A beam of moving charges is equivalent to a current.
+
+- **Positive particles:** Deflect according to conventional current direction.
+
+- **Negative particles (electrons):** Deflect in the **opposite** direction to the second finger, as electron flow is opposite to conventional current.
+
+- Particles move in circular paths while inside a uniform magnetic field.
+
+---
+
+## The D.C. Motor
+
+### How a D.C. Motor Works
+
+A d.c. motor converts **electrical energy** into **mechanical energy**.
+
+**Structure:**
+
+- Rectangular coil mounted on an axle between magnetic poles.
+
+- Connected to a **split-ring commutator** and carbon brushes.
+
+**Operation Cycle:**
+
+1. Current flows through the coil.
+
+2. Forces on opposite sides of the coil are in opposite directions (Fleming's left-hand rule), creating a **turning effect (torque)**.
+
+3. The coil rotates.
+
+4. When the coil reaches the vertical position, the split-ring commutator gaps align with the brushes, **cutting off current momentarily**.
+
+5. Momentum carries the coil past the vertical.
+
+6. The commutator reverses contact, **reversing current direction** in the coil.
+
+7. Forces reverse, ensuring continuous rotation in the **same direction**.
+
+### Increasing the Turning Effect
+
+1. Increasing the current through the coil.
+
+2. Increasing the number of turns on the coil.
+
+3. Using stronger permanent magnets.
+
+4. Winding the coil on a soft iron core to concentrate the magnetic field.
+
+---
+
+## The Transformer
+
+### Construction and Principle
+
+A transformer changes the voltage of an alternating current supply.
+
+**Construction:**
+
+- **Primary coil:** Connected to a.c. supply.
+
+- **Secondary coil:** Connected to the load.
+
+- **Laminated soft iron core:** Links the two coils magnetically. Lamination reduces eddy current heating.
+
+**Principle of Operation:**
+
+1. Alternating current in the primary coil produces a **changing magnetic field**.
+
+2. The soft iron core channels this changing flux to the secondary coil.
+
+3. The changing flux induces an alternating e.m.f. in the secondary coil (mutual induction).
+
+4. **Does not work with d.c.** because d.c. produces a constant magnetic field → no change in flux → no induced e.m.f.
+
+### Transformer Equations
+
+**Voltage and Turns Ratio:**
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+- **Step-up transformer:** $N_s > N_p$ → $V_s > V_p$ (used at power stations).
+
+- **Step-down transformer:** $N_s < N_p$ → $V_s < V_p$ (used in homes, chargers).
+
+**Power and Efficiency (Ideal Transformer):**
+
+Assuming 100% efficiency (power in = power out):
+
+$$I_p V_p = I_s V_s$$
+
+Where:
+
+- $V_p, V_s$ = primary and secondary voltages
+
+- $I_p, I_s$ = primary and secondary currents
+
+- $N_p, N_s$ = number of turns in primary and secondary coils
+
+### High-Voltage Power Transmission
+
+**Problem:** Power cables have resistance $R$. Power loss due to heating is given by:
+
+$$P_{\text{loss}} = I^2 R$$
+
+**Solution:**
+
+- Use step-up transformers to **increase voltage** at the power station.
+
+- Since $P = VI$, for constant power $P$, increasing $V$ drastically **decreases current $I$**.
+
+- Lower current means $I^2R$ losses are minimised.
+
+- Step-down transformers reduce voltage to safe levels (e.g., 230 V or 240 V) for domestic use.
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Electromagnetic induction:** Changing magnetic flux induces e.m.f.; requires relative motion or changing current.
+
+2. **Factors affecting induction:** Speed, magnetic field strength, number of turns, coil area.
+
+3. **A.C. generator:** Rotating coil in magnetic field produces a.c.; slip rings and brushes transfer current.
+
+4. **Magnetic effect of current:** Straight wires produce circular fields; solenoids produce bar-magnet-like fields.
+
+5. **Applications:** Relays (electromagnetic switches), loudspeakers (motor effect converts electricity to sound).
+
+6. **Motor effect:** Force on current-carrying conductor in magnetic field; maximum when perpendicular.
+
+7. **D.C. motor:** Split-ring commutator reverses current every half-turn for continuous rotation.
+
+8. **Transformer:** Changes a.c. voltage via mutual induction; $V_p/V_s = N_p/N_s$.
+
+9. **Power transmission:** High voltage reduces current, minimising $I^2R$ heating losses in cables.
+
+### Extended Concepts
+
+10. **Lenz's Law:** Induced e.m.f. direction opposes the change causing it (conservation of energy).
+
+11. **Fleming's rules:** Left-hand rule for motors/force; Right-hand rule for generators/induction.
+
+12. **Charged particle deflection:** Direction depends on charge sign; negative charges deflect opposite to conventional current.
+
+13. **Ideal transformer equation:** $I_pV_p = I_sV_s$; step-up increases voltage but decreases current proportionally.
+
+14. **Power loss explanation:** $P_{\text{loss}} = I^2R$; doubling voltage quarters the current, reducing loss by factor of 16.
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "A transformer works with both a.c. and d.c."
+
+**Incorrect**: "Transformers can step up or step down direct current."
+
+**Correct**:
+
+- Transformers rely on a **changing magnetic flux** to induce e.m.f.
+
+- D.c. produces a **constant magnetic field** → no change in flux → zero induced e.m.f. in secondary.
+
+- Transformers only work with alternating current.
+
+---
+
+### ⚠️ Misconception 2: "Induced current flows in the same direction as the motion causing it"
+
+**Incorrect**: "Moving a N pole into a coil makes that end a S pole to help it enter."
+
+**Correct**:
+
+- **Lenz's Law** states the induced current **opposes** the change.
+
+- Moving N pole in → induced N pole to repel it.
+
+- Mechanical work is required to overcome this repulsion, conserving energy.
+
+---
+
+### ⚠️ Misconception 3: "Slip rings and split-ring commutators are the same"
+
+**Incorrect**: "Both are used interchangeably in generators and motors."
+
+**Correct**:
+
+- **Slip rings:** Continuous rings; maintain same electrical contact; used in **a.c. generators** to output alternating current.
+
+- **Split-ring commutator:** Split into two halves; reverses contact every half-turn; used in **d.c. motors** to maintain unidirectional rotation.
+
+---
+
+### ⚠️ Misconception 4: "Fleming's left-hand and right-hand rules can be used interchangeably"
+
+**Incorrect**: "Either hand rule works for both motors and generators."
+
+**Correct**:
+
+- **Left-hand rule:** For **motors** (current + magnetic field → force/motion).
+
+- **Right-hand rule:** For **generators/induction** (motion + magnetic field → induced current).
+
+- Mixing them gives incorrect directions.
+
+---
+
+### ⚠️ Misconception 5: "High voltage transmission causes high power loss"
+
+**Incorrect**: "Stepping up voltage increases energy waste in cables."
+
+**Correct**:
+
+- Power loss depends on **current**, not voltage: $P_{\text{loss}} = I^2R$.
+
+- High voltage transmission **reduces current** for the same power ($P = VI$).
+
+- Lower current drastically reduces $I^2R$ heating losses.
+
+---
+
+### ⚠️ Misconception 6: "The magnetic field inside a solenoid is zero"
+
+**Incorrect**: "Coils only produce magnetic fields outside themselves."
+
+**Correct**:
+
+- Inside a solenoid, field lines are **straight, parallel, and closely spaced**.
+
+- This indicates a **strong, uniform magnetic field** inside the coil.
+
+- Outside, the field resembles a bar magnet and is weaker.
+
+---
+
+### ⚠️ Misconception 7: "Electron beams deflect in the same direction as conventional current"
+
+**Incorrect**: "A beam of electrons deflects according to Fleming's left-hand rule second finger."
+
+**Correct**:
+
+- Electrons are **negatively charged**.
+
+- Their motion is **opposite** to conventional current direction.
+
+- When applying Fleming's left-hand rule, the second finger must point **opposite** to electron motion to find the correct force direction.
+
+---
+
+## Worked Examples
+
+### Example 1: Transformer Calculations
+
+**Question:**
+
+A step-down transformer has 2400 turns on the primary coil and 120 turns on the secondary coil. The primary voltage is 240 V.
+
+(a) Calculate the secondary voltage.
+
+(b) If the secondary current is 4.0 A, calculate the primary current (assume 100% efficiency).
+
+(c) State one advantage of using this transformer in a phone charger.
+
+**Solution:**
+
+**(a) Secondary voltage:**
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s} \Rightarrow V_s = V_p \times \frac{N_s}{N_p} = 240 \times \frac{120}{2400} = \boxed{12 \text{ V}}$$
+
+**(b) Primary current:**
+
+$$I_p V_p = I_s V_s \Rightarrow I_p = \frac{I_s V_s}{V_p} = \frac{4.0 \times 12}{240} = \boxed{0.20 \text{ A}}$$
+
+**(c) Advantage:**
+
+- Steps down high mains voltage to a safe, low voltage suitable for charging delicate electronic devices without damage.
+
+---
+
+### Example 2: Fleming's Left-Hand Rule Application
+
+**Question:**
+
+A straight wire carries a current flowing vertically upwards. It is placed in a uniform magnetic field directed horizontally from left to right. Determine the direction of the force on the wire.
+
+**Solution:**
+
+**Step 1:** Align left hand.
+
+**Step 2:** Forefinger points right (magnetic field direction).
+
+**Step 3:** Second finger points up (current direction).
+
+**Step 4:** Thumb points **into the page** (away from observer).
+
+**Answer:** The force acts **perpendicularly into the plane of the page**.
+
+---
+
+### Example 3: A.C. Generator Graph Interpretation
+
+**Question:**
+
+The graph shows the e.m.f. output of an a.c. generator against time. At $t = 0$, the coil is perpendicular to the magnetic field.
+
+(a) At what times is the e.m.f. zero? Explain why.
+
+(b) At what times is the e.m.f. maximum? Explain why.
+
+**Solution:**
+
+**(a) Zero e.m.f. times:**
+
+- Occurs at $t = 0$, $T/2$, $T$, etc.
+
+- **Explanation:** Coil plane is **perpendicular** to magnetic field. Sides of coil move parallel to field lines and cut no flux. Rate of change of flux is zero.
+
+**(b) Maximum e.m.f. times:**
+
+- Occurs at $t = T/4$, $3T/4$, etc.
+
+- **Explanation:** Coil plane is **parallel** to magnetic field. Sides cut field lines at maximum rate. Rate of change of flux is maximum.
+
+---
+
+### Example 4: Power Transmission Loss Calculation
+
+**Question:**
+
+A power station transmits 500 kW of power to a town.
+
+(a) Calculate the current in the transmission cables if the voltage is 10 kV.
+
+(b) Calculate the power loss if the total cable resistance is 5.0 Ω.
+
+(c) If the voltage is stepped up to 100 kV, calculate the new power loss and explain the benefit.
+
+**Solution:**
+
+**(a) Current at 10 kV:**
+
+$$I = \frac{P}{V} = \frac{500\,000}{10\,000} = 50 \text{ A}$$
+
+**(b) Power loss at 10 kV:**
+
+$$P_{\text{loss}} = I^2R = 50^2 \times 5.0 = \boxed{12\,500 \text{ W} = 12.5 \text{ kW}}$$
+
+**(c) Current at 100 kV:**
+
+$$I = \frac{500\,000}{100\,000} = 5.0 \text{ A}$$
+
+$$P_{\text{loss}} = 5.0^2 \times 5.0 = \boxed{125 \text{ W} = 0.125 \text{ kW}}$$
+
+**Benefit:** Increasing voltage by 10× reduces current by 10×, reducing power loss by a factor of 100 ($I^2R$ dependence). This greatly improves transmission efficiency.
+
+---
+
+### Example 5: Electromagnetic Induction Factors
+
+**Question:**
+
+A student moves a bar magnet into a solenoid connected to a galvanometer. State what happens to the galvanometer deflection if:
+
+(a) The magnet is moved faster.
+
+(b) The magnet is held stationary inside the coil.
+
+(c) The magnet is withdrawn with the same speed as insertion.
+
+**Solution:**
+
+**(a) Moved faster:**
+
+- Deflection angle **increases**.
+
+- Reason: Higher rate of change of magnetic flux → larger induced e.m.f. → larger current.
+
+**(b) Held stationary:**
+
+- Deflection returns to **zero**.
+
+- Reason: No change in magnetic flux → no induced e.m.f.
+
+**(c) Withdrawn:**
+
+- Deflection is in the **opposite direction**.
+
+- Reason: Change in flux is reversed → induced e.m.f. polarity reverses (Lenz's Law).
+
+---
+
+## Practice Questions
+
+### Core Level
+
+1. State what is meant by electromagnetic induction.
+
+2. List three factors that increase the magnitude of an induced e.m.f. in a coil.
+
+3. Describe the function of slip rings and carbon brushes in an a.c. generator.
+
+4. Sketch the magnetic field pattern around a straight current-carrying wire. Indicate the direction of the field.
+
+5. State two applications of the magnetic effect of a current.
+
+6. Describe an experiment to show that a force acts on a current-carrying conductor in a magnetic field.
+
+7. State three ways to increase the turning effect on a coil in a d.c. motor.
+
+8. Define a step-up transformer. How does the number of turns in the primary compare to the secondary?
+
+9. A transformer has 100 turns on the primary and 500 turns on the secondary. If the input voltage is 12 V, calculate the output voltage.
+
+10. Explain why high voltages are used for long-distance electricity transmission.
+
+### Extended Level
+
+11. State Lenz's Law. Explain how it demonstrates the principle of conservation of energy.
+
+12. Using Fleming's right-hand rule, determine the direction of induced current in a wire moving downwards through a magnetic field directed into the page.
+
+13. A solenoid carries a current. Describe how the magnetic field strength changes if:
+
+- (a) The current is doubled.
+
+- (b) The number of turns per unit length is halved.
+
+- (c) A soft iron core is inserted.
+
+14. An electron beam enters a magnetic field directed into the page, moving horizontally to the right. Determine the direction of deflection of the beam.
+
+15. Explain the function of the split-ring commutator in a d.c. motor. What would happen if it were replaced by slip rings?
+
+16. Explain why a transformer does not work if connected to a d.c. supply.
+
+17. A power station generates 2.0 MW at 10 kV. The transmission cables have a total resistance of 8.0 Ω.
+
+- (a) Calculate the current in the cables.
+
+- (b) Calculate the power loss in the cables.
+
+- (c) If a step-up transformer increases the voltage to 200 kV before transmission, calculate the new power loss.
+
+18. Describe how a moving-coil loudspeaker converts electrical signals into sound waves. Include reference to the motor effect and alternating current.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 21.1: Investigating Transformer Turns Ratio
+
+**Objective:**
+
+To investigate the relationship between the number of turns on the primary and secondary coils of a transformer and the output voltage.
+
+**Apparatus:**
+
+- Laminated soft iron core (C-cores or E-cores)
+
+- Primary coil (known turns, e.g., 100 turns)
+
+- Secondary coils (varying turns, e.g., 50, 150, 200, 300 turns)
+
+- Low-voltage a.c. power supply (e.g., 2 V or 6 V a.c.)
+
+- A.C. voltmeter (dual range or two meters)
+
+- Connecting wires
+
+**Variables:**
+
+- **Independent:** Number of turns on secondary coil ($N_s$)
+
+- **Dependent:** Secondary voltage ($V_s$)
+
+- **Controlled:** Primary voltage ($V_p$), primary turns ($N_p$), core material, coil tightness
+
+**Procedure:**
+
+1. Assemble the transformer by clamping the C-cores together with the primary and secondary coils.
+
+2. Connect the primary coil to the a.c. power supply set to a fixed voltage (e.g., 6.0 V).
+
+3. Measure and record the actual primary voltage $V_p$ using an a.c. voltmeter.
+
+4. Connect the secondary coil with $N_s = 50$ turns to a second a.c. voltmeter.
+
+5. Measure and record the secondary voltage $V_s$.
+
+6. Repeat steps 4–5 for secondary coils with 100, 150, 200, and 300 turns.
+
+7. Record all results in a table.
+
+**Data Table:**
+
+| $N_p$ (turns) | $V_p$ (V) | $N_s$ (turns) | $V_s$ (V) | Calculated ratio $V_s/V_p$ | Expected ratio $N_s/N_p$ |
+|:--------------|:----------|:--------------|:----------|:---------------------------|:-------------------------|
+| 100 | | 50 | | | |
+| 100 | | 100 | | | |
+| 100 | | 150 | | | |
+| 100 | | 200 | | | |
+| 100 | | 300 | | | |
+
+**Analysis:**
+
+1. Calculate the ratio $V_s/V_p$ and $N_s/N_p$ for each trial.
+
+2. Plot a graph of $V_s$ (y-axis) against $N_s$ (x-axis).
+
+3. Determine the gradient of the graph. The gradient should equal $V_p/N_p$.
+
+4. Comment on whether the results support the equation $V_s/V_p = N_s/N_p$.
+
+**Precautions:**
+
+- ✓ Ensure the iron cores are tightly clamped to minimise magnetic flux leakage.
+
+- ✓ Use a.c. supply only; d.c. will not induce voltage and may overheat the coil.
+
+- ✓ Allow the power supply and coils to cool between readings if they become warm.
+
+- ✓ Check voltmeter zero error and select appropriate ranges.
+
+**Expected Results:**
+
+- The graph of $V_s$ against $N_s$ will be a straight line through the origin.
+
+- The ratio $V_s/V_p$ will approximately equal $N_s/N_p$.
+
+- Slight deviations may occur due to energy losses (eddy currents, hysteresis, resistance).
+
+**Conclusion Template:**
+
+"The experiment verified the transformer equation $V_s/V_p = N_s/N_p$. The secondary voltage was directly proportional to the number of turns on the secondary coil. The gradient of the $V_s$ vs $N_s$ graph agreed with $V_p/N_p$ within experimental limits, confirming ideal transformer behaviour."
+
+**Extension (Supplement):**
+
+- Investigate efficiency by measuring primary and secondary currents simultaneously.
+
+- Compare results with and without the soft iron core to demonstrate its role in flux linkage.
+
+- Research sources of energy loss in real transformers and suggest engineering solutions.
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+1. Which change will not increase the magnitude of the induced e.m.f. in a coil?
+
+A. Increasing the speed of the magnet  
+
+B. Increasing the number of turns on the coil  
+
+C. Using a stronger magnet  
+
+D. Using a coil with higher electrical resistance  
+
+2. What is the function of the split-ring commutator in a d.c. motor?
+
+A. To increase the magnetic field strength  
+
+B. To reverse the direction of current in the coil every half-turn  
+
+C. To convert a.c. to d.c. for the external circuit  
+
+D. To reduce friction between the brushes and the axle  
+
+3. Which diagram correctly shows the magnetic field pattern around a straight wire carrying current upwards?
+
+A. Concentric circles, anticlockwise  
+
+B. Concentric circles, clockwise  
+
+C. Parallel lines, left to right  
+
+D. Radial lines, outward  
+
+4. A transformer has 500 turns on the primary and 100 turns on the secondary. If the primary voltage is 240 V, what is the secondary voltage?
+
+A. 48 V  
+
+B. 120 V  
+
+C. 480 V  
+
+D. 1200 V  
+
+5. Why is electricity transmitted at high voltage?
+
+A. To increase the current in the cables  
+
+B. To reduce the resistance of the cables  
+
+C. To reduce power loss due to heating in the cables  
+
+D. To make the transmission safer for workers  
+
+### Paper 3 Style (Structured)
+
+6. (a) State Lenz's Law. [1]
+
+(b) A bar magnet is pushed into a solenoid connected to a galvanometer. The galvanometer needle deflects to the right.
+
+   (i) Explain why the needle deflects. [2]
+
+   (ii) State what happens to the needle when the magnet is held stationary inside the solenoid. [1]
+
+   (iii) State what happens to the needle when the magnet is pulled out rapidly. [1]
+
+7. (a) Describe the pattern and direction of the magnetic field inside a solenoid carrying a steady current. [2]
+
+(b) State two ways to increase the magnetic field strength inside the solenoid. [2]
+
+(c) Describe how a relay uses an electromagnet to switch on a high-voltage circuit. [3]
+
+8. (a) Sketch a graph of e.m.f. against time for one complete rotation of an a.c. generator coil. Label the axes clearly. [2]
+
+(b) State the position of the coil relative to the magnetic field when:
+
+   (i) The e.m.f. is zero. [1]
+
+   (ii) The e.m.f. is at its maximum. [1]
+
+(c) Explain the difference between slip rings and a split-ring commutator in terms of their function. [3]
+
+9. (Extended) (a) State Fleming's left-hand rule. [1]
+
+(b) An electron beam travels horizontally to the right into a region where a uniform magnetic field is directed vertically downwards. Determine the direction of the force on the electrons. [2]
+
+(c) A straight wire of length 0.5 m carries a current of 4.0 A perpendicular to a magnetic field of flux density 0.2 T. Calculate the magnitude of the force on the wire. [2]
+
+10. (Extended) A power station generates 400 MW of electrical power at 20 kV.
+
+(a) Calculate the current supplied by the station. [2]
+
+(b) The power is transmitted through cables of total resistance 2.0 Ω. Calculate the power loss in the cables. [2]
+
+(c) A step-up transformer increases the voltage to 400 kV before transmission. Calculate the new current and the new power loss. [3]
+
+(d) Explain why the power loss is significantly reduced in part (c). [2]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Electromagnetic induction:** Changing magnetic flux induces e.m.f.; requires relative motion or changing current  
+
+✓ **Induction factors:** Speed, magnetic field strength, number of turns, coil area  
+
+✓ **A.C. generator:** Rotating coil produces a.c.; slip rings maintain continuous contact; output is sinusoidal  
+
+✓ **Magnetic effect of current:** Straight wire → concentric circles; solenoid → uniform inside, bar-magnet-like outside  
+
+✓ **Applications:** Relays (electromagnetic switches), loudspeakers (motor effect on coil)  
+
+✓ **Motor effect:** Force on current-carrying conductor in magnetic field; max when perpendicular  
+
+✓ **D.C. motor:** Split-ring commutator reverses current every half-turn for continuous rotation  
+
+✓ **Transformer:** Changes a.c. voltage via mutual induction; $V_p/V_s = N_p/N_s$  
+
+✓ **High-voltage transmission:** Reduces current, minimising $I^2R$ heating losses in cables  
+
+✓ **Lenz's Law (Extended):** Induced e.m.f. opposes the change causing it (conservation of energy)  
+
+✓ **Fleming's rules (Extended):** Left-hand = motor/force; Right-hand = generator/induction  
+
+✓ **Ideal transformer (Extended):** $I_pV_p = I_sV_s$; power loss $P_{\text{loss}} = I^2R$  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Transformer voltage ratio | $\frac{V_p}{V_s} = \frac{N_p}{N_s}$ | $V$=voltage, $N$=number of turns |
+| Ideal transformer power | $I_p V_p = I_s V_s$ | $I$=current |
+| Power loss in cables | $P_{\text{loss}} = I^2 R$ | $R$=cable resistance |
+| Electrical power | $P = IV = I^2R = \frac{V^2}{R}$ | Standard power equations |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 18 (Electromagnetic Effects)
+
+- Practical Work in Physics: Electromagnetism, Transformers, and Motors
+
+### Online Resources
+
+- PhET Interactive Simulations: Faraday's Law, Generator, Magnetic Field
+
+- BBC Bitesize: Electromagnetic Induction, Transformers, Motors
+
+- University of Colorado: Circuit construction and magnetic field visualisations
+
+### Video Resources
+
+- Demonstration: Electromagnetic induction with galvanometer and moving magnet
+
+- Animation: How transformers step up/step down voltage
+
+- Real-world application: National grid high-voltage transmission systems
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **A.C. generator** | Device that converts mechanical energy to alternating electrical energy using electromagnetic induction |
+| **D.C. motor** | Device that converts electrical energy to mechanical rotation using the motor effect and split-ring commutator |
+| **Electromagnetic induction** | Production of an e.m.f. in a conductor due to a changing magnetic field |
+| **Fleming's left-hand rule** | Rule to determine direction of force on a current-carrying conductor in a magnetic field |
+| **Fleming's right-hand rule** | Rule to determine direction of induced current when a conductor moves in a magnetic field |
+| **Lenz's Law** | The direction of induced e.m.f. opposes the change in magnetic flux that produced it |
+| **Motor effect** | The force experienced by a current-carrying conductor placed in an external magnetic field |
+| **Relay** | An electromagnetic switch used to control a high-current circuit with a low-current signal |
+| **Slip rings** | Continuous metal rings in an a.c. generator that transfer alternating current to the external circuit |
+| **Split-ring commutator** | A split metal ring in a d.c. motor that reverses current direction in the coil every half-turn |
+| **Step-down transformer** | Transformer where secondary voltage is lower than primary voltage ($N_s < N_p$) |
+| **Step-up transformer** | Transformer where secondary voltage is higher than primary voltage ($N_s > N_p$) |
+| **Transformer** | Device that changes the voltage of an alternating current supply using mutual induction |
+| **Mutual induction** | Induction of an e.m.f. in one coil due to a changing current in a nearby coil |
+
+---
+
+*End of Chapter 21*

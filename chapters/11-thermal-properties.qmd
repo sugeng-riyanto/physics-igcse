@@ -1,0 +1,882 @@
+---
+title: "Thermal Properties"
+chapter: 11
+syllabus-code: "2.2 Thermal properties and temperature"
+author: "Sugeng Riyanto, M.Sc."
+date: "2026"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+**Core Content (2.2.1 Thermal Expansion):**
+
+- Describe, qualitatively, the thermal expansion of solids, liquids and gases at constant pressure
+
+- Describe some of the everyday applications and consequences of thermal expansion
+
+**Core Content (2.2.2 Specific Heat Capacity):**
+
+- Know that a rise in the temperature of an object increases its internal energy
+
+**Core Content (2.2.3 Melting, Boiling and Evaporation):**
+
+- Describe melting and boiling in terms of energy input without a change in temperature
+
+- Know the melting and boiling temperatures for water at standard atmospheric pressure
+
+- Describe condensation and solidification in terms of particles
+
+- Describe evaporation in terms of the escape of more-energetic particles from the surface of a liquid
+
+- Know that evaporation causes cooling of a liquid
+
+**Supplement (Extended):**
+
+- Explain, in terms of the motion and arrangement of particles, the relative order of magnitudes of the expansion of solids, liquids and gases as their temperatures rise
+
+- Describe an increase in temperature of an object in terms of an increase in the average kinetic energies of all of the particles in the object
+
+- Define specific heat capacity as the energy required per unit mass per unit temperature increase; recall and use the equation $c = \frac{\Delta E}{m\Delta\theta}$
+
+- Describe experiments to measure the specific heat capacity of a solid and a liquid
+
+- Describe the differences between boiling and evaporation
+
+- Describe how temperature, surface area and air movement over a surface affect evaporation
+
+- Explain the cooling of an object in contact with an evaporating liquid
+
+---
+
+## Thermal Expansion of Solids, Liquids and Gases
+
+### What Happens When Materials Are Heated?
+
+When solids, liquids and gases are heated, they **increase in volume** or **expand**. When cooled, they **decrease in volume** or **contract**.
+
+| State | Amount of Expansion | Particle-Level Explanation |
+|:------|:--------------------|:---------------------------|
+| **Solids** | Smallest expansion | Particles vibrate more vigorously about fixed positions; strong intermolecular forces limit expansion |
+| **Liquids** | Greater expansion than solids | Particles move faster and further apart; weaker intermolecular forces allow more expansion |
+| **Gases** | Greatest expansion | Particles move at high speeds with negligible forces between them; large increase in volume for small temperature rise |
+
+::: {.callout-note}
+**Key Concept:** The particles themselves do not expand when heated. Instead, the **average distance between particles increases**, causing the material to occupy a larger volume.
+:::
+
+### Everyday Applications and Consequences of Thermal Expansion
+
+| Application | Explanation |
+|:------------|:------------|
+| **Railway tracks** | Expansion gaps allow rails to expand in hot weather without buckling; modern tracks are tensioned to fit tightly on hot days |
+| **Bridges** | Expansion joints or rollers at one end allow the bridge to expand and contract without damage |
+| **Liquid-in-glass thermometers** | The liquid (alcohol or mercury) expands more than the glass when heated, rising up the capillary tube |
+| **Shrink fitting** | A metal part is cooled to contract, fitted into another part, then warms and expands to form a tight joint |
+| **Overhead cables** | Electrical wires are hung loosely in summer to allow for contraction in winter without snapping |
+
+::: {.callout-warning}
+**Important:** If expansion is prevented, very large forces can develop. This is why engineers must design structures to accommodate thermal expansion.
+:::
+
+---
+
+## Specific Heat Capacity
+
+### Internal Energy and Temperature
+
+**Internal energy** is the total energy of all the particles in a substance.
+
+- When the temperature of an object **increases**, its internal energy **increases**
+
+- This is because the **average kinetic energy** of the particles increases
+
+- Temperature is a measure of the **average kinetic energy** of particles
+
+::: {.callout-note}
+**Key Insight:** Two objects of the same mass and temperature have the same average particle kinetic energy, but may have different internal energies if they contain different numbers of particles.
+:::
+
+### What Is Specific Heat Capacity?
+
+When you heat different substances, you notice that:
+
+- The more mass you heat, the more energy is needed
+
+- The greater the temperature change required, the more energy is needed
+
+- Different materials require different amounts of energy for the same temperature change
+
+**Specific heat capacity** ($c$) is defined as:
+
+> The energy required to raise the temperature of **1 kg** of a substance by **1 °C** (or **1 K**).
+
+**Formula:**
+$$c = \frac{\Delta E}{m\Delta\theta}$$
+
+Where:
+- $c$ = specific heat capacity (J/(kg °C) or J/(kg K))
+
+- $\Delta E$ = thermal energy supplied (J)
+
+- $m$ = mass of substance (kg)
+
+- $\Delta\theta$ = temperature change (°C or K)
+
+**Rearranged for energy calculations:**
+$$\Delta E = mc\Delta\theta$$
+
+::: {.callout-note}
+**Important:** A temperature change of 1 °C is equal to a temperature change of 1 K. Only the zero points of the scales differ.
+:::
+
+### Specific Heat Capacities of Common Materials
+
+| Material | Specific Heat Capacity (J/(kg K)) |
+|:---------|:----------------------------------|
+| Lead | 130 |
+| Mercury | 140 |
+| Brass | 380 |
+| Copper | 400 |
+| Iron | 460 |
+| Glass | 670 |
+| Aluminium | 900 |
+| Methylated spirit | 2400 |
+| Seawater | 3900 |
+| Water | 4200 |
+
+**Key observation:** Water has a very high specific heat capacity. This means:
+
+- Water heats up and cools down slowly compared to most substances
+
+- This explains why coastal areas have milder climates than inland areas
+
+- Water is used as a coolant in car engines and power stations
+
+---
+
+## Worked Examples: Specific Heat Capacity
+
+### Example 1: Calculating Energy Required
+
+**Question:**
+Calculate the thermal energy required to raise the temperature of 2.0 kg of water from 20 °C to 80 °C. (Take $c_{\text{water}} = 4200 \text{ J/(kg K)}$)
+
+**Solution:**
+
+**Step 1:** Identify values
+- $m = 2.0 \text{ kg}$
+
+- $\Delta\theta = 80 - 20 = 60 \text{ °C}$ (or 60 K)
+
+- $c = 4200 \text{ J/(kg K)}$
+
+**Step 2:** Apply formula
+$$\Delta E = mc\Delta\theta = 2.0 \times 4200 \times 60 = \boxed{504\,000 \text{ J} = 504 \text{ kJ}}$$
+
+---
+
+### Example 2: Finding Specific Heat Capacity
+
+**Question:**
+A 0.50 kg metal block is heated using a 60 W heater for 5.0 minutes. The temperature of the block rises from 25 °C to 85 °C. Calculate the specific heat capacity of the metal. State any assumption made.
+
+**Solution:**
+
+**Step 1:** Calculate energy supplied by heater
+$$\Delta E = P \times t = 60 \text{ W} \times (5.0 \times 60) \text{ s} = 18\,000 \text{ J}$$
+
+**Step 2:** Identify other values
+- $m = 0.50 \text{ kg}$
+
+- $\Delta\theta = 85 - 25 = 60 \text{ °C}$
+
+**Step 3:** Apply formula (assuming no heat loss to surroundings)
+$$c = \frac{\Delta E}{m\Delta\theta} = \frac{18\,000}{0.50 \times 60} = \boxed{600 \text{ J/(kg K)}}$$
+
+**Assumption:** All thermal energy from the heater is absorbed by the metal block (no heat loss to surroundings).
+
+---
+
+### Example 3: Temperature Change Calculation
+
+**Question:**
+A 1.2 kg aluminium block ($c = 900 \text{ J/(kg K)}$) absorbs 27 000 J of thermal energy. Calculate the temperature rise of the block.
+
+**Solution:**
+
+**Step 1:** Rearrange formula for $\Delta\theta$
+$$\Delta\theta = \frac{\Delta E}{mc}$$
+
+**Step 2:** Substitute values
+$$\Delta\theta = \frac{27\,000}{1.2 \times 900} = \frac{27\,000}{1080} = \boxed{25 \text{ °C}}$$
+
+---
+
+## 11.4 Changes of State: Melting and Boiling
+
+### What Happens During a Change of State?
+
+When a substance changes state (e.g., solid → liquid or liquid → gas), energy is supplied but **the temperature remains constant**.
+
+**Heating curve of water:**
+
+```
+Temperature/°C
+    ^
+100 |----------------------- E (boiling: liquid → gas)
+    |                       |
+    |                       |
+    |              D        |
+    |             /         |
+  0 |----- C     /          |
+    |      |    /           |
+    |      |   /            |
+    |  B   |  /             |
+    | /    | /              |
+-10 |/     |/               |
+    +------------------------> Time
+      A
+```
+
+| Segment | Process | Temperature | Energy Use |
+|:--------|:--------|:------------|:-----------|
+| **A → B** | Ice warming | Increases from −10 °C to 0 °C | Increases kinetic energy of particles |
+| **B → C** | Melting (solid → liquid) | Constant at 0 °C | Breaks bonds between particles |
+| **C → D** | Water warming | Increases from 0 °C to 100 °C | Increases kinetic energy of particles |
+| **D → E** | Boiling (liquid → gas) | Constant at 100 °C | Breaks bonds and overcomes atmospheric pressure |
+
+::: {.callout-note}
+**Key Concept:** During melting or boiling, the supplied energy is used to **overcome intermolecular forces**, not to increase particle kinetic energy. This is why temperature remains constant.
+:::
+
+### Melting and Boiling Points of Water
+
+At standard atmospheric pressure (1 atmosphere):
+
+- **Melting point of pure water**: **0 °C**
+
+- **Boiling point of pure water**: **100 °C**
+
+**Note:** These values change with pressure. For example:
+
+- At high altitude (lower pressure), water boils below 100 °C
+
+- In a pressure cooker (higher pressure), water boils above 100 °C
+
+---
+
+## 11.5 Condensation and Solidification
+
+### Reverse Processes: Energy Release
+
+When a substance changes from a higher-energy state to a lower-energy state, **energy is released**:
+
+| Process | Change of State | Energy Transfer | Particle Explanation |
+|:--------|:----------------|:----------------|:---------------------|
+| **Condensation** | Gas → Liquid | Energy released to surroundings | Particles move closer; attractive forces pull them together, releasing energy |
+| **Solidification (Freezing)** | Liquid → Solid | Energy released to surroundings | Particles settle into fixed positions; strong bonds form, releasing energy |
+
+::: {.callout-warning}
+**Important:** The energy released during condensation or freezing is equal to the energy absorbed during boiling or melting for the same mass of substance.
+:::
+
+**Real-world example:** A burn from steam at 100 °C is more severe than a burn from boiling water at 100 °C because:
+
+1. Steam condenses on the skin, releasing latent heat
+
+2. The condensed water then cools, releasing additional thermal energy
+
+---
+
+## 11.6 Evaporation
+
+### What Is Evaporation?
+
+**Evaporation** is the change of state from **liquid to gas** that occurs **at the surface** of a liquid, **at any temperature** (not just at the boiling point).
+
+### How Does Evaporation Occur? (Kinetic Particle Model)
+
+1. Particles in a liquid move randomly with a **range of kinetic energies**
+
+2. At the surface, some particles have enough kinetic energy to **overcome attractive forces** from other particles and atmospheric pressure
+
+3. These high-energy particles **escape** into the air as gas molecules
+
+4. The remaining particles have a **lower average kinetic energy**
+
+5. Therefore, the **temperature of the liquid decreases**
+
+::: {.callout-note}
+**Key Insight:** Evaporation causes **cooling** because the most energetic particles escape, lowering the average kinetic energy of the remaining liquid.
+:::
+
+### Evaporation Causes Cooling: Everyday Examples
+
+| Example | Explanation |
+|:--------|:------------|
+| **Sweating** | Sweat evaporates from skin, removing thermal energy and cooling the body |
+| **Wet cloth on forehead** | Evaporation of water from the cloth cools the skin |
+| **Drying clothes on a line** | Water evaporates from fabric; clothes feel cool while drying |
+| **Alcohol on skin** | Alcohol evaporates quickly, causing a noticeable cooling sensation |
+
+---
+
+## 11.7 Factors Affecting the Rate of Evaporation
+
+| Factor | Effect on Evaporation Rate | Particle-Level Explanation |
+|:-------|:---------------------------|:---------------------------|
+| **Temperature** | Higher temperature → faster evaporation | More particles have sufficient kinetic energy to escape the liquid surface |
+| **Surface area** | Larger surface area → faster evaporation | More particles are at the surface and can escape |
+| **Air movement** | Moving air (wind) → faster evaporation | Escaped particles are carried away, preventing them from returning to the liquid; maintains a concentration gradient |
+| **Humidity** | Lower humidity → faster evaporation | Drier air can accept more water vapour; fewer returning particles |
+
+::: {.callout-warning}
+**Important:** Evaporation occurs at **any temperature**, while boiling occurs only at the **boiling point** throughout the liquid.
+:::
+
+---
+
+## 11.8 Boiling vs. Evaporation: Key Differences
+
+| Feature | Boiling | Evaporation |
+|:--------|:--------|:------------|
+| **Temperature** | Occurs at a specific temperature (boiling point) | Occurs at any temperature |
+| **Location** | Occurs throughout the liquid (bubbles form) | Occurs only at the liquid surface |
+| **Rate** | Rapid | Relatively slow |
+| **Bubbles** | Bubbles of vapour form within the liquid | No bubbles form |
+| **Temperature change** | Temperature remains constant during boiling | Temperature of liquid may decrease |
+| **Energy source** | Requires external heat supply | Can occur without external heat (uses internal energy of liquid) |
+
+---
+
+## Key Concepts Summary
+
+### Core Concepts
+
+1. **Thermal expansion**: Solids, liquids and gases expand when heated; gases expand most, solids least
+
+2. **Applications of expansion**: Railway gaps, bridge joints, thermometers, shrink fitting
+
+3. **Internal energy**: Total energy of all particles; increases with temperature
+
+4. **Specific heat capacity**: $c = \frac{\Delta E}{m\Delta\theta}$; energy to raise 1 kg by 1 °C
+
+5. **Changes of state**: Melting and boiling occur at constant temperature; energy breaks intermolecular bonds
+
+6. **Melting/boiling points of water**: 0 °C and 100 °C at standard atmospheric pressure
+
+7. **Condensation/solidification**: Reverse processes that release energy to surroundings
+
+8. **Evaporation**: Surface phenomenon at any temperature; causes cooling
+
+### Extended Concepts
+
+9. **Particle explanation of expansion**: Increased particle motion increases average separation; weaker forces in liquids/gases allow greater expansion
+
+10. **Temperature and kinetic energy**: Temperature measures average kinetic energy of particles
+
+11. **Specific heat capacity experiments**: Electrical method using $IVt = mc\Delta\theta$ (with insulation to minimise heat loss)
+
+12. **Boiling vs. evaporation**: Differences in location, temperature dependence, rate, and bubble formation
+
+13. **Factors affecting evaporation**: Temperature, surface area, air movement, humidity
+
+14. **Cooling by evaporation**: High-energy particles escape, lowering average kinetic energy of remaining liquid
+
+---
+
+## Common Misconceptions
+
+### ⚠️ Misconception 1: "Particles expand when heated"
+
+**Incorrect**: "When a metal rod is heated, the metal particles get bigger"
+
+**Correct**:
+
+- Particles themselves do not change size when heated
+
+- The **average distance between particles increases** due to more vigorous vibration/motion
+
+- This increased separation causes the material to expand
+
+---
+
+### ⚠️ Misconception 2: "Temperature increases during melting or boiling"
+
+**Incorrect**: "When ice melts, its temperature rises from 0 °C"
+
+**Correct**:
+
+- During a change of state, **temperature remains constant** even though energy is supplied
+
+- Energy is used to **overcome intermolecular forces**, not to increase particle kinetic energy
+
+- Temperature only rises once the change of state is complete
+
+---
+
+### ⚠️ Misconception 3: "Evaporation and boiling are the same process"
+
+**Incorrect**: "Evaporation is just slow boiling"
+
+**Correct**:
+
+- **Boiling**: Occurs at boiling point, throughout liquid, with bubble formation
+
+- **Evaporation**: Occurs at any temperature, only at surface, no bubbles
+
+- Different particle mechanisms: boiling requires energy to overcome atmospheric pressure throughout; evaporation involves only surface particles with sufficient energy
+
+---
+
+### ⚠️ Misconception 4: "Specific heat capacity depends on the amount of substance"
+
+**Incorrect**: "A larger mass of water has a higher specific heat capacity"
+
+**Correct**:
+
+- Specific heat capacity is an **intensive property**—it depends only on the material, not the amount
+
+- 1 kg and 10 kg of water both have $c = 4200 \text{ J/(kg K)}$
+
+- The **total energy** required depends on mass, but $c$ itself does not
+
+---
+
+### ⚠️ Misconception 5: "Evaporation only happens on hot days"
+
+**Incorrect**: "Water only evaporates when it is warm"
+
+**Correct**:
+
+- Evaporation occurs at **any temperature**, even below 0 °C (e.g., ice sublimating)
+
+- The **rate** of evaporation increases with temperature, but the process itself occurs at all temperatures
+
+- Puddles dry up on cold days, just more slowly
+
+---
+
+### ⚠️ Misconception 6: "Condensation is the same as evaporation, just reversed"
+
+**Incorrect**: "Condensation is evaporation going backwards"
+
+**Correct**:
+
+- While condensation is the reverse change of state (gas → liquid), the **energy transfer is opposite**
+
+- Evaporation **absorbs** energy from the liquid (causing cooling)
+
+- Condensation **releases** energy to the surroundings (causing warming)
+
+- Different particle mechanisms: evaporation involves escape of high-energy particles; condensation involves capture of particles by attractive forces
+
+---
+
+### ⚠️ Misconception 7: "All materials expand by the same amount when heated"
+
+**Incorrect**: "Heating any material by 10 °C causes the same expansion"
+
+**Correct**:
+
+- Different materials have different **coefficients of thermal expansion**
+
+- For the same temperature change: gases expand most, liquids less, solids least
+
+- Even among solids, aluminium expands more than steel for the same temperature rise
+
+- Engineers must select materials with compatible expansion properties for combined structures
+
+---
+
+## Worked Examples
+
+### Example 4: Thermal Expansion Application
+
+**Question:**
+A steel railway rail is 30.0 m long at 10 °C. If the coefficient of linear expansion for steel is $1.2 \times 10^{-5} \text{ /°C}$, calculate the increase in length when the temperature rises to 40 °C.
+
+**Solution:**
+
+**Step 1:** Identify values
+- Original length $L_0 = 30.0 \text{ m}$
+
+- Temperature change $\Delta\theta = 40 - 10 = 30 \text{ °C}$
+
+- Coefficient $\alpha = 1.2 \times 10^{-5} \text{ /°C}$
+
+**Step 2:** Apply linear expansion formula
+$$\Delta L = \alpha L_0 \Delta\theta = (1.2 \times 10^{-5}) \times 30.0 \times 30 = \boxed{0.0108 \text{ m} = 1.08 \text{ cm}}$$
+
+**Interpretation:** The rail expands by just over 1 cm. Without expansion gaps, this could cause buckling.
+
+---
+
+### Example 5: Specific Heat Capacity Comparison
+
+**Question:**
+Equal masses of aluminium ($c = 900 \text{ J/(kg K)}$) and copper ($c = 400 \text{ J/(kg K)}$) are supplied with the same amount of thermal energy. Which metal experiences the greater temperature rise? Explain.
+
+**Solution:**
+
+**Step 1:** Recall formula
+$$\Delta\theta = \frac{\Delta E}{mc}$$
+
+**Step 2:** Analyse
+- $\Delta E$ and $m$ are the same for both metals
+
+- $\Delta\theta$ is **inversely proportional** to $c$
+
+- Copper has lower $c$ (400 < 900)
+
+**Conclusion:** Copper experiences the **greater temperature rise** because it requires less energy per kg per degree.
+
+**Quantitative comparison:**
+$$\frac{\Delta\theta_{\text{Cu}}}{\Delta\theta_{\text{Al}}} = \frac{c_{\text{Al}}}{c_{\text{Cu}}} = \frac{900}{400} = 2.25$$
+
+Copper's temperature rises **2.25 times more** than aluminium's for the same energy input.
+
+---
+
+### Example 6: Evaporation Cooling Calculation
+
+**Question:**
+A person sweats 0.5 kg of water during exercise. If the specific latent heat of vaporisation of water is $2.3 \times 10^6 \text{ J/kg}$, calculate the thermal energy removed from the body by evaporation.
+
+**Solution:**
+
+**Step 1:** Identify values
+- Mass of water $m = 0.5 \text{ kg}$
+
+- Specific latent heat $L_v = 2.3 \times 10^6 \text{ J/kg}$
+
+**Step 2:** Calculate energy removed
+$$\Delta E = mL_v = 0.5 \times 2.3 \times 10^6 = \boxed{1.15 \times 10^6 \text{ J} = 1150 \text{ kJ}}$$
+
+**Interpretation:** Evaporation of sweat removes over 1 MJ of thermal energy, providing significant cooling.
+
+---
+
+## Practice Questions
+
+### Core Level
+
+**1.** Describe what happens to the particles in a solid when it is heated.
+
+**2.** Give two examples of how thermal expansion is allowed for in engineering designs.
+
+**3.** Define specific heat capacity and state its SI unit.
+
+**4.** Calculate the energy required to raise the temperature of 1.5 kg of water by 20 °C. ($c_{\text{water}} = 4200 \text{ J/(kg K)}$)
+
+**5.** State the melting and boiling points of pure water at standard atmospheric pressure.
+
+**6.** Describe what happens to the temperature of ice as it melts.
+
+**7.** Explain, in terms of particles, why evaporation causes cooling.
+
+**8.** State two factors that increase the rate of evaporation of a liquid.
+
+**9.** A 0.80 kg metal block absorbs 19 200 J of energy and its temperature rises by 60 °C. Calculate the specific heat capacity of the metal.
+
+**10.** Explain why a swimmer feels cold when stepping out of a pool on a windy day.
+
+### Extended Level
+
+**11.** Explain, using the kinetic particle model, why gases expand more than liquids, and liquids more than solids, for the same temperature rise.
+
+**12.** In an experiment to measure the specific heat capacity of a liquid, a student uses an electrical heater. State two precautions the student should take to minimise heat loss to the surroundings.
+
+**13.** A 2.0 kg block of ice at 0 °C is heated until it becomes water at 0 °C. Explain why the temperature does not rise during this process, even though energy is being supplied.
+
+**14.** Compare boiling and evaporation by stating:
+
+- (a) two similarities
+
+- (b) three differences
+
+**15.** A puddle of water evaporates more quickly on a warm, windy day than on a cool, still day. Explain this observation using particle theory.
+
+**16.** A metal rod of length 1.00 m at 20 °C expands to 1.002 m when heated to 120 °C. Calculate the coefficient of linear expansion of the metal.
+
+---
+
+## Laboratory Investigation
+
+### Experiment 11.1: Measuring the Specific Heat Capacity of a Solid
+
+**Objective:**
+To determine the specific heat capacity of a metal block using an electrical heating method.
+
+**Apparatus:**
+- Metal block with holes for heater and thermometer
+
+- Electrical immersion heater (known power rating)
+
+- Thermometer or temperature sensor with data logger
+
+- d.c. power supply, ammeter, voltmeter
+
+- Insulating material (felt or polystyrene)
+
+- Electronic balance
+
+- Stopwatch
+
+**Variables:**
+- **Independent:** Time of heating (or energy supplied)
+
+- **Dependent:** Temperature change of block
+
+- **Controlled:** Mass of block, insulation, initial temperature, heater power
+
+**Procedure:**
+1. Measure and record the mass $m$ of the metal block.
+
+2. Wrap the block in insulating material to minimise heat loss.
+
+3. Insert the heater and thermometer into the drilled holes.
+
+4. Connect the heater to the power supply via ammeter and voltmeter.
+
+5. Record the initial temperature $\theta_1$.
+
+6. Switch on the heater and start the stopwatch simultaneously.
+
+7. After a measured time $t$ (e.g., 300 s), switch off the heater.
+
+8. Continue monitoring temperature and record the highest temperature $\theta_2$ reached.
+
+9. Record the ammeter reading $I$ and voltmeter reading $V$ during heating.
+
+**Data Table:**
+
+| Quantity | Symbol | Value | Unit |
+|:---------|:-------|:------|:-----|
+| Mass of block | $m$ | | kg |
+| Initial temperature | $\theta_1$ | | °C |
+| Final temperature | $\theta_2$ | | °C |
+| Temperature change | $\Delta\theta = \theta_2 - \theta_1$ | | °C |
+| Current | $I$ | | A |
+| Voltage | $V$ | | V |
+| Time | $t$ | | s |
+| Energy supplied | $\Delta E = IVt$ | | J |
+
+**Calculations:**
+1. Energy supplied by heater: $\Delta E = IVt$
+
+2. Assuming all energy is absorbed by block: $\Delta E = mc\Delta\theta$
+
+3. Specific heat capacity: $c = \frac{IVt}{m\Delta\theta}$
+
+**Precautions:**
+- ✓ Insulate the block well to minimise heat loss to surroundings
+
+- ✓ Ensure good thermal contact between heater/thermometer and block
+
+- ✓ Stir (if liquid) or wait for temperature to stabilise before reading
+
+- ✓ Use a data logger for more accurate temperature tracking
+
+**Sources of Error:**
+- Heat loss to surroundings (even with insulation)
+
+- Energy absorbed by heater and thermometer, not just block
+
+- Temperature not uniform throughout block during heating
+
+- Delay between switching off heater and recording maximum temperature
+
+**Conclusion Template:**
+"The specific heat capacity of the metal was determined to be ______ J/(kg K). This value is [close to/different from] the accepted value for [metal name], which may be due to [heat loss/measurement uncertainties/etc.]."
+
+**Extension (Supplement):**
+- Repeat the experiment with a liquid (using a polystyrene cup)
+
+- Investigate how the calculated $c$ changes with different heating times (to assess heat loss effects)
+
+- Compare results for different metals to explore the relationship between $c$ and material properties
+
+---
+
+## Exam-Style Questions
+
+### Paper 1 Style (Multiple Choice)
+
+**1.** Which statement correctly describes thermal expansion?
+
+A. Particles expand when heated  
+
+B. The distance between particles increases when heated  
+
+C. All materials expand by the same amount for the same temperature rise  
+
+D. Solids expand more than gases for the same temperature rise  
+
+**2.** The specific heat capacity of a substance is the energy required to:
+
+A. Melt 1 kg of the substance  
+
+B. Raise the temperature of 1 kg of the substance by 1 °C  
+
+C. Boil 1 kg of the substance  
+
+D. Raise the temperature of the substance by 1 °C, regardless of mass  
+
+**3.** During the melting of ice at 0 °C, the temperature remains constant because:
+
+A. No energy is being supplied  
+
+B. Energy is used to increase the kinetic energy of particles  
+
+C. Energy is used to break bonds between particles  
+
+D. The ice is absorbing energy from the surroundings  
+
+**4.** Which factor does **not** increase the rate of evaporation of a liquid?
+
+A. Increasing the temperature  
+
+B. Increasing the surface area  
+
+C. Increasing the humidity of the surrounding air  
+
+D. Increasing air movement over the surface  
+
+**5.** A student measures the specific heat capacity of water using an electrical heater. Which precaution would **not** improve the accuracy of the result?
+
+A. Insulating the container  
+
+B. Stirring the water continuously  
+
+C. Using a larger mass of water  
+
+D. Recording the temperature immediately after switching off the heater  
+
+### Paper 3 Style (Structured)
+
+**6.** (a) Define specific heat capacity. [2]
+
+(b) A 0.75 kg aluminium block ($c = 900 \text{ J/(kg K)}$) is heated from 20 °C to 80 °C.
+
+   (i) Calculate the thermal energy supplied to the block. [3]
+
+   (ii) If the heater has a power of 150 W, calculate the time taken for this heating (assuming no heat loss). [2]
+
+(c) Explain why the actual time taken would be longer than your calculated value. [2]
+
+**7.** (a) Describe, in terms of particle motion, what happens when a solid is heated and expands. [3]
+
+(b) Give one example of how thermal expansion is allowed for in:
+
+   (i) a railway line [1]
+
+   (ii) a bridge [1]
+
+(c) Explain why a liquid-in-glass thermometer works, referring to the different expansion of the liquid and the glass. [2]
+
+**8.** (a) State two differences between boiling and evaporation. [2]
+
+(b) Explain, using the kinetic particle model, why evaporation causes cooling. [3]
+
+(c) A wet cloth is placed on the forehead of a person with a fever. Explain how this helps to reduce body temperature. [2]
+
+**9.** (Extended) (a) Describe an experiment to measure the specific heat capacity of a liquid. Include:
+
+- A labelled diagram of the apparatus
+
+- The measurements to be taken
+
+- How the specific heat capacity is calculated [6]
+
+(b) State two sources of error in this experiment and suggest how each could be reduced. [4]
+
+---
+
+## Chapter Summary
+
+### Key Points to Remember
+
+✓ **Thermal expansion**: All materials expand when heated; gases > liquids > solids  
+
+✓ **Expansion applications**: Railway gaps, bridge joints, thermometers, shrink fitting  
+
+✓ **Internal energy**: Total energy of particles; increases with temperature  
+
+✓ **Specific heat capacity**: $c = \frac{\Delta E}{m\Delta\theta}$; material property, not mass-dependent  
+
+✓ **Changes of state**: Melting/boiling at constant temperature; energy breaks intermolecular bonds  
+
+✓ **Water phase changes**: Melts at 0 °C, boils at 100 °C (standard pressure)  
+
+✓ **Condensation/solidification**: Release energy to surroundings  
+
+✓ **Evaporation**: Surface phenomenon at any temperature; causes cooling  
+
+✓ **Evaporation factors**: ↑ temperature, ↑ surface area, ↑ air movement, ↓ humidity → faster evaporation  
+
+✓ **Boiling vs. evaporation**: Different in location, temperature dependence, rate, bubble formation  
+
+### Formulae Sheet
+
+| Quantity | Formula | Variables |
+|:---------|:--------|:----------|
+| Specific heat capacity | $c = \frac{\Delta E}{m\Delta\theta}$ | $c$=specific heat capacity (J/(kg K)), $\Delta E$=energy (J), $m$=mass (kg), $\Delta\theta$=temp. change (K or °C) |
+| Thermal energy change | $\Delta E = mc\Delta\theta$ | Same as above |
+| Electrical energy supplied | $\Delta E = IVt$ | $I$=current (A), $V$=voltage (V), $t$=time (s) |
+| Linear expansion (Extended) | $\Delta L = \alpha L_0 \Delta\theta$ | $\alpha$=coefficient of linear expansion (/°C), $L_0$=original length |
+
+---
+
+## Further Resources
+
+### Recommended Reading
+
+- Cambridge IGCSE Physics Coursebook, Chapter 9 (Thermal Properties and Temperature)
+
+- Practical Work in Physics: Thermal Experiments and Calorimetry
+
+### Online Resources
+
+- PhET Interactive Simulations: States of Matter, Energy Forms and Changes
+
+- BBC Bitesize: Thermal Physics, Specific Heat Capacity, Changes of State
+
+- Royal Society of Chemistry: Thermal expansion demonstrations
+
+### Video Resources
+
+- Demonstration: Thermal expansion of solids, liquids and gases
+
+- Animation: Particle model of melting, boiling and evaporation
+
+- Real-world application: Engineering solutions for thermal expansion in bridges and railways
+
+---
+
+## Glossary
+
+| Term | Definition |
+|:-----|:-----------|
+| **Boiling** | Change of state from liquid to gas occurring throughout the liquid at the boiling point; bubbles of vapour form |
+| **Condensation** | Change of state from gas to liquid; energy is released to the surroundings |
+| **Evaporation** | Change of state from liquid to gas occurring only at the surface, at any temperature; causes cooling |
+| **Internal energy** | Total energy (kinetic + potential) of all particles in a substance |
+| **Melting** | Change of state from solid to liquid at the melting point; energy is absorbed to break bonds |
+| **Specific heat capacity ($c$)** | Energy required to raise the temperature of 1 kg of a substance by 1 °C (or 1 K); unit: J/(kg K) |
+| **Solidification (Freezing)** | Change of state from liquid to solid; energy is released as particles form fixed positions |
+| **Thermal expansion** | Increase in volume of a substance when heated, due to increased average separation of particles |
+| **Temperature** | Measure of the average kinetic energy of particles in a substance |
+
+---
+
+*End of Chapter 11*
