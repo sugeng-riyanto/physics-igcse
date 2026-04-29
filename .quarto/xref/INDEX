@@ -1,0 +1,98 @@
+{
+  "index.qmd": {
+    "index.html": "e471bc57"
+  },
+  "syllabus-map.qmd": {
+    "syllabus-map.html": "3412d5f5"
+  },
+  "chapters/01-measurement.qmd": {
+    "01-measurement.html": "89339c01"
+  },
+  "chapters/02-motion.qmd": {
+    "02-motion.html": "3b3a158d"
+  },
+  "chapters/03-mass-weight-density.qmd": {
+    "03-mass-weight-density.html": "0c6b189b"
+  },
+  "chapters/04-forces.qmd": {
+    "04-forces.html": "f2d9a209"
+  },
+  "chapters/05-moments-equilibrium.qmd": {
+    "05-moments-equilibrium.html": "729ca193"
+  },
+  "chapters/06-momentum.qmd": {
+    "06-momentum.html": "7d7feede"
+  },
+  "chapters/07-energy-stores.qmd": {
+    "07-energy-stores.html": "15778823"
+  },
+  "chapters/08-work-power.qmd": {
+    "08-work-power.html": "8ad14da7"
+  },
+  "chapters/09-pressure.qmd": {
+    "09-pressure.html": "fe69b2b6"
+  },
+  "chapters/10-kinetic-particle-model.qmd": {
+    "10-kinetic-particle-model.html": "2dfaa969"
+  },
+  "chapters/11-thermal-properties.qmd": {
+    "11-thermal-properties.html": "49492ccd"
+  },
+  "chapters/12-phase-changes.qmd": {
+    "12-phase-changes.html": "07240409"
+  },
+  "chapters/13-thermal-transfer.qmd": {
+    "13-thermal-transfer.html": "6743746e"
+  },
+  "chapters/14-wave-properties.qmd": {
+    "14-wave-properties.html": "c308a326"
+  },
+  "chapters/15-light-reflection-refraction.qmd": {
+    "15-light-reflection-refraction.html": "48dec1c3"
+  },
+  "chapters/16-em-spectrum.qmd": {
+    "16-em-spectrum.html": "71162e09"
+  },
+  "chapters/17-sound.qmd": {
+    "17-sound.html": "452cc898"
+  },
+  "chapters/18-magnetism.qmd": {
+    "18-magnetism.html": "dacfe878"
+  },
+  "chapters/19-electric-charge-circuits.qmd": {
+    "19-electric-charge-circuits.html": "5b8aade1"
+  },
+  "chapters/20-electrical-quantities.qmd": {
+    "20-electrical-quantities.html": "91ca27ef"
+  },
+  "chapters/21-electromagnetic-effects.qmd": {
+    "21-electromagnetic-effects.html": "42ef0a57"
+  },
+  "chapters/22-nuclear-physics.qmd": {
+    "22-nuclear-physics.html": "61bf52b3"
+  },
+  "chapters/23-space-physics.qmd": {
+    "23-space-physics.html": "0cd4e230"
+  },
+  "back-matter/practical-skills.qmd": {
+    "practical-skills.html": "e87b233b"
+  },
+  "back-matter/maths-data.qmd": {
+    "maths-data.html": "360d83fb"
+  },
+  "back-matter/exam-technique.qmd": {
+    "exam-technique.html": "7e2d9233"
+  },
+  "back-matter/formula-sheet.qmd": {
+    "formula-sheet.html": "a85682c2"
+  },
+  "back-matter/index.qmd": {
+    "index.html": "0213122e"
+  },
+  "preface.qmd": {
+    "preface.html": "9c4fe8f3"
+  },
+  "back-matter/bibliography.qmd": {
+    "bibliography.html": "2ab23fe4"
+  }
+}

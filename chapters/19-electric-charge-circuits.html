@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sugeng Riyanto, M.Sc.">
+<meta name="dcterms.date" content="2026-01-01">
+
+<title>22&nbsp; Electric Charge and Circuits – Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/20-electrical-quantities.html" rel="next">
+<link href="../chapters/18-magnetism.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-932514a4c912dae26ceaa3c5ace84409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/19-electric-charge-circuits.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../syllabus-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Syllabus Mapping</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Core Content</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-motion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Motion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mass-weight-density.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mass, Weight and Density</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-forces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Forces</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-moments-equilibrium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Moments and Equilibrium</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-momentum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Momentum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-energy-stores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Energy Stores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-work-power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work and Power</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-pressure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Pressure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-kinetic-particle-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-thermal-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Thermal Properties</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-phase-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Phase Changes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-thermal-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Thermal Transfer</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-wave-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-light-reflection-refraction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Light: Reflection and Refraction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-em-spectrum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Electromagnetic Spectrum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-sound.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Sound</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-magnetism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Simple Phenomena of Magnetism</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-electric-charge-circuits.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-electrical-quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-electromagnetic-effects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-nuclear-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Nuclear Physics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-space-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Space Physics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Supporting Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/practical-skills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Practical Skills</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/maths-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Mathematical Data and Constants</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/exam-technique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Common Question Types</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/formula-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Formula Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Bibliography and References</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics Reference Guide</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">22.1</span> Learning Objectives</a></li>
+  <li><a href="#electric-charge" id="toc-electric-charge" class="nav-link" data-scroll-target="#electric-charge"><span class="header-section-number">22.2</span> 19.1 Electric Charge</a></li>
+  <li><a href="#electric-current" id="toc-electric-current" class="nav-link" data-scroll-target="#electric-current"><span class="header-section-number">22.3</span> 19.2 Electric Current</a></li>
+  <li><a href="#electromotive-force-and-potential-difference" id="toc-electromotive-force-and-potential-difference" class="nav-link" data-scroll-target="#electromotive-force-and-potential-difference"><span class="header-section-number">22.4</span> 19.3 Electromotive Force and Potential Difference</a></li>
+  <li><a href="#resistance-and-ohms-law" id="toc-resistance-and-ohms-law" class="nav-link" data-scroll-target="#resistance-and-ohms-law"><span class="header-section-number">22.5</span> 19.4 Resistance and Ohm’s Law</a></li>
+  <li><a href="#electrical-energy-and-power" id="toc-electrical-energy-and-power" class="nav-link" data-scroll-target="#electrical-energy-and-power"><span class="header-section-number">22.6</span> 19.5 Electrical Energy and Power</a></li>
+  <li><a href="#circuit-diagrams-and-components" id="toc-circuit-diagrams-and-components" class="nav-link" data-scroll-target="#circuit-diagrams-and-components"><span class="header-section-number">22.7</span> 19.6 Circuit Diagrams and Components</a></li>
+  <li><a href="#series-and-parallel-circuits" id="toc-series-and-parallel-circuits" class="nav-link" data-scroll-target="#series-and-parallel-circuits"><span class="header-section-number">22.8</span> 19.7 Series and Parallel Circuits</a></li>
+  <li><a href="#potential-dividers" id="toc-potential-dividers" class="nav-link" data-scroll-target="#potential-dividers"><span class="header-section-number">22.9</span> 19.8 Potential Dividers</a></li>
+  <li><a href="#key-concepts-summary" id="toc-key-concepts-summary" class="nav-link" data-scroll-target="#key-concepts-summary"><span class="header-section-number">22.10</span> Key Concepts Summary</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions"><span class="header-section-number">22.11</span> Common Misconceptions</a></li>
+  <li><a href="#worked-examples" id="toc-worked-examples" class="nav-link" data-scroll-target="#worked-examples"><span class="header-section-number">22.12</span> Worked Examples</a></li>
+  <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions"><span class="header-section-number">22.13</span> Practice Questions</a></li>
+  <li><a href="#laboratory-investigation" id="toc-laboratory-investigation" class="nav-link" data-scroll-target="#laboratory-investigation"><span class="header-section-number">22.14</span> Laboratory Investigation</a></li>
+  <li><a href="#exam-style-questions" id="toc-exam-style-questions" class="nav-link" data-scroll-target="#exam-style-questions"><span class="header-section-number">22.15</span> Exam-Style Questions</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary"><span class="header-section-number">22.16</span> Chapter Summary</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources"><span class="header-section-number">22.17</span> Further Resources</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">22.18</span> Glossary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/19-electric-charge-circuits.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sugeng Riyanto, M.Sc. </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2" data-number="22.1">
+<h2 data-number="22.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">22.1</span> Learning Objectives</h2>
+<p>By the end of this chapter, you will be able to:</p>
+<p><strong>Core Content (4.2.1 Electric Charge):</strong></p>
+<ul>
+<li><p>State that there are positive and negative charges</p></li>
+<li><p>State that positive charges repel other positive charges, negative charges repel other negative charges, but positive charges attract negative charges</p></li>
+<li><p>Describe simple experiments to show the production of electrostatic charges by friction and to show the detection of electrostatic charges</p></li>
+<li><p>Explain that charging of solids by friction involves only a transfer of negative charge (electrons)</p></li>
+<li><p>Describe an experiment to distinguish between electrical conductors and insulators</p></li>
+<li><p>Recall and use a simple electron model to explain the difference between electrical conductors and insulators and give typical examples</p></li>
+</ul>
+<p><strong>Core Content (4.2.2 Electric Current):</strong></p>
+<ul>
+<li><p>Know that electric current is related to the flow of charge</p></li>
+<li><p>Describe the use of ammeters (analogue and digital) with different ranges</p></li>
+<li><p>Describe electrical conduction in metals in terms of the movement of free electrons</p></li>
+<li><p>Know the difference between direct current (d.c.) and alternating current (a.c.)</p></li>
+</ul>
+<p><strong>Core Content (4.2.3 Electromotive Force and Potential Difference):</strong></p>
+<ul>
+<li><p>Define electromotive force (e.m.f.) as the electrical work done by a source in moving a unit charge around a complete circuit</p></li>
+<li><p>Know that e.m.f. is measured in volts (V)</p></li>
+<li><p>Define potential difference (p.d.) as the work done by a unit charge passing through a component</p></li>
+<li><p>Know that the p.d. between two points is measured in volts (V)</p></li>
+<li><p>Describe the use of voltmeters (analogue and digital) with different ranges</p></li>
+</ul>
+<p><strong>Core Content (4.2.4 Resistance):</strong></p>
+<ul>
+<li><p>Recall and use the equation for resistance R = V/I</p></li>
+<li><p>Describe an experiment to determine resistance using a voltmeter and an ammeter and do the appropriate calculations</p></li>
+<li><p>State, qualitatively, the relationship of the resistance of a metallic wire to its length and to its cross-sectional area</p></li>
+</ul>
+<p><strong>Core Content (4.2.5 Electrical Energy and Electrical Power):</strong></p>
+<ul>
+<li><p>Understand that electric circuits transfer energy from a source of electrical energy, such as an electrical cell or mains supply, to the circuit components and then into the surroundings</p></li>
+<li><p>Recall and use the equation for electrical power P = IV</p></li>
+<li><p>Recall and use the equation for electrical energy E = IVt</p></li>
+<li><p>Define the kilowatt-hour (kW h) and calculate the cost of using electrical appliances where the energy unit is the kW h</p></li>
+</ul>
+<p><strong>Core Content (4.3.1 Circuit Diagrams and Circuit Components):</strong></p>
+<ul>
+<li>Draw and interpret circuit diagrams containing cells, batteries, power supplies, generators, potential dividers, switches, resistors (fixed and variable), heaters, thermistors (NTC only), light-dependent resistors (LDRs), lamps, motors, bells, ammeters, voltmeters, magnetising coils, transformers, fuses and relays and know how these components behave in the circuit</li>
+</ul>
+<p><strong>Core Content (4.3.2 Series and Parallel Circuits):</strong></p>
+<ul>
+<li><p>Know that the current at every point in a series circuit is the same</p></li>
+<li><p>Know how to construct and use series and parallel circuits</p></li>
+<li><p>Calculate the combined e.m.f. of several sources in series</p></li>
+<li><p>Calculate the combined resistance of two or more resistors in series</p></li>
+<li><p>State that, for a parallel circuit, the current from the source is larger than the current in each branch</p></li>
+<li><p>State that the combined resistance of two resistors in parallel is less than that of either resistor by itself</p></li>
+<li><p>State the advantages of connecting lamps in parallel in a lighting circuit</p></li>
+</ul>
+<p><strong>Supplement (Extended):</strong></p>
+<ul>
+<li><p>State that charge is measured in coulombs</p></li>
+<li><p>Describe an electric field as a region in which an electric charge experiences a force</p></li>
+<li><p>State that the direction of an electric field at a point is the direction of the force on a positive charge at that point</p></li>
+<li><p>Describe simple electric field patterns, including the direction of the field: (a) around a point charge (b) around a charged conducting sphere (c) between two oppositely charged parallel conducting plates</p></li>
+<li><p>Define electric current as the charge passing a point per unit time; recall and use the equation I = Q/t</p></li>
+<li><p>State that conventional current is from positive to negative and that the flow of free electrons is from negative to positive</p></li>
+<li><p>Recall and use the equation for e.m.f. E = W/Q</p></li>
+<li><p>Recall and use the equation for p.d. V = W/Q</p></li>
+<li><p>Sketch and explain the current–voltage graphs for a resistor of constant resistance, a filament lamp and a diode</p></li>
+<li><p>Recall and use the following relationship for a metallic electrical conductor: (a) resistance is directly proportional to length (b) resistance is inversely proportional to cross-sectional area</p></li>
+<li><p>Draw and interpret circuit diagrams containing diodes and light-emitting diodes (LEDs) and know how these components behave in the circuit</p></li>
+<li><p>Recall and use in calculations, the fact that: (a) the sum of the currents entering a junction in a parallel circuit is equal to the sum of the currents that leave the junction (b) the total p.d. across the components in a series circuit is equal to the sum of the individual p.d.s across each component (c) the p.d. across an arrangement of parallel resistances is the same as the p.d. across one branch in the arrangement of the parallel resistances</p></li>
+<li><p>Explain that the sum of the currents into a junction is the same as the sum of the currents out of the junction</p></li>
+<li><p>Calculate the combined resistance of two resistors in parallel</p></li>
+<li><p>Describe the action of a variable potential divider</p></li>
+<li><p>Recall and use the equation for two resistors used as a potential divider: R1/R2 = V1/V2</p></li>
+</ul>
+<hr>
+</section>
+<section id="electric-charge" class="level2" data-number="22.2">
+<h2 data-number="22.2" class="anchored" data-anchor-id="electric-charge"><span class="header-section-number">22.2</span> 19.1 Electric Charge</h2>
+<section id="what-is-electric-charge" class="level3" data-number="22.2.1">
+<h3 data-number="22.2.1" class="anchored" data-anchor-id="what-is-electric-charge"><span class="header-section-number">22.2.1</span> What Is Electric Charge?</h3>
+<p>Electric charge is a fundamental property of matter. There are two types of electric charge:</p>
+<ul>
+<li><p><strong>Positive charge</strong> (+)</p></li>
+<li><p><strong>Negative charge</strong> (–)</p></li>
+</ul>
+<p><strong>Key properties of electric charge:</strong></p>
+<ul>
+<li><p>Like charges <strong>repel</strong> each other (positive–positive or negative–negative)</p></li>
+<li><p>Unlike charges <strong>attract</strong> each other (positive–negative)</p></li>
+<li><p>Charge is <strong>conserved</strong> — it cannot be created or destroyed, only transferred</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Concept:</strong> The SI unit of electric charge is the <strong>coulomb (C)</strong>. One coulomb is the charge transported by a constant current of one ampere in one second.</p>
+</div>
+</div>
+</section>
+<section id="charging-by-friction" class="level3" data-number="22.2.2">
+<h3 data-number="22.2.2" class="anchored" data-anchor-id="charging-by-friction"><span class="header-section-number">22.2.2</span> Charging by Friction</h3>
+<p>When two different insulating materials are rubbed together, electrons may be transferred from one material to the other.</p>
+<p><strong>Example: Charging a plastic rod with a cloth</strong></p>
+<ol type="1">
+<li><p>Rub a plastic rod with a dry cloth</p></li>
+<li><p>Electrons are transferred from the cloth to the plastic rod</p></li>
+<li><p>The plastic rod gains electrons → becomes <strong>negatively charged</strong></p></li>
+<li><p>The cloth loses electrons → becomes <strong>positively charged</strong></p></li>
+</ol>
+<p><strong>Detection of electrostatic charges:</strong></p>
+<ul>
+<li><p>A <strong>gold-leaf electroscope</strong> can detect the presence of charge</p></li>
+<li><p>When a charged object is brought near the electroscope, the gold leaf diverges due to repulsion of like charges</p></li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> Only <strong>electrons</strong> (negative charges) are transferred during charging by friction. Protons remain fixed in the atomic nucleus.</p>
+</div>
+</div>
+</section>
+<section id="conductors-and-insulators" class="level3" data-number="22.2.3">
+<h3 data-number="22.2.3" class="anchored" data-anchor-id="conductors-and-insulators"><span class="header-section-number">22.2.3</span> Conductors and Insulators</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 44%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Electrical conductors</strong></td>
+<td style="text-align: left;">Materials that allow electric charge to flow easily through them</td>
+<td style="text-align: left;">Metals (copper, aluminium), graphite, salt water</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Electrical insulators</strong></td>
+<td style="text-align: left;">Materials that do not allow electric charge to flow easily through them</td>
+<td style="text-align: left;">Plastic, rubber, glass, dry wood, air</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Electron model explanation:</strong></p>
+<ul>
+<li><p><strong>In conductors (metals)</strong>: Some electrons are free to move throughout the material (free electrons). When a potential difference is applied, these free electrons drift, creating an electric current.</p></li>
+<li><p><strong>In insulators</strong>: Electrons are tightly bound to their atoms and cannot move freely. No significant current flows even when a potential difference is applied.</p></li>
+</ul>
+<p><strong>Experiment: Distinguishing conductors and insulators</strong></p>
+<p><strong>Apparatus:</strong></p>
+<ul>
+<li>Battery, bulb, connecting wires, test materials</li>
+</ul>
+<p><strong>Procedure:</strong></p>
+<ol type="1">
+<li><p>Set up a simple circuit with a battery and bulb</p></li>
+<li><p>Insert the test material into the circuit</p></li>
+<li><p>Observe whether the bulb lights up</p></li>
+</ol>
+<p><strong>Observation:</strong></p>
+<ul>
+<li><p>Bulb lights up → material is a <strong>conductor</strong></p></li>
+<li><p>Bulb does not light up → material is an <strong>insulator</strong></p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="electric-current" class="level2" data-number="22.3">
+<h2 data-number="22.3" class="anchored" data-anchor-id="electric-current"><span class="header-section-number">22.3</span> 19.2 Electric Current</h2>
+<section id="what-is-electric-current" class="level3" data-number="22.3.1">
+<h3 data-number="22.3.1" class="anchored" data-anchor-id="what-is-electric-current"><span class="header-section-number">22.3.1</span> What Is Electric Current?</h3>
+<p><strong>Electric current</strong> is the rate of flow of electric charge.</p>
+<p><span class="math display">\[I = \frac{Q}{t}\]</span></p>
+<p>Where: - <span class="math inline">\(I\)</span> = electric current (A) - <span class="math inline">\(Q\)</span> = charge flowing (C) - <span class="math inline">\(t\)</span> = time (s)</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Concept:</strong> One ampere (1 A) is defined as one coulomb of charge passing a point per second: <span class="math inline">\(1 \text{ A} = 1 \text{ C/s}\)</span>.</p>
+</div>
+</div>
+</section>
+<section id="conventional-current-vs-electron-flow" class="level3" data-number="22.3.2">
+<h3 data-number="22.3.2" class="anchored" data-anchor-id="conventional-current-vs-electron-flow"><span class="header-section-number">22.3.2</span> Conventional Current vs Electron Flow</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 33%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Concept</th>
+<th style="text-align: left;">Direction</th>
+<th style="text-align: left;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Conventional current</strong></td>
+<td style="text-align: left;">Positive → Negative</td>
+<td style="text-align: left;">Historical convention established before electrons were discovered</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Electron flow</strong></td>
+<td style="text-align: left;">Negative → Positive</td>
+<td style="text-align: left;">Actual movement of free electrons in metallic conductors</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> In circuit analysis and diagrams, we use <strong>conventional current</strong> direction (positive to negative), even though electrons actually flow in the opposite direction.</p>
+</div>
+</div>
+</section>
+<section id="direct-current-d.c.-vs-alternating-current-a.c." class="level3" data-number="22.3.3">
+<h3 data-number="22.3.3" class="anchored" data-anchor-id="direct-current-d.c.-vs-alternating-current-a.c."><span class="header-section-number">22.3.3</span> Direct Current (d.c.) vs Alternating Current (a.c.)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 44%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Direct current (d.c.)</strong></td>
+<td style="text-align: left;">Current flows in one direction only</td>
+<td style="text-align: left;">Batteries, solar cells, d.c. power supplies</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Alternating current (a.c.)</strong></td>
+<td style="text-align: left;">Current reverses direction periodically</td>
+<td style="text-align: left;">Mains electricity (50 Hz or 60 Hz), a.c. generators</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="measuring-electric-current-ammeters" class="level3" data-number="22.3.4">
+<h3 data-number="22.3.4" class="anchored" data-anchor-id="measuring-electric-current-ammeters"><span class="header-section-number">22.3.4</span> Measuring Electric Current: Ammeters</h3>
+<ul>
+<li><p><strong>Ammeters</strong> measure electric current in amperes (A)</p></li>
+<li><p>Must be connected <strong>in series</strong> with the component being measured</p></li>
+<li><p><strong>Analogue ammeters</strong>: Use a moving coil mechanism; read from a scale</p></li>
+<li><p><strong>Digital ammeters</strong>: Display numerical values; often more precise</p></li>
+</ul>
+<p><strong>Precautions when using ammeters:</strong></p>
+<ul>
+<li><p>✓ Always connect in series, never in parallel</p></li>
+<li><p>✓ Select an appropriate range to avoid damaging the meter</p></li>
+<li><p>✓ For analogue meters, avoid parallax error by viewing the scale perpendicularly</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="electromotive-force-and-potential-difference" class="level2" data-number="22.4">
+<h2 data-number="22.4" class="anchored" data-anchor-id="electromotive-force-and-potential-difference"><span class="header-section-number">22.4</span> 19.3 Electromotive Force and Potential Difference</h2>
+<section id="what-is-electromotive-force-e.m.f." class="level3" data-number="22.4.1">
+<h3 data-number="22.4.1" class="anchored" data-anchor-id="what-is-electromotive-force-e.m.f."><span class="header-section-number">22.4.1</span> What Is Electromotive Force (e.m.f.)?</h3>
+<p><strong>Electromotive force (e.m.f.)</strong> is the electrical work done by a source in moving a unit charge around a complete circuit.</p>
+<p><span class="math display">\[E = \frac{W}{Q}\]</span></p>
+<p>Where: - <span class="math inline">\(E\)</span> = e.m.f. (V) - <span class="math inline">\(W\)</span> = work done or energy transferred (J) - <span class="math inline">\(Q\)</span> = charge (C)</p>
+<p><strong>Key points about e.m.f.:</strong></p>
+<ul>
+<li><p>Measured in <strong>volts (V)</strong></p></li>
+<li><p>Represents the <strong>total energy per unit charge</strong> supplied by the source</p></li>
+<li><p>Measured across the terminals of a source when <strong>no current is flowing</strong> (open circuit)</p></li>
+</ul>
+</section>
+<section id="what-is-potential-difference-p.d." class="level3" data-number="22.4.2">
+<h3 data-number="22.4.2" class="anchored" data-anchor-id="what-is-potential-difference-p.d."><span class="header-section-number">22.4.2</span> What Is Potential Difference (p.d.)?</h3>
+<p><strong>Potential difference (p.d.)</strong> is the work done by a unit charge passing through a component.</p>
+<p><span class="math display">\[V = \frac{W}{Q}\]</span></p>
+<p>Where: - <span class="math inline">\(V\)</span> = potential difference (V) - <span class="math inline">\(W\)</span> = work done or energy transferred (J) - <span class="math inline">\(Q\)</span> = charge (C)</p>
+<p><strong>Key points about p.d.:</strong></p>
+<ul>
+<li><p>Also measured in <strong>volts (V)</strong></p></li>
+<li><p>Represents the <strong>energy transferred per unit charge</strong> by a component</p></li>
+<li><p>Measured <strong>across</strong> a component when current is flowing</p></li>
+</ul>
+</section>
+<section id="measuring-potential-difference-voltmeters" class="level3" data-number="22.4.3">
+<h3 data-number="22.4.3" class="anchored" data-anchor-id="measuring-potential-difference-voltmeters"><span class="header-section-number">22.4.3</span> Measuring Potential Difference: Voltmeters</h3>
+<ul>
+<li><p><strong>Voltmeters</strong> measure potential difference in volts (V)</p></li>
+<li><p>Must be connected <strong>in parallel</strong> across the component being measured</p></li>
+<li><p><strong>Analogue voltmeters</strong>: Use a moving coil mechanism; read from a scale</p></li>
+<li><p><strong>Digital voltmeters</strong>: Display numerical values; often more precise</p></li>
+</ul>
+<p><strong>Precautions when using voltmeters:</strong></p>
+<ul>
+<li><p>✓ Always connect in parallel, never in series</p></li>
+<li><p>✓ Select an appropriate range to avoid damaging the meter</p></li>
+<li><p>✓ For analogue meters, avoid parallax error by viewing the scale perpendicularly</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="resistance-and-ohms-law" class="level2" data-number="22.5">
+<h2 data-number="22.5" class="anchored" data-anchor-id="resistance-and-ohms-law"><span class="header-section-number">22.5</span> 19.4 Resistance and Ohm’s Law</h2>
+<section id="what-is-electrical-resistance" class="level3" data-number="22.5.1">
+<h3 data-number="22.5.1" class="anchored" data-anchor-id="what-is-electrical-resistance"><span class="header-section-number">22.5.1</span> What Is Electrical Resistance?</h3>
+<p><strong>Resistance</strong> is a measure of how much a component opposes the flow of electric current.</p>
+<p><span class="math display">\[R = \frac{V}{I}\]</span></p>
+<p>Where: - <span class="math inline">\(R\)</span> = resistance (Ω) - <span class="math inline">\(V\)</span> = potential difference across the component (V) - <span class="math inline">\(I\)</span> = current through the component (A)</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Concept:</strong> One ohm (1 Ω) is defined as the resistance when a potential difference of one volt produces a current of one ampere: <span class="math inline">\(1 \text{ Ω} = 1 \text{ V/A}\)</span>.</p>
+</div>
+</div>
+</section>
+<section id="ohms-law" class="level3" data-number="22.5.2">
+<h3 data-number="22.5.2" class="anchored" data-anchor-id="ohms-law"><span class="header-section-number">22.5.2</span> Ohm’s Law</h3>
+<p>For a metallic conductor at constant temperature:</p>
+<blockquote class="blockquote">
+<p><strong>The current through the conductor is directly proportional to the potential difference across it.</strong></p>
+</blockquote>
+<p><span class="math display">\[V \propto I \quad \text{or} \quad V = IR\]</span></p>
+<p><strong>Conditions for Ohm’s Law to apply:</strong></p>
+<ul>
+<li><p>Temperature must remain constant</p></li>
+<li><p>The conductor must be ohmic (e.g., a fixed resistor)</p></li>
+</ul>
+</section>
+<section id="factors-affecting-the-resistance-of-a-wire" class="level3" data-number="22.5.3">
+<h3 data-number="22.5.3" class="anchored" data-anchor-id="factors-affecting-the-resistance-of-a-wire"><span class="header-section-number">22.5.3</span> Factors Affecting the Resistance of a Wire</h3>
+<p>For a metallic wire at constant temperature:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 51%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Factor</th>
+<th style="text-align: left;">Effect on Resistance</th>
+<th style="text-align: left;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Length (<span class="math inline">\(L\)</span>)</strong></td>
+<td style="text-align: left;"><span class="math inline">\(R \propto L\)</span> (directly proportional)</td>
+<td style="text-align: left;">Longer wire → more collisions for electrons → higher resistance</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cross-sectional area (<span class="math inline">\(A\)</span>)</strong></td>
+<td style="text-align: left;"><span class="math inline">\(R \propto \frac{1}{A}\)</span> (inversely proportional)</td>
+<td style="text-align: left;">Thicker wire → more paths for electrons → lower resistance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Material</strong></td>
+<td style="text-align: left;">Depends on resistivity (<span class="math inline">\(\rho\)</span>)</td>
+<td style="text-align: left;">Different materials have different numbers of free electrons</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Temperature</strong></td>
+<td style="text-align: left;">For metals: <span class="math inline">\(R\)</span> increases with temperature</td>
+<td style="text-align: left;">Higher temperature → more lattice vibrations → more electron collisions</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="currentvoltage-iv-characteristics" class="level3" data-number="22.5.4">
+<h3 data-number="22.5.4" class="anchored" data-anchor-id="currentvoltage-iv-characteristics"><span class="header-section-number">22.5.4</span> Current–Voltage (I–V) Characteristics</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 41%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">I–V Graph Shape</th>
+<th style="text-align: left;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Fixed resistor</strong></td>
+<td style="text-align: left;">Straight line through origin</td>
+<td style="text-align: left;">Ohmic conductor; constant resistance</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Filament lamp</strong></td>
+<td style="text-align: left;">Curve with decreasing gradient</td>
+<td style="text-align: left;">Resistance increases as filament heats up</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Diode</strong></td>
+<td style="text-align: left;">Conducts in one direction only; very high resistance in reverse</td>
+<td style="text-align: left;">Allows current in forward bias; blocks current in reverse bias</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="electrical-energy-and-power" class="level2" data-number="22.6">
+<h2 data-number="22.6" class="anchored" data-anchor-id="electrical-energy-and-power"><span class="header-section-number">22.6</span> 19.5 Electrical Energy and Power</h2>
+<section id="electrical-power" class="level3" data-number="22.6.1">
+<h3 data-number="22.6.1" class="anchored" data-anchor-id="electrical-power"><span class="header-section-number">22.6.1</span> Electrical Power</h3>
+<p><strong>Electrical power</strong> is the rate at which electrical energy is transferred.</p>
+<p><span class="math display">\[P = IV\]</span></p>
+<p>Where: - <span class="math inline">\(P\)</span> = power (W) - <span class="math inline">\(I\)</span> = current (A) - <span class="math inline">\(V\)</span> = potential difference (V)</p>
+<p><strong>Alternative forms (using <span class="math inline">\(V = IR\)</span>):</strong></p>
+<p><span class="math display">\[P = I^2R \quad \text{or} \quad P = \frac{V^2}{R}\]</span></p>
+</section>
+<section id="electrical-energy" class="level3" data-number="22.6.2">
+<h3 data-number="22.6.2" class="anchored" data-anchor-id="electrical-energy"><span class="header-section-number">22.6.2</span> Electrical Energy</h3>
+<p><strong>Electrical energy</strong> transferred by a component:</p>
+<p><span class="math display">\[E = IVt\]</span></p>
+<p>Where: - <span class="math inline">\(E\)</span> = energy (J) - <span class="math inline">\(I\)</span> = current (A) - <span class="math inline">\(V\)</span> = potential difference (V) - <span class="math inline">\(t\)</span> = time (s)</p>
+</section>
+<section id="the-kilowatt-hour-kw-h" class="level3" data-number="22.6.3">
+<h3 data-number="22.6.3" class="anchored" data-anchor-id="the-kilowatt-hour-kw-h"><span class="header-section-number">22.6.3</span> The Kilowatt-Hour (kW h)</h3>
+<p>The <strong>kilowatt-hour</strong> is a practical unit for measuring electrical energy used in homes.</p>
+<p><span class="math display">\[1 \text{ kW h} = 1000 \text{ W} \times 3600 \text{ s} = 3.6 \times 10^6 \text{ J}\]</span></p>
+<p><strong>Calculating cost of electricity:</strong></p>
+<p><span class="math display">\[\text{Cost} = \text{Energy used (kW h)} \times \text{Cost per kW h}\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Insight:</strong> The kilowatt-hour is used because the joule is too small for practical household energy measurements.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="circuit-diagrams-and-components" class="level2" data-number="22.7">
+<h2 data-number="22.7" class="anchored" data-anchor-id="circuit-diagrams-and-components"><span class="header-section-number">22.7</span> 19.6 Circuit Diagrams and Components</h2>
+<section id="standard-circuit-symbols" class="level3" data-number="22.7.1">
+<h3 data-number="22.7.1" class="anchored" data-anchor-id="standard-circuit-symbols"><span class="header-section-number">22.7.1</span> Standard Circuit Symbols</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 27%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Cell</td>
+<td style="text-align: left;">─</td>
+<td style="text-align: left;">─</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Battery</td>
+<td style="text-align: left;">─</td>
+<td style="text-align: left;">─</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Switch (open/closed)</td>
+<td style="text-align: left;">⏚ / ──⏚──</td>
+<td style="text-align: left;">Controls current flow in circuit</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fixed resistor</td>
+<td style="text-align: left;">─⎓⎓⎓─</td>
+<td style="text-align: left;">Provides fixed resistance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Variable resistor</td>
+<td style="text-align: left;">─⎓⎓⎓↗─</td>
+<td style="text-align: left;">Allows resistance to be adjusted</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Thermistor (NTC)</td>
+<td style="text-align: left;">─⎓⎓⎓↘─</td>
+<td style="text-align: left;">Resistance decreases as temperature increases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Light-dependent resistor (LDR)</td>
+<td style="text-align: left;">─⎓⎓⎓↘ with arrows</td>
+<td style="text-align: left;">Resistance decreases as light intensity increases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Filament lamp</td>
+<td style="text-align: left;">─⊗─</td>
+<td style="text-align: left;">Converts electrical energy to light and heat</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Motor</td>
+<td style="text-align: left;">─Ⓜ─</td>
+<td style="text-align: left;">Converts electrical energy to mechanical energy</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bell/buzzer</td>
+<td style="text-align: left;">─⏚⎓─</td>
+<td style="text-align: left;">Converts electrical energy to sound</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ammeter</td>
+<td style="text-align: left;">─Ⓐ─</td>
+<td style="text-align: left;">Measures current; connected in series</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Voltmeter</td>
+<td style="text-align: left;">─Ⓥ─</td>
+<td style="text-align: left;">Measures p.d.; connected in parallel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Diode</td>
+<td style="text-align: left;">─▷</td>
+<td style="text-align: left;">─</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">LED</td>
+<td style="text-align: left;">─▷</td>
+<td style="text-align: left;">─ with arrows</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fuse</td>
+<td style="text-align: left;">─⎓⎓⎓─ with line through</td>
+<td style="text-align: left;">Protects circuit by melting if current too high</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Relay coil</td>
+<td style="text-align: left;">─⎓⎓⎓─ with box</td>
+<td style="text-align: left;">Electromagnetic switch controlled by small current</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Transformer</td>
+<td style="text-align: left;">Two coils with core</td>
+<td style="text-align: left;">Changes a.c. voltage; primary and secondary coils</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> Always draw circuit diagrams with straight lines and right angles; components should be clearly labelled.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="series-and-parallel-circuits" class="level2" data-number="22.8">
+<h2 data-number="22.8" class="anchored" data-anchor-id="series-and-parallel-circuits"><span class="header-section-number">22.8</span> 19.7 Series and Parallel Circuits</h2>
+<section id="series-circuits" class="level3" data-number="22.8.1">
+<h3 data-number="22.8.1" class="anchored" data-anchor-id="series-circuits"><span class="header-section-number">22.8.1</span> Series Circuits</h3>
+<p><strong>Key properties:</strong></p>
+<ul>
+<li><p>Current is the <strong>same</strong> at every point: <span class="math inline">\(I_{\text{total}} = I_1 = I_2 = I_3\)</span></p></li>
+<li><p>Total p.d. is the <strong>sum</strong> of individual p.d.s: <span class="math inline">\(V_{\text{total}} = V_1 + V_2 + V_3\)</span></p></li>
+<li><p>Total resistance is the <strong>sum</strong> of individual resistances: <span class="math inline">\(R_{\text{total}} = R_1 + R_2 + R_3\)</span></p></li>
+<li><p>If one component fails (e.g., a lamp blows), the <strong>entire circuit stops working</strong></p></li>
+</ul>
+</section>
+<section id="parallel-circuits" class="level3" data-number="22.8.2">
+<h3 data-number="22.8.2" class="anchored" data-anchor-id="parallel-circuits"><span class="header-section-number">22.8.2</span> Parallel Circuits</h3>
+<p><strong>Key properties:</strong></p>
+<ul>
+<li><p>Total current from source is the <strong>sum</strong> of branch currents: <span class="math inline">\(I_{\text{total}} = I_1 + I_2 + I_3\)</span></p></li>
+<li><p>p.d. across each branch is the <strong>same</strong>: <span class="math inline">\(V_{\text{total}} = V_1 = V_2 = V_3\)</span></p></li>
+<li><p>Combined resistance is <strong>less</strong> than the smallest individual resistance: <span class="math inline">\(\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}\)</span></p></li>
+<li><p>If one component fails, <strong>other branches continue to work</strong></p></li>
+</ul>
+</section>
+<section id="advantages-of-parallel-connection-for-lamps" class="level3" data-number="22.8.3">
+<h3 data-number="22.8.3" class="anchored" data-anchor-id="advantages-of-parallel-connection-for-lamps"><span class="header-section-number">22.8.3</span> Advantages of Parallel Connection for Lamps</h3>
+<ol type="1">
+<li><p>Each lamp receives the full supply voltage → operates at rated brightness</p></li>
+<li><p>Lamps can be switched on/off independently</p></li>
+<li><p>If one lamp fails, others continue to work</p></li>
+<li><p>Adding more lamps does not reduce brightness of existing lamps</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="potential-dividers" class="level2" data-number="22.9">
+<h2 data-number="22.9" class="anchored" data-anchor-id="potential-dividers"><span class="header-section-number">22.9</span> 19.8 Potential Dividers</h2>
+<section id="what-is-a-potential-divider" class="level3" data-number="22.9.1">
+<h3 data-number="22.9.1" class="anchored" data-anchor-id="what-is-a-potential-divider"><span class="header-section-number">22.9.1</span> What Is a Potential Divider?</h3>
+<p>A <strong>potential divider</strong> is a circuit that produces an output voltage that is a fraction of the input voltage.</p>
+<p><strong>Basic potential divider circuit:</strong></p>
+<pre><code>     V_in
+      │
+     ┌┴┐
+     │R1│
+     └┬┘
+      ├─── V_out
+     ┌┴┐
+     │R2│
+     └┬┘
+      │
+     GND</code></pre>
+<p><strong>Equation for output voltage:</strong></p>
+<p><span class="math display">\[V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2}\]</span></p>
+<p><strong>Alternative form:</strong></p>
+<p><span class="math display">\[\frac{R_1}{R_2} = \frac{V_1}{V_2}\]</span></p>
+</section>
+<section id="applications-of-potential-dividers" class="level3" data-number="22.9.2">
+<h3 data-number="22.9.2" class="anchored" data-anchor-id="applications-of-potential-dividers"><span class="header-section-number">22.9.2</span> Applications of Potential Dividers</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Application</th>
+<th style="text-align: left;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Volume control</strong></td>
+<td style="text-align: left;">Variable resistor adjusts output voltage to amplifier</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Light sensor</strong></td>
+<td style="text-align: left;">LDR in potential divider; output voltage changes with light intensity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Temperature sensor</strong></td>
+<td style="text-align: left;">Thermistor in potential divider; output voltage changes with temperature</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Reference voltage</strong></td>
+<td style="text-align: left;">Provides stable reference voltage for electronic circuits</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="key-concepts-summary" class="level2" data-number="22.10">
+<h2 data-number="22.10" class="anchored" data-anchor-id="key-concepts-summary"><span class="header-section-number">22.10</span> Key Concepts Summary</h2>
+<section id="core-concepts" class="level3" data-number="22.10.1">
+<h3 data-number="22.10.1" class="anchored" data-anchor-id="core-concepts"><span class="header-section-number">22.10.1</span> Core Concepts</h3>
+<ol type="1">
+<li><p><strong>Electric charge</strong>: Two types (+ and –); like charges repel, unlike attract; measured in coulombs (C)</p></li>
+<li><p><strong>Charging by friction</strong>: Transfer of electrons only; insulators can be charged, conductors cannot (unless insulated)</p></li>
+<li><p><strong>Conductors vs insulators</strong>: Conductors have free electrons; insulators have bound electrons</p></li>
+<li><p><strong>Electric current</strong>: Rate of flow of charge; <span class="math inline">\(I = Q/t\)</span>; measured in amperes (A) with ammeters in series</p></li>
+<li><p><strong>d.c. vs a.c.</strong>: d.c. flows one way; a.c. reverses direction periodically</p></li>
+<li><p><strong>e.m.f. and p.d.</strong>: Both measured in volts; e.m.f. is energy supplied per charge by source; p.d. is energy transferred per charge by component</p></li>
+<li><p><strong>Resistance</strong>: Opposition to current flow; <span class="math inline">\(R = V/I\)</span>; measured in ohms (Ω)</p></li>
+<li><p><strong>Ohm’s Law</strong>: <span class="math inline">\(V = IR\)</span> for ohmic conductors at constant temperature</p></li>
+<li><p><strong>Factors affecting resistance</strong>: <span class="math inline">\(R \propto L\)</span>, <span class="math inline">\(R \propto 1/A\)</span>, depends on material and temperature</p></li>
+<li><p><strong>Electrical power and energy</strong>: <span class="math inline">\(P = IV\)</span>; <span class="math inline">\(E = IVt\)</span>; kilowatt-hour (kW h) for practical energy measurement</p></li>
+<li><p><strong>Circuit symbols</strong>: Standard symbols for components; ammeters in series, voltmeters in parallel</p></li>
+<li><p><strong>Series circuits</strong>: Same current; p.d.s add; resistances add</p></li>
+<li><p><strong>Parallel circuits</strong>: Currents add; same p.d.; combined resistance less than smallest</p></li>
+<li><p><strong>Potential dividers</strong>: Produce fraction of input voltage; <span class="math inline">\(V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2}\)</span></p></li>
+</ol>
+</section>
+<section id="extended-concepts" class="level3" data-number="22.10.2">
+<h3 data-number="22.10.2" class="anchored" data-anchor-id="extended-concepts"><span class="header-section-number">22.10.2</span> Extended Concepts</h3>
+<ol start="15" type="1">
+<li><p><strong>Electric fields</strong>: Region where a charge experiences a force; direction = force on positive charge</p></li>
+<li><p><strong>Field patterns</strong>: Radial around point charge; uniform between parallel plates</p></li>
+<li><p><strong>I–V characteristics</strong>: Resistor (linear), filament lamp (curve), diode (one-way conduction)</p></li>
+<li><p><strong>Kirchhoff’s laws</strong>: Sum of currents at junction = 0; sum of p.d.s around loop = 0</p></li>
+<li><p><strong>Combined resistance in parallel</strong>: <span class="math inline">\(\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2}\)</span></p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="common-misconceptions" class="level2" data-number="22.11">
+<h2 data-number="22.11" class="anchored" data-anchor-id="common-misconceptions"><span class="header-section-number">22.11</span> Common Misconceptions</h2>
+<section id="misconception-1-current-is-used-up-as-it-flows-through-a-circuit" class="level3" data-number="22.11.1">
+<h3 data-number="22.11.1" class="anchored" data-anchor-id="misconception-1-current-is-used-up-as-it-flows-through-a-circuit"><span class="header-section-number">22.11.1</span> ⚠️ Misconception 1: “Current is used up as it flows through a circuit”</h3>
+<p><strong>Incorrect</strong>: “The current is smaller after passing through a lamp”</p>
+<p><strong>Correct</strong>: - <strong>Current is conserved</strong> in a series circuit; the same current flows through all components - What is “used up” is <strong>energy</strong>, not charge or current - The p.d. across a component represents energy transferred per charge, not current loss</p>
+<hr>
+</section>
+<section id="misconception-2-electrons-flow-from-positive-to-negative" class="level3" data-number="22.11.2">
+<h3 data-number="22.11.2" class="anchored" data-anchor-id="misconception-2-electrons-flow-from-positive-to-negative"><span class="header-section-number">22.11.2</span> ⚠️ Misconception 2: “Electrons flow from positive to negative”</h3>
+<p><strong>Incorrect</strong>: “Electrons move from the positive terminal of a battery to the negative terminal”</p>
+<p><strong>Correct</strong>: - <strong>Electrons</strong> (negative charges) flow from <strong>negative to positive</strong> - <strong>Conventional current</strong> is defined as flowing from <strong>positive to negative</strong> (historical convention) - In circuit analysis, we use conventional current direction</p>
+<hr>
+</section>
+<section id="misconception-3-a-voltmeter-should-be-connected-in-series" class="level3" data-number="22.11.3">
+<h3 data-number="22.11.3" class="anchored" data-anchor-id="misconception-3-a-voltmeter-should-be-connected-in-series"><span class="header-section-number">22.11.3</span> ⚠️ Misconception 3: “A voltmeter should be connected in series”</h3>
+<p><strong>Incorrect</strong>: “To measure voltage, connect the voltmeter in the same path as the current”</p>
+<p><strong>Correct</strong>: - <strong>Voltmeters</strong> must be connected <strong>in parallel</strong> across the component - Connecting a voltmeter in series would break the circuit (very high resistance) - <strong>Ammeters</strong> are connected in series; <strong>voltmeters</strong> in parallel</p>
+<hr>
+</section>
+<section id="misconception-4-resistance-depends-only-on-the-material" class="level3" data-number="22.11.4">
+<h3 data-number="22.11.4" class="anchored" data-anchor-id="misconception-4-resistance-depends-only-on-the-material"><span class="header-section-number">22.11.4</span> ⚠️ Misconception 4: “Resistance depends only on the material”</h3>
+<p><strong>Incorrect</strong>: “All copper wires have the same resistance”</p>
+<p><strong>Correct</strong>: - Resistance depends on <strong>four factors</strong>: length, cross-sectional area, material, and temperature - For a given material at constant temperature: <span class="math inline">\(R \propto \frac{L}{A}\)</span> - A longer or thinner wire has higher resistance</p>
+<hr>
+</section>
+<section id="misconception-5-ohms-law-applies-to-all-components" class="level3" data-number="22.11.5">
+<h3 data-number="22.11.5" class="anchored" data-anchor-id="misconception-5-ohms-law-applies-to-all-components"><span class="header-section-number">22.11.5</span> ⚠️ Misconception 5: “Ohm’s Law applies to all components”</h3>
+<p><strong>Incorrect</strong>: “All electrical components obey <span class="math inline">\(V = IR\)</span>”</p>
+<p><strong>Correct</strong>: - Ohm’s Law applies <strong>only to ohmic conductors</strong> (e.g., fixed resistors) at constant temperature - Filament lamps, diodes, and thermistors are <strong>non-ohmic</strong>; their I–V graphs are not straight lines - Always check the I–V characteristic before applying Ohm’s Law</p>
+<hr>
+</section>
+<section id="misconception-6-adding-resistors-in-parallel-increases-total-resistance" class="level3" data-number="22.11.6">
+<h3 data-number="22.11.6" class="anchored" data-anchor-id="misconception-6-adding-resistors-in-parallel-increases-total-resistance"><span class="header-section-number">22.11.6</span> ⚠️ Misconception 6: “Adding resistors in parallel increases total resistance”</h3>
+<p><strong>Incorrect</strong>: “More resistors in parallel means more resistance”</p>
+<p><strong>Correct</strong>: - Adding resistors in <strong>parallel</strong> <strong>decreases</strong> total resistance - Each new branch provides an additional path for current - Formula: <span class="math inline">\(\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} + \dots\)</span> → <span class="math inline">\(R_{\text{total}}\)</span> is less than the smallest <span class="math inline">\(R\)</span></p>
+<hr>
+</section>
+<section id="misconception-7-the-kilowatt-hour-is-a-unit-of-power" class="level3" data-number="22.11.7">
+<h3 data-number="22.11.7" class="anchored" data-anchor-id="misconception-7-the-kilowatt-hour-is-a-unit-of-power"><span class="header-section-number">22.11.7</span> ⚠️ Misconception 7: “The kilowatt-hour is a unit of power”</h3>
+<p><strong>Incorrect</strong>: “My electricity bill charges me per kilowatt-hour of power used”</p>
+<p><strong>Correct</strong>: - The <strong>kilowatt-hour (kW h)</strong> is a unit of <strong>energy</strong>, not power - Power is measured in watts (W) or kilowatts (kW) - Energy = Power × Time → kW h = kW × h</p>
+<hr>
+</section>
+</section>
+<section id="worked-examples" class="level2" data-number="22.12">
+<h2 data-number="22.12" class="anchored" data-anchor-id="worked-examples"><span class="header-section-number">22.12</span> Worked Examples</h2>
+<section id="example-1-charge-and-current-calculation" class="level3" data-number="22.12.1">
+<h3 data-number="22.12.1" class="anchored" data-anchor-id="example-1-charge-and-current-calculation"><span class="header-section-number">22.12.1</span> Example 1: Charge and Current Calculation</h3>
+<p><strong>Question:</strong> A current of 0.5 A flows through a wire for 2 minutes. Calculate: (a) the charge that passes a point in the wire (b) the number of electrons that pass that point (charge of one electron = <span class="math inline">\(1.6 \times 10^{-19}\)</span> C)</p>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Charge:</strong> <span class="math display">\[I = 0.5 \text{ A}, \quad t = 2 \times 60 = 120 \text{ s}\]</span> <span class="math display">\[Q = It = 0.5 \times 120 = \boxed{60 \text{ C}}\]</span></p>
+<p><strong>(b) Number of electrons:</strong> <span class="math display">\[\text{Number} = \frac{Q}{e} = \frac{60}{1.6 \times 10^{-19}} = \boxed{3.75 \times 10^{20} \text{ electrons}}\]</span></p>
+<hr>
+</section>
+<section id="example-2-resistance-calculation" class="level3" data-number="22.12.2">
+<h3 data-number="22.12.2" class="anchored" data-anchor-id="example-2-resistance-calculation"><span class="header-section-number">22.12.2</span> Example 2: Resistance Calculation</h3>
+<p><strong>Question:</strong> A resistor has a potential difference of 6.0 V across it when a current of 0.25 A flows through it. Calculate: (a) the resistance of the resistor (b) the power dissipated by the resistor (c) the energy transferred in 5 minutes</p>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Resistance:</strong> <span class="math display">\[R = \frac{V}{I} = \frac{6.0}{0.25} = \boxed{24 \text{ Ω}}\]</span></p>
+<p><strong>(b) Power:</strong> <span class="math display">\[P = IV = 0.25 \times 6.0 = \boxed{1.5 \text{ W}}\]</span></p>
+<p><strong>(c) Energy:</strong> <span class="math display">\[t = 5 \times 60 = 300 \text{ s}\]</span> <span class="math display">\[E = IVt = 0.25 \times 6.0 \times 300 = \boxed{450 \text{ J}}\]</span></p>
+<hr>
+</section>
+<section id="example-3-series-circuit-analysis" class="level3" data-number="22.12.3">
+<h3 data-number="22.12.3" class="anchored" data-anchor-id="example-3-series-circuit-analysis"><span class="header-section-number">22.12.3</span> Example 3: Series Circuit Analysis</h3>
+<p><strong>Question:</strong> Two resistors, <span class="math inline">\(R_1 = 10 \text{ Ω}\)</span> and <span class="math inline">\(R_2 = 20 \text{ Ω}\)</span>, are connected in series to a 12 V battery. Calculate: (a) the total resistance (b) the current in the circuit (c) the p.d. across each resistor</p>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Total resistance:</strong> <span class="math display">\[R_{\text{total}} = R_1 + R_2 = 10 + 20 = \boxed{30 \text{ Ω}}\]</span></p>
+<p><strong>(b) Current:</strong> <span class="math display">\[I = \frac{V}{R_{\text{total}}} = \frac{12}{30} = \boxed{0.4 \text{ A}}\]</span></p>
+<p><strong>(c) p.d. across each resistor:</strong> <span class="math display">\[V_1 = IR_1 = 0.4 \times 10 = \boxed{4.0 \text{ V}}\]</span> <span class="math display">\[V_2 = IR_2 = 0.4 \times 20 = \boxed{8.0 \text{ V}}\]</span> <em>Check: <span class="math inline">\(V_1 + V_2 = 4.0 + 8.0 = 12.0 \text{ V}\)</span> ✓</em></p>
+<hr>
+</section>
+<section id="example-4-parallel-circuit-analysis-extended" class="level3" data-number="22.12.4">
+<h3 data-number="22.12.4" class="anchored" data-anchor-id="example-4-parallel-circuit-analysis-extended"><span class="header-section-number">22.12.4</span> Example 4: Parallel Circuit Analysis (Extended)</h3>
+<p><strong>Question:</strong> Two resistors, <span class="math inline">\(R_1 = 6 \text{ Ω}\)</span> and <span class="math inline">\(R_2 = 3 \text{ Ω}\)</span>, are connected in parallel to a 12 V supply. Calculate: (a) the combined resistance (b) the current through each resistor (c) the total current from the supply</p>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Combined resistance:</strong> <span class="math display">\[\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} = \frac{1}{6} + \frac{1}{3} = \frac{1}{6} + \frac{2}{6} = \frac{3}{6} = \frac{1}{2}\]</span> <span class="math display">\[R_{\text{total}} = \boxed{2 \text{ Ω}}\]</span></p>
+<p><strong>(b) Current through each resistor:</strong> <span class="math display">\[I_1 = \frac{V}{R_1} = \frac{12}{6} = \boxed{2.0 \text{ A}}\]</span> <span class="math display">\[I_2 = \frac{V}{R_2} = \frac{12}{3} = \boxed{4.0 \text{ A}}\]</span></p>
+<p><strong>(c) Total current:</strong> <span class="math display">\[I_{\text{total}} = I_1 + I_2 = 2.0 + 4.0 = \boxed{6.0 \text{ A}}\]</span> <em>Check: <span class="math inline">\(I_{\text{total}} = \frac{V}{R_{\text{total}}} = \frac{12}{2} = 6.0 \text{ A}\)</span> ✓</em></p>
+<hr>
+</section>
+<section id="example-5-potential-divider-calculation-extended" class="level3" data-number="22.12.5">
+<h3 data-number="22.12.5" class="anchored" data-anchor-id="example-5-potential-divider-calculation-extended"><span class="header-section-number">22.12.5</span> Example 5: Potential Divider Calculation (Extended)</h3>
+<p><strong>Question:</strong> A potential divider circuit has <span class="math inline">\(R_1 = 400 \text{ Ω}\)</span> and <span class="math inline">\(R_2 = 600 \text{ Ω}\)</span> connected to a 10 V supply. Calculate: (a) the output voltage <span class="math inline">\(V_{\text{out}}\)</span> across <span class="math inline">\(R_2\)</span> (b) the current through the divider</p>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Output voltage:</strong> <span class="math display">\[V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2} = 10 \times \frac{600}{400 + 600} = 10 \times \frac{600}{1000} = \boxed{6.0 \text{ V}}\]</span></p>
+<p><strong>(b) Current through divider:</strong> <span class="math display">\[R_{\text{total}} = R_1 + R_2 = 400 + 600 = 1000 \text{ Ω}\]</span> <span class="math display">\[I = \frac{V_{\text{in}}}{R_{\text{total}}} = \frac{10}{1000} = \boxed{0.01 \text{ A} = 10 \text{ mA}}\]</span></p>
+<hr>
+</section>
+</section>
+<section id="practice-questions" class="level2" data-number="22.13">
+<h2 data-number="22.13" class="anchored" data-anchor-id="practice-questions"><span class="header-section-number">22.13</span> Practice Questions</h2>
+<section id="core-level" class="level3" data-number="22.13.1">
+<h3 data-number="22.13.1" class="anchored" data-anchor-id="core-level"><span class="header-section-number">22.13.1</span> Core Level</h3>
+<ol type="1">
+<li><p>State the two types of electric charge and the rule for attraction and repulsion.</p></li>
+<li><p>Explain why a plastic rod becomes negatively charged when rubbed with a cloth.</p></li>
+<li><p>Define electric current and state its SI unit.</p></li>
+<li><p>A charge of 30 C passes a point in a circuit in 15 s. Calculate the current.</p></li>
+<li><p>State the difference between direct current (d.c.) and alternating current (a.c.).</p></li>
+<li><p>Define potential difference and state its SI unit.</p></li>
+<li><p>A resistor has a p.d. of 9.0 V across it when a current of 0.3 A flows. Calculate its resistance.</p></li>
+<li><p>State two factors that affect the resistance of a wire.</p></li>
+<li><p>Calculate the power of a lamp that operates at 12 V with a current of 0.5 A.</p></li>
+<li><p>A 100 W lamp is used for 5 hours. Calculate the energy used in kW h.</p></li>
+<li><p>Draw the circuit symbol for:</p></li>
+</ol>
+<ul>
+<li><ol type="a">
+<li>a cell</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>a variable resistor</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>an LDR</li>
+</ol></li>
+</ul>
+<ol start="12" type="1">
+<li><p>In a series circuit with three lamps, what happens to the other lamps if one lamp blows?</p></li>
+<li><p>State two advantages of connecting lamps in parallel rather than in series.</p></li>
+<li><p>Two resistors of 10 Ω and 20 Ω are connected in series. Calculate their combined resistance.</p></li>
+<li><p>A potential divider has <span class="math inline">\(R_1 = 100 \text{ Ω}\)</span> and <span class="math inline">\(R_2 = 200 \text{ Ω}\)</span> with a 9 V supply. Calculate the output voltage across <span class="math inline">\(R_2\)</span>.</p></li>
+</ol>
+</section>
+<section id="extended-level" class="level3" data-number="22.13.2">
+<h3 data-number="22.13.2" class="anchored" data-anchor-id="extended-level"><span class="header-section-number">22.13.2</span> Extended Level</h3>
+<ol start="16" type="1">
+<li><p>Calculate the number of electrons that pass a point in a wire when a current of 2.0 A flows for 30 s. (Charge of electron = <span class="math inline">\(1.6 \times 10^{-19}\)</span> C)</p></li>
+<li><p>Explain, in terms of electron motion, why the resistance of a metal increases with temperature.</p></li>
+<li><p>Sketch the I–V characteristic for:</p></li>
+</ol>
+<ul>
+<li><ol type="a">
+<li>a fixed resistor</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>a filament lamp</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>a diode</li>
+</ol></li>
+</ul>
+<ol start="19" type="1">
+<li><p>Three resistors of 6 Ω, 3 Ω, and 2 Ω are connected in parallel. Calculate the combined resistance.</p></li>
+<li><p>In a circuit, a current of 0.8 A enters a junction. Two wires leave the junction, one carrying 0.3 A. Calculate the current in the other wire.</p></li>
+<li><p>A potential divider circuit uses a thermistor (NTC) and a fixed resistor. Explain how the output voltage changes as temperature increases.</p></li>
+<li><p>A 2 kW electric heater is used for 3 hours. If electricity costs $0.15 per kW h, calculate the total cost.</p></li>
+<li><p>Two identical lamps are connected in parallel to a battery. A third identical lamp is added in parallel. State and explain what happens to:</p></li>
+</ol>
+<ul>
+<li><ol type="a">
+<li>the brightness of each lamp</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>the total current from the battery</li>
+</ol></li>
+</ul>
+<ol start="24" type="1">
+<li>Describe an experiment to determine the resistance of a wire using a voltmeter and an ammeter. Include a circuit diagram and state the precautions.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="laboratory-investigation" class="level2" data-number="22.14">
+<h2 data-number="22.14" class="anchored" data-anchor-id="laboratory-investigation"><span class="header-section-number">22.14</span> Laboratory Investigation</h2>
+<section id="experiment-19.1-determining-resistance-using-voltmeter-ammeter-method" class="level3" data-number="22.14.1">
+<h3 data-number="22.14.1" class="anchored" data-anchor-id="experiment-19.1-determining-resistance-using-voltmeter-ammeter-method"><span class="header-section-number">22.14.1</span> Experiment 19.1: Determining Resistance Using Voltmeter-Ammeter Method</h3>
+<p><strong>Objective:</strong> To determine the resistance of a fixed resistor using the voltmeter-ammeter method and verify Ohm’s Law.</p>
+<p><strong>Apparatus:</strong> - Fixed resistor (unknown value)</p>
+<ul>
+<li><p>Variable resistor (rheostat)</p></li>
+<li><p>d.c. power supply (0–12 V)</p></li>
+<li><p>Ammeter (0–1 A)</p></li>
+<li><p>Voltmeter (0–15 V)</p></li>
+<li><p>Connecting wires</p></li>
+<li><p>Switch</p></li>
+</ul>
+<p><strong>Variables:</strong> - <strong>Independent:</strong> Potential difference across resistor (adjusted using rheostat)</p>
+<ul>
+<li><p><strong>Dependent:</strong> Current through resistor</p></li>
+<li><p><strong>Controlled:</strong> Same resistor, same temperature, same circuit configuration</p></li>
+</ul>
+<p><strong>Procedure:</strong> 1. Set up the circuit as shown in the diagram below: - Connect the power supply, switch, rheostat, ammeter, and fixed resistor in series - Connect the voltmeter in parallel across the fixed resistor</p>
+<ol start="2" type="1">
+<li><p>Close the switch and adjust the rheostat to give a small current (e.g., 0.1 A)</p></li>
+<li><p>Record the voltmeter reading <span class="math inline">\(V\)</span> and ammeter reading <span class="math inline">\(I\)</span></p></li>
+<li><p>Adjust the rheostat to increase the current in steps (e.g., 0.2 A, 0.3 A, …, 0.6 A)</p></li>
+<li><p>Record <span class="math inline">\(V\)</span> and <span class="math inline">\(I\)</span> for each step</p></li>
+<li><p>Open the switch between readings to minimise heating of the resistor</p></li>
+<li><p>Calculate resistance <span class="math inline">\(R = V/I\)</span> for each pair of readings</p></li>
+<li><p>Plot a graph of <span class="math inline">\(V\)</span> (y-axis) against <span class="math inline">\(I\)</span> (x-axis)</p></li>
+</ol>
+<p><strong>Circuit Diagram:</strong></p>
+<pre><code>     ┌─────┐
+     │     │
+    ┌┴┐   ┌┴┐
+    │ │   │ │  Variable
+    │ │   │ │  resistor
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐   ┌┴┐
+    │A│   │V│  Ammeter   Voltmeter
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐   ┌┴┐
+    │R│   │ │  Fixed
+    │ │   │ │  resistor
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐   ┌┴┐
+    │ │   │ │  Power
+    │ │   │ │  supply
+    └┬┘   └┬┘
+     │     │
+    ┌┴┐
+    │S│  Switch
+    └┬┘
+     │
+    GND</code></pre>
+<p><strong>Data Table:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trial</th>
+<th style="text-align: left;"><span class="math inline">\(V\)</span> (V)</th>
+<th style="text-align: left;"><span class="math inline">\(I\)</span> (A)</th>
+<th style="text-align: left;"><span class="math inline">\(R = V/I\)</span> (Ω)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Analysis:</strong> 1. Calculate the average resistance from the <span class="math inline">\(R = V/I\)</span> column</p>
+<ol start="2" type="1">
+<li><p>Plot a graph of <span class="math inline">\(V\)</span> (y-axis) against <span class="math inline">\(I\)</span> (x-axis)</p></li>
+<li><p>Determine the gradient of the best-fit line; this equals the resistance <span class="math inline">\(R\)</span></p></li>
+<li><p>Compare the average <span class="math inline">\(R\)</span> from calculations with the gradient from the graph</p></li>
+<li><p>Comment on whether the resistor obeys Ohm’s Law (straight line through origin)</p></li>
+</ol>
+<p><strong>Precautions:</strong> - ✓ Open the switch between readings to prevent the resistor from heating up</p>
+<ul>
+<li><p>✓ Ensure all connections are tight to avoid contact resistance</p></li>
+<li><p>✓ Select appropriate meter ranges to avoid damage and improve precision</p></li>
+<li><p>✓ Avoid parallax error when reading analogue meters</p></li>
+</ul>
+<p><strong>Expected Results:</strong> - The graph of <span class="math inline">\(V\)</span> against <span class="math inline">\(I\)</span> should be a straight line through the origin</p>
+<ul>
+<li><p>The gradient should equal the resistance of the fixed resistor</p></li>
+<li><p>Calculated <span class="math inline">\(R\)</span> values should be consistent (within experimental error)</p></li>
+</ul>
+<p><strong>Conclusion Template:</strong> “The resistance of the fixed resistor was determined to be ______ Ω using the voltmeter-ammeter method. The linear <span class="math inline">\(V\)</span>–<span class="math inline">\(I\)</span> graph confirmed that the resistor obeys Ohm’s Law at constant temperature. The average calculated resistance agreed with the gradient of the graph within experimental error.”</p>
+<p><strong>Extension (Supplement):</strong> - Repeat the experiment with a filament lamp and compare the I–V characteristic</p>
+<ul>
+<li><p>Investigate how the resistance of a thermistor changes with temperature</p></li>
+<li><p>Use the potential divider configuration to study the effect of varying <span class="math inline">\(R_1\)</span> or <span class="math inline">\(R_2\)</span> on <span class="math inline">\(V_{\text{out}}\)</span></p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exam-style-questions" class="level2" data-number="22.15">
+<h2 data-number="22.15" class="anchored" data-anchor-id="exam-style-questions"><span class="header-section-number">22.15</span> Exam-Style Questions</h2>
+<section id="paper-1-style-multiple-choice" class="level3" data-number="22.15.1">
+<h3 data-number="22.15.1" class="anchored" data-anchor-id="paper-1-style-multiple-choice"><span class="header-section-number">22.15.1</span> Paper 1 Style (Multiple Choice)</h3>
+<ol type="1">
+<li>Which statement about electric charge is correct?</li>
+</ol>
+<p>A. Positive charges attract other positive charges</p>
+<p>B. Negative charges repel other negative charges</p>
+<p>C. Positive charges attract negative charges</p>
+<p>D. Charge can be created but not destroyed</p>
+<ol start="2" type="1">
+<li>A current of 2.0 A flows for 30 s. What charge passes a point in the circuit?</li>
+</ol>
+<p>A. 0.067 C</p>
+<p>B. 15 C</p>
+<p>C. 32 C</p>
+<p>D. 60 C</p>
+<ol start="3" type="1">
+<li>Which instrument is used to measure potential difference and how is it connected?</li>
+</ol>
+<p>A. Ammeter, in series</p>
+<p>B. Ammeter, in parallel</p>
+<p>C. Voltmeter, in series</p>
+<p>D. Voltmeter, in parallel</p>
+<ol start="4" type="1">
+<li>A resistor has a resistance of 10 Ω. What current flows when the p.d. across it is 5.0 V?</li>
+</ol>
+<p>A. 0.5 A</p>
+<p>B. 2.0 A</p>
+<ul>
+<li>C. 15 A</li>
+</ul>
+<p>D. 50 A</p>
+<ol start="5" type="1">
+<li>Which statement about series circuits is correct?</li>
+</ol>
+<p>A. The current is different at different points</p>
+<p>B. The p.d. is the same across each component</p>
+<p>C. The total resistance is the sum of individual resistances</p>
+<p>D. If one lamp blows, the others continue to work</p>
+</section>
+<section id="paper-3-style-structured" class="level3" data-number="22.15.2">
+<h3 data-number="22.15.2" class="anchored" data-anchor-id="paper-3-style-structured"><span class="header-section-number">22.15.2</span> Paper 3 Style (Structured)</h3>
+<ol start="6" type="1">
+<li><ol type="a">
+<li>State the difference between a conductor and an insulator. [2]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>Explain, in terms of electron motion, why metals are good conductors. [2]</p></li>
+<li><p>Describe an experiment to show that a plastic rod can be charged by friction. Include how you would detect the charge. [3]</p></li>
+</ol>
+<ol start="7" type="1">
+<li><ol type="a">
+<li>Define electromotive force (e.m.f.). [1]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>A battery of e.m.f. 9.0 V supplies a current of 0.5 A to a circuit. Calculate:</p></li>
+<li><p>the charge that passes through the battery in 2 minutes [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li><p>the energy transferred by the battery in this time [2]</p></li>
+<li><p>State one advantage of using a digital voltmeter rather than an analogue voltmeter. [1]</p></li>
+</ol>
+<ol start="8" type="1">
+<li><ol type="a">
+<li>State Ohm’s Law. [1]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>A student investigates the resistance of a wire. She measures the current for different potential differences and plots the graph shown.</p></li>
+<li><p>Explain how she can determine the resistance of the wire from the graph. [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li><p>The wire is replaced with a thicker wire of the same material and length. Sketch the new I–V graph on the same axes. [2]</p></li>
+<li><p>Explain why the resistance of a filament lamp increases as the current increases. [2]</p></li>
+</ol>
+<ol start="9" type="1">
+<li>(Extended) (a) Two resistors, 4.0 Ω and 6.0 Ω, are connected in parallel. Calculate their combined resistance. [3]</li>
+</ol>
+<ol start="2" type="a">
+<li><p>The parallel combination is connected in series with a 2.0 Ω resistor to a 12 V supply. Calculate:</p></li>
+<li><p>the total resistance of the circuit [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li><p>the current from the supply [2]</p></li>
+<li><p>the p.d. across the 2.0 Ω resistor [2]</p></li>
+<li><p>Explain why lamps in a house are connected in parallel rather than in series. [2]</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="chapter-summary" class="level2" data-number="22.16">
+<h2 data-number="22.16" class="anchored" data-anchor-id="chapter-summary"><span class="header-section-number">22.16</span> Chapter Summary</h2>
+<section id="key-points-to-remember" class="level3" data-number="22.16.1">
+<h3 data-number="22.16.1" class="anchored" data-anchor-id="key-points-to-remember"><span class="header-section-number">22.16.1</span> Key Points to Remember</h3>
+<p>✓ <strong>Electric charge</strong>: Two types (+ and –); like repel, unlike attract; measured in coulombs (C)</p>
+<p>✓ <strong>Charging by friction</strong>: Transfer of electrons only; insulators can be charged</p>
+<p>✓ <strong>Conductors vs insulators</strong>: Conductors have free electrons; insulators have bound electrons</p>
+<p>✓ <strong>Electric current</strong>: <span class="math inline">\(I = Q/t\)</span>; measured in amperes (A) with ammeters in series</p>
+<p>✓ <strong>d.c. vs a.c.</strong>: d.c. one direction; a.c. reverses periodically</p>
+<p>✓ <strong>e.m.f. and p.d.</strong>: Both in volts; e.m.f. = energy supplied per charge; p.d. = energy transferred per charge</p>
+<p>✓ <strong>Resistance</strong>: <span class="math inline">\(R = V/I\)</span>; measured in ohms (Ω); <span class="math inline">\(R \propto L\)</span>, <span class="math inline">\(R \propto 1/A\)</span></p>
+<p>✓ <strong>Ohm’s Law</strong>: <span class="math inline">\(V = IR\)</span> for ohmic conductors at constant temperature</p>
+<p>✓ <strong>Electrical power and energy</strong>: <span class="math inline">\(P = IV\)</span>; <span class="math inline">\(E = IVt\)</span>; kW h for practical energy measurement</p>
+<p>✓ <strong>Circuit symbols</strong>: Standard symbols; ammeters in series, voltmeters in parallel</p>
+<p>✓ <strong>Series circuits</strong>: Same current; p.d.s add; <span class="math inline">\(R_{\text{total}} = R_1 + R_2 + \dots\)</span></p>
+<p>✓ <strong>Parallel circuits</strong>: Currents add; same p.d.; <span class="math inline">\(\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} + \dots\)</span></p>
+<p>✓ <strong>Potential dividers</strong>: <span class="math inline">\(V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2}\)</span></p>
+</section>
+<section id="formulae-sheet" class="level3" data-number="22.16.2">
+<h3 data-number="22.16.2" class="anchored" data-anchor-id="formulae-sheet"><span class="header-section-number">22.16.2</span> Formulae Sheet</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Formula</th>
+<th style="text-align: left;">Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Electric current</td>
+<td style="text-align: left;"><span class="math inline">\(I = \frac{Q}{t}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(I\)</span>=current (A), <span class="math inline">\(Q\)</span>=charge (C), <span class="math inline">\(t\)</span>=time (s)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Resistance</td>
+<td style="text-align: left;"><span class="math inline">\(R = \frac{V}{I}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(R\)</span>=resistance (Ω), <span class="math inline">\(V\)</span>=p.d. (V), <span class="math inline">\(I\)</span>=current (A)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Electrical power</td>
+<td style="text-align: left;"><span class="math inline">\(P = IV = I^2R = \frac{V^2}{R}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(P\)</span>=power (W)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Electrical energy</td>
+<td style="text-align: left;"><span class="math inline">\(E = IVt = Pt\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(E\)</span>=energy (J)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">e.m.f. / p.d.</td>
+<td style="text-align: left;"><span class="math inline">\(E \text{ or } V = \frac{W}{Q}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(W\)</span>=work/energy (J), <span class="math inline">\(Q\)</span>=charge (C)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Combined resistance (series)</td>
+<td style="text-align: left;"><span class="math inline">\(R_{\text{total}} = R_1 + R_2 + R_3 + \dots\)</span></td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Combined resistance (parallel)</td>
+<td style="text-align: left;"><span class="math inline">\(\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \dots\)</span></td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Potential divider</td>
+<td style="text-align: left;"><span class="math inline">\(V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(R_1\)</span>, <span class="math inline">\(R_2\)</span> = divider resistances</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="further-resources" class="level2" data-number="22.17">
+<h2 data-number="22.17" class="anchored" data-anchor-id="further-resources"><span class="header-section-number">22.17</span> Further Resources</h2>
+<section id="recommended-reading" class="level3" data-number="22.17.1">
+<h3 data-number="22.17.1" class="anchored" data-anchor-id="recommended-reading"><span class="header-section-number">22.17.1</span> Recommended Reading</h3>
+<ul>
+<li><p>Cambridge IGCSE Physics Coursebook, Chapter 16 (Electrical Quantities) and Chapter 17 (Electric Circuits)</p></li>
+<li><p>Practical Work in Physics: Electrical Measurements and Circuit Investigations</p></li>
+</ul>
+</section>
+<section id="online-resources" class="level3" data-number="22.17.2">
+<h3 data-number="22.17.2" class="anchored" data-anchor-id="online-resources"><span class="header-section-number">22.17.2</span> Online Resources</h3>
+<ul>
+<li><p>PhET Interactive Simulations: Circuit Construction Kit, Ohm’s Law, Battery Voltage</p></li>
+<li><p>BBC Bitesize: Electric Charge, Current and Voltage, Resistance, Circuit Calculations</p></li>
+<li><p>University of Colorado: Circuit simulation tools for series and parallel circuits</p></li>
+</ul>
+</section>
+<section id="video-resources" class="level3" data-number="22.17.3">
+<h3 data-number="22.17.3" class="anchored" data-anchor-id="video-resources"><span class="header-section-number">22.17.3</span> Video Resources</h3>
+<ul>
+<li><p>Demonstration: Charging by friction and detection with electroscope</p></li>
+<li><p>Animation: Electron flow vs conventional current in metallic conductors</p></li>
+<li><p>Real-world application: How household wiring uses parallel circuits for safety and convenience</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="22.18">
+<h2 data-number="22.18" class="anchored" data-anchor-id="glossary"><span class="header-section-number">22.18</span> Glossary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Term</th>
+<th style="text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Ammeter</strong></td>
+<td style="text-align: left;">Instrument for measuring electric current; connected in series</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Conventional current</strong></td>
+<td style="text-align: left;">Conventional direction of current flow from positive to negative terminal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Conductor</strong></td>
+<td style="text-align: left;">Material that allows electric charge to flow easily (e.g., metals)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Coulomb (C)</strong></td>
+<td style="text-align: left;">SI unit of electric charge; charge transported by 1 A in 1 s</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Direct current (d.c.)</strong></td>
+<td style="text-align: left;">Electric current that flows in one direction only</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Electric current (<span class="math inline">\(I\)</span>)</strong></td>
+<td style="text-align: left;">Rate of flow of electric charge; <span class="math inline">\(I = Q/t\)</span>; unit: ampere (A)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Electric field</strong></td>
+<td style="text-align: left;">Region in which an electric charge experiences a force</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Electromotive force (e.m.f.)</strong></td>
+<td style="text-align: left;">Electrical work done by a source per unit charge around a complete circuit; unit: volt (V)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Electron</strong></td>
+<td style="text-align: left;">Negatively charged subatomic particle; carrier of charge in metallic conductors</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Insulator</strong></td>
+<td style="text-align: left;">Material that does not allow electric charge to flow easily (e.g., plastic, rubber)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Kilowatt-hour (kW h)</strong></td>
+<td style="text-align: left;">Unit of electrical energy; energy used by a 1 kW device in 1 hour</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Ohm (Ω)</strong></td>
+<td style="text-align: left;">SI unit of resistance; <span class="math inline">\(1 \text{ Ω} = 1 \text{ V/A}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Ohm’s Law</strong></td>
+<td style="text-align: left;">For an ohmic conductor at constant temperature: <span class="math inline">\(V = IR\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Potential difference (p.d.)</strong></td>
+<td style="text-align: left;">Work done per unit charge passing through a component; unit: volt (V)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Resistance (<span class="math inline">\(R\)</span>)</strong></td>
+<td style="text-align: left;">Opposition to the flow of electric current; <span class="math inline">\(R = V/I\)</span>; unit: ohm (Ω)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Volt (V)</strong></td>
+<td style="text-align: left;">SI unit of e.m.f. and p.d.; <span class="math inline">\(1 \text{ V} = 1 \text{ J/C}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Voltmeter</strong></td>
+<td style="text-align: left;">Instrument for measuring potential difference; connected in parallel</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>End of Chapter 19</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/18-magnetism.html" class="pagination-link" aria-label="Simple Phenomena of Magnetism">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Simple Phenomena of Magnetism</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/20-electrical-quantities.html" class="pagination-link" aria-label="Electrical Quantities">
+        <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

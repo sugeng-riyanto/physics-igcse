@@ -1,0 +1,2256 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sugeng Riyanto, M.Sc.">
+<meta name="dcterms.date" content="2026-01-01">
+
+<title>4&nbsp; Measurement of Physical Quantities – Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/02-motion.html" rel="next">
+<link href="../preface.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/01-measurement.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../syllabus-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Syllabus Mapping</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Core Content</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-measurement.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-motion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Motion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mass-weight-density.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mass, Weight and Density</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-forces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Forces</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-moments-equilibrium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Moments and Equilibrium</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-momentum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Momentum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-energy-stores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Energy Stores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-work-power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work and Power</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-pressure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Pressure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-kinetic-particle-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-thermal-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Thermal Properties</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-phase-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Phase Changes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-thermal-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Thermal Transfer</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-wave-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-light-reflection-refraction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Light: Reflection and Refraction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-em-spectrum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Electromagnetic Spectrum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-sound.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Sound</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-magnetism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Simple Phenomena of Magnetism</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-electric-charge-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-electrical-quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-electromagnetic-effects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-nuclear-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Nuclear Physics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-space-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Space Physics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Supporting Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/practical-skills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Practical Skills</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/maths-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Mathematical Data and Constants</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/exam-technique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Common Question Types</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/formula-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Formula Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Bibliography and References</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics Reference Guide</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">4.1</span> Learning Objectives</a></li>
+  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts"><span class="header-section-number">4.2</span> Key Concepts</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions"><span class="header-section-number">4.3</span> Common Misconceptions</a></li>
+  <li><a href="#essential-skills" id="toc-essential-skills" class="nav-link" data-scroll-target="#essential-skills"><span class="header-section-number">4.4</span> Essential Skills</a></li>
+  <li><a href="#worked-calculations" id="toc-worked-calculations" class="nav-link" data-scroll-target="#worked-calculations"><span class="header-section-number">4.5</span> Worked Calculations</a></li>
+  <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions"><span class="header-section-number">4.6</span> Practice Questions</a></li>
+  <li><a href="#laboratory-investigation" id="toc-laboratory-investigation" class="nav-link" data-scroll-target="#laboratory-investigation"><span class="header-section-number">4.7</span> Laboratory Investigation</a></li>
+  <li><a href="#exam-style-questions" id="toc-exam-style-questions" class="nav-link" data-scroll-target="#exam-style-questions"><span class="header-section-number">4.8</span> Exam-Style Questions</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary"><span class="header-section-number">4.9</span> Chapter Summary</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">4.10</span> Glossary</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources"><span class="header-section-number">4.11</span> Further Resources</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/01-measurement.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sugeng Riyanto, M.Sc. </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">4.1</span> Learning Objectives</h2>
+<section id="core-content" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="core-content"><span class="header-section-number">4.1.1</span> Core Content</h3>
+<p>By the end of this chapter, you will be able to:</p>
+<ul>
+<li><p>Describe the use of rulers and measuring cylinders to find a length or a volume</p></li>
+<li><p>Describe how to measure a variety of time intervals using clocks and digital timers</p></li>
+<li><p>Determine an average value for a small distance and for a short interval of time by measuring multiples (including the period of oscillation of a pendulum)</p></li>
+</ul>
+</section>
+<section id="supplement-extended" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="supplement-extended"><span class="header-section-number">4.1.2</span> Supplement (Extended)</h3>
+<p>By the end of this chapter, you will be able to:</p>
+<ul>
+<li><p>Understand that a scalar quantity has magnitude (size) only and that a vector quantity has both magnitude and direction</p></li>
+<li><p>Know that the following quantities are scalars: distance, speed, time, mass, energy and temperature</p></li>
+<li><p>Know that the following quantities are vectors: force, weight, velocity, acceleration, momentum, electric field strength and gravitational field strength</p></li>
+<li><p>Determine, by calculation or graphically, the resultant of two vectors at right angles, limited to forces or velocities only</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="key-concepts" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="key-concepts"><span class="header-section-number">4.2</span> Key Concepts</h2>
+<section id="physical-quantities-and-si-units" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="physical-quantities-and-si-units"><span class="header-section-number">4.2.1</span> Physical Quantities and SI Units</h3>
+<ul>
+<li><p>A <strong>physical quantity</strong> is a quantity that can be measured. It consists of two essential components:</p>
+<ul>
+<li><p><strong>Numerical magnitude</strong>: the number that indicates the size or amount</p></li>
+<li><p><strong>Unit</strong>: the standard of measurement for comparison</p></li>
+</ul></li>
+<li><p>Example: In “the height is 3.8 m”:</p>
+<ul>
+<li><p><code>3.8</code> is the numerical magnitude</p></li>
+<li><p><code>m</code> (metre) is the unit</p></li>
+</ul></li>
+<li><p>There are <strong>seven base quantities</strong> in the International System of Units (SI):</p></li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Base Quantity</th>
+<th style="text-align: left;">SI Unit</th>
+<th style="text-align: left;">Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Length</td>
+<td style="text-align: left;">metre</td>
+<td style="text-align: left;">m</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mass</td>
+<td style="text-align: left;">kilogram</td>
+<td style="text-align: left;">kg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Time</td>
+<td style="text-align: left;">second</td>
+<td style="text-align: left;">s</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Electric current</td>
+<td style="text-align: left;">ampere</td>
+<td style="text-align: left;">A</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Thermodynamic temperature</td>
+<td style="text-align: left;">kelvin</td>
+<td style="text-align: left;">K</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Luminous intensity</td>
+<td style="text-align: left;">candela</td>
+<td style="text-align: left;">cd</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Amount of substance</td>
+<td style="text-align: left;">mole</td>
+<td style="text-align: left;">mol</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Derived quantities</strong> are obtained from base quantities through mathematical relationships:</li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Physical Quantity</th>
+<th style="text-align: left;">How Derived</th>
+<th style="text-align: left;">SI Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Area</td>
+<td style="text-align: left;">Length × Width</td>
+<td style="text-align: left;">m<span class="math inline">\(^{2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Volume</td>
+<td style="text-align: left;">Length × Width × Height</td>
+<td style="text-align: left;">m<span class="math inline">\(^{3}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Speed</td>
+<td style="text-align: left;">Length ÷ Time</td>
+<td style="text-align: left;">m/s</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prefixes-and-standard-form" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="prefixes-and-standard-form"><span class="header-section-number">4.2.2</span> Prefixes and Standard Form</h3>
+<ul>
+<li><strong>SI Prefixes</strong> simplify notation for very large or very small quantities:</li>
+</ul>
+<div id="cell-fig-si-prefixes" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="fig-si-prefixes" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-si-prefixes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-measurement_files/figure-html/fig-si-prefixes-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-si-prefixes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.1: SI prefixes on a logarithmic scale showing multiples and submultiples
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Factor</th>
+<th style="text-align: left;">Prefix</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Multiples</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(10^{9}\)</span></td>
+<td style="text-align: left;">giga-</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: left;">1 GHz = <span class="math inline">\(10^{9}\)</span> Hz</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(10^{6}\)</span></td>
+<td style="text-align: left;">mega-</td>
+<td style="text-align: left;">M</td>
+<td style="text-align: left;">1 MJ = <span class="math inline">\(10^{6}\)</span> J</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(10^{3}\)</span></td>
+<td style="text-align: left;">kilo-</td>
+<td style="text-align: left;">k</td>
+<td style="text-align: left;">1 km = <span class="math inline">\(10^{3}\)</span> m</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Submultiples</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(10^{-1}\)</span></td>
+<td style="text-align: left;">deci-</td>
+<td style="text-align: left;">d</td>
+<td style="text-align: left;">1 dm = <span class="math inline">\(10^{-1}\)</span> m</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(10^{-2}\)</span></td>
+<td style="text-align: left;">centi-</td>
+<td style="text-align: left;">c</td>
+<td style="text-align: left;">1 cm = <span class="math inline">\(10^{-2}\)</span> m</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(10^{-3}\)</span></td>
+<td style="text-align: left;">milli-</td>
+<td style="text-align: left;">m</td>
+<td style="text-align: left;">1 mA = <span class="math inline">\(10^{-3}\)</span> A</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(10^{-6}\)</span></td>
+<td style="text-align: left;">micro-</td>
+<td style="text-align: left;">μ</td>
+<td style="text-align: left;">1 μm = <span class="math inline">\(10^{-6}\)</span> m</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(10^{-9}\)</span></td>
+<td style="text-align: left;">nano-</td>
+<td style="text-align: left;">n</td>
+<td style="text-align: left;">1 ns = <span class="math inline">\(10^{-9}\)</span> s</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Standard form</strong> (scientific notation) expresses numbers as <span class="math inline">\(a \times 10^{n}\)</span> where <span class="math inline">\(1 \leq a &lt; 10\)</span>:</p>
+<ul>
+<li><p>Example: <span class="math inline">\(0.00567 = 5.67 \times 10^{-3}\)</span></p></li>
+<li><p>Example: <span class="math inline">\(16\,800 = 1.68 \times 10^{4}\)</span></p></li>
+<li><p>Example: <span class="math inline">\(0.01\ \mu\text{m} = 1 \times 10^{-8}\ \text{m}\)</span></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="measurement-of-length" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="measurement-of-length"><span class="header-section-number">4.2.3</span> Measurement of Length</h3>
+<ul>
+<li><strong>Instruments for measuring length</strong>:</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 24%">
+<col style="width: 37%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Instrument</th>
+<th style="text-align: left;">Precision</th>
+<th style="text-align: left;">Measuring Range</th>
+<th style="text-align: left;">Use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Metre rule</td>
+<td style="text-align: left;">1 mm (0.1 cm)</td>
+<td style="text-align: left;">Up to 1 m</td>
+<td style="text-align: left;">Short, straight lengths</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Steel measuring tape</td>
+<td style="text-align: left;">1 mm</td>
+<td style="text-align: left;">Several metres</td>
+<td style="text-align: left;">Longer straight distances</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cloth measuring tape</td>
+<td style="text-align: left;">1 mm</td>
+<td style="text-align: left;">Several metres</td>
+<td style="text-align: left;">Curved surfaces (e.g., waist)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vernier calipers</td>
+<td style="text-align: left;">0.01 cm (0.1 mm)</td>
+<td style="text-align: left;">1 cm to 15 cm</td>
+<td style="text-align: left;">Internal/external diameters</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Using a metre rule – Precautions</strong>:</p>
+<ul>
+<li><p>Avoid <strong>parallax error</strong>: Position your eye perpendicular to the rule (look straight on)</p></li>
+<li><p>Check for <strong>zero error</strong>: If the zero mark is worn, measure from another point and subtract</p></li>
+<li><p>Take <strong>multiple readings</strong> and calculate the average to minimise random errors</p></li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Parallax Error</strong> occurs when the eye is not positioned perpendicular to the scale, leading to inaccurate readings.</p>
+</div>
+</div>
+<div id="cell-fig-parallax-error" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div id="fig-parallax-error" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-parallax-error-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-measurement_files/figure-html/fig-parallax-error-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-parallax-error-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.2: Parallax error: correct vs incorrect eye position when reading a scale
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li><p><strong>Using Vernier Calipers</strong>:</p>
+<ul>
+<li><p>Precision: 0.01 cm (0.1 mm)</p></li>
+<li><p>Used for measuring internal and external diameters</p></li>
+</ul></li>
+<li><p><strong>How to read vernier calipers</strong>:</p>
+<ol type="1">
+<li><p>Grip the object gently using the appropriate jaws</p></li>
+<li><p>Read the main scale to the immediate left of the zero mark on the vernier scale</p></li>
+<li><p>Find the vernier mark that coincides with a marking on the main scale</p></li>
+<li><p>Add the readings: Main scale + Vernier scale</p></li>
+</ol></li>
+</ul>
+<div id="cell-fig-vernier-reading" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display">
+<div id="fig-vernier-reading" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vernier-reading-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-measurement_files/figure-html/fig-vernier-reading-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vernier-reading-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.3: Reading vernier calipers: main scale + vernier scale alignment
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li><p><strong>Example reading</strong>:</p>
+<ul>
+<li><p>Main scale: 31 mm (3.1 cm)</p></li>
+<li><p>Vernier scale: 0.4 mm (0.04 cm)</p></li>
+<li><p><strong>Total: 31.4 mm (3.14 cm)</strong></p></li>
+</ul></li>
+<li><p><strong>Zero error in vernier calipers</strong>:</p></li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 28%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type of Zero Error</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Correction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">No zero error</td>
+<td style="text-align: left;">Zero marks coincide</td>
+<td style="text-align: left;">No correction needed</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Positive zero error</td>
+<td style="text-align: left;">Vernier zero is to the <strong>right</strong> of main scale zero</td>
+<td style="text-align: left;"><strong>Subtract</strong> the error</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Negative zero error</td>
+<td style="text-align: left;">Vernier zero is to the <strong>left</strong> of main scale zero</td>
+<td style="text-align: left;"><strong>Add</strong> the error (subtract negative)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Formula</strong>: <span class="math inline">\(\text{Corrected Reading} = \text{Observed Reading} - \text{Zero Error}\)</span></li>
+</ul>
+</section>
+<section id="measurement-of-volume" class="level3" data-number="4.2.4">
+<h3 data-number="4.2.4" class="anchored" data-anchor-id="measurement-of-volume"><span class="header-section-number">4.2.4</span> Measurement of Volume</h3>
+<ul>
+<li><p><strong>Volume of regular solids</strong> – Use a metre rule or vernier calipers, then apply formula:</p>
+<ul>
+<li><p>Rectangular block: <span class="math inline">\(V = l \times b \times h\)</span></p></li>
+<li><p>Cylinder: <span class="math inline">\(V = \frac{1}{4}\pi d^{2}h\)</span></p></li>
+<li><p>Sphere: <span class="math inline">\(V = \frac{4}{3}\pi \left(\frac{d}{2}\right)^{3}\)</span></p></li>
+</ul></li>
+<li><p><strong>Volume of irregular solids</strong>:</p></li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Object Type</th>
+<th style="text-align: left;">Method</th>
+<th style="text-align: left;">Procedure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Small, sinks</td>
+<td style="text-align: left;">Measuring cylinder</td>
+<td style="text-align: left;"><span class="math inline">\(V = V_{2} - V_{1}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Small, floats</td>
+<td style="text-align: left;">Measuring cylinder + sinker</td>
+<td style="text-align: left;"><span class="math inline">\(V = V_{4} - V_{3}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Large, sinks</td>
+<td style="text-align: left;">Displacement can</td>
+<td style="text-align: left;">Volume displaced = Object volume</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Precautions for volume measurement</strong>:</p>
+<ul>
+<li><p>Place cylinder on a flat horizontal surface</p></li>
+<li><p>Remove any air bubbles</p></li>
+<li><p>Read at the <strong>bottom of the meniscus</strong> at eye level</p></li>
+<li><p>Position eye perpendicular to scale to avoid parallax error</p></li>
+</ul></li>
+</ul>
+<div id="cell-fig-meniscus-reading" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div id="fig-meniscus-reading" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-meniscus-reading-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-measurement_files/figure-html/fig-meniscus-reading-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-meniscus-reading-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.4: Reading a measuring cylinder: bottom of the meniscus at eye level
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="measurement-of-time" class="level3" data-number="4.2.5">
+<h3 data-number="4.2.5" class="anchored" data-anchor-id="measurement-of-time"><span class="header-section-number">4.2.5</span> Measurement of Time</h3>
+<ul>
+<li><strong>Instruments for measuring time</strong>:</li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Instrument</th>
+<th style="text-align: left;">Precision</th>
+<th style="text-align: left;">Use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Clock</td>
+<td style="text-align: left;">1 s</td>
+<td style="text-align: left;">General time intervals</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stopwatch (digital)</td>
+<td style="text-align: left;">0.01 s</td>
+<td style="text-align: left;">Short time intervals</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stopwatch (analogue)</td>
+<td style="text-align: left;">0.1 s</td>
+<td style="text-align: left;">Short time intervals</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Note</strong>: Although digital stopwatches display to 0.01 s, we usually record to <strong>0.1 s</strong> due to <strong>human reaction time</strong> (approximately 0.3–0.5 s).</p></li>
+<li><p><strong>Simple pendulum</strong>:</p>
+<ul>
+<li><p><strong>Oscillation</strong>: One complete to-and-fro motion (e.g., R → S → R)</p></li>
+<li><p><strong>Period (<span class="math inline">\(T\)</span>)</strong>: Time taken for one complete oscillation</p></li>
+<li><p><strong>Amplitude</strong>: Maximum displacement from equilibrium position</p></li>
+</ul></li>
+<li><p><strong>The period of a pendulum depends on</strong>:</p>
+<ul>
+<li><p>✓ <strong>Length of the pendulum</strong> (longer length = longer period)</p></li>
+<li><p>✗ <strong>Mass of the bob</strong> (no effect)</p></li>
+<li><p>✗ <strong>Amplitude</strong> (for small angles &lt; 10°, no effect)</p></li>
+</ul></li>
+<li><p><strong>Measuring the period accurately</strong>:</p>
+<ol type="1">
+<li><p>Ignore the first few oscillations (wait until motion is steady)</p></li>
+<li><p>Time multiple oscillations (e.g., 20 oscillations)</p></li>
+<li><p>Repeat the measurement (at least twice)</p></li>
+<li><p>Calculate the average time</p></li>
+<li><p>Divide by the number of oscillations</p></li>
+</ol></li>
+<li><p><strong>Formula</strong>: <span class="math inline">\(T = \frac{t_{\text{average}}}{n}\)</span></p></li>
+<li><p><strong>Why measure multiple oscillations?</strong></p>
+<ul>
+<li><p>Reduces the effect of human reaction time</p></li>
+<li><p>Provides a more accurate average value</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="scalars-and-vectors-extended" class="level3" data-number="4.2.6">
+<h3 data-number="4.2.6" class="anchored" data-anchor-id="scalars-and-vectors-extended"><span class="header-section-number">4.2.6</span> Scalars and Vectors (Extended)</h3>
+<ul>
+<li><p><strong>Definitions</strong>:</p>
+<ul>
+<li><p><strong>Scalar quantity</strong>: Has <strong>magnitude (size) only</strong></p></li>
+<li><p><strong>Vector quantity</strong>: Has <strong>both magnitude and direction</strong></p></li>
+</ul></li>
+<li><p><strong>Examples</strong>:</p></li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Scalars</th>
+<th style="text-align: left;">Vectors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Distance</td>
+<td style="text-align: left;">Displacement</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Speed</td>
+<td style="text-align: left;">Velocity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Time</td>
+<td style="text-align: left;">Force</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mass</td>
+<td style="text-align: left;">Weight</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Energy</td>
+<td style="text-align: left;">Acceleration</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Temperature</td>
+<td style="text-align: left;">Momentum</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Electric field strength</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Gravitational field strength</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Memory aid</strong>: “<strong>S</strong>am <strong>M</strong>agoo has a <strong>V</strong>ery <strong>M</strong>ild <strong>D</strong>iarrhoea”</p>
+<ul>
+<li><p><strong>S</strong>calars: <strong>M</strong>agnitude only</p></li>
+<li><p><strong>V</strong>ectors: <strong>M</strong>agnitude + <strong>D</strong>irection</p></li>
+</ul></li>
+<li><p><strong>Vector representation</strong>:</p>
+<ul>
+<li><p>Vectors are represented by <strong>arrows</strong> in vector diagrams</p></li>
+<li><p><strong>Length of arrow</strong> ∝ magnitude of vector</p></li>
+<li><p><strong>Direction of arrow</strong> = direction of vector</p></li>
+</ul></li>
+<li><p><strong>Adding vectors</strong>:</p></li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 29%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Situation</th>
+<th style="text-align: left;">Method</th>
+<th style="text-align: left;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Parallel, same direction</td>
+<td style="text-align: left;">Add magnitudes</td>
+<td style="text-align: left;"><span class="math inline">\(3\ \text{N} + 5\ \text{N} = 8\ \text{N}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Parallel, opposite directions</td>
+<td style="text-align: left;">Subtract magnitudes</td>
+<td style="text-align: left;"><span class="math inline">\(5\ \text{N} + (-3\ \text{N}) = 2\ \text{N}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Equal and opposite</td>
+<td style="text-align: left;">Cancel out</td>
+<td style="text-align: left;">Resultant = <span class="math inline">\(0\ \text{N}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Perpendicular (right angles)</td>
+<td style="text-align: left;">Pythagoras + trigonometry</td>
+<td style="text-align: left;">See calculation below</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Perpendicular vectors – Calculation method</strong>:</p>
+<ul>
+<li><p>Magnitude: <span class="math inline">\(R = \sqrt{F_{1}^{2} + F_{2}^{2}}\)</span></p></li>
+<li><p>Direction: <span class="math inline">\(\tan \theta = \frac{F_{2}}{F_{1}}\)</span></p></li>
+</ul></li>
+</ul>
+<div id="cell-fig-vector-addition" class="cell" data-execution_count="6">
+<div class="cell-output cell-output-display">
+<div id="fig-vector-addition" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vector-addition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-measurement_files/figure-html/fig-vector-addition-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vector-addition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.5: Vector addition: resultant of two perpendicular forces using Pythagoras’ theorem
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li><p><strong>Example</strong>:</p>
+<ul>
+<li><p><span class="math inline">\(F_{1} = 4\ \text{N}\)</span>, <span class="math inline">\(F_{2} = 3\ \text{N}\)</span></p></li>
+<li><p><span class="math inline">\(R = \sqrt{4^{2} + 3^{2}} = \sqrt{25} = 5\ \text{N}\)</span></p></li>
+<li><p><span class="math inline">\(\tan \theta = \frac{3}{4} = 0.75\)</span></p></li>
+<li><p><span class="math inline">\(\theta = \tan^{-1}(0.75) = 36.9^{\circ}\)</span> to horizontal</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="common-misconceptions" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="common-misconceptions"><span class="header-section-number">4.3</span> Common Misconceptions</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 1: “The mass of the pendulum bob affects the period”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: Heavier bobs swing faster or slower than lighter ones.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p>The period depends <strong>only on the length</strong> of the pendulum (for small angles &lt; 10°)</p></li>
+<li><p>Mass has <strong>no effect</strong> on the period</p></li>
+<li><p>This can be verified experimentally: pendulums of identical length but different bob masses have identical periods within experimental uncertainty</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 2: “Digital precision equals measurement accuracy”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: Because a digital stopwatch displays to 0.01 s, the measurement is accurate to that precision.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p><strong>Precision</strong> = smallest division an instrument can display</p></li>
+<li><p><strong>Accuracy</strong> = closeness to the true value</p></li>
+<li><p>Human reaction time (0.3–0.5 s) limits accuracy of manual timing</p></li>
+<li><p>Record time measurements to <strong>0.1 s</strong> and time <strong>multiple oscillations</strong> to reduce relative error</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 3: “Parallax error is negligible for careful observers”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: Small viewing angles do not matter much if you are careful.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p>Even small angular deviations can produce significant inaccuracies</p></li>
+<li><p>Parallax error is especially problematic when measuring small quantities</p></li>
+<li><p><strong>Always position your eye perpendicular</strong> to the scale at the point of reading</p></li>
+<li><p>For measuring cylinders, read at the <strong>bottom of the meniscus</strong> with eye at the same level</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 4: “All physical quantities can be added by simple arithmetic”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: Just add the numbers together regardless of type.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p><strong>Scalar quantities</strong> (mass, energy, time) may be added algebraically</p></li>
+<li><p><strong>Vector quantities</strong> (force, velocity, displacement) require consideration of direction</p></li>
+<li><p>Two 5 N forces can produce resultants from 0 N to 10 N depending on relative orientation</p></li>
+<li><p>Perpendicular vectors require Pythagoras’ theorem for magnitude and trigonometry for direction</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 5: “Zero error means the instrument is broken”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: An instrument with zero error must be discarded.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p>Zero error is a <strong>systematic error</strong> that can be identified and corrected mathematically</p></li>
+<li><p><strong>Positive zero error</strong>: Subtract from observed reading</p></li>
+<li><p><strong>Negative zero error</strong>: Add to observed reading (subtract negative value)</p></li>
+<li><p>Regular checking for zero error is essential for maintaining measurement reliability</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 6: “Volume readings are taken from the top of the meniscus”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: Read the scale at the top of the curved liquid surface.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p>For water and most liquids that wet glass, the meniscus is <strong>concave</strong></p></li>
+<li><p>The correct reading is taken at the <strong>bottom of the meniscus</strong></p></li>
+<li><p>Reading from the top introduces a consistent positive error</p></li>
+<li><p>Place cylinder on level surface and position eye at same height as bottom of meniscus</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>⚠️ Misconception 7: “Distance and displacement are interchangeable terms”
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Incorrect belief</strong>: Both terms measure how far an object moves.</p>
+<p><strong>Correct understanding</strong>:</p>
+<ul>
+<li><p><strong>Distance</strong> (scalar): Total path length travelled, no direction</p></li>
+<li><p><strong>Displacement</strong> (vector): Shortest straight-line distance from start to finish <strong>with direction</strong></p></li>
+<li><p>Example: Walk 3 m east, then 4 m north</p>
+<ul>
+<li><p>Distance = 7 m</p></li>
+<li><p>Displacement = 5 m at 53.1° north of east</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="essential-skills" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="essential-skills"><span class="header-section-number">4.4</span> Essential Skills</h2>
+<section id="measurement-techniques-and-instrument-selection" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="measurement-techniques-and-instrument-selection"><span class="header-section-number">4.4.1</span> Measurement Techniques and Instrument Selection</h3>
+<ul>
+<li><p><strong>Select appropriate instrument based on range and precision required</strong>:</p>
+<ul>
+<li><p>Lengths up to 1 m, mm precision → Metre rule</p></li>
+<li><p>Internal/external diameters, 0.1 mm precision → Vernier calipers</p></li>
+<li><p>Very small lengths → Micrometer screw gauge</p></li>
+<li><p>Volume of regular solids → Direct calculation from dimensions</p></li>
+<li><p>Volume of irregular solids → Displacement method</p></li>
+</ul></li>
+<li><p><strong>Key decision factors</strong>:</p>
+<ul>
+<li><p>Required precision of measurement</p></li>
+<li><p>Range of values to be measured</p></li>
+<li><p>Physical properties of object (sinks/floats, regular/irregular shape)</p></li>
+<li><p>Available apparatus and time constraints</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="precautions-to-minimise-measurement-errors" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="precautions-to-minimise-measurement-errors"><span class="header-section-number">4.4.2</span> Precautions to Minimise Measurement Errors</h3>
+<ul>
+<li><p><strong>For length measurements</strong>:</p>
+<ul>
+<li><p>✓ Avoid parallax error: position eye perpendicular to scale</p></li>
+<li><p>✓ Check for zero error before use; apply corrections where necessary</p></li>
+<li><p>✓ Use appropriate instrument for the measuring range</p></li>
+<li><p>✓ Take multiple readings and calculate average</p></li>
+</ul></li>
+<li><p><strong>For time measurements</strong>:</p>
+<ul>
+<li><p>✓ Repeat timings and take average to reduce random error</p></li>
+<li><p>✓ Time multiple oscillations (e.g., 20) to reduce relative impact of reaction time</p></li>
+<li><p>✓ Ignore first few oscillations; start timing when motion is steady</p></li>
+<li><p>✓ Ignore abnormal oscillations (e.g., elliptical pendulum motion)</p></li>
+</ul></li>
+<li><p><strong>For volume measurements</strong>:</p>
+<ul>
+<li><p>✓ Read at bottom of meniscus with eye at same level</p></li>
+<li><p>✓ Place measuring cylinder on flat, horizontal surface</p></li>
+<li><p>✓ Remove air bubbles before taking reading</p></li>
+<li><p>✓ Ensure object is fully immersed (use sinker for floating objects)</p></li>
+</ul></li>
+<li><p><strong>For mass measurements</strong>:</p>
+<ul>
+<li><p>✓ Zero the balance before use</p></li>
+<li><p>✓ Do not place wet objects directly on pan</p></li>
+<li><p>✓ Use container of known mass for chemicals or granular solids</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="data-recording-and-presentation" class="level3" data-number="4.4.3">
+<h3 data-number="4.4.3" class="anchored" data-anchor-id="data-recording-and-presentation"><span class="header-section-number">4.4.3</span> Data Recording and Presentation</h3>
+<ul>
+<li><p><strong>Record measurements with appropriate significant figures</strong>:</p>
+<ul>
+<li><p>Metre rule: record to nearest mm (e.g., 23.4 cm)</p></li>
+<li><p>Vernier calipers: record to 0.01 cm (e.g., 2.34 cm)</p></li>
+<li><p>Stopwatch: record to 0.1 s for manual timing</p></li>
+</ul></li>
+<li><p><strong>Table formatting conventions</strong>:</p>
+<ul>
+<li><p>Label each column with quantity name and unit, separated by solidus: <code>time/s</code>, <code>length/cm</code></p></li>
+<li><p>Include units in column headings only, not in body of table</p></li>
+<li><p>Repeat measurements where appropriate to assess reliability</p></li>
+</ul></li>
+<li><p><strong>Error analysis</strong>:</p>
+<ul>
+<li><p><strong>Random errors</strong>: Cause scatter in repeated measurements; reduce by averaging</p></li>
+<li><p><strong>Systematic errors</strong>: Cause consistent deviation; require calibration or correction</p></li>
+<li><p>Estimate uncertainty as ± half the smallest division of instrument</p></li>
+<li><p>Propagate uncertainties appropriately in calculations</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="practical-investigation-planning" class="level3" data-number="4.4.4">
+<h3 data-number="4.4.4" class="anchored" data-anchor-id="practical-investigation-planning"><span class="header-section-number">4.4.4</span> Practical Investigation Planning</h3>
+<ul>
+<li><strong>Four-step planning framework</strong>:</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 20%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Step</th>
+<th style="text-align: left;">Action</th>
+<th style="text-align: left;">Example: Pendulum Period</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1. Define problem</td>
+<td style="text-align: left;">State question; identify variables</td>
+<td style="text-align: left;">Q: How does period depend on length? IV: length; DV: period</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2. Data collection</td>
+<td style="text-align: left;">Describe procedure; control variables</td>
+<td style="text-align: left;">Vary length; time 20 oscillations; keep mass constant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3. Data analysis</td>
+<td style="text-align: left;">Process data; draw conclusions</td>
+<td style="text-align: left;">Calculate T; plot T² vs.&nbsp;l; determine relationship</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4. Safety precautions</td>
+<td style="text-align: left;">Identify risks; suggest controls</td>
+<td style="text-align: left;">Ensure bob secure; keep area clear; handle glass carefully</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="worked-calculations" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="worked-calculations"><span class="header-section-number">4.5</span> Worked Calculations</h2>
+<section id="example-1-correcting-for-zero-error-in-vernier-calipers" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="example-1-correcting-for-zero-error-in-vernier-calipers"><span class="header-section-number">4.5.1</span> Example 1: Correcting for Zero Error in Vernier Calipers</h3>
+<p><strong>Question</strong>:<br>
+A pair of vernier calipers exhibits a positive zero error of <span class="math inline">\(+0.03\ \text{cm}\)</span>. When measuring the diameter of a steel ball bearing, the observed reading is <span class="math inline">\(2.47\ \text{cm}\)</span>. Determine the corrected diameter.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><p>Step 1: Write the correction formula</p>
+<p><span class="math display">\[\text{Corrected Reading} = \text{Observed Reading} - \text{Zero Error}\]</span></p></li>
+<li><p>Step 2: Substitute values</p>
+<p><span class="math display">\[\text{Corrected Reading} = 2.47\ \text{cm} - (+0.03\ \text{cm})\]</span></p></li>
+<li><p>Step 3: Calculate</p>
+<p><span class="math display">\[\text{Corrected Reading} = 2.44\ \text{cm}\]</span></p></li>
+</ul>
+<p><strong>Answer</strong>: The corrected diameter is <span class="math inline">\(2.44\ \text{cm}\)</span>.</p>
+<p><strong>Explanation</strong>: A positive zero error means the instrument reads higher than the true value. Subtracting the error corrects the systematic bias.</p>
+<hr>
+</section>
+<section id="example-2-determining-the-period-of-a-simple-pendulum" class="level3" data-number="4.5.2">
+<h3 data-number="4.5.2" class="anchored" data-anchor-id="example-2-determining-the-period-of-a-simple-pendulum"><span class="header-section-number">4.5.2</span> Example 2: Determining the Period of a Simple Pendulum</h3>
+<p><strong>Question</strong>:<br>
+A student measures the time for 20 complete oscillations of a simple pendulum three times: <span class="math inline">\(t_{1} = 24.2\ \text{s}\)</span>, <span class="math inline">\(t_{2} = 24.6\ \text{s}\)</span>, <span class="math inline">\(t_{3} = 24.4\ \text{s}\)</span>. Calculate the average period.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><p>Step 1: Calculate average time for 20 oscillations</p>
+<p><span class="math display">\[t_{\text{average}} = \frac{24.2 + 24.6 + 24.4}{3} = \frac{73.2}{3} = 24.4\ \text{s}\]</span></p></li>
+<li><p>Step 2: Calculate period (time for one oscillation)</p>
+<p><span class="math display">\[T = \frac{t_{\text{average}}}{n} = \frac{24.4\ \text{s}}{20} = 1.22\ \text{s}\]</span></p></li>
+</ul>
+<p><strong>Answer</strong>: The period is <span class="math inline">\(1.22\ \text{s}\)</span>.</p>
+<p><strong>Explanation</strong>: Timing multiple oscillations reduces the relative impact of human reaction time. Averaging repeated measurements minimises random error.</p>
+<hr>
+</section>
+<section id="example-3-resultant-of-two-perpendicular-vectors" class="level3" data-number="4.5.3">
+<h3 data-number="4.5.3" class="anchored" data-anchor-id="example-3-resultant-of-two-perpendicular-vectors"><span class="header-section-number">4.5.3</span> Example 3: Resultant of Two Perpendicular Vectors</h3>
+<p><strong>Question</strong>:<br>
+Two forces act on an object at right angles: <span class="math inline">\(F_{1} = 6\ \text{N}\)</span> (east), <span class="math inline">\(F_{2} = 8\ \text{N}\)</span> (north). Calculate magnitude and direction of resultant force.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><p>Step 1: Calculate magnitude using Pythagoras’ theorem</p>
+<p><span class="math display">\[R = \sqrt{F_{1}^{2} + F_{2}^{2}} = \sqrt{6^{2} + 8^{2}} = \sqrt{36 + 64} = \sqrt{100} = 10\ \text{N}\]</span></p></li>
+<li><p>Step 2: Calculate direction using trigonometry</p>
+<p><span class="math display">\[\tan \theta = \frac{F_{2}}{F_{1}} = \frac{8}{6} = 1.333\]</span></p>
+<p><span class="math display">\[\theta = \tan^{-1}(1.333) = 53.1^{\circ}\]</span></p></li>
+</ul>
+<p><strong>Answer</strong>: Resultant force is <span class="math inline">\(10\ \text{N}\)</span> at <span class="math inline">\(53.1^{\circ}\)</span> north of east.</p>
+<p><strong>Explanation</strong>: Vector addition requires both magnitude and direction. For perpendicular vectors, use Pythagoras for magnitude and inverse tangent for direction.</p>
+<hr>
+</section>
+<section id="example-4-volume-determination-by-displacement" class="level3" data-number="4.5.4">
+<h3 data-number="4.5.4" class="anchored" data-anchor-id="example-4-volume-determination-by-displacement"><span class="header-section-number">4.5.4</span> Example 4: Volume Determination by Displacement</h3>
+<p><strong>Question</strong>:<br>
+A measuring cylinder initially contains <span class="math inline">\(45.0\ \text{cm}^{3}\)</span> of water. When a small irregular stone is immersed, the water level rises to <span class="math inline">\(72.0\ \text{cm}^{3}\)</span>. Calculate the volume of the stone.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><p>Apply displacement principle:</p>
+<p><span class="math display">\[V_{\text{stone}} = V_{2} - V_{1} = 72.0\ \text{cm}^{3} - 45.0\ \text{cm}^{3} = 27.0\ \text{cm}^{3}\]</span></p></li>
+</ul>
+<p><strong>Answer</strong>: The volume of the stone is <span class="math inline">\(27.0\ \text{cm}^{3}\)</span>.</p>
+<p><strong>Explanation</strong>: Archimedes’ principle states that a submerged object displaces a volume of fluid equal to its own volume. Ensure complete immersion and remove air bubbles for accuracy.</p>
+<hr>
+</section>
+<section id="example-5-unit-conversion-using-prefixes-and-standard-form" class="level3" data-number="4.5.5">
+<h3 data-number="4.5.5" class="anchored" data-anchor-id="example-5-unit-conversion-using-prefixes-and-standard-form"><span class="header-section-number">4.5.5</span> Example 5: Unit Conversion Using Prefixes and Standard Form</h3>
+<p><strong>Question</strong>:<br>
+Express in standard form, then convert to appropriate SI prefix notation: (a) <span class="math inline">\(0.00045\ \text{m}\)</span>, (b) <span class="math inline">\(25\,000\ \text{g}\)</span>, (c) <span class="math inline">\(0.00000078\ \text{s}\)</span>.</p>
+<p><strong>Solution</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Standard Form</th>
+<th style="text-align: left;">SI Prefix Notation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(a) <span class="math inline">\(0.00045\ \text{m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(4.5 \times 10^{-4}\ \text{m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(0.45\ \text{mm}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(b) <span class="math inline">\(25\,000\ \text{g}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2.5 \times 10^{4}\ \text{g}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(25\ \text{kg}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">(c) <span class="math inline">\(0.00000078\ \text{s}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(7.8 \times 10^{-7}\ \text{s}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(0.78\ \mu\text{s}\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Answer</strong>:</p>
+<ul>
+<li><ol type="a">
+<li><span class="math inline">\(4.5 \times 10^{-4}\ \text{m}\)</span> or <span class="math inline">\(0.45\ \text{mm}\)</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">\(2.5 \times 10^{4}\ \text{g}\)</span> or <span class="math inline">\(25\ \text{kg}\)</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">\(7.8 \times 10^{-7}\ \text{s}\)</span> or <span class="math inline">\(0.78\ \mu\text{s}\)</span></li>
+</ol></li>
+</ul>
+<p><strong>Explanation</strong>: Standard form facilitates calculation with extreme values; SI prefixes improve readability in practical contexts. Mastery of both notations is essential for clear scientific communication.</p>
+<hr>
+</section>
+</section>
+<section id="practice-questions" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="practice-questions"><span class="header-section-number">4.6</span> Practice Questions</h2>
+<section id="core-level" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="core-level"><span class="header-section-number">4.6.1</span> Core Level</h3>
+<ol type="1">
+<li><p>State the precision of each instrument:</p>
+<ul>
+<li><ol type="a">
+<li>A metre rule</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Vernier calipers</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>A digital stopwatch (practical recording)</li>
+</ol></li>
+</ul></li>
+<li><p>A stack of 100 sheets of paper has measured thickness <span class="math inline">\(1.2\ \text{cm}\)</span>. Calculate thickness of one sheet in mm, stating answer to appropriate significant figures.</p></li>
+<li><p>Explain why it is preferable to time 20 oscillations of a pendulum rather than one oscillation when determining period.</p></li>
+<li><p>Describe method to determine volume of:</p>
+<ul>
+<li><ol type="a">
+<li>A rectangular metal block</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>A small irregular stone that sinks in water</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>A cork that floats on water</li>
+</ol></li>
+</ul></li>
+<li><p>Convert to standard form:</p>
+<ul>
+<li><ol type="a">
+<li><span class="math inline">\(0.00045\ \text{m}\)</span></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><span class="math inline">\(25\,000\ \text{g}\)</span></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><span class="math inline">\(0.00000078\ \text{s}\)</span></li>
+</ol></li>
+</ul></li>
+</ol>
+</section>
+<section id="extended-level" class="level3" data-number="4.6.2">
+<h3 data-number="4.6.2" class="anchored" data-anchor-id="extended-level"><span class="header-section-number">4.6.2</span> Extended Level</h3>
+<ol start="6" type="1">
+<li><p>Classify as scalar or vector:</p>
+<ul>
+<li><ol type="a">
+<li>Temperature</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Velocity</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>Energy</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Force</li>
+</ol></li>
+<li><ol start="5" type="a">
+<li>Mass</li>
+</ol></li>
+<li><ol start="6" type="a">
+<li>Displacement</li>
+</ol></li>
+</ul></li>
+<li><p>Two forces of <span class="math inline">\(9\ \text{N}\)</span> and <span class="math inline">\(12\ \text{N}\)</span> act at right angles. Calculate:</p>
+<ul>
+<li><ol type="a">
+<li>Magnitude of resultant force</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Angle resultant makes with <span class="math inline">\(12\ \text{N}\)</span> force</li>
+</ol></li>
+</ul></li>
+<li><p>A vernier calipers has negative zero error of <span class="math inline">\(-0.02\ \text{cm}\)</span>. If observed reading is <span class="math inline">\(3.56\ \text{cm}\)</span>, determine corrected reading.</p></li>
+<li><p>Period of simple pendulum is <span class="math inline">\(1.50\ \text{s}\)</span>. Calculate time for 50 complete oscillations.</p></li>
+<li><p>Distinguish between:</p>
+<ul>
+<li><ol type="a">
+<li>Accuracy and precision (provide example)</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Distance and displacement (provide example)</li>
+</ol></li>
+</ul></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="laboratory-investigation" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="laboratory-investigation"><span class="header-section-number">4.7</span> Laboratory Investigation</h2>
+<section id="experiment-1.1-investigating-relationship-between-pendulum-length-and-period" class="level3" data-number="4.7.1">
+<h3 data-number="4.7.1" class="anchored" data-anchor-id="experiment-1.1-investigating-relationship-between-pendulum-length-and-period"><span class="header-section-number">4.7.1</span> Experiment 1.1: Investigating Relationship Between Pendulum Length and Period</h3>
+<p><strong>Objective</strong><br>
+To determine how the period of a simple pendulum varies with its length and to verify that <span class="math inline">\(T^{2}\)</span> is directly proportional to <span class="math inline">\(l\)</span>.</p>
+<p><strong>Apparatus</strong></p>
+<ul>
+<li><p>Pendulum bob and inextensible string</p></li>
+<li><p>Retort stand, boss, and clamp</p></li>
+<li><p>Metre rule (precision 1 mm)</p></li>
+<li><p>Stopwatch (precision 0.01 s)</p></li>
+<li><p>Protractor</p></li>
+</ul>
+<p><strong>Variables</strong></p>
+<ul>
+<li><p>Independent: Length of pendulum, <span class="math inline">\(l\)</span> (m)</p></li>
+<li><p>Dependent: Period of oscillation, <span class="math inline">\(T\)</span> (s)</p></li>
+<li><p>Controlled: Mass of bob, amplitude of swing (&lt; 10°), environmental conditions</p></li>
+</ul>
+<p><strong>Procedure</strong></p>
+<ol type="1">
+<li><p>Set up pendulum with initial length <span class="math inline">\(l = 0.500\ \text{m}\)</span> (measured from suspension point to centre of bob)</p></li>
+<li><p>Displace bob through small angle (&lt; 10°) and release to oscillate in vertical plane</p></li>
+<li><p>Ignore first two oscillations to allow motion to stabilise</p></li>
+<li><p>Time 20 complete oscillations using stopwatch; record time <span class="math inline">\(t_{1}\)</span></p></li>
+<li><p>Repeat timing to obtain <span class="math inline">\(t_{2}\)</span> and <span class="math inline">\(t_{3}\)</span></p></li>
+<li><p>Calculate average time <span class="math inline">\(t_{\text{ave}}\)</span> and period <span class="math inline">\(T = t_{\text{ave}} / 20\)</span></p></li>
+<li><p>Repeat steps 1–6 for lengths <span class="math inline">\(l = 0.600\)</span>, <span class="math inline">\(0.700\)</span>, <span class="math inline">\(0.800\)</span>, and <span class="math inline">\(0.900\ \text{m}\)</span></p></li>
+</ol>
+<p><strong>Data Table</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 14%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Length <span class="math inline">\(l\)</span> (m)</th>
+<th style="text-align: center;"><span class="math inline">\(t_{1}\)</span> (s)</th>
+<th style="text-align: center;"><span class="math inline">\(t_{2}\)</span> (s)</th>
+<th style="text-align: center;"><span class="math inline">\(t_{3}\)</span> (s)</th>
+<th style="text-align: center;"><span class="math inline">\(t_{\text{ave}}\)</span> (s)</th>
+<th style="text-align: center;">Period <span class="math inline">\(T\)</span> (s)</th>
+<th style="text-align: center;"><span class="math inline">\(T^{2}\)</span> (s<span class="math inline">\(^{2}\)</span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0.500</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.600</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.700</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.800</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.900</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Analysis</strong></p>
+<ol type="1">
+<li><p>Plot graph of period <span class="math inline">\(T\)</span> (y-axis) against length <span class="math inline">\(l\)</span> (x-axis). Describe shape of curve.</p></li>
+<li><p>Plot graph of <span class="math inline">\(T^{2}\)</span> (y-axis) against <span class="math inline">\(l\)</span> (x-axis). Draw best-fit straight line.</p></li>
+<li><p>Determine gradient of <span class="math inline">\(T^{2}\)</span> vs.&nbsp;<span class="math inline">\(l\)</span> graph.</p></li>
+<li><p>State mathematical relationship between <span class="math inline">\(T\)</span> and <span class="math inline">\(l\)</span> based on graphs.</p></li>
+</ol>
+<div id="cell-fig-pendulum-analysis" class="cell" data-execution_count="7">
+<div class="cell-output cell-output-display">
+<div id="fig-pendulum-analysis" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pendulum-analysis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-measurement_files/figure-html/fig-pendulum-analysis-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pendulum-analysis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.6: Pendulum analysis: T vs l (curve) and T² vs l (linear) graphs
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Expected Conclusion</strong><br>
+The square of the period (<span class="math inline">\(T^{2}\)</span>) is directly proportional to the length (<span class="math inline">\(l\)</span>) of the pendulum, confirming theoretical relationship <span class="math inline">\(T = 2\pi\sqrt{l/g}\)</span>.</p>
+<p><strong>Safety Considerations</strong></p>
+<ul>
+<li><p>Ensure pendulum bob is securely attached to prevent detachment during oscillation</p></li>
+<li><p>Keep area around oscillating pendulum clear to avoid injury</p></li>
+<li><p>Handle glass apparatus with care to prevent breakage</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exam-style-questions" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="exam-style-questions"><span class="header-section-number">4.8</span> Exam-Style Questions</h2>
+<section id="paper-1-style-multiple-choice" class="level3" data-number="4.8.1">
+<h3 data-number="4.8.1" class="anchored" data-anchor-id="paper-1-style-multiple-choice"><span class="header-section-number">4.8.1</span> Paper 1 Style (Multiple Choice)</h3>
+<ol type="1">
+<li><p>Which instrument is most suitable for measuring diameter of a wire of approximately 1 mm?</p>
+<p>A. Metre rule</p>
+<p>B. Measuring tape</p>
+<p>C. Vernier calipers</p>
+<p>D. Measuring cylinder</p></li>
+<li><p>A pendulum completes 10 oscillations in <span class="math inline">\(15.0\ \text{s}\)</span>. What is the period?</p>
+<p>A. <span class="math inline">\(0.67\ \text{s}\)</span></p>
+<p>B. <span class="math inline">\(1.5\ \text{s}\)</span></p>
+<p>C. <span class="math inline">\(3.0\ \text{s}\)</span></p>
+<p>D. <span class="math inline">\(15.0\ \text{s}\)</span></p></li>
+<li><p>Which of the following is a vector quantity?</p>
+<p>A. Speed</p>
+<p>B. Mass</p>
+<p>C. Force</p>
+<p>D. Temperature</p></li>
+<li><p>When measuring volume of water in a measuring cylinder, which precaution is most important?</p>
+<p>A. Use cylinder with smallest possible diameter</p>
+<p>B. Read scale at top of meniscus</p>
+<p>C. Position eye at same level as bottom of meniscus</p>
+<p>D. Shake cylinder to remove air bubbles after reading</p></li>
+</ol>
+</section>
+<section id="paper-3-style-structured" class="level3" data-number="4.8.2">
+<h3 data-number="4.8.2" class="anchored" data-anchor-id="paper-3-style-structured"><span class="header-section-number">4.8.2</span> Paper 3 Style (Structured)</h3>
+<ol start="5" type="1">
+<li><ol type="a">
+<li><p>Define the term <strong>density</strong>. [1]</p></li>
+<li><p>Describe how you would determine density of an irregularly shaped object that sinks in water. Include:</p></li>
+</ol>
+<ul>
+<li><p>measurements you would take,</p></li>
+<li><p>apparatus you would use,</p></li>
+<li><p>calculations you would perform. [5]</p></li>
+</ul></li>
+<li><p>Two students investigate period of simple pendulum.</p>
+<ol type="a">
+<li><p>Explain why they should time 20 oscillations rather than 1 oscillation. [2]</p></li>
+<li><p>State two precautions to obtain accurate value for period. [2]</p></li>
+<li><p>Students find period increases when length increases. Sketch graph to show how <span class="math inline">\(T^{2}\)</span> varies with <span class="math inline">\(l\)</span>. [2]</p></li>
+</ol></li>
+<li><ol type="a">
+<li><p>Distinguish between scalar quantity and vector quantity. [2]</p></li>
+<li><p>Two forces, <span class="math inline">\(5\ \text{N}\)</span> and <span class="math inline">\(12\ \text{N}\)</span>, act at right angles. Calculate magnitude of resultant. [2]</p></li>
+<li><p>State direction of resultant relative to <span class="math inline">\(12\ \text{N}\)</span> force. [1]</p></li>
+</ol></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="chapter-summary" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="chapter-summary"><span class="header-section-number">4.9</span> Chapter Summary</h2>
+<section id="key-points-to-remember" class="level3" data-number="4.9.1">
+<h3 data-number="4.9.1" class="anchored" data-anchor-id="key-points-to-remember"><span class="header-section-number">4.9.1</span> Key Points to Remember</h3>
+<p>✓ <strong>Physical quantity</strong> = numerical magnitude + unit; seven base quantities form SI foundation</p>
+<p>✓ <strong>Precision</strong> = smallest division instrument can measure:</p>
+<ul>
+<li><p>Metre rule: 1 mm</p></li>
+<li><p>Vernier calipers: 0.01 cm</p></li>
+<li><p>Stopwatch: 0.1 s (practical recording)</p></li>
+</ul>
+<p>✓ <strong>Avoid errors</strong>:</p>
+<ul>
+<li><p>Parallax: position eye perpendicular to scale</p></li>
+<li><p>Zero error: check and correct mathematically</p></li>
+<li><p>Reaction time: time multiple oscillations</p></li>
+<li><p>Meniscus: read at bottom with eye at same level</p></li>
+</ul>
+<p>✓ <strong>Pendulum period</strong> depends on length only (for small angles); mass and amplitude have no effect</p>
+<p>✓ <strong>Scalars</strong> (magnitude only): distance, speed, time, mass, energy, temperature</p>
+<p>✓ <strong>Vectors</strong> (magnitude + direction): displacement, velocity, force, weight, acceleration, momentum</p>
+<p>✓ <strong>Resultant of perpendicular vectors</strong>:</p>
+<ul>
+<li><p>Magnitude: <span class="math inline">\(R = \sqrt{F_{1}^{2} + F_{2}^{2}}\)</span></p></li>
+<li><p>Direction: <span class="math inline">\(\tan \theta = \frac{F_{2}}{F_{1}}\)</span></p></li>
+</ul>
+<p>✓ <strong>Volume by displacement</strong>: <span class="math inline">\(V_{\text{object}} = V_{\text{final}} - V_{\text{initial}}\)</span> for sinking objects; use sinker for floating objects</p>
+<p>✓ <strong>Standard form</strong>: <span class="math inline">\(a \times 10^{n}\)</span> where <span class="math inline">\(1 \leq a &lt; 10\)</span>; <strong>SI prefixes</strong> (k, M, G, m, μ, n) simplify extreme values</p>
+<hr>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="4.10">
+<h2 data-number="4.10" class="anchored" data-anchor-id="glossary"><span class="header-section-number">4.10</span> Glossary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Term</th>
+<th style="text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Accuracy</strong></td>
+<td style="text-align: left;">Closeness of measured value to true value of quantity</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Base quantity</strong></td>
+<td style="text-align: left;">One of seven fundamental quantities in SI system</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Derived quantity</strong></td>
+<td style="text-align: left;">Quantity obtained by combining base quantities mathematically</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Meniscus</strong></td>
+<td style="text-align: left;">Curved surface of liquid in container; read at bottom for water in glass</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Oscillation</strong></td>
+<td style="text-align: left;">One complete to-and-fro motion of periodic system</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Parallax error</strong></td>
+<td style="text-align: left;">Error from viewing scale at angle rather than perpendicularly</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Period</strong></td>
+<td style="text-align: left;">Time taken for one complete oscillation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Precision</strong></td>
+<td style="text-align: left;">Smallest division instrument can measure; indicates reproducibility</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Scalar quantity</strong></td>
+<td style="text-align: left;">Physical quantity with magnitude only, no direction</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Standard form</strong></td>
+<td style="text-align: left;">Number expressed as <span class="math inline">\(a \times 10^{n}\)</span> where <span class="math inline">\(1 \leq a &lt; 10\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Vector quantity</strong></td>
+<td style="text-align: left;">Physical quantity with both magnitude and direction</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Zero error</strong></td>
+<td style="text-align: left;">Systematic error when instrument does not read zero when it should</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="further-resources" class="level2" data-number="4.11">
+<h2 data-number="4.11" class="anchored" data-anchor-id="further-resources"><span class="header-section-number">4.11</span> Further Resources</h2>
+<section id="recommended-reading" class="level3" data-number="4.11.1">
+<h3 data-number="4.11.1" class="anchored" data-anchor-id="recommended-reading"><span class="header-section-number">4.11.1</span> Recommended Reading</h3>
+<ul>
+<li><p>Cambridge IGCSE™ Physics Coursebook, Chapter 1: Measurement of Physical Quantities</p></li>
+<li><p>Cambridge IGCSE™ Physics Practical Workbook, Practical 1A and 1B</p></li>
+</ul>
+</section>
+<section id="online-resources" class="level3" data-number="4.11.2">
+<h3 data-number="4.11.2" class="anchored" data-anchor-id="online-resources"><span class="header-section-number">4.11.2</span> Online Resources</h3>
+<ul>
+<li><p>PhET Interactive Simulations: “Pendulum Lab” for visualising period–length relationships</p></li>
+<li><p>Khan Academy: “Vectors and Scalars” for animated explanations of vector addition</p></li>
+</ul>
+</section>
+<section id="video-resources" class="level3" data-number="4.11.3">
+<h3 data-number="4.11.3" class="anchored" data-anchor-id="video-resources"><span class="header-section-number">4.11.3</span> Video Resources</h3>
+<ul>
+<li><p>Measurement techniques and error analysis (Cambridge International YouTube channel)</p></li>
+<li><p>Vector addition methods: graphical and analytical approaches</p></li>
+</ul>
+<hr>
+<p><em>End of Chapter</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../preface.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preface</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/02-motion.html" class="pagination-link" aria-label="Motion">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Motion</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

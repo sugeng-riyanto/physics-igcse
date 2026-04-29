@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sugeng Riyanto, M.Sc.">
+<meta name="dcterms.date" content="2026-01-01">
+
+<title>17&nbsp; General Properties of Waves – Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/15-light-reflection-refraction.html" rel="next">
+<link href="../chapters/13-thermal-transfer.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-932514a4c912dae26ceaa3c5ace84409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/14-wave-properties.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../syllabus-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Syllabus Mapping</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Core Content</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-motion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Motion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mass-weight-density.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mass, Weight and Density</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-forces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Forces</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-moments-equilibrium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Moments and Equilibrium</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-momentum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Momentum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-energy-stores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Energy Stores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-work-power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work and Power</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-pressure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Pressure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-kinetic-particle-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-thermal-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Thermal Properties</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-phase-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Phase Changes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-thermal-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Thermal Transfer</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-wave-properties.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-light-reflection-refraction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Light: Reflection and Refraction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-em-spectrum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Electromagnetic Spectrum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-sound.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Sound</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-magnetism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Simple Phenomena of Magnetism</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-electric-charge-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-electrical-quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-electromagnetic-effects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-nuclear-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Nuclear Physics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-space-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Space Physics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Supporting Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/practical-skills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Practical Skills</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/maths-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Mathematical Data and Constants</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/exam-technique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Common Question Types</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/formula-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Formula Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Bibliography and References</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics Reference Guide</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">17.1</span> Learning Objectives</a></li>
+  <li><a href="#what-is-wave-motion" id="toc-what-is-wave-motion" class="nav-link" data-scroll-target="#what-is-wave-motion"><span class="header-section-number">17.2</span> 14.1 What Is Wave Motion?</a></li>
+  <li><a href="#types-of-waves" id="toc-types-of-waves" class="nav-link" data-scroll-target="#types-of-waves"><span class="header-section-number">17.3</span> 14.2 Types of Waves</a></li>
+  <li><a href="#properties-of-waves" id="toc-properties-of-waves" class="nav-link" data-scroll-target="#properties-of-waves"><span class="header-section-number">17.4</span> 14.3 Properties of Waves</a></li>
+  <li><a href="#the-wave-equation" id="toc-the-wave-equation" class="nav-link" data-scroll-target="#the-wave-equation"><span class="header-section-number">17.5</span> 14.4 The Wave Equation</a></li>
+  <li><a href="#wave-behaviour-reflection-refraction-diffraction" id="toc-wave-behaviour-reflection-refraction-diffraction" class="nav-link" data-scroll-target="#wave-behaviour-reflection-refraction-diffraction"><span class="header-section-number">17.6</span> 14.5 Wave Behaviour: Reflection, Refraction, Diffraction</a></li>
+  <li><a href="#key-concepts-summary" id="toc-key-concepts-summary" class="nav-link" data-scroll-target="#key-concepts-summary"><span class="header-section-number">17.7</span> Key Concepts Summary</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions"><span class="header-section-number">17.8</span> Common Misconceptions</a></li>
+  <li><a href="#worked-examples" id="toc-worked-examples" class="nav-link" data-scroll-target="#worked-examples"><span class="header-section-number">17.9</span> Worked Examples</a></li>
+  <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions"><span class="header-section-number">17.10</span> Practice Questions</a></li>
+  <li><a href="#laboratory-investigation" id="toc-laboratory-investigation" class="nav-link" data-scroll-target="#laboratory-investigation"><span class="header-section-number">17.11</span> Laboratory Investigation</a></li>
+  <li><a href="#exam-style-questions" id="toc-exam-style-questions" class="nav-link" data-scroll-target="#exam-style-questions"><span class="header-section-number">17.12</span> Exam-Style Questions</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary"><span class="header-section-number">17.13</span> Chapter Summary</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources"><span class="header-section-number">17.14</span> Further Resources</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">17.15</span> Glossary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/14-wave-properties.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sugeng Riyanto, M.Sc. </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">17.1</span> Learning Objectives</h2>
+<p>By the end of this chapter, you will be able to:</p>
+<p><strong>Core Content:</strong></p>
+<ul>
+<li><p>Know that waves transfer energy without transferring matter</p></li>
+<li><p>Describe what is meant by wave motion as illustrated by vibrations in ropes and springs, and by experiments using water waves</p></li>
+<li><p>Describe the features of a wave in terms of wavefront, wavelength, frequency, crest (peak), trough, amplitude and wave speed</p></li>
+<li><p>Recall and use the equation for wave speed: <span class="math inline">\(v = f\lambda\)</span></p></li>
+<li><p>Know that for a transverse wave, the direction of vibration is at right angles to the direction of propagation and understand that electromagnetic radiation, water waves and seismic S-waves (secondary) can be modelled as transverse</p></li>
+<li><p>Know that for a longitudinal wave, the direction of vibration is parallel to the direction of propagation and understand that sound waves and seismic P-waves (primary) can be modelled as longitudinal</p></li>
+<li><p>Describe how waves can undergo: (a) reflection at a plane surface (b) refraction due to a change of speed (c) diffraction through a narrow gap</p></li>
+<li><p>Describe the use of a ripple tank to show reflection, refraction and diffraction of waves</p></li>
+</ul>
+<p><strong>Supplement (Extended):</strong></p>
+<ul>
+<li><p>Describe how wavelength and gap size affects diffraction through a gap</p></li>
+<li><p>Describe how wavelength affects diffraction at an edge</p></li>
+</ul>
+<hr>
+</section>
+<section id="what-is-wave-motion" class="level2" data-number="17.2">
+<h2 data-number="17.2" class="anchored" data-anchor-id="what-is-wave-motion"><span class="header-section-number">17.2</span> 14.1 What Is Wave Motion?</h2>
+<section id="energy-transfer-without-matter-transfer" class="level3" data-number="17.2.1">
+<h3 data-number="17.2.1" class="anchored" data-anchor-id="energy-transfer-without-matter-transfer"><span class="header-section-number">17.2.1</span> Energy Transfer Without Matter Transfer</h3>
+<p>In physics, a <strong>wave</strong> is a disturbance that travels through a medium or space, transferring <strong>energy</strong> from one point to another <strong>without transferring matter</strong>.</p>
+<p><strong>Key Concept:</strong> When a wave passes through a medium, the particles of the medium oscillate (vibrate) about fixed positions, but they do not travel with the wave. Only the energy and the waveform progress forward.</p>
+</section>
+<section id="the-source-of-waves" class="level3" data-number="17.2.2">
+<h3 data-number="17.2.2" class="anchored" data-anchor-id="the-source-of-waves"><span class="header-section-number">17.2.2</span> The Source of Waves</h3>
+<p>All waves originate from an <strong>oscillation</strong> or <strong>vibration</strong>.</p>
+<ul>
+<li><p>A vibrating guitar string produces sound waves</p></li>
+<li><p>A vibrating dipper in water produces water waves</p></li>
+<li><p>Oscillating electric and magnetic fields produce electromagnetic waves</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="types-of-waves" class="level2" data-number="17.3">
+<h2 data-number="17.3" class="anchored" data-anchor-id="types-of-waves"><span class="header-section-number">17.3</span> 14.2 Types of Waves</h2>
+<p>Waves are classified into two main types based on the direction of particle vibration relative to the direction of wave propagation.</p>
+<section id="transverse-waves" class="level3" data-number="17.3.1">
+<h3 data-number="17.3.1" class="anchored" data-anchor-id="transverse-waves"><span class="header-section-number">17.3.1</span> Transverse Waves</h3>
+<p>In a <strong>transverse wave</strong>, the direction of vibration is <strong>perpendicular (at right angles)</strong> to the direction of wave propagation.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><p>Water waves (surface ripples)</p></li>
+<li><p>Electromagnetic waves (light, radio, X-rays)</p></li>
+<li><p>Seismic S-waves (secondary waves)</p></li>
+<li><p>Waves on a rope or string</p></li>
+</ul>
+<p><strong>Visual Representation:</strong> - Particles move <strong>up and down</strong> - Wave moves <strong>left to right</strong> - Features include crests (highest points) and troughs (lowest points)</p>
+</section>
+<section id="longitudinal-waves" class="level3" data-number="17.3.2">
+<h3 data-number="17.3.2" class="anchored" data-anchor-id="longitudinal-waves"><span class="header-section-number">17.3.2</span> Longitudinal Waves</h3>
+<p>In a <strong>longitudinal wave</strong>, the direction of vibration is <strong>parallel</strong> to the direction of wave propagation.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><p>Sound waves in air</p></li>
+<li><p>Seismic P-waves (primary waves)</p></li>
+<li><p>Waves in a compressed spring (Slinky pushed and pulled)</p></li>
+</ul>
+<p><strong>Visual Representation:</strong> - Particles move <strong>back and forth</strong> along the same line as the wave - Creates regions of <strong>compression</strong> (particles close together) and <strong>rarefaction</strong> (particles spread apart)</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> Do not confuse the motion of the medium with the motion of the wave. In longitudinal waves, particles oscillate parallel to energy transfer; in transverse waves, they oscillate perpendicular to it.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="properties-of-waves" class="level2" data-number="17.4">
+<h2 data-number="17.4" class="anchored" data-anchor-id="properties-of-waves"><span class="header-section-number">17.4</span> 14.3 Properties of Waves</h2>
+<p>To describe waves quantitatively, we use specific terminology and measurements.</p>
+<section id="key-wave-features" class="level3" data-number="17.4.1">
+<h3 data-number="17.4.1" class="anchored" data-anchor-id="key-wave-features"><span class="header-section-number">17.4.1</span> Key Wave Features</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: left;">SI Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Crest</strong></td>
+<td style="text-align: left;">Highest point of a transverse wave</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Trough</strong></td>
+<td style="text-align: left;">Lowest point of a transverse wave</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Wavelength (<span class="math inline">\(\lambda\)</span>)</strong></td>
+<td style="text-align: left;">Shortest distance between two consecutive points in phase (e.g., crest to crest, or trough to trough)</td>
+<td style="text-align: left;">metre (m)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Amplitude (<span class="math inline">\(A\)</span>)</strong></td>
+<td style="text-align: left;">Maximum displacement of a particle from its rest position</td>
+<td style="text-align: left;">metre (m)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Period (<span class="math inline">\(T\)</span>)</strong></td>
+<td style="text-align: left;">Time taken for one complete wave to pass a point</td>
+<td style="text-align: left;">second (s)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Frequency (<span class="math inline">\(f\)</span>)</strong></td>
+<td style="text-align: left;">Number of complete waves produced per second</td>
+<td style="text-align: left;">hertz (Hz)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Wave speed (<span class="math inline">\(v\)</span>)</strong></td>
+<td style="text-align: left;">Distance travelled by the wave per second</td>
+<td style="text-align: left;">metre per second (m/s)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Wavefront</strong></td>
+<td style="text-align: left;">Imaginary line joining adjacent points that are in phase</td>
+<td style="text-align: left;">—</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="relationship-between-frequency-and-period" class="level3" data-number="17.4.2">
+<h3 data-number="17.4.2" class="anchored" data-anchor-id="relationship-between-frequency-and-period"><span class="header-section-number">17.4.2</span> Relationship Between Frequency and Period</h3>
+<p><span class="math display">\[f = \frac{1}{T} \quad \text{and} \quad T = \frac{1}{f}\]</span></p>
+<p><strong>Example:</strong> If a wave has a period of 0.02 s, its frequency is: <span class="math display">\[f = \frac{1}{0.02} = 50 \text{ Hz}\]</span></p>
+</section>
+<section id="displacementdistance-vs-displacementtime-graphs" class="level3" data-number="17.4.3">
+<h3 data-number="17.4.3" class="anchored" data-anchor-id="displacementdistance-vs-displacementtime-graphs"><span class="header-section-number">17.4.3</span> Displacement–Distance vs Displacement–Time Graphs</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 33%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Graph Type</th>
+<th style="text-align: left;">What It Shows</th>
+<th style="text-align: left;">What Can Be Read</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Displacement–distance</strong></td>
+<td style="text-align: left;">Shape of the wave at one instant in time</td>
+<td style="text-align: left;">Wavelength (<span class="math inline">\(\lambda\)</span>), amplitude (<span class="math inline">\(A\)</span>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Displacement–time</strong></td>
+<td style="text-align: left;">Motion of a single particle over time</td>
+<td style="text-align: left;">Period (<span class="math inline">\(T\)</span>), amplitude (<span class="math inline">\(A\)</span>), frequency (<span class="math inline">\(f\)</span>)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="the-wave-equation" class="level2" data-number="17.5">
+<h2 data-number="17.5" class="anchored" data-anchor-id="the-wave-equation"><span class="header-section-number">17.5</span> 14.4 The Wave Equation</h2>
+<p>The speed of a wave is determined by how frequently waves are produced and how long each wave is.</p>
+<p><span class="math display">\[v = f\lambda\]</span></p>
+<p>Where: - <span class="math inline">\(v\)</span> = wave speed (m/s) - <span class="math inline">\(f\)</span> = frequency (Hz) - <span class="math inline">\(\lambda\)</span> = wavelength (m)</p>
+<p><strong>Derivation Insight:</strong> - In one period (<span class="math inline">\(T\)</span>), a wave travels one wavelength (<span class="math inline">\(\lambda\)</span>) - Speed = distance/time = <span class="math inline">\(\lambda / T\)</span> - Since <span class="math inline">\(f = 1/T\)</span>, then <span class="math inline">\(v = f\lambda\)</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Concept:</strong> For a wave travelling through a given medium, the speed is usually constant. If frequency increases, wavelength must decrease proportionally, and vice versa.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="wave-behaviour-reflection-refraction-diffraction" class="level2" data-number="17.6">
+<h2 data-number="17.6" class="anchored" data-anchor-id="wave-behaviour-reflection-refraction-diffraction"><span class="header-section-number">17.6</span> 14.5 Wave Behaviour: Reflection, Refraction, Diffraction</h2>
+<p>Waves exhibit three fundamental behaviours when they encounter boundaries, changes in medium, or obstacles.</p>
+<section id="reflection" class="level3" data-number="17.6.1">
+<h3 data-number="17.6.1" class="anchored" data-anchor-id="reflection"><span class="header-section-number">17.6.1</span> 1. Reflection</h3>
+<p>When waves strike a plane barrier, they <strong>bounce back</strong>.</p>
+<p><strong>Law of Reflection:</strong> - Angle of incidence (<span class="math inline">\(i\)</span>) = Angle of reflection (<span class="math inline">\(r\)</span>) - Wavelength, frequency, and speed <strong>remain unchanged</strong> - Direction changes according to the surface geometry</p>
+<p><strong>Example:</strong> Water waves reflecting off a straight barrier in a ripple tank.</p>
+</section>
+<section id="refraction" class="level3" data-number="17.6.2">
+<h3 data-number="17.6.2" class="anchored" data-anchor-id="refraction"><span class="header-section-number">17.6.2</span> 2. Refraction</h3>
+<p>Refraction occurs when waves pass from one medium to another, causing a <strong>change in speed</strong> and often a <strong>change in direction</strong>.</p>
+<p><strong>For Water Waves:</strong> - Deep water → faster speed, longer wavelength - Shallow water → slower speed, shorter wavelength - If waves enter at an angle, they <strong>bend towards the normal</strong> when slowing down (deep → shallow) - Frequency <strong>remains constant</strong> during refraction</p>
+</section>
+<section id="diffraction" class="level3" data-number="17.6.3">
+<h3 data-number="17.6.3" class="anchored" data-anchor-id="diffraction"><span class="header-section-number">17.6.3</span> 3. Diffraction</h3>
+<p>Diffraction is the <strong>spreading out</strong> of waves when they pass through a gap or around an edge.</p>
+<p><strong>Key Observations:</strong> - Diffraction is most noticeable when the <strong>gap size is similar to the wavelength</strong> - If gap size <span class="math inline">\(\gg\)</span> wavelength: waves pass through with minimal spreading - If gap size <span class="math inline">\(\approx\)</span> wavelength: waves spread out significantly in a semi-circular pattern - Wavelength and frequency <strong>remain unchanged</strong> after diffraction</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> Diffraction does not change the speed, frequency, or wavelength of the wave. It only changes the direction of propagation at the edges.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="key-concepts-summary" class="level2" data-number="17.7">
+<h2 data-number="17.7" class="anchored" data-anchor-id="key-concepts-summary"><span class="header-section-number">17.7</span> Key Concepts Summary</h2>
+<section id="core-concepts" class="level3" data-number="17.7.1">
+<h3 data-number="17.7.1" class="anchored" data-anchor-id="core-concepts"><span class="header-section-number">17.7.1</span> Core Concepts</h3>
+<ol type="1">
+<li><p><strong>Waves transfer energy, not matter</strong>; particles oscillate about fixed positions</p></li>
+<li><p><strong>Transverse waves</strong>: vibration ⊥ propagation (e.g., light, water waves, S-waves)</p></li>
+<li><p><strong>Longitudinal waves</strong>: vibration ∥ propagation (e.g., sound, P-waves)</p></li>
+<li><p><strong>Wave features</strong>: wavelength (<span class="math inline">\(\lambda\)</span>), frequency (<span class="math inline">\(f\)</span>), period (<span class="math inline">\(T\)</span>), amplitude (<span class="math inline">\(A\)</span>), wavefront</p></li>
+<li><p><strong>Wave equation</strong>: <span class="math inline">\(v = f\lambda\)</span></p></li>
+<li><p><strong>Reflection</strong>: <span class="math inline">\(i = r\)</span>; speed and wavelength unchanged</p></li>
+<li><p><strong>Refraction</strong>: change in speed causes bending; frequency constant</p></li>
+<li><p><strong>Diffraction</strong>: spreading through gaps/around edges; most pronounced when gap <span class="math inline">\(\approx \lambda\)</span></p></li>
+</ol>
+</section>
+<section id="extended-concepts" class="level3" data-number="17.7.2">
+<h3 data-number="17.7.2" class="anchored" data-anchor-id="extended-concepts"><span class="header-section-number">17.7.2</span> Extended Concepts</h3>
+<ol start="9" type="1">
+<li><p><strong>Gap size vs wavelength</strong>: smaller gaps relative to <span class="math inline">\(\lambda\)</span> produce greater diffraction</p></li>
+<li><p><strong>Edge diffraction</strong>: longer wavelengths diffract more around barriers than shorter wavelengths</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="common-misconceptions" class="level2" data-number="17.8">
+<h2 data-number="17.8" class="anchored" data-anchor-id="common-misconceptions"><span class="header-section-number">17.8</span> Common Misconceptions</h2>
+<section id="misconception-1-waves-carry-matter-along-with-them" class="level3" data-number="17.8.1">
+<h3 data-number="17.8.1" class="anchored" data-anchor-id="misconception-1-waves-carry-matter-along-with-them"><span class="header-section-number">17.8.1</span> ⚠️ Misconception 1: “Waves carry matter along with them”</h3>
+<p><strong>Incorrect</strong>: “Water waves push water forward across the ocean”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Waves transfer <strong>energy</strong>, not matter</p></li>
+<li><p>Water particles move in circular or elliptical orbits but return to their original positions</p></li>
+<li><p>Only the wave pattern and energy progress forward</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-2-longitudinal-waves-have-crests-and-troughs" class="level3" data-number="17.8.2">
+<h3 data-number="17.8.2" class="anchored" data-anchor-id="misconception-2-longitudinal-waves-have-crests-and-troughs"><span class="header-section-number">17.8.2</span> ⚠️ Misconception 2: “Longitudinal waves have crests and troughs”</h3>
+<p><strong>Incorrect</strong>: “Sound waves have crests and troughs like water waves”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Longitudinal waves consist of <strong>compressions</strong> and <strong>rarefactions</strong>, not crests and troughs</p></li>
+<li><p>Crests/troughs are exclusive to transverse waves</p></li>
+<li><p>Both types still have wavelength, frequency, and amplitude</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-3-changing-frequency-changes-wave-speed" class="level3" data-number="17.8.3">
+<h3 data-number="17.8.3" class="anchored" data-anchor-id="misconception-3-changing-frequency-changes-wave-speed"><span class="header-section-number">17.8.3</span> ⚠️ Misconception 3: “Changing frequency changes wave speed”</h3>
+<p><strong>Incorrect</strong>: “If I increase the frequency of a wave, it travels faster”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Wave speed is determined by the <strong>medium</strong>, not the frequency</p></li>
+<li><p>In a given medium, <span class="math inline">\(v\)</span> is constant</p></li>
+<li><p>Increasing <span class="math inline">\(f\)</span> causes <span class="math inline">\(\lambda\)</span> to decrease proportionally (<span class="math inline">\(v = f\lambda\)</span>)</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-4-refraction-changes-the-frequency-of-a-wave" class="level3" data-number="17.8.4">
+<h3 data-number="17.8.4" class="anchored" data-anchor-id="misconception-4-refraction-changes-the-frequency-of-a-wave"><span class="header-section-number">17.8.4</span> ⚠️ Misconception 4: “Refraction changes the frequency of a wave”</h3>
+<p><strong>Incorrect</strong>: “When light enters glass, its frequency decreases”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p><strong>Frequency remains constant</strong> during refraction</p></li>
+<li><p>Speed and wavelength change, but the source vibration rate (<span class="math inline">\(f\)</span>) does not</p></li>
+<li><p>Energy is conserved per photon/wave cycle</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-5-diffraction-only-happens-with-light" class="level3" data-number="17.8.5">
+<h3 data-number="17.8.5" class="anchored" data-anchor-id="misconception-5-diffraction-only-happens-with-light"><span class="header-section-number">17.8.5</span> ⚠️ Misconception 5: “Diffraction only happens with light”</h3>
+<p><strong>Incorrect</strong>: “Diffraction is exclusive to electromagnetic waves”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Diffraction occurs with <strong>all types of waves</strong> (water, sound, seismic, electromagnetic)</p></li>
+<li><p>The degree of spreading depends on the ratio of wavelength to obstacle/gap size</p></li>
+<li><p>Sound waves diffract around doorways because their wavelength is comparable to the door width</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-6-a-narrower-gap-always-increases-wave-speed" class="level3" data-number="17.8.6">
+<h3 data-number="17.8.6" class="anchored" data-anchor-id="misconception-6-a-narrower-gap-always-increases-wave-speed"><span class="header-section-number">17.8.6</span> ⚠️ Misconception 6: “A narrower gap always increases wave speed”</h3>
+<p><strong>Incorrect</strong>: “Waves speed up when squeezed through a small opening”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Gap size does <strong>not</strong> affect wave speed</p></li>
+<li><p>Speed depends only on medium properties (depth, density, tension, etc.)</p></li>
+<li><p>Narrower gaps increase <strong>spreading (diffraction)</strong>, not speed</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="worked-examples" class="level2" data-number="17.9">
+<h2 data-number="17.9" class="anchored" data-anchor-id="worked-examples"><span class="header-section-number">17.9</span> Worked Examples</h2>
+<section id="example-1-wave-speed-calculation" class="level3" data-number="17.9.1">
+<h3 data-number="17.9.1" class="anchored" data-anchor-id="example-1-wave-speed-calculation"><span class="header-section-number">17.9.1</span> Example 1: Wave Speed Calculation</h3>
+<p><strong>Question:</strong> A wave has a frequency of 12 Hz and a wavelength of 0.25 m. Calculate its speed.</p>
+<p><strong>Solution:</strong> <span class="math display">\[v = f\lambda = 12 \times 0.25 = \boxed{3.0 \text{ m/s}}\]</span></p>
+<hr>
+</section>
+<section id="example-2-frequency-from-period" class="level3" data-number="17.9.2">
+<h3 data-number="17.9.2" class="anchored" data-anchor-id="example-2-frequency-from-period"><span class="header-section-number">17.9.2</span> Example 2: Frequency from Period</h3>
+<p><strong>Question:</strong> A floating buoy bobs up and down once every 2.5 seconds. Calculate the frequency of the water waves.</p>
+<p><strong>Solution:</strong> <span class="math display">\[f = \frac{1}{T} = \frac{1}{2.5} = \boxed{0.40 \text{ Hz}}\]</span></p>
+<hr>
+</section>
+<section id="example-3-wavelength-in-different-depths" class="level3" data-number="17.9.3">
+<h3 data-number="17.9.3" class="anchored" data-anchor-id="example-3-wavelength-in-different-depths"><span class="header-section-number">17.9.3</span> Example 3: Wavelength in Different Depths</h3>
+<p><strong>Question:</strong> Water waves travel at 1.8 m/s in deep water with a frequency of 0.60 Hz. They enter shallow water where their speed reduces to 1.2 m/s. Calculate the wavelength in both regions.</p>
+<p><strong>Solution:</strong> Frequency remains constant: <span class="math inline">\(f = 0.60 \text{ Hz}\)</span></p>
+<p><strong>Deep water:</strong> <span class="math display">\[\lambda_{\text{deep}} = \frac{v}{f} = \frac{1.8}{0.60} = \boxed{3.0 \text{ m}}\]</span></p>
+<p><strong>Shallow water:</strong> <span class="math display">\[\lambda_{\text{shallow}} = \frac{1.2}{0.60} = \boxed{2.0 \text{ m}}\]</span></p>
+<p><strong>Note:</strong> Wavelength decreases in shallow water because speed decreases while frequency remains constant.</p>
+<hr>
+</section>
+<section id="example-4-diffraction-condition" class="level3" data-number="17.9.4">
+<h3 data-number="17.9.4" class="anchored" data-anchor-id="example-4-diffraction-condition"><span class="header-section-number">17.9.4</span> Example 4: Diffraction Condition</h3>
+<p><strong>Question:</strong> Explain why radio waves can be received behind hills, but visible light cannot.</p>
+<p><strong>Solution:</strong> - Radio waves have <strong>long wavelengths</strong> (metres to kilometres) - Visible light has <strong>very short wavelengths</strong> (400–700 nm) - Hills are comparable in size to radio wavelengths, causing significant <strong>diffraction</strong> around the obstacle - Hills are vastly larger than light wavelengths, so light travels in straight lines with negligible diffraction - Therefore, radio signals bend around hills, but light does not</p>
+<hr>
+</section>
+</section>
+<section id="practice-questions" class="level2" data-number="17.10">
+<h2 data-number="17.10" class="anchored" data-anchor-id="practice-questions"><span class="header-section-number">17.10</span> Practice Questions</h2>
+<section id="core-level" class="level3" data-number="17.10.1">
+<h3 data-number="17.10.1" class="anchored" data-anchor-id="core-level"><span class="header-section-number">17.10.1</span> Core Level</h3>
+<ol type="1">
+<li><p>State two differences between transverse and longitudinal waves. Give one example of each.</p></li>
+<li><p>Define wavelength, amplitude, frequency, and period. State their SI units.</p></li>
+<li><p>A wave has a period of 0.04 s. Calculate its frequency.</p></li>
+<li><p>Sound travels through air at 340 m/s. If the frequency of a musical note is 512 Hz, calculate its wavelength.</p></li>
+<li><p>Describe what happens to water waves when they pass from deep to shallow water at an angle. Include reference to speed, wavelength, frequency, and direction.</p></li>
+<li><p>Explain why a student speaking outside a classroom can be heard inside even if the door is only slightly open.</p></li>
+<li><p>A wave travels 12 m in 4.0 s. If its frequency is 2.0 Hz, calculate its wavelength.</p></li>
+<li><p>State the law of reflection for waves. What happens to the wavelength and speed of water waves when they reflect off a straight barrier?</p></li>
+</ol>
+</section>
+<section id="extended-level" class="level3" data-number="17.10.2">
+<h3 data-number="17.10.2" class="anchored" data-anchor-id="extended-level"><span class="header-section-number">17.10.2</span> Extended Level</h3>
+<ol start="9" type="1">
+<li>A dipper in a ripple tank vibrates at 5.0 Hz, producing waves with a wavelength of 3.0 cm. The waves enter a region of shallower water where their speed is 12 cm/s. Calculate:</li>
+</ol>
+<ul>
+<li><ol type="a">
+<li>the frequency of the waves in the shallow region</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>the wavelength in the shallow region</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>the speed of the waves in the deep region</li>
+</ol></li>
+</ul>
+<ol start="10" type="1">
+<li><p>Explain, using wave principles, why bass sounds from a music system can be heard through a doorway, but treble sounds are more directional.</p></li>
+<li><p>A transverse wave travels along a rope at 4.0 m/s. The distance between a crest and the adjacent trough is 0.50 m. Calculate the frequency of the wave.</p></li>
+<li><p>Describe how a ripple tank can be used to demonstrate refraction. Include a labelled diagram of the apparatus and expected wave pattern.</p></li>
+<li><p>A wave has an amplitude of 3.0 cm and a frequency of 10 Hz. Sketch a displacement–distance graph for two complete wavelengths. Label the amplitude and wavelength clearly.</p></li>
+<li><p>Explain why the frequency of a wave does not change when it undergoes refraction, but its speed and wavelength do.</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="laboratory-investigation" class="level2" data-number="17.11">
+<h2 data-number="17.11" class="anchored" data-anchor-id="laboratory-investigation"><span class="header-section-number">17.11</span> Laboratory Investigation</h2>
+<section id="experiment-14.1-investigating-diffraction-in-a-ripple-tank" class="level3" data-number="17.11.1">
+<h3 data-number="17.11.1" class="anchored" data-anchor-id="experiment-14.1-investigating-diffraction-in-a-ripple-tank"><span class="header-section-number">17.11.1</span> Experiment 14.1: Investigating Diffraction in a Ripple Tank</h3>
+<p><strong>Objective:</strong> To investigate how gap size and wavelength affect the diffraction of water waves.</p>
+<p><strong>Apparatus:</strong> - Ripple tank with transparent base - Light source and projection screen - Straight wave generator (dipper or motor-driven bar) - Adjustable barriers (two flat plates) - Ruler - Stroboscope or video camera (optional) - Power supply for wave generator</p>
+<p><strong>Variables:</strong> - <strong>Independent:</strong> Gap width; wavelength (adjusted via frequency) - <strong>Dependent:</strong> Degree of wave spreading (qualitative observation and measurement of diffraction angle) - <strong>Controlled:</strong> Water depth, wave generator amplitude, projection distance</p>
+<p><strong>Procedure:</strong> 1. Set up the ripple tank with uniform water depth (~5 mm).</p>
+<ol start="2" type="1">
+<li><p>Adjust the wave generator to produce plane waves at a low frequency (~5 Hz).</p></li>
+<li><p>Measure and record the wavelength <span class="math inline">\(\lambda\)</span> from the projected pattern.</p></li>
+<li><p>Place two barriers to form a gap. Set the gap width to approximately <span class="math inline">\(2\lambda\)</span>.</p></li>
+<li><p>Observe and sketch the wave pattern after passing through the gap.</p></li>
+<li><p>Reduce the gap width to approximately <span class="math inline">\(\lambda\)</span>, then to <span class="math inline">\(0.5\lambda\)</span>. Observe and sketch changes.</p></li>
+<li><p>Increase the frequency to double the wavelength (keeping depth constant). Repeat steps 4–6.</p></li>
+<li><p>Compare the degree of spreading for different gap-to-wavelength ratios.</p></li>
+</ol>
+<p><strong>Data Table:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 12%">
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trial</th>
+<th style="text-align: left;">Frequency (Hz)</th>
+<th style="text-align: left;">Wavelength <span class="math inline">\(\lambda\)</span> (cm)</th>
+<th style="text-align: left;">Gap Width <span class="math inline">\(d\)</span> (cm)</th>
+<th style="text-align: left;"><span class="math inline">\(d/\lambda\)</span> Ratio</th>
+<th style="text-align: left;">Degree of Diffraction (Low/Medium/High)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Analysis:</strong> 1. Describe the relationship between <span class="math inline">\(d/\lambda\)</span> and diffraction.</p>
+<ol start="2" type="1">
+<li><p>State the condition for maximum diffraction.</p></li>
+<li><p>Explain why wavelength and frequency remain unchanged after diffraction.</p></li>
+</ol>
+<p><strong>Precautions:</strong> - ✓ Maintain constant water depth throughout the experiment</p>
+<ul>
+<li><p>✓ Ensure wave generator produces straight, parallel wavefronts</p></li>
+<li><p>✓ Avoid vibrations or air currents disturbing the tank</p></li>
+<li><p>✓ Allow water to settle between trials</p></li>
+</ul>
+<p><strong>Expected Results:</strong> - Maximum spreading occurs when gap width <span class="math inline">\(\approx\)</span> wavelength</p>
+<ul>
+<li><p>Narrower gaps relative to <span class="math inline">\(\lambda\)</span> produce semi-circular wavefronts</p></li>
+<li><p>Wider gaps produce minimal edge spreading</p></li>
+</ul>
+<p><strong>Conclusion Template:</strong> “The experiment demonstrated that diffraction is most pronounced when the gap size is comparable to the wavelength. When <span class="math inline">\(d \gg \lambda\)</span>, waves pass through with minimal spreading. When <span class="math inline">\(d \approx \lambda\)</span>, waves spread out in a circular pattern. This confirms that the extent of diffraction depends on the ratio of wavelength to obstacle/gap size.”</p>
+<p><strong>Extension (Supplement):</strong> - Investigate diffraction around a single edge using one barrier</p>
+<ul>
+<li><p>Compare diffraction of longitudinal vs transverse wave simulations</p></li>
+<li><p>Relate findings to real-world examples: radio reception, architectural acoustics, optical instruments</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exam-style-questions" class="level2" data-number="17.12">
+<h2 data-number="17.12" class="anchored" data-anchor-id="exam-style-questions"><span class="header-section-number">17.12</span> Exam-Style Questions</h2>
+<section id="paper-1-style-multiple-choice" class="level3" data-number="17.12.1">
+<h3 data-number="17.12.1" class="anchored" data-anchor-id="paper-1-style-multiple-choice"><span class="header-section-number">17.12.1</span> Paper 1 Style (Multiple Choice)</h3>
+<ol type="1">
+<li>Which statement correctly describes wave motion?</li>
+</ol>
+<p>A. Waves transfer matter and energy</p>
+<p>B. Waves transfer energy without transferring matter</p>
+<p>C. Waves transfer matter without transferring energy</p>
+<p>D. Waves require a medium to transfer energy</p>
+<ol start="2" type="1">
+<li>Which of the following is a longitudinal wave?</li>
+</ol>
+<p>A. Light wave</p>
+<p>B. Water wave</p>
+<p>C. Sound wave</p>
+<p>D. Seismic S-wave</p>
+<ol start="3" type="1">
+<li>A wave has a frequency of 50 Hz and a wavelength of 0.40 m. What is its speed?</li>
+</ol>
+<p>A. 12.5 m/s</p>
+<p>B. 20 m/s</p>
+<p>C. 80 m/s</p>
+<p>D. 125 m/s</p>
+<ol start="4" type="1">
+<li>When water waves pass from deep to shallow water, which quantity remains unchanged?</li>
+</ol>
+<p>A. Speed</p>
+<p>B. Wavelength</p>
+<p>C. Frequency</p>
+<p>D. Direction</p>
+<ol start="5" type="1">
+<li>Maximum diffraction of waves occurs when:</li>
+</ol>
+<p>A. The gap is much larger than the wavelength</p>
+<p>B. The gap is much smaller than the wavelength</p>
+<p>C. The gap size is approximately equal to the wavelength</p>
+<p>D. The frequency is very high</p>
+</section>
+<section id="paper-3-style-structured" class="level3" data-number="17.12.2">
+<h3 data-number="17.12.2" class="anchored" data-anchor-id="paper-3-style-structured"><span class="header-section-number">17.12.2</span> Paper 3 Style (Structured)</h3>
+<ol start="6" type="1">
+<li><ol type="a">
+<li>Define the term <em>transverse wave</em>. [1]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>Give two examples of transverse waves. [2]</p></li>
+<li><p>A displacement–time graph of a wave shows a period of 0.02 s.</p></li>
+<li><p>Calculate the frequency of the wave. [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li>If the wave speed is 300 m/s, calculate the wavelength. [2]</li>
+</ol>
+<ol start="7" type="1">
+<li><ol type="a">
+<li>State what is meant by <em>diffraction</em>. [1]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>A student sets up a ripple tank with a gap of width 2.0 cm. The waves produced have a wavelength of 2.0 cm.</p></li>
+<li><p>Sketch the wave pattern after passing through the gap. [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li><p>Explain what happens to the wave pattern if the gap width is increased to 6.0 cm. [2]</p></li>
+<li><p>State two wave properties that remain unchanged after diffraction. [2]</p></li>
+</ol>
+<ol start="8" type="1">
+<li>(Extended) (a) Explain why sound waves can be heard around corners, but light waves cannot. [3]</li>
+</ol>
+<ol start="2" type="a">
+<li><p>A wave travels at 15 m/s in deep water and 10 m/s in shallow water. The frequency is 5.0 Hz.</p></li>
+<li><p>Calculate the wavelength in both regions. [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li>Explain why the frequency does not change when the wave enters shallow water. [2]</li>
+</ol>
+<ol start="9" type="1">
+<li><ol type="a">
+<li>Describe an experiment using a ripple tank to demonstrate the reflection of water waves. Include a labelled diagram. [4]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>State the relationship between the angle of incidence and angle of reflection. [1]</p></li>
+<li><p>Explain why the wavelength of the reflected wave is the same as the incident wave. [2]</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="chapter-summary" class="level2" data-number="17.13">
+<h2 data-number="17.13" class="anchored" data-anchor-id="chapter-summary"><span class="header-section-number">17.13</span> Chapter Summary</h2>
+<section id="key-points-to-remember" class="level3" data-number="17.13.1">
+<h3 data-number="17.13.1" class="anchored" data-anchor-id="key-points-to-remember"><span class="header-section-number">17.13.1</span> Key Points to Remember</h3>
+<p>✓ <strong>Waves transfer energy, not matter</strong>; particles oscillate about fixed positions</p>
+<p>✓ <strong>Transverse waves</strong>: vibration ⊥ propagation (light, water, S-waves)</p>
+<p>✓ <strong>Longitudinal waves</strong>: vibration ∥ propagation (sound, P-waves)</p>
+<p>✓ <strong>Wave features</strong>: <span class="math inline">\(\lambda\)</span>, <span class="math inline">\(f\)</span>, <span class="math inline">\(T\)</span>, <span class="math inline">\(A\)</span>, wavefront; <span class="math inline">\(f = 1/T\)</span></p>
+<p>✓ <strong>Wave equation</strong>: <span class="math inline">\(v = f\lambda\)</span></p>
+<p>✓ <strong>Reflection</strong>: <span class="math inline">\(i = r\)</span>; speed and <span class="math inline">\(\lambda\)</span> unchanged</p>
+<p>✓ <strong>Refraction</strong>: change in speed → bending; <span class="math inline">\(f\)</span> constant</p>
+<p>✓ <strong>Diffraction</strong>: spreading through gaps/around edges; max when gap <span class="math inline">\(\approx \lambda\)</span></p>
+<p>✓ <strong>Ripple tank</strong>: essential tool for demonstrating all three wave behaviours</p>
+</section>
+<section id="formulae-sheet" class="level3" data-number="17.13.2">
+<h3 data-number="17.13.2" class="anchored" data-anchor-id="formulae-sheet"><span class="header-section-number">17.13.2</span> Formulae Sheet</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Formula</th>
+<th style="text-align: left;">Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Wave speed</td>
+<td style="text-align: left;"><span class="math inline">\(v = f\lambda\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(v\)</span>=speed (m/s), <span class="math inline">\(f\)</span>=frequency (Hz), <span class="math inline">\(\lambda\)</span>=wavelength (m)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Frequency–period</td>
+<td style="text-align: left;"><span class="math inline">\(f = \frac{1}{T}\)</span> or <span class="math inline">\(T = \frac{1}{f}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(T\)</span>=period (s), <span class="math inline">\(f\)</span>=frequency (Hz)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Law of reflection</td>
+<td style="text-align: left;"><span class="math inline">\(i = r\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(i\)</span>=angle of incidence, <span class="math inline">\(r\)</span>=angle of reflection</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="further-resources" class="level2" data-number="17.14">
+<h2 data-number="17.14" class="anchored" data-anchor-id="further-resources"><span class="header-section-number">17.14</span> Further Resources</h2>
+<section id="recommended-reading" class="level3" data-number="17.14.1">
+<h3 data-number="17.14.1" class="anchored" data-anchor-id="recommended-reading"><span class="header-section-number">17.14.1</span> Recommended Reading</h3>
+<ul>
+<li>Cambridge IGCSE Physics Coursebook, Chapter 11 (General Properties of Waves)</li>
+<li>Practical Work in Physics: Ripple Tank Experiments and Wave Phenomena</li>
+</ul>
+</section>
+<section id="online-resources" class="level3" data-number="17.14.2">
+<h3 data-number="17.14.2" class="anchored" data-anchor-id="online-resources"><span class="header-section-number">17.14.2</span> Online Resources</h3>
+<ul>
+<li>PhET Interactive Simulations: Wave on a String, Sound, Wave Interference</li>
+<li>BBC Bitesize: Transverse and Longitudinal Waves, Reflection, Refraction, Diffraction</li>
+<li>University of Colorado: Ripple Tank Virtual Lab</li>
+</ul>
+</section>
+<section id="video-resources" class="level3" data-number="17.14.3">
+<h3 data-number="17.14.3" class="anchored" data-anchor-id="video-resources"><span class="header-section-number">17.14.3</span> Video Resources</h3>
+<ul>
+<li>Demonstration: Ripple tank setup and wave pattern projection</li>
+<li>Animation: Transverse vs longitudinal particle motion comparison</li>
+<li>Real-world application: Acoustic design in concert halls, radio wave propagation</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="17.15">
+<h2 data-number="17.15" class="anchored" data-anchor-id="glossary"><span class="header-section-number">17.15</span> Glossary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Term</th>
+<th style="text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Amplitude (<span class="math inline">\(A\)</span>)</strong></td>
+<td style="text-align: left;">Maximum displacement of a particle from its rest position</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Compression</strong></td>
+<td style="text-align: left;">Region in a longitudinal wave where particles are close together</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Diffraction</strong></td>
+<td style="text-align: left;">Spreading out of waves when passing through a gap or around an edge</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Frequency (<span class="math inline">\(f\)</span>)</strong></td>
+<td style="text-align: left;">Number of complete waves produced per second; unit: hertz (Hz)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Longitudinal wave</strong></td>
+<td style="text-align: left;">Wave where particle vibration is parallel to wave propagation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Period (<span class="math inline">\(T\)</span>)</strong></td>
+<td style="text-align: left;">Time taken for one complete wave to pass a point</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Rarefaction</strong></td>
+<td style="text-align: left;">Region in a longitudinal wave where particles are spread apart</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Refraction</strong></td>
+<td style="text-align: left;">Change in direction and speed of a wave when entering a different medium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Reflection</strong></td>
+<td style="text-align: left;">Bouncing back of waves when they strike a barrier</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Transverse wave</strong></td>
+<td style="text-align: left;">Wave where particle vibration is perpendicular to wave propagation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Wavefront</strong></td>
+<td style="text-align: left;">Imaginary line joining adjacent points that are in phase</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Wavelength (<span class="math inline">\(\lambda\)</span>)</strong></td>
+<td style="text-align: left;">Shortest distance between two consecutive points in phase</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Wave speed (<span class="math inline">\(v\)</span>)</strong></td>
+<td style="text-align: left;">Distance travelled by a wave per second; <span class="math inline">\(v = f\lambda\)</span></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>End of Chapter 14</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/13-thermal-transfer.html" class="pagination-link" aria-label="Thermal Transfer">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Thermal Transfer</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/15-light-reflection-refraction.html" class="pagination-link" aria-label="Light: Reflection and Refraction">
+        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Light: Reflection and Refraction</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

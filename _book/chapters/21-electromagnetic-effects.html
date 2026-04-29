@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sugeng Riyanto, M.Sc.">
+<meta name="dcterms.date" content="2026-01-01">
+
+<title>24&nbsp; Electromagnetic Effects – Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/22-nuclear-physics.html" rel="next">
+<link href="../chapters/20-electrical-quantities.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-932514a4c912dae26ceaa3c5ace84409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/21-electromagnetic-effects.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../syllabus-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Syllabus Mapping</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Core Content</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-motion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Motion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mass-weight-density.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mass, Weight and Density</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-forces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Forces</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-moments-equilibrium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Moments and Equilibrium</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-momentum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Momentum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-energy-stores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Energy Stores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-work-power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work and Power</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-pressure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Pressure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-kinetic-particle-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-thermal-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Thermal Properties</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-phase-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Phase Changes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-thermal-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Thermal Transfer</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-wave-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-light-reflection-refraction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Light: Reflection and Refraction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-em-spectrum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Electromagnetic Spectrum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-sound.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Sound</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-magnetism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Simple Phenomena of Magnetism</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-electric-charge-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-electrical-quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-electromagnetic-effects.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-nuclear-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Nuclear Physics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-space-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Space Physics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Supporting Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/practical-skills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Practical Skills</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/maths-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Mathematical Data and Constants</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/exam-technique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Common Question Types</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/formula-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Formula Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Bibliography and References</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics Reference Guide</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">24.1</span> Learning Objectives</a></li>
+  <li><a href="#electromagnetic-induction" id="toc-electromagnetic-induction" class="nav-link" data-scroll-target="#electromagnetic-induction"><span class="header-section-number">24.2</span> Electromagnetic Induction</a></li>
+  <li><a href="#the-a.c.-generator" id="toc-the-a.c.-generator" class="nav-link" data-scroll-target="#the-a.c.-generator"><span class="header-section-number">24.3</span> The A.C. Generator</a></li>
+  <li><a href="#magnetic-effect-of-a-current" id="toc-magnetic-effect-of-a-current" class="nav-link" data-scroll-target="#magnetic-effect-of-a-current"><span class="header-section-number">24.4</span> Magnetic Effect of a Current</a></li>
+  <li><a href="#force-on-a-current-carrying-conductor" id="toc-force-on-a-current-carrying-conductor" class="nav-link" data-scroll-target="#force-on-a-current-carrying-conductor"><span class="header-section-number">24.5</span> Force on a Current-Carrying Conductor</a></li>
+  <li><a href="#the-d.c.-motor" id="toc-the-d.c.-motor" class="nav-link" data-scroll-target="#the-d.c.-motor"><span class="header-section-number">24.6</span> The D.C. Motor</a></li>
+  <li><a href="#the-transformer" id="toc-the-transformer" class="nav-link" data-scroll-target="#the-transformer"><span class="header-section-number">24.7</span> The Transformer</a></li>
+  <li><a href="#key-concepts-summary" id="toc-key-concepts-summary" class="nav-link" data-scroll-target="#key-concepts-summary"><span class="header-section-number">24.8</span> Key Concepts Summary</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions"><span class="header-section-number">24.9</span> Common Misconceptions</a></li>
+  <li><a href="#worked-examples" id="toc-worked-examples" class="nav-link" data-scroll-target="#worked-examples"><span class="header-section-number">24.10</span> Worked Examples</a></li>
+  <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions"><span class="header-section-number">24.11</span> Practice Questions</a></li>
+  <li><a href="#laboratory-investigation" id="toc-laboratory-investigation" class="nav-link" data-scroll-target="#laboratory-investigation"><span class="header-section-number">24.12</span> Laboratory Investigation</a></li>
+  <li><a href="#exam-style-questions" id="toc-exam-style-questions" class="nav-link" data-scroll-target="#exam-style-questions"><span class="header-section-number">24.13</span> Exam-Style Questions</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary"><span class="header-section-number">24.14</span> Chapter Summary</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources"><span class="header-section-number">24.15</span> Further Resources</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">24.16</span> Glossary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/21-electromagnetic-effects.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sugeng Riyanto, M.Sc. </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2" data-number="24.1">
+<h2 data-number="24.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">24.1</span> Learning Objectives</h2>
+<p>By the end of this chapter, you will be able to:</p>
+<p><strong>Core Content (4.5.1 Electromagnetic Induction):</strong></p>
+<ul>
+<li><p>Know that a conductor moving across a magnetic field or a changing magnetic field linking with a conductor can induce an e.m.f. in the conductor</p></li>
+<li><p>Describe an experiment to demonstrate electromagnetic induction</p></li>
+<li><p>State the factors affecting the magnitude of an induced e.m.f.</p></li>
+</ul>
+<p><strong>Core Content (4.5.2 The a.c. Generator):</strong></p>
+<ul>
+<li><p>Describe a simple form of a.c. generator and the use of slip rings and brushes</p></li>
+<li><p>Sketch and interpret graphs of e.m.f. against time for simple a.c. generators and relate the position of the generator coil to the peaks, troughs and zeros of the e.m.f.</p></li>
+</ul>
+<p><strong>Core Content (4.5.3 Magnetic Effect of a Current):</strong></p>
+<ul>
+<li><p>Describe the pattern and direction of the magnetic field due to currents in straight wires and in solenoids</p></li>
+<li><p>Describe an experiment to identify the pattern of the magnetic field (including direction) due to currents in straight wires and in solenoids</p></li>
+<li><p>Describe how the magnetic effect of a current is used in relays and loudspeakers and give examples of their application</p></li>
+</ul>
+<p><strong>Core Content (4.5.4 Force on a Current-Carrying Conductor):</strong></p>
+<ul>
+<li>Describe an experiment to show that a force acts on a current-carrying conductor in a magnetic field</li>
+</ul>
+<p><strong>Core Content (4.5.5 The d.c. Motor):</strong></p>
+<ul>
+<li>Know that a current-carrying coil in a magnetic field may experience a turning effect and that the turning effect is increased by increasing the number of turns on the coil, the current, or the strength of the magnetic field</li>
+</ul>
+<p><strong>Core Content (4.5.6 The Transformer):</strong></p>
+<ul>
+<li><p>Describe the construction of a simple transformer with a soft-iron core, as used for voltage transformations</p></li>
+<li><p>Use the terms primary, secondary, step-up and step-down</p></li>
+<li><p>Recall and use the equation <span class="math inline">\(V_p/V_s = N_p/N_s\)</span> where p and s refer to primary and secondary</p></li>
+<li><p>Describe the use of transformers in high-voltage transmission of electricity</p></li>
+<li><p>State the advantages of high-voltage transmission</p></li>
+</ul>
+<p><strong>Supplement (Extended):</strong></p>
+<ul>
+<li><p>Know that the direction of an induced e.m.f. opposes the change causing it (Lenz’s Law)</p></li>
+<li><p>State and use the relative directions of force, field and induced current (Fleming’s right-hand rule)</p></li>
+<li><p>State the qualitative variation of the strength of the magnetic field around straight wires and solenoids</p></li>
+<li><p>Describe the effect on the magnetic field around straight wires and solenoids of changing the magnitude and direction of the current</p></li>
+<li><p>Recall and use the relative directions of force, magnetic field and current (Fleming’s left-hand rule)</p></li>
+<li><p>Determine the direction of the force on beams of charged particles in a magnetic field</p></li>
+<li><p>Describe the operation of an electric motor, including the action of a split-ring commutator and brushes</p></li>
+<li><p>Explain the principle of operation of a simple iron-cored transformer</p></li>
+<li><p>Recall and use the equation for 100% efficiency in a transformer, <span class="math inline">\(I_pV_p = I_sV_s\)</span></p></li>
+<li><p>Recall and use the equation <span class="math inline">\(P = I^2R\)</span> to explain why power losses in cables are smaller when the voltage is greater</p></li>
+</ul>
+<hr>
+</section>
+<section id="electromagnetic-induction" class="level2" data-number="24.2">
+<h2 data-number="24.2" class="anchored" data-anchor-id="electromagnetic-induction"><span class="header-section-number">24.2</span> Electromagnetic Induction</h2>
+<section id="what-is-electromagnetic-induction" class="level3" data-number="24.2.1">
+<h3 data-number="24.2.1" class="anchored" data-anchor-id="what-is-electromagnetic-induction"><span class="header-section-number">24.2.1</span> What Is Electromagnetic Induction?</h3>
+<p>In 1831, Michael Faraday discovered that a changing magnetic field can produce an electric current. This phenomenon is known as <strong>electromagnetic induction</strong>.</p>
+<blockquote class="blockquote">
+<p><strong>Electromagnetic induction</strong> is the process through which an induced e.m.f. is produced in a conductor due to a changing magnetic field.</p>
+</blockquote>
+<p>If the conductor is part of a complete circuit, the induced e.m.f. will drive an <strong>induced current</strong>.</p>
+</section>
+<section id="demonstrating-electromagnetic-induction" class="level3" data-number="24.2.2">
+<h3 data-number="24.2.2" class="anchored" data-anchor-id="demonstrating-electromagnetic-induction"><span class="header-section-number">24.2.2</span> Demonstrating Electromagnetic Induction</h3>
+<p><strong>Apparatus:</strong></p>
+<ul>
+<li><p>Solenoid (coil of insulated wire)</p></li>
+<li><p>Strong bar magnet</p></li>
+<li><p>Centre-zero galvanometer (sensitive ammeter)</p></li>
+<li><p>Connecting wires</p></li>
+</ul>
+<p><strong>Procedure and Observations:</strong></p>
+<ol type="1">
+<li><p>Move the N pole of the magnet <strong>into</strong> the solenoid.</p>
+<ul>
+<li><p><strong>Observation:</strong> Galvanometer needle deflects momentarily to one side.</p></li>
+<li><p><strong>Conclusion:</strong> An e.m.f. is induced, causing a current to flow.</p></li>
+</ul></li>
+<li><p>Hold the magnet <strong>stationary</strong> inside the solenoid.</p>
+<ul>
+<li><p><strong>Observation:</strong> Galvanometer needle returns to zero and stays there.</p></li>
+<li><p><strong>Conclusion:</strong> No e.m.f. is induced when there is no relative motion or change in magnetic flux.</p></li>
+</ul></li>
+<li><p>Withdraw the magnet <strong>out of</strong> the solenoid.</p>
+<ul>
+<li><p><strong>Observation:</strong> Galvanometer needle deflects momentarily to the <strong>opposite</strong> side.</p></li>
+<li><p><strong>Conclusion:</strong> The direction of the induced e.m.f. reverses when the direction of motion reverses.</p></li>
+</ul></li>
+<li><p>Repeat with the S pole, or reverse the magnet’s poles.</p>
+<ul>
+<li><strong>Observation:</strong> Deflection directions reverse accordingly.</li>
+</ul></li>
+</ol>
+</section>
+<section id="factors-affecting-the-magnitude-of-induced-e.m.f." class="level3" data-number="24.2.3">
+<h3 data-number="24.2.3" class="anchored" data-anchor-id="factors-affecting-the-magnitude-of-induced-e.m.f."><span class="header-section-number">24.2.3</span> Factors Affecting the Magnitude of Induced E.m.f.</h3>
+<p>The size of the induced e.m.f. depends on the <strong>rate of change of magnetic flux</strong> through the coil. It can be increased by:</p>
+<ol type="1">
+<li><p>Increasing the <strong>speed</strong> of relative motion between the magnet and the coil.</p></li>
+<li><p>Increasing the <strong>strength</strong> of the magnetic field (using a stronger magnet).</p></li>
+<li><p>Increasing the <strong>number of turns</strong> on the solenoid.</p></li>
+<li><p>Increasing the <strong>cross-sectional area</strong> of the coil.</p></li>
+</ol>
+</section>
+<section id="lenzs-law-and-flemings-right-hand-rule-extended" class="level3" data-number="24.2.4">
+<h3 data-number="24.2.4" class="anchored" data-anchor-id="lenzs-law-and-flemings-right-hand-rule-extended"><span class="header-section-number">24.2.4</span> Lenz’s Law and Fleming’s Right-Hand Rule (Extended)</h3>
+<p><strong>Lenz’s Law:</strong></p>
+<p>The direction of the induced e.m.f. (and hence induced current) is always such that it <strong>opposes the change</strong> causing it.</p>
+<ul>
+<li><p>When a N pole moves <strong>into</strong> a coil, the induced current creates a N pole at that end to <strong>repel</strong> the incoming magnet.</p></li>
+<li><p>When a N pole moves <strong>out of</strong> a coil, the induced current creates a S pole at that end to <strong>attract</strong> the departing magnet.</p></li>
+<li><p>This ensures conservation of energy: mechanical work must be done to overcome the magnetic opposition, which is converted into electrical energy.</p></li>
+</ul>
+<p><strong>Fleming’s Right-Hand Rule (for generators):</strong></p>
+<p>Used to determine the direction of induced current when a conductor moves in a magnetic field.</p>
+<ul>
+<li><p><strong>Thumb:</strong> Direction of motion (force applied)</p></li>
+<li><p><strong>Forefinger:</strong> Direction of magnetic field (N to S)</p></li>
+<li><p><strong>Second finger:</strong> Direction of induced current</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-a.c.-generator" class="level2" data-number="24.3">
+<h2 data-number="24.3" class="anchored" data-anchor-id="the-a.c.-generator"><span class="header-section-number">24.3</span> The A.C. Generator</h2>
+<section id="how-does-an-a.c.-generator-work" class="level3" data-number="24.3.1">
+<h3 data-number="24.3.1" class="anchored" data-anchor-id="how-does-an-a.c.-generator-work"><span class="header-section-number">24.3.1</span> How Does an A.C. Generator Work?</h3>
+<p>An a.c. generator converts <strong>mechanical energy</strong> into <strong>electrical energy</strong> using electromagnetic induction.</p>
+<p><strong>Key Components:</strong></p>
+<ol type="1">
+<li><p><strong>Armature coil:</strong> Rectangular coil of wire mounted on an axle.</p></li>
+<li><p><strong>Magnets:</strong> Provide a uniform magnetic field.</p></li>
+<li><p><strong>Slip rings:</strong> Two continuous metal rings attached to the coil ends, rotating with it.</p></li>
+<li><p><strong>Carbon brushes:</strong> Stationary contacts pressing against the slip rings to transfer current to the external circuit without twisting wires.</p></li>
+</ol>
+<p><strong>Operation:</strong></p>
+<ul>
+<li><p>As the coil rotates, it cuts through magnetic field lines.</p></li>
+<li><p>This changes the magnetic flux linking the coil, inducing an alternating e.m.f.</p></li>
+<li><p>The direction of induced current reverses every half-turn, producing <strong>alternating current (a.c.)</strong>.</p></li>
+</ul>
+</section>
+<section id="e.m.f.-against-time-graph" class="level3" data-number="24.3.2">
+<h3 data-number="24.3.2" class="anchored" data-anchor-id="e.m.f.-against-time-graph"><span class="header-section-number">24.3.2</span> E.m.F. Against Time Graph</h3>
+<p>The induced e.m.f. varies sinusoidally with time:</p>
+<ul>
+<li><p><strong>Maximum e.m.f. (peaks/troughs):</strong> Occur when the plane of the coil is <strong>parallel</strong> to the magnetic field. The sides of the coil cut field lines at the maximum rate.</p></li>
+<li><p><strong>Zero e.m.f.:</strong> Occurs when the plane of the coil is <strong>perpendicular</strong> to the magnetic field. The sides move parallel to field lines and cut none.</p></li>
+</ul>
+<p><strong>Factors increasing maximum induced e.m.f.:</strong></p>
+<ol type="1">
+<li><p>Increasing the number of turns in the coil.</p></li>
+<li><p>Using stronger magnets.</p></li>
+<li><p>Increasing the frequency of rotation.</p></li>
+<li><p>Winding the coil around a soft iron core to concentrate flux.</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="magnetic-effect-of-a-current" class="level2" data-number="24.4">
+<h2 data-number="24.4" class="anchored" data-anchor-id="magnetic-effect-of-a-current"><span class="header-section-number">24.4</span> Magnetic Effect of a Current</h2>
+<section id="magnetic-field-patterns" class="level3" data-number="24.4.1">
+<h3 data-number="24.4.1" class="anchored" data-anchor-id="magnetic-field-patterns"><span class="header-section-number">24.4.1</span> Magnetic Field Patterns</h3>
+<p>When an electric current flows through a conductor, it produces a magnetic field around it.</p>
+<p><strong>1. Straight Current-Carrying Wire:</strong></p>
+<ul>
+<li><p><strong>Pattern:</strong> Concentric circles centred on the wire.</p></li>
+<li><p><strong>Direction:</strong> Determined by the <strong>right-hand grip rule</strong> (thumb = current direction, curled fingers = field direction).</p></li>
+<li><p><strong>Strength:</strong> Strongest near the wire; decreases with distance. Increases with current magnitude.</p></li>
+</ul>
+<p><strong>2. Solenoid (Coil of Wire):</strong></p>
+<ul>
+<li><p><strong>Pattern:</strong> Resembles a bar magnet; field lines emerge from one end (N) and enter the other (S).</p></li>
+<li><p><strong>Inside:</strong> Field lines are straight, parallel, and equally spaced → <strong>uniform magnetic field</strong>.</p></li>
+<li><p><strong>Direction:</strong> Right-hand grip rule (fingers curl in current direction, thumb points to N pole).</p></li>
+<li><p><strong>Strength increased by:</strong> Increasing current, increasing turns per unit length, inserting a soft iron core.</p></li>
+</ul>
+</section>
+<section id="applications" class="level3" data-number="24.4.2">
+<h3 data-number="24.4.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">24.4.2</span> Applications</h3>
+<p><strong>Relays:</strong></p>
+<ul>
+<li><p>An electromagnetic switch that uses a small current in one circuit to control a large current in another.</p></li>
+<li><p>When the control circuit is closed, the electromagnet attracts an iron armature, closing the high-power circuit contacts.</p></li>
+<li><p>Provides safe isolation between low-voltage control circuits and high-voltage power circuits.</p></li>
+</ul>
+<p><strong>Loudspeakers:</strong></p>
+<ul>
+<li><p>An alternating current passes through a coil attached to a paper cone, placed in a radial magnetic field.</p></li>
+<li><p>The motor effect produces an alternating force on the coil, causing the cone to vibrate.</p></li>
+<li><p>Cone vibrations produce sound waves matching the electrical signal frequency.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="force-on-a-current-carrying-conductor" class="level2" data-number="24.5">
+<h2 data-number="24.5" class="anchored" data-anchor-id="force-on-a-current-carrying-conductor"><span class="header-section-number">24.5</span> Force on a Current-Carrying Conductor</h2>
+<section id="the-motor-effect" class="level3" data-number="24.5.1">
+<h3 data-number="24.5.1" class="anchored" data-anchor-id="the-motor-effect"><span class="header-section-number">24.5.1</span> The Motor Effect</h3>
+<p>When a current-carrying conductor is placed in an external magnetic field, it experiences a force. This is the <strong>motor effect</strong>.</p>
+<p><strong>Conditions:</strong></p>
+<ul>
+<li><p>The conductor must not be parallel to the magnetic field.</p></li>
+<li><p>Maximum force occurs when the conductor is <strong>perpendicular</strong> to the field.</p></li>
+</ul>
+<p><strong>Reversing the Force:</strong></p>
+<ul>
+<li><p>Reversing the current direction reverses the force.</p></li>
+<li><p>Reversing the magnetic field direction reverses the force.</p></li>
+</ul>
+</section>
+<section id="flemings-left-hand-rule-extended" class="level3" data-number="24.5.2">
+<h3 data-number="24.5.2" class="anchored" data-anchor-id="flemings-left-hand-rule-extended"><span class="header-section-number">24.5.2</span> Fleming’s Left-Hand Rule (Extended)</h3>
+<p>Used to determine the direction of force on a current-carrying conductor in a magnetic field:</p>
+<ul>
+<li><p><strong>Thumb:</strong> Direction of Force (Motion)</p></li>
+<li><p><strong>Forefinger:</strong> Direction of Magnetic Field (N to S)</p></li>
+<li><p><strong>Second finger:</strong> Direction of Current (conventional, + to –)</p></li>
+</ul>
+<p><strong>Force on Charged Particle Beams:</strong></p>
+<ul>
+<li><p>A beam of moving charges is equivalent to a current.</p></li>
+<li><p><strong>Positive particles:</strong> Deflect according to conventional current direction.</p></li>
+<li><p><strong>Negative particles (electrons):</strong> Deflect in the <strong>opposite</strong> direction to the second finger, as electron flow is opposite to conventional current.</p></li>
+<li><p>Particles move in circular paths while inside a uniform magnetic field.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-d.c.-motor" class="level2" data-number="24.6">
+<h2 data-number="24.6" class="anchored" data-anchor-id="the-d.c.-motor"><span class="header-section-number">24.6</span> The D.C. Motor</h2>
+<section id="how-a-d.c.-motor-works" class="level3" data-number="24.6.1">
+<h3 data-number="24.6.1" class="anchored" data-anchor-id="how-a-d.c.-motor-works"><span class="header-section-number">24.6.1</span> How a D.C. Motor Works</h3>
+<p>A d.c. motor converts <strong>electrical energy</strong> into <strong>mechanical energy</strong>.</p>
+<p><strong>Structure:</strong></p>
+<ul>
+<li><p>Rectangular coil mounted on an axle between magnetic poles.</p></li>
+<li><p>Connected to a <strong>split-ring commutator</strong> and carbon brushes.</p></li>
+</ul>
+<p><strong>Operation Cycle:</strong></p>
+<ol type="1">
+<li><p>Current flows through the coil.</p></li>
+<li><p>Forces on opposite sides of the coil are in opposite directions (Fleming’s left-hand rule), creating a <strong>turning effect (torque)</strong>.</p></li>
+<li><p>The coil rotates.</p></li>
+<li><p>When the coil reaches the vertical position, the split-ring commutator gaps align with the brushes, <strong>cutting off current momentarily</strong>.</p></li>
+<li><p>Momentum carries the coil past the vertical.</p></li>
+<li><p>The commutator reverses contact, <strong>reversing current direction</strong> in the coil.</p></li>
+<li><p>Forces reverse, ensuring continuous rotation in the <strong>same direction</strong>.</p></li>
+</ol>
+</section>
+<section id="increasing-the-turning-effect" class="level3" data-number="24.6.2">
+<h3 data-number="24.6.2" class="anchored" data-anchor-id="increasing-the-turning-effect"><span class="header-section-number">24.6.2</span> Increasing the Turning Effect</h3>
+<ol type="1">
+<li><p>Increasing the current through the coil.</p></li>
+<li><p>Increasing the number of turns on the coil.</p></li>
+<li><p>Using stronger permanent magnets.</p></li>
+<li><p>Winding the coil on a soft iron core to concentrate the magnetic field.</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="the-transformer" class="level2" data-number="24.7">
+<h2 data-number="24.7" class="anchored" data-anchor-id="the-transformer"><span class="header-section-number">24.7</span> The Transformer</h2>
+<section id="construction-and-principle" class="level3" data-number="24.7.1">
+<h3 data-number="24.7.1" class="anchored" data-anchor-id="construction-and-principle"><span class="header-section-number">24.7.1</span> Construction and Principle</h3>
+<p>A transformer changes the voltage of an alternating current supply.</p>
+<p><strong>Construction:</strong></p>
+<ul>
+<li><p><strong>Primary coil:</strong> Connected to a.c. supply.</p></li>
+<li><p><strong>Secondary coil:</strong> Connected to the load.</p></li>
+<li><p><strong>Laminated soft iron core:</strong> Links the two coils magnetically. Lamination reduces eddy current heating.</p></li>
+</ul>
+<p><strong>Principle of Operation:</strong></p>
+<ol type="1">
+<li><p>Alternating current in the primary coil produces a <strong>changing magnetic field</strong>.</p></li>
+<li><p>The soft iron core channels this changing flux to the secondary coil.</p></li>
+<li><p>The changing flux induces an alternating e.m.f. in the secondary coil (mutual induction).</p></li>
+<li><p><strong>Does not work with d.c.</strong> because d.c. produces a constant magnetic field → no change in flux → no induced e.m.f.</p></li>
+</ol>
+</section>
+<section id="transformer-equations" class="level3" data-number="24.7.2">
+<h3 data-number="24.7.2" class="anchored" data-anchor-id="transformer-equations"><span class="header-section-number">24.7.2</span> Transformer Equations</h3>
+<p><strong>Voltage and Turns Ratio:</strong></p>
+<p><span class="math display">\[\frac{V_p}{V_s} = \frac{N_p}{N_s}\]</span></p>
+<ul>
+<li><p><strong>Step-up transformer:</strong> <span class="math inline">\(N_s &gt; N_p\)</span> → <span class="math inline">\(V_s &gt; V_p\)</span> (used at power stations).</p></li>
+<li><p><strong>Step-down transformer:</strong> <span class="math inline">\(N_s &lt; N_p\)</span> → <span class="math inline">\(V_s &lt; V_p\)</span> (used in homes, chargers).</p></li>
+</ul>
+<p><strong>Power and Efficiency (Ideal Transformer):</strong></p>
+<p>Assuming 100% efficiency (power in = power out):</p>
+<p><span class="math display">\[I_p V_p = I_s V_s\]</span></p>
+<p>Where:</p>
+<ul>
+<li><p><span class="math inline">\(V_p, V_s\)</span> = primary and secondary voltages</p></li>
+<li><p><span class="math inline">\(I_p, I_s\)</span> = primary and secondary currents</p></li>
+<li><p><span class="math inline">\(N_p, N_s\)</span> = number of turns in primary and secondary coils</p></li>
+</ul>
+</section>
+<section id="high-voltage-power-transmission" class="level3" data-number="24.7.3">
+<h3 data-number="24.7.3" class="anchored" data-anchor-id="high-voltage-power-transmission"><span class="header-section-number">24.7.3</span> High-Voltage Power Transmission</h3>
+<p><strong>Problem:</strong> Power cables have resistance <span class="math inline">\(R\)</span>. Power loss due to heating is given by:</p>
+<p><span class="math display">\[P_{\text{loss}} = I^2 R\]</span></p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li><p>Use step-up transformers to <strong>increase voltage</strong> at the power station.</p></li>
+<li><p>Since <span class="math inline">\(P = VI\)</span>, for constant power <span class="math inline">\(P\)</span>, increasing <span class="math inline">\(V\)</span> drastically <strong>decreases current <span class="math inline">\(I\)</span></strong>.</p></li>
+<li><p>Lower current means <span class="math inline">\(I^2R\)</span> losses are minimised.</p></li>
+<li><p>Step-down transformers reduce voltage to safe levels (e.g., 230 V or 240 V) for domestic use.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="key-concepts-summary" class="level2" data-number="24.8">
+<h2 data-number="24.8" class="anchored" data-anchor-id="key-concepts-summary"><span class="header-section-number">24.8</span> Key Concepts Summary</h2>
+<section id="core-concepts" class="level3" data-number="24.8.1">
+<h3 data-number="24.8.1" class="anchored" data-anchor-id="core-concepts"><span class="header-section-number">24.8.1</span> Core Concepts</h3>
+<ol type="1">
+<li><p><strong>Electromagnetic induction:</strong> Changing magnetic flux induces e.m.f.; requires relative motion or changing current.</p></li>
+<li><p><strong>Factors affecting induction:</strong> Speed, magnetic field strength, number of turns, coil area.</p></li>
+<li><p><strong>A.C. generator:</strong> Rotating coil in magnetic field produces a.c.; slip rings and brushes transfer current.</p></li>
+<li><p><strong>Magnetic effect of current:</strong> Straight wires produce circular fields; solenoids produce bar-magnet-like fields.</p></li>
+<li><p><strong>Applications:</strong> Relays (electromagnetic switches), loudspeakers (motor effect converts electricity to sound).</p></li>
+<li><p><strong>Motor effect:</strong> Force on current-carrying conductor in magnetic field; maximum when perpendicular.</p></li>
+<li><p><strong>D.C. motor:</strong> Split-ring commutator reverses current every half-turn for continuous rotation.</p></li>
+<li><p><strong>Transformer:</strong> Changes a.c. voltage via mutual induction; <span class="math inline">\(V_p/V_s = N_p/N_s\)</span>.</p></li>
+<li><p><strong>Power transmission:</strong> High voltage reduces current, minimising <span class="math inline">\(I^2R\)</span> heating losses in cables.</p></li>
+</ol>
+</section>
+<section id="extended-concepts" class="level3" data-number="24.8.2">
+<h3 data-number="24.8.2" class="anchored" data-anchor-id="extended-concepts"><span class="header-section-number">24.8.2</span> Extended Concepts</h3>
+<ol start="10" type="1">
+<li><p><strong>Lenz’s Law:</strong> Induced e.m.f. direction opposes the change causing it (conservation of energy).</p></li>
+<li><p><strong>Fleming’s rules:</strong> Left-hand rule for motors/force; Right-hand rule for generators/induction.</p></li>
+<li><p><strong>Charged particle deflection:</strong> Direction depends on charge sign; negative charges deflect opposite to conventional current.</p></li>
+<li><p><strong>Ideal transformer equation:</strong> <span class="math inline">\(I_pV_p = I_sV_s\)</span>; step-up increases voltage but decreases current proportionally.</p></li>
+<li><p><strong>Power loss explanation:</strong> <span class="math inline">\(P_{\text{loss}} = I^2R\)</span>; doubling voltage quarters the current, reducing loss by factor of 16.</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="common-misconceptions" class="level2" data-number="24.9">
+<h2 data-number="24.9" class="anchored" data-anchor-id="common-misconceptions"><span class="header-section-number">24.9</span> Common Misconceptions</h2>
+<section id="misconception-1-a-transformer-works-with-both-a.c.-and-d.c." class="level3" data-number="24.9.1">
+<h3 data-number="24.9.1" class="anchored" data-anchor-id="misconception-1-a-transformer-works-with-both-a.c.-and-d.c."><span class="header-section-number">24.9.1</span> ⚠️ Misconception 1: “A transformer works with both a.c. and d.c.”</h3>
+<p><strong>Incorrect</strong>: “Transformers can step up or step down direct current.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Transformers rely on a <strong>changing magnetic flux</strong> to induce e.m.f.</p></li>
+<li><p>D.c. produces a <strong>constant magnetic field</strong> → no change in flux → zero induced e.m.f. in secondary.</p></li>
+<li><p>Transformers only work with alternating current.</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-2-induced-current-flows-in-the-same-direction-as-the-motion-causing-it" class="level3" data-number="24.9.2">
+<h3 data-number="24.9.2" class="anchored" data-anchor-id="misconception-2-induced-current-flows-in-the-same-direction-as-the-motion-causing-it"><span class="header-section-number">24.9.2</span> ⚠️ Misconception 2: “Induced current flows in the same direction as the motion causing it”</h3>
+<p><strong>Incorrect</strong>: “Moving a N pole into a coil makes that end a S pole to help it enter.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p><strong>Lenz’s Law</strong> states the induced current <strong>opposes</strong> the change.</p></li>
+<li><p>Moving N pole in → induced N pole to repel it.</p></li>
+<li><p>Mechanical work is required to overcome this repulsion, conserving energy.</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-3-slip-rings-and-split-ring-commutators-are-the-same" class="level3" data-number="24.9.3">
+<h3 data-number="24.9.3" class="anchored" data-anchor-id="misconception-3-slip-rings-and-split-ring-commutators-are-the-same"><span class="header-section-number">24.9.3</span> ⚠️ Misconception 3: “Slip rings and split-ring commutators are the same”</h3>
+<p><strong>Incorrect</strong>: “Both are used interchangeably in generators and motors.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p><strong>Slip rings:</strong> Continuous rings; maintain same electrical contact; used in <strong>a.c. generators</strong> to output alternating current.</p></li>
+<li><p><strong>Split-ring commutator:</strong> Split into two halves; reverses contact every half-turn; used in <strong>d.c. motors</strong> to maintain unidirectional rotation.</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-4-flemings-left-hand-and-right-hand-rules-can-be-used-interchangeably" class="level3" data-number="24.9.4">
+<h3 data-number="24.9.4" class="anchored" data-anchor-id="misconception-4-flemings-left-hand-and-right-hand-rules-can-be-used-interchangeably"><span class="header-section-number">24.9.4</span> ⚠️ Misconception 4: “Fleming’s left-hand and right-hand rules can be used interchangeably”</h3>
+<p><strong>Incorrect</strong>: “Either hand rule works for both motors and generators.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p><strong>Left-hand rule:</strong> For <strong>motors</strong> (current + magnetic field → force/motion).</p></li>
+<li><p><strong>Right-hand rule:</strong> For <strong>generators/induction</strong> (motion + magnetic field → induced current).</p></li>
+<li><p>Mixing them gives incorrect directions.</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-5-high-voltage-transmission-causes-high-power-loss" class="level3" data-number="24.9.5">
+<h3 data-number="24.9.5" class="anchored" data-anchor-id="misconception-5-high-voltage-transmission-causes-high-power-loss"><span class="header-section-number">24.9.5</span> ⚠️ Misconception 5: “High voltage transmission causes high power loss”</h3>
+<p><strong>Incorrect</strong>: “Stepping up voltage increases energy waste in cables.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Power loss depends on <strong>current</strong>, not voltage: <span class="math inline">\(P_{\text{loss}} = I^2R\)</span>.</p></li>
+<li><p>High voltage transmission <strong>reduces current</strong> for the same power (<span class="math inline">\(P = VI\)</span>).</p></li>
+<li><p>Lower current drastically reduces <span class="math inline">\(I^2R\)</span> heating losses.</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-6-the-magnetic-field-inside-a-solenoid-is-zero" class="level3" data-number="24.9.6">
+<h3 data-number="24.9.6" class="anchored" data-anchor-id="misconception-6-the-magnetic-field-inside-a-solenoid-is-zero"><span class="header-section-number">24.9.6</span> ⚠️ Misconception 6: “The magnetic field inside a solenoid is zero”</h3>
+<p><strong>Incorrect</strong>: “Coils only produce magnetic fields outside themselves.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Inside a solenoid, field lines are <strong>straight, parallel, and closely spaced</strong>.</p></li>
+<li><p>This indicates a <strong>strong, uniform magnetic field</strong> inside the coil.</p></li>
+<li><p>Outside, the field resembles a bar magnet and is weaker.</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-7-electron-beams-deflect-in-the-same-direction-as-conventional-current" class="level3" data-number="24.9.7">
+<h3 data-number="24.9.7" class="anchored" data-anchor-id="misconception-7-electron-beams-deflect-in-the-same-direction-as-conventional-current"><span class="header-section-number">24.9.7</span> ⚠️ Misconception 7: “Electron beams deflect in the same direction as conventional current”</h3>
+<p><strong>Incorrect</strong>: “A beam of electrons deflects according to Fleming’s left-hand rule second finger.”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Electrons are <strong>negatively charged</strong>.</p></li>
+<li><p>Their motion is <strong>opposite</strong> to conventional current direction.</p></li>
+<li><p>When applying Fleming’s left-hand rule, the second finger must point <strong>opposite</strong> to electron motion to find the correct force direction.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="worked-examples" class="level2" data-number="24.10">
+<h2 data-number="24.10" class="anchored" data-anchor-id="worked-examples"><span class="header-section-number">24.10</span> Worked Examples</h2>
+<section id="example-1-transformer-calculations" class="level3" data-number="24.10.1">
+<h3 data-number="24.10.1" class="anchored" data-anchor-id="example-1-transformer-calculations"><span class="header-section-number">24.10.1</span> Example 1: Transformer Calculations</h3>
+<p><strong>Question:</strong></p>
+<p>A step-down transformer has 2400 turns on the primary coil and 120 turns on the secondary coil. The primary voltage is 240 V.</p>
+<ol type="a">
+<li><p>Calculate the secondary voltage.</p></li>
+<li><p>If the secondary current is 4.0 A, calculate the primary current (assume 100% efficiency).</p></li>
+<li><p>State one advantage of using this transformer in a phone charger.</p></li>
+</ol>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Secondary voltage:</strong></p>
+<p><span class="math display">\[\frac{V_p}{V_s} = \frac{N_p}{N_s} \Rightarrow V_s = V_p \times \frac{N_s}{N_p} = 240 \times \frac{120}{2400} = \boxed{12 \text{ V}}\]</span></p>
+<p><strong>(b) Primary current:</strong></p>
+<p><span class="math display">\[I_p V_p = I_s V_s \Rightarrow I_p = \frac{I_s V_s}{V_p} = \frac{4.0 \times 12}{240} = \boxed{0.20 \text{ A}}\]</span></p>
+<p><strong>(c) Advantage:</strong></p>
+<ul>
+<li>Steps down high mains voltage to a safe, low voltage suitable for charging delicate electronic devices without damage.</li>
+</ul>
+<hr>
+</section>
+<section id="example-2-flemings-left-hand-rule-application" class="level3" data-number="24.10.2">
+<h3 data-number="24.10.2" class="anchored" data-anchor-id="example-2-flemings-left-hand-rule-application"><span class="header-section-number">24.10.2</span> Example 2: Fleming’s Left-Hand Rule Application</h3>
+<p><strong>Question:</strong></p>
+<p>A straight wire carries a current flowing vertically upwards. It is placed in a uniform magnetic field directed horizontally from left to right. Determine the direction of the force on the wire.</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Step 1:</strong> Align left hand.</p>
+<p><strong>Step 2:</strong> Forefinger points right (magnetic field direction).</p>
+<p><strong>Step 3:</strong> Second finger points up (current direction).</p>
+<p><strong>Step 4:</strong> Thumb points <strong>into the page</strong> (away from observer).</p>
+<p><strong>Answer:</strong> The force acts <strong>perpendicularly into the plane of the page</strong>.</p>
+<hr>
+</section>
+<section id="example-3-a.c.-generator-graph-interpretation" class="level3" data-number="24.10.3">
+<h3 data-number="24.10.3" class="anchored" data-anchor-id="example-3-a.c.-generator-graph-interpretation"><span class="header-section-number">24.10.3</span> Example 3: A.C. Generator Graph Interpretation</h3>
+<p><strong>Question:</strong></p>
+<p>The graph shows the e.m.f. output of an a.c. generator against time. At <span class="math inline">\(t = 0\)</span>, the coil is perpendicular to the magnetic field.</p>
+<ol type="a">
+<li><p>At what times is the e.m.f. zero? Explain why.</p></li>
+<li><p>At what times is the e.m.f. maximum? Explain why.</p></li>
+</ol>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Zero e.m.f. times:</strong></p>
+<ul>
+<li><p>Occurs at <span class="math inline">\(t = 0\)</span>, <span class="math inline">\(T/2\)</span>, <span class="math inline">\(T\)</span>, etc.</p></li>
+<li><p><strong>Explanation:</strong> Coil plane is <strong>perpendicular</strong> to magnetic field. Sides of coil move parallel to field lines and cut no flux. Rate of change of flux is zero.</p></li>
+</ul>
+<p><strong>(b) Maximum e.m.f. times:</strong></p>
+<ul>
+<li><p>Occurs at <span class="math inline">\(t = T/4\)</span>, <span class="math inline">\(3T/4\)</span>, etc.</p></li>
+<li><p><strong>Explanation:</strong> Coil plane is <strong>parallel</strong> to magnetic field. Sides cut field lines at maximum rate. Rate of change of flux is maximum.</p></li>
+</ul>
+<hr>
+</section>
+<section id="example-4-power-transmission-loss-calculation" class="level3" data-number="24.10.4">
+<h3 data-number="24.10.4" class="anchored" data-anchor-id="example-4-power-transmission-loss-calculation"><span class="header-section-number">24.10.4</span> Example 4: Power Transmission Loss Calculation</h3>
+<p><strong>Question:</strong></p>
+<p>A power station transmits 500 kW of power to a town.</p>
+<ol type="a">
+<li><p>Calculate the current in the transmission cables if the voltage is 10 kV.</p></li>
+<li><p>Calculate the power loss if the total cable resistance is 5.0 Ω.</p></li>
+<li><p>If the voltage is stepped up to 100 kV, calculate the new power loss and explain the benefit.</p></li>
+</ol>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Current at 10 kV:</strong></p>
+<p><span class="math display">\[I = \frac{P}{V} = \frac{500\,000}{10\,000} = 50 \text{ A}\]</span></p>
+<p><strong>(b) Power loss at 10 kV:</strong></p>
+<p><span class="math display">\[P_{\text{loss}} = I^2R = 50^2 \times 5.0 = \boxed{12\,500 \text{ W} = 12.5 \text{ kW}}\]</span></p>
+<p><strong>(c) Current at 100 kV:</strong></p>
+<p><span class="math display">\[I = \frac{500\,000}{100\,000} = 5.0 \text{ A}\]</span></p>
+<p><span class="math display">\[P_{\text{loss}} = 5.0^2 \times 5.0 = \boxed{125 \text{ W} = 0.125 \text{ kW}}\]</span></p>
+<p><strong>Benefit:</strong> Increasing voltage by 10× reduces current by 10×, reducing power loss by a factor of 100 (<span class="math inline">\(I^2R\)</span> dependence). This greatly improves transmission efficiency.</p>
+<hr>
+</section>
+<section id="example-5-electromagnetic-induction-factors" class="level3" data-number="24.10.5">
+<h3 data-number="24.10.5" class="anchored" data-anchor-id="example-5-electromagnetic-induction-factors"><span class="header-section-number">24.10.5</span> Example 5: Electromagnetic Induction Factors</h3>
+<p><strong>Question:</strong></p>
+<p>A student moves a bar magnet into a solenoid connected to a galvanometer. State what happens to the galvanometer deflection if:</p>
+<ol type="a">
+<li><p>The magnet is moved faster.</p></li>
+<li><p>The magnet is held stationary inside the coil.</p></li>
+<li><p>The magnet is withdrawn with the same speed as insertion.</p></li>
+</ol>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) Moved faster:</strong></p>
+<ul>
+<li><p>Deflection angle <strong>increases</strong>.</p></li>
+<li><p>Reason: Higher rate of change of magnetic flux → larger induced e.m.f. → larger current.</p></li>
+</ul>
+<p><strong>(b) Held stationary:</strong></p>
+<ul>
+<li><p>Deflection returns to <strong>zero</strong>.</p></li>
+<li><p>Reason: No change in magnetic flux → no induced e.m.f.</p></li>
+</ul>
+<p><strong>(c) Withdrawn:</strong></p>
+<ul>
+<li><p>Deflection is in the <strong>opposite direction</strong>.</p></li>
+<li><p>Reason: Change in flux is reversed → induced e.m.f. polarity reverses (Lenz’s Law).</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="practice-questions" class="level2" data-number="24.11">
+<h2 data-number="24.11" class="anchored" data-anchor-id="practice-questions"><span class="header-section-number">24.11</span> Practice Questions</h2>
+<section id="core-level" class="level3" data-number="24.11.1">
+<h3 data-number="24.11.1" class="anchored" data-anchor-id="core-level"><span class="header-section-number">24.11.1</span> Core Level</h3>
+<ol type="1">
+<li><p>State what is meant by electromagnetic induction.</p></li>
+<li><p>List three factors that increase the magnitude of an induced e.m.f. in a coil.</p></li>
+<li><p>Describe the function of slip rings and carbon brushes in an a.c. generator.</p></li>
+<li><p>Sketch the magnetic field pattern around a straight current-carrying wire. Indicate the direction of the field.</p></li>
+<li><p>State two applications of the magnetic effect of a current.</p></li>
+<li><p>Describe an experiment to show that a force acts on a current-carrying conductor in a magnetic field.</p></li>
+<li><p>State three ways to increase the turning effect on a coil in a d.c. motor.</p></li>
+<li><p>Define a step-up transformer. How does the number of turns in the primary compare to the secondary?</p></li>
+<li><p>A transformer has 100 turns on the primary and 500 turns on the secondary. If the input voltage is 12 V, calculate the output voltage.</p></li>
+<li><p>Explain why high voltages are used for long-distance electricity transmission.</p></li>
+</ol>
+</section>
+<section id="extended-level" class="level3" data-number="24.11.2">
+<h3 data-number="24.11.2" class="anchored" data-anchor-id="extended-level"><span class="header-section-number">24.11.2</span> Extended Level</h3>
+<ol start="11" type="1">
+<li><p>State Lenz’s Law. Explain how it demonstrates the principle of conservation of energy.</p></li>
+<li><p>Using Fleming’s right-hand rule, determine the direction of induced current in a wire moving downwards through a magnetic field directed into the page.</p></li>
+<li><p>A solenoid carries a current. Describe how the magnetic field strength changes if:</p></li>
+</ol>
+<ul>
+<li><ol type="a">
+<li>The current is doubled.</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>The number of turns per unit length is halved.</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>A soft iron core is inserted.</li>
+</ol></li>
+</ul>
+<ol start="14" type="1">
+<li><p>An electron beam enters a magnetic field directed into the page, moving horizontally to the right. Determine the direction of deflection of the beam.</p></li>
+<li><p>Explain the function of the split-ring commutator in a d.c. motor. What would happen if it were replaced by slip rings?</p></li>
+<li><p>Explain why a transformer does not work if connected to a d.c. supply.</p></li>
+<li><p>A power station generates 2.0 MW at 10 kV. The transmission cables have a total resistance of 8.0 Ω.</p></li>
+</ol>
+<ul>
+<li><ol type="a">
+<li>Calculate the current in the cables.</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Calculate the power loss in the cables.</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>If a step-up transformer increases the voltage to 200 kV before transmission, calculate the new power loss.</li>
+</ol></li>
+</ul>
+<ol start="18" type="1">
+<li>Describe how a moving-coil loudspeaker converts electrical signals into sound waves. Include reference to the motor effect and alternating current.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="laboratory-investigation" class="level2" data-number="24.12">
+<h2 data-number="24.12" class="anchored" data-anchor-id="laboratory-investigation"><span class="header-section-number">24.12</span> Laboratory Investigation</h2>
+<section id="experiment-21.1-investigating-transformer-turns-ratio" class="level3" data-number="24.12.1">
+<h3 data-number="24.12.1" class="anchored" data-anchor-id="experiment-21.1-investigating-transformer-turns-ratio"><span class="header-section-number">24.12.1</span> Experiment 21.1: Investigating Transformer Turns Ratio</h3>
+<p><strong>Objective:</strong></p>
+<p>To investigate the relationship between the number of turns on the primary and secondary coils of a transformer and the output voltage.</p>
+<p><strong>Apparatus:</strong></p>
+<ul>
+<li><p>Laminated soft iron core (C-cores or E-cores)</p></li>
+<li><p>Primary coil (known turns, e.g., 100 turns)</p></li>
+<li><p>Secondary coils (varying turns, e.g., 50, 150, 200, 300 turns)</p></li>
+<li><p>Low-voltage a.c. power supply (e.g., 2 V or 6 V a.c.)</p></li>
+<li><p>A.C. voltmeter (dual range or two meters)</p></li>
+<li><p>Connecting wires</p></li>
+</ul>
+<p><strong>Variables:</strong></p>
+<ul>
+<li><p><strong>Independent:</strong> Number of turns on secondary coil (<span class="math inline">\(N_s\)</span>)</p></li>
+<li><p><strong>Dependent:</strong> Secondary voltage (<span class="math inline">\(V_s\)</span>)</p></li>
+<li><p><strong>Controlled:</strong> Primary voltage (<span class="math inline">\(V_p\)</span>), primary turns (<span class="math inline">\(N_p\)</span>), core material, coil tightness</p></li>
+</ul>
+<p><strong>Procedure:</strong></p>
+<ol type="1">
+<li><p>Assemble the transformer by clamping the C-cores together with the primary and secondary coils.</p></li>
+<li><p>Connect the primary coil to the a.c. power supply set to a fixed voltage (e.g., 6.0 V).</p></li>
+<li><p>Measure and record the actual primary voltage <span class="math inline">\(V_p\)</span> using an a.c. voltmeter.</p></li>
+<li><p>Connect the secondary coil with <span class="math inline">\(N_s = 50\)</span> turns to a second a.c. voltmeter.</p></li>
+<li><p>Measure and record the secondary voltage <span class="math inline">\(V_s\)</span>.</p></li>
+<li><p>Repeat steps 4–5 for secondary coils with 100, 150, 200, and 300 turns.</p></li>
+<li><p>Record all results in a table.</p></li>
+</ol>
+<p><strong>Data Table:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 26%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><span class="math inline">\(N_p\)</span> (turns)</th>
+<th style="text-align: left;"><span class="math inline">\(V_p\)</span> (V)</th>
+<th style="text-align: left;"><span class="math inline">\(N_s\)</span> (turns)</th>
+<th style="text-align: left;"><span class="math inline">\(V_s\)</span> (V)</th>
+<th style="text-align: left;">Calculated ratio <span class="math inline">\(V_s/V_p\)</span></th>
+<th style="text-align: left;">Expected ratio <span class="math inline">\(N_s/N_p\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">150</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">200</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">300</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Analysis:</strong></p>
+<ol type="1">
+<li><p>Calculate the ratio <span class="math inline">\(V_s/V_p\)</span> and <span class="math inline">\(N_s/N_p\)</span> for each trial.</p></li>
+<li><p>Plot a graph of <span class="math inline">\(V_s\)</span> (y-axis) against <span class="math inline">\(N_s\)</span> (x-axis).</p></li>
+<li><p>Determine the gradient of the graph. The gradient should equal <span class="math inline">\(V_p/N_p\)</span>.</p></li>
+<li><p>Comment on whether the results support the equation <span class="math inline">\(V_s/V_p = N_s/N_p\)</span>.</p></li>
+</ol>
+<p><strong>Precautions:</strong></p>
+<ul>
+<li><p>✓ Ensure the iron cores are tightly clamped to minimise magnetic flux leakage.</p></li>
+<li><p>✓ Use a.c. supply only; d.c. will not induce voltage and may overheat the coil.</p></li>
+<li><p>✓ Allow the power supply and coils to cool between readings if they become warm.</p></li>
+<li><p>✓ Check voltmeter zero error and select appropriate ranges.</p></li>
+</ul>
+<p><strong>Expected Results:</strong></p>
+<ul>
+<li><p>The graph of <span class="math inline">\(V_s\)</span> against <span class="math inline">\(N_s\)</span> will be a straight line through the origin.</p></li>
+<li><p>The ratio <span class="math inline">\(V_s/V_p\)</span> will approximately equal <span class="math inline">\(N_s/N_p\)</span>.</p></li>
+<li><p>Slight deviations may occur due to energy losses (eddy currents, hysteresis, resistance).</p></li>
+</ul>
+<p><strong>Conclusion Template:</strong></p>
+<p>“The experiment verified the transformer equation <span class="math inline">\(V_s/V_p = N_s/N_p\)</span>. The secondary voltage was directly proportional to the number of turns on the secondary coil. The gradient of the <span class="math inline">\(V_s\)</span> vs <span class="math inline">\(N_s\)</span> graph agreed with <span class="math inline">\(V_p/N_p\)</span> within experimental limits, confirming ideal transformer behaviour.”</p>
+<p><strong>Extension (Supplement):</strong></p>
+<ul>
+<li><p>Investigate efficiency by measuring primary and secondary currents simultaneously.</p></li>
+<li><p>Compare results with and without the soft iron core to demonstrate its role in flux linkage.</p></li>
+<li><p>Research sources of energy loss in real transformers and suggest engineering solutions.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exam-style-questions" class="level2" data-number="24.13">
+<h2 data-number="24.13" class="anchored" data-anchor-id="exam-style-questions"><span class="header-section-number">24.13</span> Exam-Style Questions</h2>
+<section id="paper-1-style-multiple-choice" class="level3" data-number="24.13.1">
+<h3 data-number="24.13.1" class="anchored" data-anchor-id="paper-1-style-multiple-choice"><span class="header-section-number">24.13.1</span> Paper 1 Style (Multiple Choice)</h3>
+<ol type="1">
+<li>Which change will not increase the magnitude of the induced e.m.f. in a coil?</li>
+</ol>
+<p>A. Increasing the speed of the magnet</p>
+<p>B. Increasing the number of turns on the coil</p>
+<p>C. Using a stronger magnet</p>
+<p>D. Using a coil with higher electrical resistance</p>
+<ol start="2" type="1">
+<li>What is the function of the split-ring commutator in a d.c. motor?</li>
+</ol>
+<p>A. To increase the magnetic field strength</p>
+<p>B. To reverse the direction of current in the coil every half-turn</p>
+<p>C. To convert a.c. to d.c. for the external circuit</p>
+<p>D. To reduce friction between the brushes and the axle</p>
+<ol start="3" type="1">
+<li>Which diagram correctly shows the magnetic field pattern around a straight wire carrying current upwards?</li>
+</ol>
+<p>A. Concentric circles, anticlockwise</p>
+<p>B. Concentric circles, clockwise</p>
+<p>C. Parallel lines, left to right</p>
+<p>D. Radial lines, outward</p>
+<ol start="4" type="1">
+<li>A transformer has 500 turns on the primary and 100 turns on the secondary. If the primary voltage is 240 V, what is the secondary voltage?</li>
+</ol>
+<p>A. 48 V</p>
+<p>B. 120 V</p>
+<p>C. 480 V</p>
+<p>D. 1200 V</p>
+<ol start="5" type="1">
+<li>Why is electricity transmitted at high voltage?</li>
+</ol>
+<p>A. To increase the current in the cables</p>
+<p>B. To reduce the resistance of the cables</p>
+<p>C. To reduce power loss due to heating in the cables</p>
+<p>D. To make the transmission safer for workers</p>
+</section>
+<section id="paper-3-style-structured" class="level3" data-number="24.13.2">
+<h3 data-number="24.13.2" class="anchored" data-anchor-id="paper-3-style-structured"><span class="header-section-number">24.13.2</span> Paper 3 Style (Structured)</h3>
+<ol start="6" type="1">
+<li><ol type="a">
+<li>State Lenz’s Law. [1]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>A bar magnet is pushed into a solenoid connected to a galvanometer. The galvanometer needle deflects to the right.</p></li>
+<li><p>Explain why the needle deflects. [2]</p></li>
+</ol>
+<ol start="2" type="i">
+<li><p>State what happens to the needle when the magnet is held stationary inside the solenoid. [1]</p></li>
+<li><p>State what happens to the needle when the magnet is pulled out rapidly. [1]</p></li>
+</ol>
+<ol start="7" type="1">
+<li><ol type="a">
+<li>Describe the pattern and direction of the magnetic field inside a solenoid carrying a steady current. [2]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>State two ways to increase the magnetic field strength inside the solenoid. [2]</p></li>
+<li><p>Describe how a relay uses an electromagnet to switch on a high-voltage circuit. [3]</p></li>
+</ol>
+<ol start="8" type="1">
+<li><ol type="a">
+<li>Sketch a graph of e.m.f. against time for one complete rotation of an a.c. generator coil. Label the axes clearly. [2]</li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><p>State the position of the coil relative to the magnetic field when:</p></li>
+<li><p>The e.m.f. is zero. [1]</p></li>
+</ol>
+<ol start="2" type="i">
+<li><p>The e.m.f. is at its maximum. [1]</p></li>
+<li><p>Explain the difference between slip rings and a split-ring commutator in terms of their function. [3]</p></li>
+</ol>
+<ol start="9" type="1">
+<li>(Extended) (a) State Fleming’s left-hand rule. [1]</li>
+</ol>
+<ol start="2" type="a">
+<li><p>An electron beam travels horizontally to the right into a region where a uniform magnetic field is directed vertically downwards. Determine the direction of the force on the electrons. [2]</p></li>
+<li><p>A straight wire of length 0.5 m carries a current of 4.0 A perpendicular to a magnetic field of flux density 0.2 T. Calculate the magnitude of the force on the wire. [2]</p></li>
+</ol>
+<ol start="10" type="1">
+<li>(Extended) A power station generates 400 MW of electrical power at 20 kV.</li>
+</ol>
+<ol type="a">
+<li><p>Calculate the current supplied by the station. [2]</p></li>
+<li><p>The power is transmitted through cables of total resistance 2.0 Ω. Calculate the power loss in the cables. [2]</p></li>
+<li><p>A step-up transformer increases the voltage to 400 kV before transmission. Calculate the new current and the new power loss. [3]</p></li>
+<li><p>Explain why the power loss is significantly reduced in part (c). [2]</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="chapter-summary" class="level2" data-number="24.14">
+<h2 data-number="24.14" class="anchored" data-anchor-id="chapter-summary"><span class="header-section-number">24.14</span> Chapter Summary</h2>
+<section id="key-points-to-remember" class="level3" data-number="24.14.1">
+<h3 data-number="24.14.1" class="anchored" data-anchor-id="key-points-to-remember"><span class="header-section-number">24.14.1</span> Key Points to Remember</h3>
+<p>✓ <strong>Electromagnetic induction:</strong> Changing magnetic flux induces e.m.f.; requires relative motion or changing current</p>
+<p>✓ <strong>Induction factors:</strong> Speed, magnetic field strength, number of turns, coil area</p>
+<p>✓ <strong>A.C. generator:</strong> Rotating coil produces a.c.; slip rings maintain continuous contact; output is sinusoidal</p>
+<p>✓ <strong>Magnetic effect of current:</strong> Straight wire → concentric circles; solenoid → uniform inside, bar-magnet-like outside</p>
+<p>✓ <strong>Applications:</strong> Relays (electromagnetic switches), loudspeakers (motor effect on coil)</p>
+<p>✓ <strong>Motor effect:</strong> Force on current-carrying conductor in magnetic field; max when perpendicular</p>
+<p>✓ <strong>D.C. motor:</strong> Split-ring commutator reverses current every half-turn for continuous rotation</p>
+<p>✓ <strong>Transformer:</strong> Changes a.c. voltage via mutual induction; <span class="math inline">\(V_p/V_s = N_p/N_s\)</span></p>
+<p>✓ <strong>High-voltage transmission:</strong> Reduces current, minimising <span class="math inline">\(I^2R\)</span> heating losses in cables</p>
+<p>✓ <strong>Lenz’s Law (Extended):</strong> Induced e.m.f. opposes the change causing it (conservation of energy)</p>
+<p>✓ <strong>Fleming’s rules (Extended):</strong> Left-hand = motor/force; Right-hand = generator/induction</p>
+<p>✓ <strong>Ideal transformer (Extended):</strong> <span class="math inline">\(I_pV_p = I_sV_s\)</span>; power loss <span class="math inline">\(P_{\text{loss}} = I^2R\)</span></p>
+</section>
+<section id="formulae-sheet" class="level3" data-number="24.14.2">
+<h3 data-number="24.14.2" class="anchored" data-anchor-id="formulae-sheet"><span class="header-section-number">24.14.2</span> Formulae Sheet</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Formula</th>
+<th style="text-align: left;">Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Transformer voltage ratio</td>
+<td style="text-align: left;"><span class="math inline">\(\frac{V_p}{V_s} = \frac{N_p}{N_s}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(V\)</span>=voltage, <span class="math inline">\(N\)</span>=number of turns</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ideal transformer power</td>
+<td style="text-align: left;"><span class="math inline">\(I_p V_p = I_s V_s\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(I\)</span>=current</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Power loss in cables</td>
+<td style="text-align: left;"><span class="math inline">\(P_{\text{loss}} = I^2 R\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(R\)</span>=cable resistance</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Electrical power</td>
+<td style="text-align: left;"><span class="math inline">\(P = IV = I^2R = \frac{V^2}{R}\)</span></td>
+<td style="text-align: left;">Standard power equations</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="further-resources" class="level2" data-number="24.15">
+<h2 data-number="24.15" class="anchored" data-anchor-id="further-resources"><span class="header-section-number">24.15</span> Further Resources</h2>
+<section id="recommended-reading" class="level3" data-number="24.15.1">
+<h3 data-number="24.15.1" class="anchored" data-anchor-id="recommended-reading"><span class="header-section-number">24.15.1</span> Recommended Reading</h3>
+<ul>
+<li><p>Cambridge IGCSE Physics Coursebook, Chapter 18 (Electromagnetic Effects)</p></li>
+<li><p>Practical Work in Physics: Electromagnetism, Transformers, and Motors</p></li>
+</ul>
+</section>
+<section id="online-resources" class="level3" data-number="24.15.2">
+<h3 data-number="24.15.2" class="anchored" data-anchor-id="online-resources"><span class="header-section-number">24.15.2</span> Online Resources</h3>
+<ul>
+<li><p>PhET Interactive Simulations: Faraday’s Law, Generator, Magnetic Field</p></li>
+<li><p>BBC Bitesize: Electromagnetic Induction, Transformers, Motors</p></li>
+<li><p>University of Colorado: Circuit construction and magnetic field visualisations</p></li>
+</ul>
+</section>
+<section id="video-resources" class="level3" data-number="24.15.3">
+<h3 data-number="24.15.3" class="anchored" data-anchor-id="video-resources"><span class="header-section-number">24.15.3</span> Video Resources</h3>
+<ul>
+<li><p>Demonstration: Electromagnetic induction with galvanometer and moving magnet</p></li>
+<li><p>Animation: How transformers step up/step down voltage</p></li>
+<li><p>Real-world application: National grid high-voltage transmission systems</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="24.16">
+<h2 data-number="24.16" class="anchored" data-anchor-id="glossary"><span class="header-section-number">24.16</span> Glossary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Term</th>
+<th style="text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A.C. generator</strong></td>
+<td style="text-align: left;">Device that converts mechanical energy to alternating electrical energy using electromagnetic induction</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>D.C. motor</strong></td>
+<td style="text-align: left;">Device that converts electrical energy to mechanical rotation using the motor effect and split-ring commutator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Electromagnetic induction</strong></td>
+<td style="text-align: left;">Production of an e.m.f. in a conductor due to a changing magnetic field</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Fleming’s left-hand rule</strong></td>
+<td style="text-align: left;">Rule to determine direction of force on a current-carrying conductor in a magnetic field</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Fleming’s right-hand rule</strong></td>
+<td style="text-align: left;">Rule to determine direction of induced current when a conductor moves in a magnetic field</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Lenz’s Law</strong></td>
+<td style="text-align: left;">The direction of induced e.m.f. opposes the change in magnetic flux that produced it</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Motor effect</strong></td>
+<td style="text-align: left;">The force experienced by a current-carrying conductor placed in an external magnetic field</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Relay</strong></td>
+<td style="text-align: left;">An electromagnetic switch used to control a high-current circuit with a low-current signal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Slip rings</strong></td>
+<td style="text-align: left;">Continuous metal rings in an a.c. generator that transfer alternating current to the external circuit</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Split-ring commutator</strong></td>
+<td style="text-align: left;">A split metal ring in a d.c. motor that reverses current direction in the coil every half-turn</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Step-down transformer</strong></td>
+<td style="text-align: left;">Transformer where secondary voltage is lower than primary voltage (<span class="math inline">\(N_s &lt; N_p\)</span>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Step-up transformer</strong></td>
+<td style="text-align: left;">Transformer where secondary voltage is higher than primary voltage (<span class="math inline">\(N_s &gt; N_p\)</span>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Transformer</strong></td>
+<td style="text-align: left;">Device that changes the voltage of an alternating current supply using mutual induction</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Mutual induction</strong></td>
+<td style="text-align: left;">Induction of an e.m.f. in one coil due to a changing current in a nearby coil</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>End of Chapter 21</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/20-electrical-quantities.html" class="pagination-link" aria-label="Electrical Quantities">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/22-nuclear-physics.html" class="pagination-link" aria-label="Nuclear Physics">
+        <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Nuclear Physics</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

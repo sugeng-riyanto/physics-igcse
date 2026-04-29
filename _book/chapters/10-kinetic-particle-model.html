@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sugeng Riyanto, M.Sc.">
+<meta name="dcterms.date" content="2026-01-01">
+
+<title>13&nbsp; Kinetic Particle Model of Matter – Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/11-thermal-properties.html" rel="next">
+<link href="../chapters/09-pressure.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-932514a4c912dae26ceaa3c5ace84409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/10-kinetic-particle-model.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Cambridge IGCSE Physics 0625: Last-Minute Revision Guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../syllabus-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Syllabus Mapping</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Core Content</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measurement of Physical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-motion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Motion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mass-weight-density.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mass, Weight and Density</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-forces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Forces</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-moments-equilibrium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Moments and Equilibrium</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-momentum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Momentum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-energy-stores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Energy Stores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-work-power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work and Power</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-pressure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Pressure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-kinetic-particle-model.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-thermal-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Thermal Properties</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-phase-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Phase Changes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-thermal-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Thermal Transfer</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-wave-properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">General Properties of Waves</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-light-reflection-refraction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Light: Reflection and Refraction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-em-spectrum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Electromagnetic Spectrum</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-sound.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Sound</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-magnetism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Simple Phenomena of Magnetism</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-electric-charge-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Electric Charge and Circuits</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-electrical-quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Electrical Quantities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-electromagnetic-effects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Electromagnetic Effects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-nuclear-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Nuclear Physics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-space-physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Space Physics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Supporting Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/practical-skills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Practical Skills</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/maths-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Mathematical Data and Constants</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/exam-technique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Common Question Types</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/formula-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Formula Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Bibliography and References</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../back-matter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Cambridge IGCSE Physics Reference Guide</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">13.1</span> Learning Objectives</a></li>
+  <li><a href="#the-three-states-of-matter" id="toc-the-three-states-of-matter" class="nav-link" data-scroll-target="#the-three-states-of-matter"><span class="header-section-number">13.2</span> The Three States of Matter</a></li>
+  <li><a href="#the-kinetic-particle-model" id="toc-the-kinetic-particle-model" class="nav-link" data-scroll-target="#the-kinetic-particle-model"><span class="header-section-number">13.3</span> The Kinetic Particle Model</a></li>
+  <li><a href="#gas-pressure-and-the-particle-model" id="toc-gas-pressure-and-the-particle-model" class="nav-link" data-scroll-target="#gas-pressure-and-the-particle-model"><span class="header-section-number">13.4</span> Gas Pressure and the Particle Model</a></li>
+  <li><a href="#brownian-motion-evidence-for-the-particle-model" id="toc-brownian-motion-evidence-for-the-particle-model" class="nav-link" data-scroll-target="#brownian-motion-evidence-for-the-particle-model"><span class="header-section-number">13.5</span> 10.4 Brownian Motion: Evidence for the Particle Model</a></li>
+  <li><a href="#key-concepts-summary" id="toc-key-concepts-summary" class="nav-link" data-scroll-target="#key-concepts-summary"><span class="header-section-number">13.6</span> Key Concepts Summary</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions"><span class="header-section-number">13.7</span> Common Misconceptions</a></li>
+  <li><a href="#worked-examples" id="toc-worked-examples" class="nav-link" data-scroll-target="#worked-examples"><span class="header-section-number">13.8</span> Worked Examples</a></li>
+  <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions"><span class="header-section-number">13.9</span> Practice Questions</a></li>
+  <li><a href="#laboratory-investigation" id="toc-laboratory-investigation" class="nav-link" data-scroll-target="#laboratory-investigation"><span class="header-section-number">13.10</span> Laboratory Investigation</a></li>
+  <li><a href="#exam-style-questions" id="toc-exam-style-questions" class="nav-link" data-scroll-target="#exam-style-questions"><span class="header-section-number">13.11</span> Exam-Style Questions</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary"><span class="header-section-number">13.12</span> Chapter Summary</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources"><span class="header-section-number">13.13</span> Further Resources</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">13.14</span> Glossary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-measurement.html">Core Content</a></li><li class="breadcrumb-item"><a href="../chapters/10-kinetic-particle-model.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Kinetic Particle Model of Matter</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sugeng Riyanto, M.Sc. </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">13.1</span> Learning Objectives</h2>
+<p>By the end of this chapter, you will be able to:</p>
+<p><strong>Core Content (2.1.1 States of Matter):</strong></p>
+<ul>
+<li><p>Know the distinguishing properties of solids, liquids and gases</p></li>
+<li><p>Know the terms for the changes in state between solids, liquids and gases (gas to solid and solid to gas transfers are not required)</p></li>
+</ul>
+<p><strong>Core Content (2.1.2 Particle Model):</strong></p>
+<ul>
+<li><p>Describe the particle structure of solids, liquids and gases in terms of the arrangement, separation and motion of the particles and represent these states using simple particle diagrams</p></li>
+<li><p>Describe the relationship between the motion of particles and temperature, including the idea that there is a lowest possible temperature (−273 °C), known as absolute zero, where the particles have least kinetic energy</p></li>
+<li><p>Describe the pressure and the changes in pressure of a gas in terms of the motion of its particles and their collisions with a surface</p></li>
+<li><p>Know that the random motion of microscopic particles in a suspension is evidence for the kinetic particle model of matter</p></li>
+<li><p>Describe and explain this motion (sometimes known as Brownian motion) in terms of random collisions between the microscopic particles in a suspension and the particles of the gas or liquid</p></li>
+</ul>
+<p><strong>Core Content (2.1.3 Gases and the Absolute Scale of Temperature):</strong></p>
+<ul>
+<li><p>Describe qualitatively, in terms of particles, the effect on the pressure of a fixed mass of gas of: (a) a change of temperature at constant volume (b) a change of volume at constant temperature</p></li>
+<li><p>Convert temperatures between kelvin and degrees Celsius; recall and use the equation T(in K) = θ(in °C) + 273</p></li>
+</ul>
+<p><strong>Supplement (Extended):</strong></p>
+<ul>
+<li><p>Know that the forces and distances between particles (atoms, molecules, ions and electrons) and the motion of the particles affects the properties of solids, liquids and gases</p></li>
+<li><p>Describe the pressure and the changes in pressure of a gas in terms of the forces exerted by particles colliding with surfaces, creating a force per unit area</p></li>
+<li><p>Know that microscopic particles may be moved by collisions with light fast-moving molecules and correctly use the terms atoms or molecules as distinct from microscopic particles</p></li>
+<li><p>Recall and use the equation pV = constant for a fixed mass of gas at constant temperature, including a graphical representation of this relationship</p></li>
+</ul>
+<hr>
+</section>
+<section id="the-three-states-of-matter" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="the-three-states-of-matter"><span class="header-section-number">13.2</span> The Three States of Matter</h2>
+<section id="distinguishing-properties" class="level3" data-number="13.2.1">
+<h3 data-number="13.2.1" class="anchored" data-anchor-id="distinguishing-properties"><span class="header-section-number">13.2.1</span> Distinguishing Properties</h3>
+<p>All matter exists in three states: solid, liquid, and gas. Each state has distinct properties that arise from the arrangement and motion of its particles.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 23%">
+<col style="width: 26%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Property</th>
+<th style="text-align: left;">Solid</th>
+<th style="text-align: left;">Liquid</th>
+<th style="text-align: left;">Gas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Shape</strong></td>
+<td style="text-align: left;">Fixed shape</td>
+<td style="text-align: left;">No fixed shape; takes shape of container</td>
+<td style="text-align: left;">No fixed shape; fills entire container</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Volume</strong></td>
+<td style="text-align: left;">Fixed volume</td>
+<td style="text-align: left;">Fixed volume</td>
+<td style="text-align: left;">No fixed volume; expands to fill container</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Density</strong></td>
+<td style="text-align: left;">High density</td>
+<td style="text-align: left;">High density (slightly less than solid)</td>
+<td style="text-align: left;">Low density</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Compressibility</strong></td>
+<td style="text-align: left;">Incompressible</td>
+<td style="text-align: left;">Incompressible</td>
+<td style="text-align: left;">Compressible</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Flow</strong></td>
+<td style="text-align: left;">Cannot flow</td>
+<td style="text-align: left;">Can flow</td>
+<td style="text-align: left;">Can flow</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Concept:</strong> The properties of each state depend on the arrangement, separation, and motion of particles, not on the type of substance itself.</p>
+</div>
+</div>
+</section>
+<section id="changes-of-state" class="level3" data-number="13.2.2">
+<h3 data-number="13.2.2" class="anchored" data-anchor-id="changes-of-state"><span class="header-section-number">13.2.2</span> Changes of State</h3>
+<p>Matter can change from one state to another when energy is added or removed. The main changes of state are:</p>
+<ul>
+<li><p><strong>Melting</strong>: Solid → Liquid (at melting point)</p></li>
+<li><p><strong>Freezing/Solidifying</strong>: Liquid → Solid (at melting point)</p></li>
+<li><p><strong>Boiling</strong>: Liquid → Gas (at boiling point)</p></li>
+<li><p><strong>Condensing</strong>: Gas → Liquid (at boiling point)</p></li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> During a change of state, the temperature remains constant even though energy is being supplied or removed. This energy is used to overcome or form intermolecular forces, not to increase particle kinetic energy.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="the-kinetic-particle-model" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="the-kinetic-particle-model"><span class="header-section-number">13.3</span> The Kinetic Particle Model</h2>
+<section id="what-is-the-kinetic-particle-model" class="level3" data-number="13.3.1">
+<h3 data-number="13.3.1" class="anchored" data-anchor-id="what-is-the-kinetic-particle-model"><span class="header-section-number">13.3.1</span> What Is the Kinetic Particle Model?</h3>
+<p>The kinetic particle model of matter states that:</p>
+<ul>
+<li><p>All matter is made up of tiny particles (atoms, molecules, or ions)</p></li>
+<li><p>These particles are in continuous random motion</p></li>
+<li><p>The motion and arrangement of particles determine the properties of each state</p></li>
+</ul>
+</section>
+<section id="particle-arrangement-and-motion" class="level3" data-number="13.3.2">
+<h3 data-number="13.3.2" class="anchored" data-anchor-id="particle-arrangement-and-motion"><span class="header-section-number">13.3.2</span> Particle Arrangement and Motion</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 24%">
+<col style="width: 23%">
+<col style="width: 19%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">State</th>
+<th style="text-align: left;">Particle Arrangement</th>
+<th style="text-align: left;">Particle Separation</th>
+<th style="text-align: left;">Particle Motion</th>
+<th style="text-align: left;">Interparticle Forces</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Solid</strong></td>
+<td style="text-align: left;">Regular, ordered pattern (usually)</td>
+<td style="text-align: left;">Very close together</td>
+<td style="text-align: left;">Vibrate about fixed positions</td>
+<td style="text-align: left;">Very strong</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Liquid</strong></td>
+<td style="text-align: left;">Random, disordered</td>
+<td style="text-align: left;">Slightly further apart than solids</td>
+<td style="text-align: left;">Move freely within the liquid, sliding past each other</td>
+<td style="text-align: left;">Moderately strong</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Gas</strong></td>
+<td style="text-align: left;">Random, widely spaced</td>
+<td style="text-align: left;">Far apart</td>
+<td style="text-align: left;">Move rapidly in all directions, colliding with each other and container walls</td>
+<td style="text-align: left;">Negligible</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Visual Aid:</strong> Simple particle diagrams help represent these states: - Solid: Particles in a grid, closely packed</p>
+<ul>
+<li><p>Liquid: Particles close but randomly arranged</p></li>
+<li><p>Gas: Particles far apart, scattered randomly</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="how-particle-motion-relates-to-temperature" class="level3" data-number="13.3.3">
+<h3 data-number="13.3.3" class="anchored" data-anchor-id="how-particle-motion-relates-to-temperature"><span class="header-section-number">13.3.3</span> How Particle Motion Relates to Temperature</h3>
+<p><strong>Temperature</strong> is a measure of the average kinetic energy of particles in a substance.</p>
+<ul>
+<li><p>When temperature <strong>increases</strong>, particles move or vibrate <strong>faster</strong> (higher average kinetic energy)</p></li>
+<li><p>When temperature <strong>decreases</strong>, particles move or vibrate <strong>slower</strong> (lower average kinetic energy)</p></li>
+</ul>
+<p><strong>Absolute Zero:</strong></p>
+<ul>
+<li><p>The lowest possible temperature is <strong>−273 °C</strong>, known as <strong>absolute zero</strong></p></li>
+<li><p>At absolute zero, particles have the <strong>least possible kinetic energy</strong> (they do not stop completely due to quantum effects, but this is beyond IGCSE scope)</p></li>
+<li><p>Absolute zero is the starting point of the <strong>Kelvin temperature scale</strong>: 0 K = −273 °C</p></li>
+</ul>
+<p><strong>Temperature Conversion:</strong></p>
+<p><span class="math display">\[T(\text{in K}) = \theta(\text{in °C}) + 273\]</span></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><p>0 °C = 0 + 273 = <strong>273 K</strong></p></li>
+<li><p>25 °C = 25 + 273 = <strong>298 K</strong></p></li>
+<li><p>100 °C = 100 + 273 = <strong>373 K</strong></p></li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important:</strong> A change of 1 °C is equal to a change of 1 K. Only the starting points differ.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="gas-pressure-and-the-particle-model" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="gas-pressure-and-the-particle-model"><span class="header-section-number">13.4</span> Gas Pressure and the Particle Model</h2>
+<section id="how-do-gases-exert-pressure" class="level3" data-number="13.4.1">
+<h3 data-number="13.4.1" class="anchored" data-anchor-id="how-do-gases-exert-pressure"><span class="header-section-number">13.4.1</span> How Do Gases Exert Pressure?</h3>
+<p>Gas pressure is caused by the <strong>constant collisions</strong> of gas particles with the walls of their container.</p>
+<p><strong>Explanation using the particle model:</strong></p>
+<ol type="1">
+<li><p>Gas particles move rapidly in random directions</p></li>
+<li><p>They collide with the container walls</p></li>
+<li><p>Each collision exerts a tiny force on the wall</p></li>
+<li><p>The <strong>sum of all these forces per unit area</strong> is the gas pressure</p></li>
+</ol>
+<p><span class="math display">\[\text{Pressure} = \frac{\text{Total force from collisions}}{\text{Area of container wall}}\]</span></p>
+</section>
+<section id="factors-affecting-gas-pressure" class="level3" data-number="13.4.2">
+<h3 data-number="13.4.2" class="anchored" data-anchor-id="factors-affecting-gas-pressure"><span class="header-section-number">13.4.2</span> Factors Affecting Gas Pressure</h3>
+<p>For a <strong>fixed mass of gas</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 35%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Change</th>
+<th style="text-align: left;">Effect on Pressure</th>
+<th style="text-align: left;">Particle-Level Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Temperature increases</strong> (constant volume)</td>
+<td style="text-align: left;">Pressure increases</td>
+<td style="text-align: left;">Particles move faster → more frequent and more forceful collisions with walls</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Volume decreases</strong> (constant temperature)</td>
+<td style="text-align: left;">Pressure increases</td>
+<td style="text-align: left;">Particles have less space → more frequent collisions with walls</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Volume increases</strong> (constant temperature)</td>
+<td style="text-align: left;">Pressure decreases</td>
+<td style="text-align: left;">Particles have more space → less frequent collisions with walls</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Temperature decreases</strong> (constant volume)</td>
+<td style="text-align: left;">Pressure decreases</td>
+<td style="text-align: left;">Particles move slower → less frequent and less forceful collisions</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Insight:</strong> Pressure depends on the <strong>rate</strong> and <strong>force</strong> of particle collisions with the container walls.</p>
+</div>
+</div>
+</section>
+<section id="boyles-law-supplement" class="level3" data-number="13.4.3">
+<h3 data-number="13.4.3" class="anchored" data-anchor-id="boyles-law-supplement"><span class="header-section-number">13.4.3</span> Boyle’s Law (Supplement)</h3>
+<p>For a fixed mass of gas at <strong>constant temperature</strong>:</p>
+<p><span class="math display">\[pV = \text{constant} \quad \text{or} \quad p_1 V_1 = p_2 V_2\]</span></p>
+<p>Where: - <span class="math inline">\(p\)</span> = pressure (Pa) - <span class="math inline">\(V\)</span> = volume (m³)</p>
+<p><strong>Graphical Representation:</strong></p>
+<ul>
+<li><p>A graph of <span class="math inline">\(p\)</span> against <span class="math inline">\(V\)</span> is a <strong>curve</strong> (hyperbola)</p></li>
+<li><p>A graph of <span class="math inline">\(p\)</span> against <span class="math inline">\(\frac{1}{V}\)</span> is a <strong>straight line through the origin</strong>, confirming inverse proportionality</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="brownian-motion-evidence-for-the-particle-model" class="level2" data-number="13.5">
+<h2 data-number="13.5" class="anchored" data-anchor-id="brownian-motion-evidence-for-the-particle-model"><span class="header-section-number">13.5</span> 10.4 Brownian Motion: Evidence for the Particle Model</h2>
+<section id="what-is-brownian-motion" class="level3" data-number="13.5.1">
+<h3 data-number="13.5.1" class="anchored" data-anchor-id="what-is-brownian-motion"><span class="header-section-number">13.5.1</span> What Is Brownian Motion?</h3>
+<p><strong>Brownian motion</strong> is the random, jerky movement of microscopic particles (e.g., smoke particles, pollen grains) suspended in a fluid (liquid or gas).</p>
+<p><strong>Discovery:</strong> First observed by botanist Robert Brown in 1827 when studying pollen grains in water.</p>
+</section>
+<section id="explanation-using-the-particle-model" class="level3" data-number="13.5.2">
+<h3 data-number="13.5.2" class="anchored" data-anchor-id="explanation-using-the-particle-model"><span class="header-section-number">13.5.2</span> Explanation Using the Particle Model</h3>
+<p>Brownian motion occurs because:</p>
+<ol type="1">
+<li><p>The suspended microscopic particles are much larger than the fluid molecules</p></li>
+<li><p>Fluid molecules (too small to see) move rapidly and randomly</p></li>
+<li><p>These molecules <strong>collide randomly</strong> with the suspended particles from all directions</p></li>
+<li><p>At any instant, the collisions are <strong>unbalanced</strong>, causing the suspended particle to jerk in a random direction</p></li>
+<li><p>The continuous, random collisions produce the observed <strong>zigzag motion</strong></p></li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Key Evidence:</strong> Brownian motion provides direct observational evidence that: - Fluids are made of tiny, moving particles</p>
+<ul>
+<li><p>These particles are in continuous random motion</p></li>
+<li><p>The motion is random, not directed</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="observing-brownian-motion" class="level3" data-number="13.5.3">
+<h3 data-number="13.5.3" class="anchored" data-anchor-id="observing-brownian-motion"><span class="header-section-number">13.5.3</span> Observing Brownian Motion</h3>
+<p><strong>Experiment: Smoke Cell</strong></p>
+<p><strong>Apparatus:</strong> - Glass cell containing smoke</p>
+<ul>
+<li><p>Microscope</p></li>
+<li><p>Light source</p></li>
+</ul>
+<p><strong>Method:</strong> 1. Seal a small amount of smoke in a glass cell</p>
+<ol start="2" type="1">
+<li><p>Illuminate the cell with a bright light</p></li>
+<li><p>Observe through a microscope</p></li>
+</ol>
+<p><strong>Observation:</strong> - Smoke particles appear as bright, dancing specks</p>
+<ul>
+<li><p>They move in a random, jerky path</p></li>
+<li><p>Larger particles move less vigorously than smaller ones</p></li>
+</ul>
+<p><strong>Conclusion:</strong> The random motion of smoke particles is caused by invisible air molecules colliding with them, supporting the kinetic particle model.</p>
+<hr>
+</section>
+</section>
+<section id="key-concepts-summary" class="level2" data-number="13.6">
+<h2 data-number="13.6" class="anchored" data-anchor-id="key-concepts-summary"><span class="header-section-number">13.6</span> Key Concepts Summary</h2>
+<section id="core-concepts" class="level3" data-number="13.6.1">
+<h3 data-number="13.6.1" class="anchored" data-anchor-id="core-concepts"><span class="header-section-number">13.6.1</span> Core Concepts</h3>
+<ol type="1">
+<li><p><strong>Three states of matter</strong> have distinct properties due to particle arrangement and motion</p></li>
+<li><p><strong>Changes of state</strong> occur at fixed temperatures (melting/boiling points) with energy transfer but no temperature change</p></li>
+<li><p><strong>Kinetic particle model</strong>: Matter is made of tiny particles in continuous random motion</p></li>
+<li><p><strong>Temperature</strong> measures average particle kinetic energy; absolute zero (−273 °C = 0 K) is the theoretical minimum</p></li>
+<li><p><strong>Gas pressure</strong> results from particle collisions with container walls; increases with temperature (constant volume) or decreases with volume (constant temperature)</p></li>
+<li><p><strong>Brownian motion</strong> provides evidence for the particle model: random motion of suspended particles due to collisions with invisible fluid molecules</p></li>
+</ol>
+</section>
+<section id="extended-concepts" class="level3" data-number="13.6.2">
+<h3 data-number="13.6.2" class="anchored" data-anchor-id="extended-concepts"><span class="header-section-number">13.6.2</span> Extended Concepts</h3>
+<ol start="7" type="1">
+<li><p><strong>Interparticle forces and distances</strong> determine state properties: strong forces and close spacing in solids; weak forces and large spacing in gases</p></li>
+<li><p><strong>Pressure as force per unit area</strong>: Gas pressure arises from the force exerted by many particle collisions per unit area of container wall</p></li>
+<li><p><strong>Boyle’s Law</strong>: For fixed mass at constant temperature, <span class="math inline">\(pV = \text{constant}\)</span>; pressure and volume are inversely proportional</p></li>
+<li><p><strong>Terminology precision</strong>: Distinguish between atoms, molecules, ions (constituents of matter) and microscopic particles (visible under microscope, e.g., smoke particles)</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="common-misconceptions" class="level2" data-number="13.7">
+<h2 data-number="13.7" class="anchored" data-anchor-id="common-misconceptions"><span class="header-section-number">13.7</span> Common Misconceptions</h2>
+<section id="misconception-1-particles-in-a-solid-do-not-move" class="level3" data-number="13.7.1">
+<h3 data-number="13.7.1" class="anchored" data-anchor-id="misconception-1-particles-in-a-solid-do-not-move"><span class="header-section-number">13.7.1</span> ⚠️ Misconception 1: “Particles in a solid do not move”</h3>
+<p><strong>Incorrect</strong>: “Particles in ice are completely still”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Particles in a solid <strong>vibrate about fixed positions</strong></p></li>
+<li><p>They do not move from place to place, but they are not stationary</p></li>
+<li><p>Higher temperature → more vigorous vibration</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-2-during-boiling-temperature-increases-because-energy-is-added" class="level3" data-number="13.7.2">
+<h3 data-number="13.7.2" class="anchored" data-anchor-id="misconception-2-during-boiling-temperature-increases-because-energy-is-added"><span class="header-section-number">13.7.2</span> ⚠️ Misconception 2: “During boiling, temperature increases because energy is added”</h3>
+<p><strong>Incorrect</strong>: “When water boils, its temperature keeps rising”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>During a change of state (melting, boiling), <strong>temperature remains constant</strong></p></li>
+<li><p>Added energy is used to <strong>overcome intermolecular forces</strong>, not to increase particle kinetic energy</p></li>
+<li><p>This is why a boiling kettle stays at 100 °C (at standard pressure) until all water has vaporised</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-3-gas-particles-are-stationary-until-they-hit-the-wall" class="level3" data-number="13.7.3">
+<h3 data-number="13.7.3" class="anchored" data-anchor-id="misconception-3-gas-particles-are-stationary-until-they-hit-the-wall"><span class="header-section-number">13.7.3</span> ⚠️ Misconception 3: “Gas particles are stationary until they hit the wall”</h3>
+<p><strong>Incorrect</strong>: “Gas particles only move when they collide”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Gas particles are in <strong>continuous, rapid, random motion</strong> at all times</p></li>
+<li><p>Collisions change their direction and speed, but motion never stops (except theoretically at absolute zero)</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-4-brownian-motion-is-the-motion-of-the-fluid-molecules-themselves" class="level3" data-number="13.7.4">
+<h3 data-number="13.7.4" class="anchored" data-anchor-id="misconception-4-brownian-motion-is-the-motion-of-the-fluid-molecules-themselves"><span class="header-section-number">13.7.4</span> ⚠️ Misconception 4: “Brownian motion is the motion of the fluid molecules themselves”</h3>
+<p><strong>Incorrect</strong>: “We see air molecules moving in Brownian motion”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Brownian motion is the motion of <strong>microscopic suspended particles</strong> (e.g., smoke), <strong>not</strong> the fluid molecules</p></li>
+<li><p>Fluid molecules are too small to see; their random collisions <strong>cause</strong> the visible jerky motion of larger suspended particles</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-5-pressure-in-a-gas-is-caused-by-particles-pushing-on-each-other" class="level3" data-number="13.7.5">
+<h3 data-number="13.7.5" class="anchored" data-anchor-id="misconception-5-pressure-in-a-gas-is-caused-by-particles-pushing-on-each-other"><span class="header-section-number">13.7.5</span> ⚠️ Misconception 5: “Pressure in a gas is caused by particles pushing on each other”</h3>
+<p><strong>Incorrect</strong>: “Gas pressure comes from particles pushing against each other”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Gas pressure is caused by particles <strong>colliding with the container walls</strong>, not with each other</p></li>
+<li><p>Particle-particle collisions redistribute energy but do not directly create pressure on the container</p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-6-kelvin-and-celsius-scales-have-different-sized-degrees" class="level3" data-number="13.7.6">
+<h3 data-number="13.7.6" class="anchored" data-anchor-id="misconception-6-kelvin-and-celsius-scales-have-different-sized-degrees"><span class="header-section-number">13.7.6</span> ⚠️ Misconception 6: “Kelvin and Celsius scales have different sized degrees”</h3>
+<p><strong>Incorrect</strong>: “1 K is a bigger change than 1 °C”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>A change of <strong>1 K equals a change of 1 °C</strong></p></li>
+<li><p>Only the zero points differ: 0 K = −273 °C</p></li>
+<li><p>Conversion: <span class="math inline">\(T(\text{K}) = \theta(°C) + 273\)</span></p></li>
+</ul>
+<hr>
+</section>
+<section id="misconception-7-when-volume-decreases-gas-particles-get-smaller" class="level3" data-number="13.7.7">
+<h3 data-number="13.7.7" class="anchored" data-anchor-id="misconception-7-when-volume-decreases-gas-particles-get-smaller"><span class="header-section-number">13.7.7</span> ⚠️ Misconception 7: “When volume decreases, gas particles get smaller”</h3>
+<p><strong>Incorrect</strong>: “Compressing a gas makes the particles shrink”</p>
+<p><strong>Correct</strong>:</p>
+<ul>
+<li><p>Gas particles themselves <strong>do not change size</strong> when compressed</p></li>
+<li><p>Compression reduces the <strong>space between particles</strong>, increasing collision frequency with walls → higher pressure</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="worked-examples" class="level2" data-number="13.8">
+<h2 data-number="13.8" class="anchored" data-anchor-id="worked-examples"><span class="header-section-number">13.8</span> Worked Examples</h2>
+<section id="example-1-temperature-conversion" class="level3" data-number="13.8.1">
+<h3 data-number="13.8.1" class="anchored" data-anchor-id="example-1-temperature-conversion"><span class="header-section-number">13.8.1</span> Example 1: Temperature Conversion</h3>
+<p><strong>Question:</strong> Convert the following temperatures: (a) 37 °C to kelvin (b) 300 K to degrees Celsius (c) A gas is heated from 20 °C to 80 °C. What is the change in temperature in kelvin?</p>
+<p><strong>Solution:</strong></p>
+<p><strong>(a) 37 °C to K:</strong> <span class="math display">\[T = \theta + 273 = 37 + 273 = \boxed{310 \text{ K}}\]</span></p>
+<p><strong>(b) 300 K to °C:</strong> <span class="math display">\[\theta = T - 273 = 300 - 273 = \boxed{27 \text{ °C}}\]</span></p>
+<p><strong>(c) Change in temperature:</strong> Initial: <span class="math inline">\(20 \text{ °C} = 293 \text{ K}\)</span> Final: <span class="math inline">\(80 \text{ °C} = 353 \text{ K}\)</span> Change: <span class="math inline">\(353 - 293 = \boxed{60 \text{ K}}\)</span></p>
+<p><strong>Note:</strong> The change is also <span class="math inline">\(80 - 20 = 60 \text{ °C}\)</span>, confirming that 1 °C change = 1 K change.</p>
+<hr>
+</section>
+<section id="example-2-gas-pressure-and-particle-motion" class="level3" data-number="13.8.2">
+<h3 data-number="13.8.2" class="anchored" data-anchor-id="example-2-gas-pressure-and-particle-motion"><span class="header-section-number">13.8.2</span> Example 2: Gas Pressure and Particle Motion</h3>
+<p><strong>Question:</strong> A fixed mass of gas is sealed in a rigid container. Explain, in terms of particle motion, why the pressure increases when the gas is heated.</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Step 1:</strong> Heating increases the average kinetic energy of gas particles.</p>
+<p><strong>Step 2:</strong> Particles move <strong>faster</strong> on average.</p>
+<p><strong>Step 3:</strong> Faster particles collide with the container walls: - More <strong>frequently</strong> (higher collision rate)</p>
+<ul>
+<li>With greater <strong>force</strong> per collision (higher momentum change)</li>
+</ul>
+<p><strong>Step 4:</strong> Pressure = total force per unit area from collisions.</p>
+<p><strong>Conclusion:</strong> Both increased collision frequency and increased force per collision cause the pressure to rise.</p>
+<hr>
+</section>
+<section id="example-3-boyles-law-calculation-supplement" class="level3" data-number="13.8.3">
+<h3 data-number="13.8.3" class="anchored" data-anchor-id="example-3-boyles-law-calculation-supplement"><span class="header-section-number">13.8.3</span> Example 3: Boyle’s Law Calculation (Supplement)</h3>
+<p><strong>Question:</strong> A gas occupies 200 cm³ at a pressure of 150 kPa. If the volume is reduced to 120 cm³ at constant temperature, calculate the new pressure.</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Given:</strong> - <span class="math inline">\(p_1 = 150 \text{ kPa}\)</span> - <span class="math inline">\(V_1 = 200 \text{ cm}^3\)</span> - <span class="math inline">\(V_2 = 120 \text{ cm}^3\)</span> - Temperature constant → use <span class="math inline">\(p_1 V_1 = p_2 V_2\)</span></p>
+<p><strong>Calculation:</strong> <span class="math display">\[p_2 = \frac{p_1 V_1}{V_2} = \frac{150 \times 200}{120} = \frac{30\,000}{120} = \boxed{250 \text{ kPa}}\]</span></p>
+<p><strong>Check:</strong> Volume decreased by factor <span class="math inline">\(200/120 = 1.67\)</span>, so pressure should increase by same factor: <span class="math inline">\(150 \times 1.67 = 250\)</span> kPa ✓</p>
+<hr>
+</section>
+<section id="example-4-brownian-motion-explanation" class="level3" data-number="13.8.4">
+<h3 data-number="13.8.4" class="anchored" data-anchor-id="example-4-brownian-motion-explanation"><span class="header-section-number">13.8.4</span> Example 4: Brownian Motion Explanation</h3>
+<p><strong>Question:</strong> Describe and explain what is observed when smoke particles in air are viewed under a microscope.</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Observation:</strong> - Smoke particles appear as bright specks of light</p>
+<ul>
+<li><p>They move in a <strong>random, jerky, zigzag path</strong></p></li>
+<li><p>Smaller particles move more vigorously than larger ones</p></li>
+</ul>
+<p><strong>Explanation:</strong> 1. Smoke particles are microscopic (visible under microscope) but much larger than air molecules</p>
+<ol start="2" type="1">
+<li><p>Air molecules (N₂, O₂) are too small to see but move rapidly and randomly</p></li>
+<li><p>Air molecules constantly collide with smoke particles from all directions</p></li>
+<li><p>At any instant, collisions are unbalanced, giving a net force in a random direction</p></li>
+<li><p>Continuous random collisions produce the observed jerky motion</p></li>
+</ol>
+<p><strong>Conclusion:</strong> This Brownian motion provides evidence that air is made of tiny, rapidly moving particles.</p>
+<hr>
+</section>
+</section>
+<section id="practice-questions" class="level2" data-number="13.9">
+<h2 data-number="13.9" class="anchored" data-anchor-id="practice-questions"><span class="header-section-number">13.9</span> Practice Questions</h2>
+<section id="core-level" class="level3" data-number="13.9.1">
+<h3 data-number="13.9.1" class="anchored" data-anchor-id="core-level"><span class="header-section-number">13.9.1</span> Core Level</h3>
+<p><strong>1.</strong> State three distinguishing properties of:</p>
+<ul>
+<li><ol type="a">
+<li>a solid</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>a liquid</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>a gas</li>
+</ol></li>
+</ul>
+<p><strong>2.</strong> Name the change of state for:</p>
+<ul>
+<li><ol type="a">
+<li>solid to liquid</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>liquid to gas</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>gas to liquid</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>liquid to solid</li>
+</ol></li>
+</ul>
+<p><strong>3.</strong> Describe the arrangement and motion of particles in:</p>
+<ul>
+<li><ol type="a">
+<li>a solid</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>a liquid</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>a gas</li>
+</ol></li>
+</ul>
+<p><strong>4.</strong> Explain, in terms of particle motion, why:</p>
+<ul>
+<li><ol type="a">
+<li>a solid has a fixed shape</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>a liquid can flow</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>a gas can be compressed</li>
+</ol></li>
+</ul>
+<p><strong>5.</strong> What is meant by absolute zero? State its value in degrees Celsius and kelvin.</p>
+<p><strong>6.</strong> Convert:</p>
+<ul>
+<li><ol type="a">
+<li>0 °C to K</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>273 K to °C</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>−50 °C to K</li>
+</ol></li>
+</ul>
+<p><strong>7.</strong> Explain, using the particle model, why the pressure of a gas in a sealed container increases when the temperature is raised.</p>
+<p><strong>8.</strong> Describe what is observed in a Brownian motion experiment using smoke particles. Explain how this observation supports the kinetic particle model.</p>
+<p><strong>9.</strong> A gas occupies 300 cm³ at a pressure of 100 kPa. If the volume is increased to 450 cm³ at constant temperature, what happens to the pressure? Explain in terms of particle collisions.</p>
+<p><strong>10.</strong> Why does the temperature of a substance remain constant during melting, even though energy is being supplied?</p>
+</section>
+<section id="extended-level" class="level3" data-number="13.9.2">
+<h3 data-number="13.9.2" class="anchored" data-anchor-id="extended-level"><span class="header-section-number">13.9.2</span> Extended Level</h3>
+<p><strong>11.</strong> A fixed mass of gas at 300 K has a pressure of 120 kPa. If the temperature is increased to 450 K at constant volume, calculate the new pressure.</p>
+<p><strong>12.</strong> Explain, in terms of intermolecular forces and particle separation, why:</p>
+<ul>
+<li><ol type="a">
+<li>solids are incompressible</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>gases have low density</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>liquids can flow but solids cannot</li>
+</ol></li>
+</ul>
+<p><strong>13.</strong> A gas is compressed from 500 cm³ to 200 cm³ at constant temperature. If the initial pressure was 80 kPa, calculate the final pressure. Sketch a graph of pressure against volume for this process.</p>
+<p><strong>14.</strong> In a Brownian motion experiment, why do smaller suspended particles move more vigorously than larger ones? Explain using the particle model.</p>
+<p><strong>15.</strong> Explain why the equation <span class="math inline">\(pV = \text{constant}\)</span> only applies when:</p>
+<ul>
+<li><ol type="a">
+<li>the mass of gas is fixed</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>the temperature is constant</li>
+</ol></li>
+</ul>
+<p><strong>16.</strong> A student claims that at absolute zero, all particle motion stops. Evaluate this statement using your knowledge of the kinetic particle model.</p>
+<hr>
+</section>
+</section>
+<section id="laboratory-investigation" class="level2" data-number="13.10">
+<h2 data-number="13.10" class="anchored" data-anchor-id="laboratory-investigation"><span class="header-section-number">13.10</span> Laboratory Investigation</h2>
+<section id="experiment-10.1-observing-brownian-motion" class="level3" data-number="13.10.1">
+<h3 data-number="13.10.1" class="anchored" data-anchor-id="experiment-10.1-observing-brownian-motion"><span class="header-section-number">13.10.1</span> Experiment 10.1: Observing Brownian Motion</h3>
+<p><strong>Objective:</strong> To observe and explain the random motion of smoke particles as evidence for the kinetic particle model.</p>
+<p><strong>Apparatus:</strong> - Glass smoke cell with cover slip</p>
+<ul>
+<li><p>Microscope (×100 or higher magnification)</p></li>
+<li><p>Bright light source (LED torch or microscope lamp)</p></li>
+<li><p>Dropper with dilute smoke suspension (or incense stick for generating smoke)</p></li>
+</ul>
+<p><strong>Variables:</strong> - <strong>Independent:</strong> None (observational experiment)</p>
+<ul>
+<li><p><strong>Dependent:</strong> Motion of smoke particles (qualitative description)</p></li>
+<li><p><strong>Controlled:</strong> Light intensity, magnification, smoke concentration, temperature</p></li>
+</ul>
+<p><strong>Procedure:</strong> 1. Prepare the smoke cell: - If using a commercial cell, ensure it is sealed and contains a small amount of smoke</p>
+<ul>
+<li>If making your own, gently introduce a tiny amount of smoke into a clean glass cell and seal immediately</li>
+</ul>
+<ol start="2" type="1">
+<li><p>Place the smoke cell on the microscope stage</p></li>
+<li><p>Illuminate the cell from the side or below to make smoke particles visible as bright specks</p></li>
+<li><p>Focus the microscope to obtain a clear view of individual smoke particles</p></li>
+<li><p>Observe the motion of several particles for 2–3 minutes</p></li>
+<li><p>Sketch the path of one particle over a short time interval</p></li>
+<li><p>Compare the motion of small particles with larger ones</p></li>
+</ol>
+<p><strong>Observations to Record:</strong> - Describe the path of a typical smoke particle (e.g., straight, curved, zigzag)</p>
+<ul>
+<li><p>Note whether motion is continuous or jerky</p></li>
+<li><p>Compare vigour of motion for particles of different sizes</p></li>
+<li><p>Note any changes when the cell is gently warmed (e.g., by holding in hands)</p></li>
+</ul>
+<p><strong>Analysis:</strong> 1. Explain the observed motion using the kinetic particle model: - What causes the jerky motion?</p>
+<ul>
+<li><p>Why is the path random?</p></li>
+<li><p>Why do smaller particles move more vigorously?</p></li>
+</ul>
+<ol start="2" type="1">
+<li>Relate observations to the existence and motion of invisible air molecules</li>
+</ol>
+<p><strong>Precautions:</strong> - ✓ Use minimal smoke to avoid obscuring the view</p>
+<ul>
+<li><p>✓ Avoid heating the cell excessively, which could cause convection currents</p></li>
+<li><p>✓ Handle glass cells carefully to avoid breakage</p></li>
+<li><p>✓ Do not look directly at bright light sources</p></li>
+</ul>
+<p><strong>Conclusion Template:</strong> “The observed random, jerky motion of smoke particles (Brownian motion) is caused by continuous, random collisions with invisible, rapidly moving air molecules. This provides direct evidence that gases are composed of tiny particles in continuous random motion, supporting the kinetic particle model of matter.”</p>
+<p><strong>Extension (Supplement):</strong> - Investigate the effect of temperature: gently warm the cell and observe changes in particle motion</p>
+<ul>
+<li><p>Compare Brownian motion in different gases (if equipment allows)</p></li>
+<li><p>Research historical significance: How did Einstein’s explanation of Brownian motion help confirm the existence of atoms?</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exam-style-questions" class="level2" data-number="13.11">
+<h2 data-number="13.11" class="anchored" data-anchor-id="exam-style-questions"><span class="header-section-number">13.11</span> Exam-Style Questions</h2>
+<section id="paper-1-style-multiple-choice" class="level3" data-number="13.11.1">
+<h3 data-number="13.11.1" class="anchored" data-anchor-id="paper-1-style-multiple-choice"><span class="header-section-number">13.11.1</span> Paper 1 Style (Multiple Choice)</h3>
+<p><strong>1.</strong> Which statement correctly describes the particles in a liquid?</p>
+<p>A. They are arranged in a regular pattern and vibrate about fixed positions</p>
+<p>B. They are close together but can move past each other</p>
+<p>C. They are far apart and move rapidly in all directions</p>
+<p>D. They are stationary and closely packed</p>
+<p><strong>2.</strong> What is the temperature in kelvin equivalent to 25 °C?</p>
+<p>A. 248 K</p>
+<p>B. 273 K</p>
+<p>C. 298 K</p>
+<p>D. 325 K</p>
+<p><strong>3.</strong> A fixed mass of gas is heated in a rigid container. What happens to the pressure and why?</p>
+<p>A. Pressure decreases; particles move slower</p>
+<p>B. Pressure decreases; particles collide less frequently</p>
+<p>C. Pressure increases; particles move faster and collide more forcefully</p>
+<p>D. Pressure increases; particles get larger</p>
+<p><strong>4.</strong> Brownian motion provides evidence for:</p>
+<p>A. The wave nature of light</p>
+<p>B. The existence of atoms and molecules in continuous motion</p>
+<p>C. The fixed arrangement of particles in solids</p>
+<p>D. The compressibility of gases</p>
+<p><strong>5.</strong> Which graph correctly shows the relationship between pressure and volume for a fixed mass of gas at constant temperature?</p>
+<p>A. Straight line through origin (p against V)</p>
+<p>B. Horizontal straight line (p against V)</p>
+<p>C. Curve decreasing from left to right (p against V)</p>
+<p>D. Straight line with negative gradient (p against 1/V)</p>
+</section>
+<section id="paper-3-style-structured" class="level3" data-number="13.11.2">
+<h3 data-number="13.11.2" class="anchored" data-anchor-id="paper-3-style-structured"><span class="header-section-number">13.11.2</span> Paper 3 Style (Structured)</h3>
+<p><strong>6.</strong> (a) Describe the arrangement and motion of particles in a solid. [2]</p>
+<ol start="2" type="a">
+<li><p>Explain, in terms of particle motion, why a solid expands when heated. [3]</p></li>
+<li><p>Why does a solid have a fixed shape but a liquid does not? [2]</p></li>
+</ol>
+<p><strong>7.</strong> (a) Define absolute zero. State its value in degrees Celsius. [2]</p>
+<ol start="2" type="a">
+<li>Convert:</li>
+<li>100 °C to kelvin [1]</li>
+</ol>
+<ol start="2" type="i">
+<li><p>400 K to degrees Celsius [1]</p></li>
+<li><p>A gas at 300 K is heated to 450 K at constant volume. Explain, using the kinetic particle model, why the pressure increases. [3]</p></li>
+</ol>
+<p><strong>8.</strong> (a) Describe what is observed when smoke particles in air are viewed under a microscope. [2]</p>
+<ol start="2" type="a">
+<li><p>Explain how this observation supports the kinetic particle model of matter. [3]</p></li>
+<li><p>Why do smaller smoke particles move more vigorously than larger ones? [2]</p></li>
+</ol>
+<p><strong>9.</strong> (Extended) (a) State Boyle’s Law for a fixed mass of gas at constant temperature. [1]</p>
+<ol start="2" type="a">
+<li><p>A gas occupies 250 cm³ at a pressure of 120 kPa. Calculate its volume when the pressure is increased to 200 kPa at constant temperature. [3]</p></li>
+<li><p>Sketch a graph of pressure against 1/volume for this gas. Label axes and indicate the relationship. [3]</p></li>
+<li><p>Explain, in terms of particle collisions, why reducing the volume of a gas at constant temperature increases its pressure. [2]</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="chapter-summary" class="level2" data-number="13.12">
+<h2 data-number="13.12" class="anchored" data-anchor-id="chapter-summary"><span class="header-section-number">13.12</span> Chapter Summary</h2>
+<section id="key-points-to-remember" class="level3" data-number="13.12.1">
+<h3 data-number="13.12.1" class="anchored" data-anchor-id="key-points-to-remember"><span class="header-section-number">13.12.1</span> Key Points to Remember</h3>
+<p>✓ <strong>Three states of matter</strong>: Solids (fixed shape/volume), liquids (fixed volume, variable shape), gases (variable shape/volume)</p>
+<p>✓ <strong>Changes of state</strong>: Melting, freezing, boiling, condensing occur at fixed temperatures with energy transfer but no temperature change</p>
+<p>✓ <strong>Kinetic particle model</strong>: Matter is made of tiny particles in continuous random motion; arrangement and motion determine state properties</p>
+<p>✓ <strong>Temperature and particle motion</strong>: Temperature measures average kinetic energy; absolute zero (−273 °C = 0 K) is theoretical minimum</p>
+<p>✓ <strong>Gas pressure</strong>: Caused by particle collisions with container walls; increases with temperature (constant volume) or decreases with volume (constant temperature)</p>
+<p>✓ <strong>Brownian motion</strong>: Random jerky motion of suspended microscopic particles provides evidence for invisible, moving fluid molecules</p>
+<p>✓ <strong>Boyle’s Law</strong> (Extended): For fixed mass at constant temperature, <span class="math inline">\(pV = \text{constant}\)</span>; pressure and volume are inversely proportional</p>
+<p>✓ <strong>Terminology</strong>: Distinguish atoms/molecules (constituents) from microscopic particles (visible suspended particles)</p>
+</section>
+<section id="formulae-sheet" class="level3" data-number="13.12.2">
+<h3 data-number="13.12.2" class="anchored" data-anchor-id="formulae-sheet"><span class="header-section-number">13.12.2</span> Formulae Sheet</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Formula</th>
+<th style="text-align: left;">Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Temperature conversion</td>
+<td style="text-align: left;"><span class="math inline">\(T(\text{K}) = \theta(°C) + 273\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(T\)</span>=temperature in kelvin, <span class="math inline">\(\theta\)</span>=temperature in °C</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Boyle’s Law (Extended)</td>
+<td style="text-align: left;"><span class="math inline">\(p_1 V_1 = p_2 V_2\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(p\)</span>=pressure (Pa), <span class="math inline">\(V\)</span>=volume (m³), constant temperature and mass</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pressure definition</td>
+<td style="text-align: left;"><span class="math inline">\(p = \frac{F}{A}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(p\)</span>=pressure (Pa), <span class="math inline">\(F\)</span>=force (N), <span class="math inline">\(A\)</span>=area (m²)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="further-resources" class="level2" data-number="13.13">
+<h2 data-number="13.13" class="anchored" data-anchor-id="further-resources"><span class="header-section-number">13.13</span> Further Resources</h2>
+<section id="recommended-reading" class="level3" data-number="13.13.1">
+<h3 data-number="13.13.1" class="anchored" data-anchor-id="recommended-reading"><span class="header-section-number">13.13.1</span> Recommended Reading</h3>
+<ul>
+<li><p>Cambridge IGCSE Physics Coursebook, Chapter 8</p></li>
+<li><p>Practical Work in Physics: Particle Model and Brownian Motion</p></li>
+</ul>
+</section>
+<section id="online-resources" class="level3" data-number="13.13.2">
+<h3 data-number="13.13.2" class="anchored" data-anchor-id="online-resources"><span class="header-section-number">13.13.2</span> Online Resources</h3>
+<ul>
+<li><p>PhET Interactive Simulations: States of Matter, Gas Properties</p></li>
+<li><p>BBC Bitesize: Kinetic Theory, Brownian Motion</p></li>
+<li><p>Royal Society of Chemistry: Particle Model animations</p></li>
+</ul>
+</section>
+<section id="video-resources" class="level3" data-number="13.13.3">
+<h3 data-number="13.13.3" class="anchored" data-anchor-id="video-resources"><span class="header-section-number">13.13.3</span> Video Resources</h3>
+<ul>
+<li><p>Demonstration: Observing Brownian motion with smoke cell</p></li>
+<li><p>Animation: Particle arrangement and motion in solids, liquids, gases</p></li>
+<li><p>Real-world application: How pressure cookers and aerosols work using gas laws</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="13.14">
+<h2 data-number="13.14" class="anchored" data-anchor-id="glossary"><span class="header-section-number">13.14</span> Glossary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Term</th>
+<th style="text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Absolute zero</strong></td>
+<td style="text-align: left;">The lowest possible temperature (−273 °C or 0 K), where particles have minimum kinetic energy</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Boiling</strong></td>
+<td style="text-align: left;">Change of state from liquid to gas at the boiling point; occurs throughout the liquid</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Boyle’s Law</strong></td>
+<td style="text-align: left;">For a fixed mass of gas at constant temperature, pressure and volume are inversely proportional: <span class="math inline">\(pV = \text{constant}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Brownian motion</strong></td>
+<td style="text-align: left;">The random, jerky motion of microscopic particles suspended in a fluid, caused by collisions with invisible, rapidly moving fluid molecules</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Condensing</strong></td>
+<td style="text-align: left;">Change of state from gas to liquid at the boiling point</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Freezing/Solidifying</strong></td>
+<td style="text-align: left;">Change of state from liquid to solid at the melting point</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Gas pressure</strong></td>
+<td style="text-align: left;">Force per unit area exerted by gas particles colliding with container walls</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Kelvin scale</strong></td>
+<td style="text-align: left;">Absolute temperature scale where 0 K = absolute zero; <span class="math inline">\(T(\text{K}) = \theta(°C) + 273\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Kinetic particle model</strong></td>
+<td style="text-align: left;">Model stating that matter is made of tiny particles in continuous random motion; explains properties of solids, liquids, and gases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Melting</strong></td>
+<td style="text-align: left;">Change of state from solid to liquid at the melting point</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Microscopic particle</strong></td>
+<td style="text-align: left;">A particle large enough to be seen under a microscope (e.g., smoke particle, pollen grain), but much larger than atoms or molecules</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Particle collision</strong></td>
+<td style="text-align: left;">Interaction where particles change direction and/or speed; gas pressure results from collisions with container walls</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Temperature</strong></td>
+<td style="text-align: left;">Measure of the average kinetic energy of particles in a substance</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>End of Chapter 10</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/09-pressure.html" class="pagination-link" aria-label="Pressure">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Pressure</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/11-thermal-properties.html" class="pagination-link" aria-label="Thermal Properties">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Thermal Properties</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
